@@ -1,0 +1,19 @@
+osoba_a,osoba_b,typ,sila_1_5,jawne,od_kiedy,nagroda_kr,para
+CL-0001,DE-0002,Friends,,tak,,,
+GB-0005,EG-0001,Friends,,tak,,,
+NG-0006,MX-0001,Friends,,tak,,,
+BD-0001,DK-0001,Friends,,tak,,,
+GB-0003,PL-0002,Friends,,tak,,,
+NO-0003,EE-0001,Friends,,tak,,,
+GH-0002,GB-0005,Rivals,,tak,,,
+NG-0005,NG-0003,Rivals,,tak,,,
+BD-0001,SE-0002,Rivals,,tak,,,
+CO-0001,ZA-0001,Couple,,tak,,,MM-01
+GB-0006,NG-0004,Couple,,tak,,,MF-01
+GB-0007,GB-0004,Mentor and student,,tak,,,
+PL-0004,NO-0001,Mentor and student,,tak,,,
+DK-0002,PL-0008,Married,,tak,,,MF-02
+NG-0003,CL-0001,Couple,,tak,,,FF-01
+BD-0003,NG-0009,Friends,,tak,,,
+JP-0004,RU-0005,Friends,,tak,,,
+JP-0004,DK-0003,Rivals,,tak,,,

@@ -1,0 +1,29 @@
+klucz,wartosc,opis
+pensja_baza,2600,Kr/mies. dla najniższego szczebla
+pensja_za_szczebel,1300,Kr/mies. za każdy szczebel stanowiska
+staz_za_rok,0.015,"+1,5% za każdy rok pracy od 24. roku życia"
+staz_max,0.4,maksymalny dodatek za staż (40%)
+premia_za_poziom_umiejetnosci,0.03,+3% za każdy poziom umiejętności stanowiska powyżej 3
+dodatek_kosmiczny,0.15,+15% za służbę w głębokim kosmosie (cały Halley)
+podatek_proc,20,podatek od pensji (%)
+koszty_zycia_statek,0,Kr/mies. na misji: kajuta i jedzenie zapewnia czarter (decyzja Andrzeja 15.11.2026); wydatki na statku = styl życia i zdarzenia
+czynsz_mieszkanie,500,Kr/mies. wynajmowane mieszkanie na Ziemi (rented flat)
+czynsz_dom,800,Kr/mies. wynajmowany dom na Ziemi (rented house)
+utrzymanie_mieszkanie,200,"Kr/mies. własne mieszkanie na Ziemi: opłaty stałe (śmieci, przyłącza prądu, gazu, wody, podatek lokalny)"
+utrzymanie_dom,300,Kr/mies. własny dom na Ziemi: opłaty stałe
+dziecko_na_ziemi,250,Kr/mies. na każde żyjące dziecko poniżej 18 lat na Ziemi (utrzymanie rodziny)
+dom_rodzinny,0,"Kr/mies. dom rodzinny (family home), np. studenci"
+oproc_oszczednosci,2,% rocznie od oszczędności
+oproc_hipoteka,4,% rocznie
+oproc_modyfikacja,6,% rocznie (dług za modyfikację z Prologu)
+oproc_pozyczka,9,% rocznie
+pozyczka_debet_miesiace,36,brak na koncie: najpierw z oszczędności; gdy się skończą: pożyczka na debet (oproc_pozyczka) spłacana w tylu ratach
+styl_oszczedny,5,"% pensji netto co miesiąc na życie osobiste (kantyna, drobiazgi, prezenty)"
+styl_zwykly,15,% pensji netto co miesiąc na życie osobiste
+styl_rozrzutny,35,% pensji netto co miesiąc na życie osobiste
+zdarzenia_finansowe,k100 raz w miesiącu,każdy żywy człowiek rzuca k100 w dniu wypłaty (tabela zdarzenia_finansowe.csv); osoby z nałogiem rzucają dodatkowo; ziarno = data + numer
+prog_dziennika,1,zdarzenie finansowe ≥ tyle pensji netto trafia do dziennika jako zaczep fabularny
+pensja_naukowca,tytuł + stanowisko,"szczebel = tytuł (Student 1, Bachelor 2 [licencjat/inżynier], Master 3, PhD 4, Professor 5, Academician 6, z poziomu umiejętności stanowiska: ludzie.csv umiejetnosc_stanowiska; tytuł na karcie jest osobisty, z najlepszej specjalizacji) + stanowisko (szef naukowy +2, zastępca/kierownik +1); jak w rzeczywistości: wykształcenie i funkcja"
+staz_studenta_proc,40,student jest na stażu: dostaje stypendium = 40% zwykłej pensji (staże często słabo płatne)
+kredyt_studencki,"3% rocznie, spłata od ukończenia studiów","studenci mają kredyt studencki; w trakcie studiów rata 0, odsetki rosną; po zmianie stanowiska ze Student ustalić ratę (zdarzenie)"
+pensja_ukryta,pensja_baza + pensja_za_szczebel × szczebel w tajnej organizacji,"dochody.csv: dodatkowe źródła dochodu (jawna pensja zostaje w konta.csv). Ukryta pensja = PEŁNA pensja z tego samego wzoru (Prujący: Recruit 1 = 3 900, Regular 2 = 5 200, Senior 3 = 6 500, Leader 4 = 7 800, Captain 5 = 9 100 Kr brutto); bez podatku, bez dodatku kosmicznego, bez stażu; wypłata 1. dnia miesiąca razem z jawną, na konto ukryte (konta_ukryte.csv); styl życia i zdarzenia finansowe tylko z konta jawnego; bez przelewów ukryte → jawne (Mistrz Gry, decyzja Andrzeja 17.11.2026)"

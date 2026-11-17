@@ -1,0 +1,12 @@
+klucz,wartosc
+czas,standardowy (uniwersalny); czasy lokalne planet to tylko przeliczenie
+dzien_zero,"2084-10-19, cały dzień (czwartek); Otwarcie o 21:47 czasu Portu"
+godzina_otwarcia,"21:47 czasu Portu: moment rocznicy Otwarcia (obchody), nie granica doby"
+rachuba_zakonu,Zakon liczy rok od dnia po Otwarciu (Rok Pierwszy Zakonu od 20.10.2085); flota: 1·000 ATR = 19.10.2085; różnica jednego dnia jest zamierzona
+zapis_daty,"Rok·Dzień ATR, np. 0·300 ATR; przed Szczeliną BTR"
+doba,"24 godziny, od północy do północy czasu Portu (doba ATR = cała data kalendarzowa)"
+tydzien,"7 dni, nazwy ziemskie, ciągłość z Ziemią"
+krok,dowolny (dni); bez tur
+teraz_atr,0·300 ATR
+teraz_ziemia,2085-08-15
+teraz_dzien_tygodnia,środa

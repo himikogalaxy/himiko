@@ -1,0 +1,173 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
+.teczka{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.teczka h2{font-size:1.1rem;margin:0}
+.teczka form{display:flex;gap:8px;flex-wrap:wrap}
+.teczka button{font:inherit;padding:8px 14px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer}
+.drzewo ul{list-style:none;padding-left:18px;margin:2px 0}.drzewo>ul{padding-left:0}.drzewo li{margin:2px 0}.drzewo summary{cursor:pointer}
+a{color:var(--accent)}
+.sec{border-top:1px solid var(--line);padding-top:8px;overflow-x:auto}
+.mini td:first-child{white-space:nowrap}
+.sec h3{font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin:0 0 6px}
+.kv{display:grid;grid-template-columns:minmax(120px,max-content) 1fr;gap:3px 12px;font-size:.88rem}
+.kv dt{color:var(--mute)}.kv dd{margin:0}
+.tajne{color:#b3261e;font-weight:600}
+.tajne-blok{border:2px dashed #b3261e;border-radius:10px;padding:8px 10px;background:color-mix(in srgb,#b3261e 6%,transparent)}
+.badge{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#fff;background:#b3261e;border-radius:4px;padding:1px 5px;margin-left:6px;vertical-align:middle}
+.mini{border-collapse:collapse;font-size:.84rem;width:100%}
+.mini th,.mini td{padding:4px 8px;border-bottom:1px solid var(--line);text-align:left;white-space:normal}
+.blad{color:#b3261e}
+</style></head><body>
+<title>Ciepły Silnik Himiko</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root{--bg:#f5f2ea;--panel:#fffdf8;--fg:#1e1c18;--mute:#6d675c;--line:#d8d1c2;--accent:#b4541f}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15140f;--panel:#1e1c16;--fg:#ece6d9;--mute:#a59e8f;--line:#39352b;--accent:#e58a4e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15140f;--panel:#1e1c16;--fg:#ece6d9;--mute:#a59e8f;--line:#39352b;--accent:#e58a4e;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;padding-block:20px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+h1{font-size:1.35rem;margin:0;text-wrap:balance}
+.sub{color:var(--mute);margin:0;max-width:65ch}
+.bar{display:flex;flex-wrap:wrap;gap:8px}
+select,input{font:inherit;color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}
+input{flex:1 1 220px}
+.stats{display:flex;flex-wrap:wrap;gap:8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+.stat b{display:block;font-size:1.15rem;color:var(--accent);font-variant-numeric:tabular-nums}
+.stat span{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.wrap{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:.85rem}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td.long{white-space:normal;min-width:220px}
+th{position:sticky;top:0;background:var(--panel);font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--mute)}
+.note{color:var(--mute);font-size:.8rem;margin:0}
+</style>
+<main>
+<div id="pasek" style="background:#2e7d32;color:#fff;font-weight:700;font-size:1.05rem;text-align:center;padding:10px;border-radius:10px;letter-spacing:.04em">🌐 PUBLICZNA: widok dla graczy, bez tajemnic</div>
+<section class="teczka" aria-label="Teczka">
+<h2>🗂️ Teczka: widok publiczny</h2>
+<p class="note">Wpisz numer ewidencyjny (np. NG-0008, PL-1, ANIM-0001, SHIP-KITTIWAKE, SHIP-2). Dane są czytane na żywo z publicznej kopii plików silnika.</p>
+<form id="tf"><input id="tq" type="search" placeholder="Numer ewidencyjny…" aria-label="Numer ewidencyjny" autocomplete="off"><button type="submit">Pokaż teczkę</button></form>
+<div id="tw"></div>
+</section>
+<section class="teczka" aria-label="Drzewo jednostek">
+<h2>🌳 Drzewo jednostek</h2>
+<p class="note">Od układu w dół: planety, okręty, ludzie, zwierzęta (kolumna „nadrzedna” w jednostki.csv). Kliknij nazwę, żeby otworzyć teczkę.</p>
+<div id="drz" class="drzewo"><p class="note">Ładowanie…</p></div>
+</section>
+<h1>Ciepły Silnik Himiko</h1>
+<p class="sub">Ciepłe archiwum świata: rejestry w plikach, które prowadzi Claude. Gdy coś się rozjedzie z papierem, wygrywa papier.</p>
+<div class="bar">
+<select id="file" aria-label="Rejestr">
+<option value="ludzie.csv">Ludzie</option><option value="statki.csv">Statki</option><option value="frakcje.csv">Frakcje i państwa</option><option value="miejsca.csv">Miejsca</option><option value="technologie.csv">Technologie</option><option value="zasoby.csv">Zasoby i asteroidy</option><option value="zegar.csv">Zegar</option><option value="newsy.csv">Newsy</option><option value="numery.csv">Ostatnie numery</option><option value="ludzie_umiejetnosci.csv">Umiejętności ludzi</option><option value="ludzie_wyksztalcenie.csv">Wykształcenie ludzi</option><option value="umiejetnosci.csv">Katalog umiejętności</option><option value="konta.csv">Bank: konta</option><option value="ludzie_zycie.csv">Życie: rodzina, zdrowie, lojalność</option><option value="relacje.csv">Relacje między ludźmi</option><option value="religie.csv">Katalog religii</option><option value="dlugi.csv">Bank: długi</option><option value="zasady_ekonomii.csv">Zasady ekonomii</option><option value="krewni_ziemia.csv">Krewni na Ziemi</option><option value="ludzie_cialo.csv">Ciało: narodziny, implanty, modyfikacje</option><option value="ludzie_ulepszenia.csv">Ulepszenia ludzi</option><option value="ulepszenia.csv">Katalog ulepszeń</option><option value="stanowiska_bojowe.csv">Stanowiska bojowe</option><option value="lancuch_dowodzenia.csv">Łańcuch dowodzenia</option><option value="zapasy.csv">Zapasy statków</option><option value="zasady_zycia.csv">Zasady życia i walki</option><option value="ludzie_zaslugi.csv">Zasługi: misje, odznaczenia</option><option value="odznaczenia.csv">Katalog odznaczeń</option><option value="przedzialy.csv">Przedziały statków</option><option value="jednostki.csv">Rejestr jednostek</option><option value="zwierzeta.csv">Zwierzęta</option><option value="szablony.csv">Szablony okrętów</option><option value="szablony_obsada.csv">Szablony: obsada</option><option value="szablony_przedzialy.csv">Szablony: przedziały</option><option value="szablony_zapasy.csv">Szablony: zapasy</option>
+</select>
+<input id="q" type="search" placeholder="Szukaj: nazwisko, numer, miejsce, status…" aria-label="Szukaj">
+</div>
+<div class="stats" id="stats"></div>
+<div class="wrap"><table id="t"></table></div>
+<p class="note" id="note"></p>
+</main>
+<script>
+function parseCSV(s){const R=[];let r=[],c='',q=false;for(let i=0;i<s.length;i++){const ch=s[i];if(q){if(ch==='"'){if(s[i+1]==='"'){c+='"';i++}else q=false}else c+=ch}else if(ch==='"')q=true;else if(ch===','){r.push(c);c=''}else if(ch==='\n'){r.push(c);R.push(r);r=[];c=''}else if(ch!=='\r')c+=ch}if(c!==''||r.length){r.push(c);R.push(r)}return R}
+const $=id=>document.getElementById(id);let head=[],rows=[];const MAX=300;
+function esc(x){return String(x).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]))}
+function draw(){const q=$('q').value.trim().toLowerCase();const f=q?rows.filter(r=>r.join(' ').toLowerCase().includes(q)):rows;
+ let h='<thead><tr>'+head.map(x=>'<th>'+esc(x)+'</th>').join('')+'</tr></thead><tbody>';
+ f.slice(0,MAX).forEach(r=>{h+='<tr>'+r.map(x=>'<td'+(x.length>40?' class="long"':'')+'>'+esc(x)+'</td>').join('')+'</tr>'});
+ $('t').innerHTML=h+'</tbody>';
+ const st=[['Wpisów',rows.length],['Pasuje',f.length]];const si=head.indexOf('status');
+ if(si>=0){const m={};rows.forEach(r=>{m[r[si]]=(m[r[si]]||0)+1});Object.keys(m).forEach(k=>st.push([k||'bez statusu',m[k]]))}
+ $('stats').innerHTML=st.map(s=>'<div class="stat"><b>'+s[1].toLocaleString('pl-PL')+'</b><span>'+esc(s[0])+'</span></div>').join('');
+ $('note').textContent=!rows.length?'Ten rejestr jest jeszcze pusty.':(f.length>MAX?'Pokazuję pierwsze '+MAX+' z '+f.length+'. Zawęź wyszukiwanie.':'');}
+function load(){$('t').innerHTML='';$('note').textContent='Ładowanie…';fetch($('file').value).then(r=>r.text()).then(t=>{const a=parseCSV(t);head=a[0]||[];rows=a.slice(1);draw()}).catch(()=>{$('note').textContent='Nie udało się wczytać pliku.'})}
+$('file').addEventListener('change',load);$('q').addEventListener('input',draw);load();
+
+/* ---------- Teczka (widok Mistrza Gry) ---------- */
+const PL={numer:'numer',imie:'imię',nazwisko:'nazwisko',plec:'płeć',wiek_0_300:'wiek (0·300)',wiek_karta:'wiek na karcie',pochodzenie:'pochodzenie',stanowisko:'stanowisko',cecha:'cecha',statek:'statek',dzial:'dział',lokalizacja:'lokalizacja',status:'status',data_urodzenia:'data urodzenia',urodzony_atr:'urodzony (gra)',sluzba:'służba',stopien:'stopień',dziedzina_nauki:'dziedzina nauki',obywatelstwo:'obywatelstwo',frakcja:'frakcja',miejsce_zamieszkania:'miejsce zamieszkania',waznosc:'ważność',umiejetnosc_stanowiska:'umiejętność stanowiska',tajna_rola:'tajna rola',zakon_rola:'rola w Zakonie',zakon_szczebel:'szczebel w Zakonie',reputacja_ukryta:'reputacja ukryta'};
+const TAJNE=new Set(['tajna_rola','zakon_rola','zakon_szczebel','reputacja_ukryta']);
+const POMIN=new Set(['data_zmiany','imie_zaproponowane','karta_papierowa']);
+const CACHE={};
+function csv(n){if(!CACHE[n])CACHE[n]=fetch(n,{cache:'no-store'}).then(r=>r.ok?r.text():'').then(t=>{if(!t)return[];const a=parseCSV(t);const h=a[0]||[];return a.slice(1).filter(r=>r.length>1).map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]||''])))}).catch(()=>[]);return CACHE[n]}
+function norm(q){q=q.trim().toUpperCase().replace(/\s+/g,'');const m=q.match(/^([A-Z]+)-?(\d+)$/);return m?m[1]+'-'+m[2].padStart(4,'0'):q}
+function kv(o,skip){return '<dl class="kv">'+Object.entries(o).filter(([k,v])=>v!==''&&!(skip||new Set()).has(k)).map(([k,v])=>`<dt${TAJNE.has(k)?' class="tajne"':''}>${esc(PL[k]||k.replace(/_/g,' '))}</dt><dd${TAJNE.has(k)?' class="tajne"':''}>${esc(v)}${TAJNE.has(k)?'<span class="badge">TAJNE</span>':''}</dd>`).join('')+'</dl>'}
+function tab(rows,cols,secret){if(!rows.length)return '<p class="note">brak</p>';return '<table class="mini"><thead><tr>'+cols.map(c=>'<th>'+esc(c.replace(/_/g,' '))+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>{const t=secret&&secret(r);return '<tr'+(t?' class="tajne"':'')+'>'+cols.map(c=>'<td>'+esc(r[c]||'')+'</td>').join('')+(t?'<td><span class="badge">TAJNE</span></td>':'')+'</tr>'}).join('')+'</tbody></table>'}
+function sec(t,b,tajny){return `<div class="sec${tajny?' tajne-blok':''}"><h3>${t}${tajny?'<span class="badge">TAJNE</span>':''}</h3>${b}</div>`}
+const kr=n=>n.toLocaleString('pl-PL')+' Kr';
+const IKONA={SYS:'🌌',PLAN:'🪐',CITY:'🏙️',STN:'🛰️',SHIP:'🚀',CORP:'🏢',MOD:'⚙️',ITEM:'📦',ANIM:'🐾'};
+const ik=id=>IKONA[String(id).split('-')[0]]||'📁';
+const lnk=(id,t)=>`<a href="#${encodeURIComponent(id)}">${esc(t||id)}</a>`;
+function tabH(rows,cols){if(!rows.length)return '<p class="note">brak</p>';return '<table class="mini"><thead><tr>'+cols.map(c=>'<th>'+esc(c[0])+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(c=>'<td>'+c[1](r)+'</td>').join('')+'</tr>').join('')+'</tbody></table>'}
+const ZYWI=new Set(['żyje','ranny','chory']);
+async function teczkaJ(j){
+ const [J,S,L,Z,PZ,ZP,LD]=await Promise.all(['jednostki.csv','statki.csv','ludzie.csv','zwierzeta.csv','przedzialy.csv','zapasy.csv','lancuch_dowodzenia.csv'].map(csv));
+ const id=j.numer;const sc=[];let x=j;while(x&&x.nadrzedna&&sc.length<20){x=J.find(y=>y.numer===x.nadrzedna);if(x)sc.unshift(x)}
+ let h=`<h2>${ik(id)} ${esc(j.nazwa)} <span class="note">${esc(id)}${j.nr_ewid&&j.nr_ewid!==id?' · '+esc(j.nr_ewid):''}</span></h2>`;
+ if(sc.length)h+=`<p class="note">📍 ${sc.map(y=>lnk(y.numer,y.nazwa)).join(' › ')} › <b>${esc(j.nazwa)}</b></p>`;
+ h+=sec('Dane jednostki',kv(j,new Set(['data_zmiany'])));
+ const wl=J.find(y=>y.numer===j.wlasciciel);h+=sec('Właściciel',wl?ik(wl.numer)+' '+lnk(wl.numer,wl.nazwa):'<p>'+esc(j.wlasciciel||'brak')+'</p>');
+ const s=S.find(y=>y.id===id);if(s)h+=sec('Lot i stan (statki.csv)',kv(s,new Set(['id','nazwa','data_zmiany'])));
+ const dz=J.filter(y=>y.nadrzedna===id);if(dz.length)h+=sec('Jednostki podległe',dz.map(y=>`<p>${ik(y.numer)} ${lnk(y.numer,y.nazwa)} <span class="note">${esc(y.numer)} · ${esc(y.rodzaj)}</span></p>`).join(''));
+ const zal=L.filter(p=>p.statek===id);
+ if(zal.length||s)h+=sec(`👥 Załoga (${zal.filter(p=>ZYWI.has(p.status)).length})`,tabH(zal,[['numer',p=>lnk(p.numer)],['imię i nazwisko',p=>esc(p.imie+' '+p.nazwisko)],['stopień',p=>esc(p.stopien)],['stanowisko',p=>esc(p.stanowisko)],['dział',p=>esc(p.dzial)],['status',p=>esc(p.status)]]));
+ const kol=v=>{const n=parseInt(v,10);return isNaN(n)?1000:n===0?999:n};
+ const ld=LD.filter(r=>r.statek===id).sort((a,b)=>kol(a.kolejnosc)-kol(b.kolejnosc));
+ if(ld.length||s)h+=sec('Łańcuch dowodzenia',tabH(ld,[['kolejność',r=>esc(r.kolejnosc)],['numer',r=>lnk(r.numer)],['kto',r=>esc(r.imie_nazwisko)],['stopień',r=>esc(r.stopien)],['uwaga',r=>esc(r.uwaga)]]));
+ const pz=PZ.filter(r=>r.statek===id);if(pz.length||s)h+=sec('Przedziały i tabela trafień k100',tab(pz,['id','nazwa_en','nazwa_pl','trafienie_k100','urzadzenia','urzadzenia_k100','stanowisko_bojowe']));
+ const zp=ZP.filter(r=>r.statek===id);if(zp.length||s)h+=sec('📦 Zapasy',tab(zp,['zasob','ilosc','jednostka','uwaga']));
+ const zw=Z.filter(a=>a.statek===id);if(zw.length)h+=sec('🐾 Zwierzęta',zw.map(a=>`<p>${lnk(a.numer)} ${esc(a.imie||a.gatunek_pl)} <span class="note">${esc(a.gatunek_pl)}${a.liczba?' × '+esc(a.liczba):''}</span></p>`).join(''));
+ if(s||j.numer.startsWith('STN-')){const md=dz.filter(y=>y.numer.startsWith('MOD-'));h+=sec('⚙️ Moduły',md.length?md.map(y=>`<p>${lnk(y.numer,y.nazwa)}</p>`).join(''):'<p class="note">brak</p>')}
+ $('tw').innerHTML=h}
+async function drzewo(){
+ const [J,L,Z]=await Promise.all([csv('jednostki.csv'),csv('ludzie.csv'),csv('zwierzeta.csv')]);
+ const wezel=(j,g)=>{const dz=g<20?J.filter(y=>y.nadrzedna===j.numer):[];const lu=L.filter(p=>p.statek===j.numer);const zw=Z.filter(a=>a.statek===j.numer);
+  let w=dz.map(y=>wezel(y,g+1)).join('');
+  if(lu.length)w+=`<li><details><summary>👥 ludzie (${lu.filter(p=>ZYWI.has(p.status)).length})</summary><ul>${lu.map(p=>`<li>${lnk(p.numer,p.numer+' '+p.imie+' '+p.nazwisko)} <span class="note">${esc(p.stopien||'')}</span></li>`).join('')}</ul></details></li>`;
+  if(zw.length)w+=`<li><details><summary>🐾 zwierzęta (${zw.length})</summary><ul>${zw.map(a=>`<li>${lnk(a.numer,a.numer+' '+(a.imie||a.gatunek_pl))}</li>`).join('')}</ul></details></li>`;
+  const t=`${ik(j.numer)} ${lnk(j.numer,j.nazwa)} <span class="note">${esc(j.numer)}</span>`;
+  return w?`<li><details${dz.length?' open':''}><summary>${t}</summary><ul>${w}</ul></details></li>`:`<li>${t}</li>`};
+ const korz=J.filter(j=>!j.nadrzedna||!J.some(y=>y.numer===j.nadrzedna));
+ $('drz').innerHTML=korz.length?'<ul>'+korz.map(j=>wezel(j,0)).join('')+'</ul>':'<p class="note">brak jednostek</p>'}
+drzewo();
+async function teczka(q){
+ const id=norm(q);$('tw').innerHTML='<p class="note">Ładowanie…</p>';
+ const [L,Z,J]=await Promise.all([csv('ludzie.csv'),csv('zwierzeta.csv'),csv('jednostki.csv')]);
+ const p=L.find(x=>x.numer===id), a=Z.find(x=>x.numer===id), j=J.find(x=>x.numer===id||x.nr_ewid===id);
+ if(!p&&!a&&!j){$('tw').innerHTML=`<p class="blad">Brak takiej osoby ani jednostki w rejestrze: ${esc(id)}</p>`;return}
+ if(j&&!p&&!a){try{if(location.hash!=='#'+j.numer)history.replaceState(null,'','#'+j.numer)}catch(e){};return teczkaJ(j)}
+ try{if(location.hash!=='#'+id)history.replaceState(null,'','#'+id)}catch(e){}
+ if(a){const LL=Object.fromEntries(L.map(x=>[x.numer,x.imie+' '+x.nazwisko]));
+  $('tw').innerHTML=`<h2>🐾 ${esc(a.imie||a.gatunek_pl)} <span class="note">${esc(a.numer)}</span></h2>`+sec('Dane zwierzęcia',kv(a,new Set(['data_zmiany'])))+sec('Opiekunowie',esc((a.opiekunowie||'').split(';').map(x=>x.trim()).filter(Boolean).map(x=>x+(LL[x]?' ('+LL[x]+')':'')).join(', ')||'brak'));return}
+ const F=['ludzie_umiejetnosci.csv','ludzie_wyksztalcenie.csv','ludzie_zycie.csv','krewni_ziemia.csv','rodzicielstwo.csv','relacje.csv','ludzie_cialo.csv','ludzie_ulepszenia.csv','ludzie_zaslugi.csv','przedmioty.csv','konta.csv','dlugi.csv','dochody.csv','konta_ukryte.csv','stanowiska_bojowe.csv','kraje.csv','umiejetnosci.csv',];
+ const D=Object.fromEntries(await Promise.all(F.map(async f=>[f,await csv(f)])));
+ const my=(f,k='numer')=>D[f].filter(x=>x[k]===id);
+ const kraj=D['kraje.csv'].find(x=>x.kod===p.obywatelstwo||x.kod===p.pochodzenie);
+ const UM=Object.fromEntries(D['umiejetnosci.csv'].map(x=>[x.kod,x.nazwa||x.umiejetnosc||'']));
+ const imie=Object.fromEntries(L.map(x=>[x.numer,x.imie+' '+x.nazwisko]));
+ const life=my('ludzie_zycie.csv')[0]||{};const konto=my('konta.csv')[0];const dl=my('dlugi.csv');
+ const doch=my('dochody.csv','osoba');const ku=my('konta_ukryte.csv','osoba');
+ const rel=D['relacje.csv'].filter(x=>x.osoba_a===id||x.osoba_b===id).map(x=>Object.assign({},x,{z_kim:(x.osoba_a===id?x.osoba_b:x.osoba_a)+' '+(imie[x.osoba_a===id?x.osoba_b:x.osoba_a]||'')}));
+ let h=`<h2>👤 ${esc(p.imie)} ${esc(p.nazwisko)} <span class="note">${esc(p.numer)}${kraj?' · '+esc(kraj.nazwa_pl||kraj.nazwa_en||''):''}${p.statek?' · '+ik(p.statek)+' '+lnk(p.statek):''}</span></h2>`;
+ h+=sec('Dane i służba',kv(p,POMIN));
+ const tajne=TAJNE; if(p.tajna_rola||p.zakon_rola||doch.some(x=>x.jawne==='nie')||ku.length){
+  let b=kv(Object.fromEntries(['tajna_rola','zakon_rola','zakon_szczebel'].filter(k=>p[k]).map(k=>[k,p[k]])));
+  if(doch.length)b+='<p><b>Ukryte dochody</b></p>'+tab(doch,['platnik','stanowisko','stopien','szczebel','pensja_brutto','podatek','konto']);
+  if(ku.length)b+='<p><b>Konto ukryte</b></p>'+ku.map(x=>`<p>${esc(x.platnik)}: <b>${kr(+x.saldo)}</b></p>`).join('');
+  h+=sec('🕵️ Tajemnice',b,true)}
+ h+=sec('Stanowisko bojowe',tab(my('stanowiska_bojowe.csv'),['przydzial_dzienny','stanowisko_bojowe','miejsce']));
+ h+=sec('Umiejętności',tab(my('ludzie_umiejetnosci.csv').map(x=>Object.assign({},x,{nazwa:UM[x.kod]||''})),['kod','nazwa','poziom','premia','uwaga'],x=>x.uwaga==='hidden'));
+ h+=sec('Wykształcenie',my('ludzie_wyksztalcenie.csv').map(x=>'<p>'+esc(x.wyksztalcenie)+'</p>').join('')||'<p class="note">brak</p>');
+ const lifeJ=Object.assign({},life);delete lifeJ.numer;const hid=lifeJ.reputacja_ukryta;
+ h+=sec('Życie, zdrowie, morale',kv(lifeJ));
+ h+=sec('Rodzina na Ziemi',tab(my('krewni_ziemia.csv','krewny_osoby'),['imie','nazwisko','relacja','rok_urodzenia','zyje','gdzie','uwaga']));
+ const rod=my('rodzicielstwo.csv'); if(rod.length)h+=sec('Rodzicielstwo (więzy krwi)',kv(rod[0]),true);
+ h+=sec('Relacje',tab(rel,['z_kim','typ','sila_1_5','jawne','od_kiedy','para'],x=>x.jawne==='nie'));
+ const ci=my('ludzie_cialo.csv')[0];h+=sec('Ciało i ulepszenia',(ci?kv(ci,new Set(['numer'])):'')+tab(my('ludzie_ulepszenia.csv'),['ulepszenie','uwaga'],x=>/hidden|ukryt|illegal|nielegal/i.test(x.uwaga||'')));
+ const za=my('ludzie_zaslugi.csv')[0];h+=sec('Zasługi',za?kv(za,new Set(['numer'])):'<p class="note">brak</p>');
+ h+=sec('Kufer (przedmioty)',tab(my('przedmioty.csv'),['przedmiot','ilosc','wartosc_kr','gdzie','jawne'],x=>x.jawne==='nie'));
+ if(konto){h+=sec('Konto jawne',kv({pracodawca:konto.pracodawca,pensja_brutto:kr(+konto.pensja_brutto),podatek:konto.podatek_proc+'%',koszty_zycia:kr(+konto.koszty_zycia),konto:kr(+konto.konto),oszczednosci:kr(+konto.oszczednosci),inwestycje:kr(+konto.inwestycje),nieruchomosc:konto.nieruchomosc,zamrozone:konto.zamrozone&&+konto.zamrozone?kr(+konto.zamrozone):''})+(dl.length?'<p><b>Długi</b></p>'+tab(dl,['rodzaj','kwota','oprocentowanie_roczne','rata_mies']):''))}
+ $('tw').innerHTML=h}
+$('tf').addEventListener('submit',e=>{e.preventDefault();const v=$('tq').value;if(v.trim())teczka(v)});
+function zHash(){const h=decodeURIComponent(location.hash.slice(1));if(/^[A-Za-z]+-[A-Za-z0-9-]+$/.test(h)){$('tq').value=h;teczka(h)}}
+window.addEventListener('hashchange',zHash);zHash();
+</script>
+
+</body></html>

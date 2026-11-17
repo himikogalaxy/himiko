@@ -1,0 +1,333 @@
+id,imie,nazwisko,relacja,krewny_osoby,rok_urodzenia,zyje,gdzie,uwaga
+Z-0001,Zsófia,Varga,mother,HU-0001,2013,dead,Earth (HU),
+Z-0002,László,Varga,father,HU-0001,2006,dead,Earth (HU),
+Z-0003,László,Varga,child,HU-0001,2059,alive,Earth (HU),stays with family on Earth
+Z-0004,Fatima,Haddad,mother,LB-0001,1997,dead,Earth (LB),
+Z-0005,Khaled,Haddad,father,LB-0001,2006,dead,Earth (LB),
+Z-0006,Huda,Haddad,child,LB-0001,2074,alive,Earth (LB),stays with family on Earth
+Z-0007,Katrin,Brenner,mother,DE-0001,2010,dead,Earth (DE),
+Z-0008,Jürgen,Brenner,father,DE-0001,2009,dead,Earth (DE),
+Z-0009,Thomas,Brenner,child,DE-0001,2069,alive,Earth (DE),stays with family on Earth
+Z-0010,Li,Tran,mother,SG-0001,2019,dead,Earth (SG),
+Z-0011,Wei,Tran,father,SG-0001,2016,alive,Earth (SG),
+Z-0012,Mei,Tran,child,SG-0001,2081,alive,Earth (SG),stays with family on Earth
+Z-0013,Hui,Tran,child,SG-0001,2080,alive,Earth (SG),stays with family on Earth
+Z-0014,Ngozi,Eze,mother,NG-0001,2024,alive,Earth (NG),
+Z-0015,Chinedu,Eze,father,NG-0001,2011,alive,Earth (NG),
+Z-0016,Hanna,Wolska,mother,PL-0001,2022,dead,Earth (PL),
+Z-0017,Marek,Wolski,father,PL-0001,2008,dead,Earth (PL),
+Z-0018,Marek,Wolski,child,PL-0001,2074,alive,Earth (PL),stays with family on Earth
+Z-0019,Yumi,Aoki,mother,JP-0001,2001,dead,Earth (JP),
+Z-0020,Takeshi,Aoki,father,JP-0001,1997,dead,Earth (JP),
+Z-0021,Kenji,Aoki,child,JP-0001,2055,alive,Earth (JP),stays with family on Earth
+Z-0022,Helen,Mercer,mother,GB-0001,2021,alive,Earth (GB),
+Z-0023,James,Mercer,father,GB-0001,2017,alive,Earth (GB),
+Z-0024,Claire,Mercer,child,GB-0001,2080,alive,Earth (GB),stays with family on Earth
+Z-0025,Sarah,Mercer,child,GB-0001,2083,alive,Earth (GB),stays with family on Earth
+Z-0026,David,Mercer,child,GB-0001,2080,alive,Earth (GB),stays with family on Earth
+Z-0027,María,Calderón,mother,ES-0001,2005,alive,Earth (ES),
+Z-0028,Luis,Calderón,father,ES-0001,2001,dead,Earth (ES),
+Z-0029,Amaka,Oyelaran,mother,NG-0002,1999,dead,Earth (NG),
+Z-0030,Chinedu,Oyelaran,father,NG-0002,2004,dead,Earth (NG),
+Z-0031,Karin,Holm,mother,DK-0001,2008,dead,Earth (DK),
+Z-0032,Lars,Holm,father,DK-0001,1997,alive,Earth (DK),
+Z-0033,Ngozi,Nwosu,mother,NG-0003,2018,dead,Earth (NG),
+Z-0034,Tunde,Nwosu,father,NG-0003,2025,dead,Earth (NG),
+Z-0035,Ana,Costa,mother,BR-0001,2028,alive,Earth (BR),
+Z-0036,João,Costa,father,BR-0001,2026,alive,Earth (BR),
+Z-0037,Ana,Costa,child,BR-0001,2079,alive,Earth (BR),stays with family on Earth
+Z-0038,Paulo,Costa,child,BR-0001,2077,alive,Earth (BR),stays with family on Earth
+Z-0039,Zofia,Zalewska,mother,PL-0002,2015,alive,Earth (PL),
+Z-0040,Jan,Zalewski,father,PL-0002,2013,dead,Earth (PL),
+Z-0041,Agata,Zalewska,child,PL-0002,2073,alive,Earth (PL),stays with family on Earth
+Z-0042,Joanna,Zalewska,child,PL-0002,2069,alive,Earth (PL),stays with family on Earth
+Z-0043,Lucie,Nováková,mother,CZ-0001,2015,dead,Earth (CZ),
+Z-0044,Pavel,Novák,father,CZ-0001,2008,alive,Earth (CZ),
+Z-0045,Karin,Vik,mother,NO-0001,2016,alive,Earth (NO),
+Z-0046,Nils,Vik,father,NO-0001,2007,alive,Earth (NO),
+Z-0047,Ingrid,Vik,child,NO-0001,2080,alive,Earth (NO),stays with family on Earth
+Z-0048,Erik,Vik,child,NO-0001,2064,alive,Earth (NO),stays with family on Earth
+Z-0049,Lars,Vik,child,NO-0001,2079,alive,Earth (NO),stays with family on Earth
+Z-0050,Amaka,Adewale,mother,NG-0004,2024,alive,Earth (NG),
+Z-0051,Tunde,Adewale,father,NG-0004,2012,alive,Earth (NG),
+Z-0052,Babatunde,Adewale,child,NG-0004,2076,alive,Earth (NG),stays with family on Earth
+Z-0053,Chiara,Marchetti,mother,IT-0001,2010,dead,Earth (IT),
+Z-0054,Giorgio,Marchetti,father,IT-0001,2008,dead,Earth (IT),
+Z-0055,Ji-woo,Seong,mother,KR-0001,2022,alive,Earth (KR),
+Z-0056,Hyun-woo,Seong,father,KR-0001,2022,alive,Earth (KR),
+Z-0057,Min-ji,Seong,child,KR-0001,2082,alive,Earth (KR),stays with family on Earth
+Z-0058,María,Bautista,mother,MX-0001,2014,dead,Earth (MX),
+Z-0059,Diego,Bautista,father,MX-0001,2010,alive,Earth (MX),
+Z-0060,Lucía,Bautista,child,MX-0001,2082,alive,Earth (MX),stays with family on Earth
+Z-0061,Claudia,Roth,mother,DE-0002,2004,dead,Earth (DE),
+Z-0062,Jürgen,Roth,father,DE-0002,1994,dead,Earth (DE),
+Z-0063,Sabine,Roth,child,DE-0002,2060,alive,Earth (DE),stays with family on Earth
+Z-0064,Thomas,Roth,child,DE-0002,2079,alive,Earth (DE),stays with family on Earth
+Z-0065,Maria,Papadakis,mother,GR-0001,2004,dead,Earth (GR),
+Z-0066,Nikos,Papadakis,father,GR-0001,2009,dead,Earth (GR),
+Z-0067,Dimitris,Papadakis,child,GR-0001,2056,alive,Earth (GR),stays with family on Earth
+Z-0068,Yannis,Papadakis,child,GR-0001,2075,alive,Earth (GR),stays with family on Earth
+Z-0069,María,Quispe,mother,PE-0001,2009,alive,Earth (PE),
+Z-0070,José,Quispe,father,PE-0001,2013,dead,Earth (PE),
+Z-0071,María,Quispe,child,PE-0001,2078,alive,Earth (PE),stays with family on Earth
+Z-0072,Carmen,Quispe,child,PE-0001,2074,alive,Earth (PE),stays with family on Earth
+Z-0073,Ayesha,Siddiqui,mother,PK-0001,2023,dead,Earth (PK),
+Z-0074,Imran,Siddiqui,father,PK-0001,2020,alive,Earth (PK),
+Z-0075,Ana,Marković,mother,HR-0001,2026,alive,Earth (HR),
+Z-0076,Luka,Marković,father,HR-0001,2022,alive,Earth (HR),
+Z-0077,Ivana,Marković,child,HR-0001,2074,alive,Earth (HR),stays with family on Earth
+Z-0078,Ingrid,Lindqvist,mother,SE-0001,2006,dead,Earth (SE),
+Z-0079,Nils,Lindqvist,father,SE-0001,2006,dead,Earth (SE),
+Z-0080,Lerato,Mokoena,mother,ZA-0001,2018,dead,Earth (ZA),
+Z-0081,Bongani,Mokoena,father,ZA-0001,2014,alive,Earth (ZA),
+Z-0082,Sipho,Mokoena,child,ZA-0001,2070,alive,Earth (ZA),stays with family on Earth
+Z-0083,Lerato,Mokoena,child,ZA-0001,2079,alive,Earth (ZA),stays with family on Earth
+Z-0084,Zanele,Mokoena,child,ZA-0001,2072,alive,Earth (ZA),stays with family on Earth
+Z-0085,Keiko,Mori,mother,JP-0002,2024,dead,Earth (JP),
+Z-0086,Hiroto,Mori,father,JP-0002,2009,dead,Earth (JP),
+Z-0087,Takeshi,Mori,child,JP-0002,2072,alive,Earth (JP),stays with family on Earth
+Z-0088,Hiroto,Mori,child,JP-0002,2073,alive,Earth (JP),stays with family on Earth
+Z-0089,Kaito,Mori,child,JP-0002,2081,alive,Earth (JP),stays with family on Earth
+Z-0090,Sabine,Eberhardt,mother,DE-0003,2005,dead,Earth (DE),
+Z-0091,Stefan,Eberhardt,father,DE-0003,1993,alive,Earth (DE),
+Z-0092,Lucía,Ferreyra,mother,AR-0001,2017,alive,Earth (AR),
+Z-0093,Diego,Ferreyra,father,AR-0001,2007,alive,Earth (AR),
+Z-0094,Carmen,Ferreyra,child,AR-0001,2079,alive,Earth (AR),stays with family on Earth
+Z-0095,Natalia,Volkova,mother,RU-0001,2001,dead,Earth (RU),
+Z-0096,Sergei,Volkov,father,RU-0001,2002,dead,Earth (RU),
+Z-0097,Andrei,Volkov,child,RU-0001,2081,alive,Earth (RU),stays with family on Earth
+Z-0098,Ruma,Rahman,mother,BD-0001,2019,dead,Earth (BD),
+Z-0099,Karim,Rahman,father,BD-0001,2012,dead,Earth (BD),
+Z-0100,Ingrid,Dahl,mother,DK-0002,2016,alive,Earth (DK),
+Z-0101,Erik,Dahl,father,DK-0002,2006,dead,Earth (DK),
+Z-0102,Shira,Levin,mother,IL-0001,2017,dead,Earth (IL),
+Z-0103,Avi,Levin,father,IL-0001,2013,dead,Earth (IL),
+Z-0104,Eitan,Levin,child,IL-0001,2084,alive,Earth (IL),stays with family on Earth
+Z-0105,Ari,Levin,child,IL-0001,2075,alive,Earth (IL),stays with family on Earth
+Z-0106,Funmi,Okafor,mother,NG-0005,2019,dead,Earth (NG),
+Z-0107,Chinedu,Okafor,father,NG-0005,2015,dead,Earth (NG),
+Z-0108,Funmi,Okafor,child,NG-0005,2070,alive,Earth (NG),stays with family on Earth
+Z-0109,Ngozi,Okafor,child,NG-0005,2072,alive,Earth (NG),stays with family on Earth
+Z-0110,Xiu,Zhao,mother,CN-0001,2011,dead,Earth (CN),
+Z-0111,Jun,Zhao,father,CN-0001,2012,dead,Earth (CN),
+Z-0112,Hao,Zhao,child,CN-0001,2065,alive,Earth (CN),stays with family on Earth
+Z-0113,Anna,Kowalczyk,mother,PL-0003,2021,alive,Earth (PL),
+Z-0114,Piotr,Kowalczyk,father,PL-0003,2019,alive,Earth (PL),
+Z-0115,Helen,Hargrove,mother,GB-0002,2026,alive,Earth (GB),
+Z-0116,James,Hargrove,father,GB-0002,2010,alive,Earth (GB),
+Z-0117,Richard,Hargrove,child,GB-0002,2081,alive,Earth (GB),stays with family on Earth
+Z-0118,Sarah,Okoro,mother,GB-0003,2037,alive,Earth (GB),
+Z-0119,David,Okoro,father,GB-0003,2035,alive,Earth (GB),
+Z-0120,Sanne,Lund,mother,NL-0001,2026,dead,Earth (NL),
+Z-0121,Pieter,Lund,father,NL-0001,2037,dead,Earth (NL),
+Z-0122,María,Delgado,mother,ES-0002,2002,dead,Earth (ES),
+Z-0123,Diego,Delgado,father,ES-0002,2004,dead,Earth (ES),
+Z-0124,Karin,Solheim,mother,NO-0002,2007,dead,Earth (NO),
+Z-0125,Lars,Solheim,father,NO-0002,2004,dead,Earth (NO),
+Z-0126,Karin,Solheim,child,NO-0002,2065,alive,Earth (NO),stays with family on Earth
+Z-0127,Amaka,Okwu,mother,NG-0006,2015,dead,Earth (NG),
+Z-0128,Babatunde,Okwu,father,NG-0006,2001,dead,Earth (NG),
+Z-0129,Amaka,Okwu,child,NG-0006,2075,alive,Earth (NG),stays with family on Earth
+Z-0130,Babatunde,Okwu,child,NG-0006,2070,alive,Earth (NG),stays with family on Earth
+Z-0131,Claire,Whitlock,mother,GB-0004,2017,dead,Earth (GB),
+Z-0132,Richard,Whitlock,father,GB-0004,2006,dead,Earth (GB),
+Z-0133,Maria,Banach,mother,PL-0004,2000,dead,Earth (PL),
+Z-0134,Piotr,Banach,father,PL-0004,1992,dead,Earth (PL),
+Z-0135,Joanna,Banach,child,PL-0004,2069,alive,Earth (PL),stays with family on Earth
+Z-0136,Agata,Banach,child,PL-0004,2061,alive,Earth (PL),stays with family on Earth
+Z-0137,Fatima,Farouk,mother,EG-0001,2014,dead,Earth (EG),
+Z-0138,Omar,Farouk,father,EG-0001,2018,alive,Earth (EG),
+Z-0139,Mariam,Farouk,child,EG-0001,2069,alive,Earth (EG),stays with family on Earth
+Z-0140,Huda,Farouk,child,EG-0001,2081,alive,Earth (EG),stays with family on Earth
+Z-0141,Karin,Torstensen,mother,NO-0003,2007,alive,Earth (NO),
+Z-0142,Nils,Torstensen,father,NO-0003,2015,dead,Earth (NO),
+Z-0143,Nils,Torstensen,child,NO-0003,2070,alive,Earth (NO),stays with family on Earth
+Z-0144,María,Valdivia,mother,CL-0001,2018,alive,Earth (CL),
+Z-0145,Luis,Valdivia,father,CL-0001,2023,dead,Earth (CL),
+Z-0146,Carmen,Valdivia,child,CL-0001,2082,alive,Earth (CL),stays with family on Earth
+Z-0147,José,Valdivia,child,CL-0001,2081,alive,Earth (CL),stays with family on Earth
+Z-0148,Efua,Mensah,mother,GH-0001,2029,dead,Earth (GH),
+Z-0149,Kojo,Mensah,father,GH-0001,2023,dead,Earth (GH),
+Z-0150,Haruka,Hasegawa,mother,JP-0003,2028,alive,Earth (JP),
+Z-0151,Kenji,Hasegawa,father,JP-0003,2022,alive,Earth (JP),
+Z-0152,Yumi,Hasegawa,child,JP-0003,2077,alive,Earth (JP),stays with family on Earth
+Z-0153,Haruka,Hasegawa,child,JP-0003,2072,alive,Earth (JP),stays with family on Earth
+Z-0154,Kenji,Hasegawa,child,JP-0003,2075,alive,Earth (JP),stays with family on Earth
+Z-0155,María,Rivas,mother,CO-0001,2024,alive,Earth (CO),
+Z-0156,Luis,Rivas,father,CO-0001,2011,dead,Earth (CO),
+Z-0157,Claudia,Haas,mother,DE-0004,2028,alive,Earth (DE),
+Z-0158,Stefan,Haas,father,DE-0004,2016,alive,Earth (DE),
+Z-0159,Stefan,Haas,child,DE-0004,2077,alive,Earth (DE),stays with family on Earth
+Z-0160,Joanna,Szymańska,mother,PL-0005,2006,dead,Earth (PL),
+Z-0161,Piotr,Szymański,father,PL-0005,2005,dead,Earth (PL),
+Z-0162,Adam,Szymański,child,PL-0005,2081,alive,Earth (PL),stays with family on Earth
+Z-0163,Awa,Diallo,mother,SN-0001,2023,dead,Earth (SN),
+Z-0164,Moussa,Diallo,father,SN-0001,2023,alive,Earth (SN),
+Z-0165,Siobhan,Calloway,mother,IE-0001,2018,dead,Earth (IE),
+Z-0166,Seán,Calloway,father,IE-0001,2015,dead,Earth (IE),
+Z-0167,Declan,Calloway,child,IE-0001,2072,alive,Earth (IE),stays with family on Earth
+Z-0168,Irina,Petrova,mother,RU-0002,2019,dead,Earth (RU),
+Z-0169,Pavel,Petrov,father,RU-0002,2005,dead,Earth (RU),
+Z-0170,Olga,Petrova,child,RU-0002,2076,alive,Earth (RU),stays with family on Earth
+Z-0171,Fatima,Karim,mother,JO-0001,2018,alive,Earth (JO),
+Z-0172,Omar,Karim,father,JO-0001,2020,alive,Earth (JO),
+Z-0173,Claudia,Kessler,mother,DE-0005,2011,dead,Earth (DE),
+Z-0174,Jürgen,Kessler,father,DE-0005,2013,alive,Earth (DE),
+Z-0175,Thomas,Kessler,child,DE-0005,2073,alive,Earth (DE),stays with family on Earth
+Z-0176,Katrin,Kessler,child,DE-0005,2077,alive,Earth (DE),stays with family on Earth
+Z-0177,María,Ortega,mother,ES-0003,2004,dead,Earth (ES),
+Z-0178,Luis,Ortega,father,ES-0003,2004,dead,Earth (ES),
+Z-0179,Lucía,Ortega,child,ES-0003,2076,alive,Earth (ES),stays with family on Earth
+Z-0180,Li,Chen,mother,TW-0001,2015,dead,Earth (TW),
+Z-0181,Hao,Chen,father,TW-0001,2010,dead,Earth (TW),
+Z-0182,Hao,Chen,child,TW-0001,2069,alive,Earth (TW),stays with family on Earth
+Z-0183,Joanna,Lis,mother,PL-0006,2024,alive,Earth (PL),
+Z-0184,Adam,Lis,father,PL-0006,2031,alive,Earth (PL),
+Z-0185,Marek,Lis,child,PL-0006,2084,alive,Earth (PL),stays with family on Earth
+Z-0186,Jan,Lis,child,PL-0006,2083,alive,Earth (PL),stays with family on Earth
+Z-0187,Femke,de Vries,mother,NL-0002,2012,dead,Earth (NL),
+Z-0188,Pieter,de Vries,father,NL-0002,1999,alive,Earth (NL),
+Z-0189,Pieter,de Vries,child,NL-0002,2065,alive,Earth (NL),stays with family on Earth
+Z-0190,Sanne,de Vries,child,NL-0002,2069,alive,Earth (NL),stays with family on Earth
+Z-0191,Akosua,Asante,mother,GH-0002,2012,dead,Earth (GH),
+Z-0192,Kojo,Asante,father,GH-0002,2003,dead,Earth (GH),
+Z-0193,Kwesi,Asante,child,GH-0002,2075,alive,Earth (GH),stays with family on Earth
+Z-0194,Liis,Roos,mother,EE-0001,2022,alive,Earth (EE),
+Z-0195,Andres,Roos,father,EE-0001,2020,alive,Earth (EE),
+Z-0196,Kadri,Roos,child,EE-0001,2079,alive,Earth (EE),stays with family on Earth
+Z-0197,Liis,Roos,child,EE-0001,2073,alive,Earth (EE),stays with family on Earth
+Z-0198,Toomas,Roos,child,EE-0001,2071,alive,Earth (EE),stays with family on Earth
+Z-0199,Niamh,Moody,mother,IE-0002,2000,dead,Earth (IE),
+Z-0200,Declan,Moody,father,IE-0002,1997,dead,Earth (IE),
+Z-0201,Niamh,Moody,child,IE-0002,2068,alive,Earth (IE),stays with family on Earth
+Z-0202,Seán,Moody,child,IE-0002,2068,alive,Earth (IE),stays with family on Earth
+Z-0203,Amaka,Bello,mother,NG-0007,2034,dead,Earth (NG),
+Z-0204,Babatunde,Bello,father,NG-0007,2019,alive,Earth (NG),
+Z-0205,Ngozi,Bello,child,NG-0007,2083,alive,Earth (NG),stays with family on Earth
+Z-0206,Ji-woo,Park,mother,KR-0002,2026,dead,Earth (KR),
+Z-0207,Hyun-woo,Park,father,KR-0002,2022,dead,Earth (KR),
+Z-0208,Hanna,Gajda,mother,PL-0007,2028,dead,Earth (PL),
+Z-0209,Adam,Gajda,father,PL-0007,2030,dead,Earth (PL),
+Z-0210,Joanna,Gajda,child,PL-0007,2079,alive,Earth (PL),stays with family on Earth
+Z-0211,Michał,Gajda,child,PL-0007,2081,alive,Earth (PL),stays with family on Earth
+Z-0212,Sarah,Wren,mother,GB-0005,2008,dead,Earth (GB),
+Z-0213,Richard,Wren,father,GB-0005,1999,dead,Earth (GB),
+Z-0214,Helen,Abernathy,mother,GB-0006,2006,alive,Earth (GB),
+Z-0215,David,Abernathy,father,GB-0006,2009,alive,Earth (GB),
+Z-0216,James,Abernathy,child,GB-0006,2066,alive,Earth (GB),stays with family on Earth
+Z-0217,Edward,Abernathy,child,GB-0006,2082,alive,Earth (GB),stays with family on Earth
+Z-0218,Sarah,Abernathy,child,GB-0006,2060,alive,Earth (GB),stays with family on Earth
+Z-0219,María,Benítez,mother,PY-0001,2016,alive,Earth (PY),
+Z-0220,Luis,Benítez,father,PY-0001,2021,alive,Earth (PY),
+Z-0221,Carmen,Benítez,child,PY-0001,2083,alive,Earth (PY),stays with family on Earth
+Z-0222,Ayesha,Qureshi,mother,PK-0002,2010,alive,Earth (PK),
+Z-0223,Imran,Qureshi,father,PK-0002,2016,alive,Earth (PK),
+Z-0224,Ayesha,Qureshi,child,PK-0002,2075,alive,Earth (PK),stays with family on Earth
+Z-0225,Ingrid,Strand,mother,SE-0002,2028,alive,Earth (SE),
+Z-0226,Erik,Strand,father,SE-0002,2012,alive,Earth (SE),
+Z-0227,Ingrid,Strand,child,SE-0002,2075,alive,Earth (SE),stays with family on Earth
+Z-0228,Helen,Kerr,mother,GB-0007,2007,dead,Earth (GB),
+Z-0229,David,Kerr,father,GB-0007,2000,dead,Earth (GB),
+Z-0230,Helen,Kerr,child,GB-0007,2075,alive,Earth (GB),stays with family on Earth
+Z-0231,Richard,Kerr,child,GB-0007,2066,alive,Earth (GB),stays with family on Earth
+Z-0232,Anna,Dąbrowska,mother,PL-0008,2015,dead,Earth (PL),
+Z-0233,Adam,Dąbrowski,father,PL-0008,2009,alive,Earth (PL),
+Z-0234,Ayesha,Malik,mother,PK-0003,2025,dead,Earth (PK),
+Z-0235,Imran,Malik,father,PK-0003,2013,alive,Earth (PK),
+Z-0236,Bilal,Malik,child,PK-0003,2080,alive,Earth (PK),stays with family on Earth
+Z-0237,María,Quintana,mother,MX-0002,2022,dead,Earth (MX),
+Z-0238,José,Quintana,father,MX-0002,2007,alive,Earth (MX),
+Z-0239,Irina,Volkova,mother,RU-0003,2018,alive,Earth (RU),
+Z-0240,Andrei,Volkov,father,RU-0003,2028,alive,Earth (RU),
+Z-0241,Funmi,Obi,mother,NG-0008,2034,dead,Earth (NG),
+Z-0242,Chinedu,Obi,father,NG-0008,2023,dead,Earth (NG),
+Z-0243,Babatunde,Obi,child,NG-0008,2081,alive,Earth (NG),stays with family on Earth
+Z-0244,Mary,Fitzgerald,mother,IE-0003,2034,dead,Earth (IE),
+Z-0245,Patrick,Fitzgerald,father,IE-0003,2028,dead,Earth (IE),
+Z-0246,Patrick,Fitzgerald,child,IE-0003,2082,alive,Earth (IE),stays with family on Earth
+Z-0247,Mary,Fitzgerald,child,IE-0003,2082,alive,Earth (IE),stays with family on Earth
+Z-0248,Niamh,Fitzgerald,child,IE-0003,2084,alive,Earth (IE),stays with family on Earth
+Z-0249,Péter,Varga,spouse [małżonek],HU-0001,2039,alive,Earth (HU),Budapest
+Z-0250,Felix,Müller,spouse [małżonek],DE-0001,2035,alive,Earth (DE),Munich; same-sex [jednopłciowa]
+Z-0251,Piotr,Wolski,spouse [małżonek],PL-0001,2041,alive,Earth (PL),Kraków
+Z-0252,Aiko,Aoki,spouse [małżonek],JP-0001,2028,alive,Earth (JP),Sendai
+Z-0253,Sophie,Evans,spouse [małżonek],GB-0001,2052,alive,Earth (GB),Bristol
+Z-0254,Funmilayo,Oyelaran,spouse [małżonek],NG-0002,2032,alive,Earth (NG),Ibadan
+Z-0255,Pedro,Costa,partner [partner],BR-0001,2048,alive,Earth (BR),São Paulo
+Z-0256,Martin,Černý,partner [partner],CZ-0001,2042,alive,Earth (CZ),Brno
+Z-0257,Silje,Olsen,spouse [małżonek],NO-0001,2042,alive,Earth (NO),Bergen
+Z-0258,Matteo,Ferrari,partner [partner],IT-0001,2040,alive,Earth (IT),Turin
+Z-0259,Fernanda,Hernández,partner [partner],MX-0001,2042,alive,Earth (MX),Mexico City; same-sex [jednopłciowa]
+Z-0260,Faisal,Siddiqui,spouse [małżonek],PK-0001,2058,alive,Earth (PK),Lahore
+Z-0261,Erik,Lindqvist,spouse [małżonek],SE-0001,2039,alive,Earth (SE),Gothenburg
+Z-0262,Facundo,González,spouse [małżonek],AR-0001,2044,alive,Earth (AR),Buenos Aires
+Z-0263,Rahim,Rahman,spouse [małżonek],BD-0001,2055,alive,Earth (BD),Dhaka
+Z-0264,Krzysztof,Kamiński,partner [partner],PL-0003,2056,alive,Earth (PL),Kraków
+Z-0265,Emily,Hargrove,spouse [małżonek],GB-0002,2045,alive,Earth (GB),Bristol
+Z-0266,Thomas,Evans,partner [partner],GB-0003,2066,alive,Earth (GB),Bristol
+Z-0267,Omar,Mostafa,partner [partner],EG-0001,2049,alive,Earth (EG),Cairo
+Z-0268,Yaw,Asamoah,partner [partner],GH-0001,2049,alive,Earth (GH),Kumasi; same-sex [jednopłciowa]
+Z-0269,Ren,Hasegawa,spouse [małżonek],JP-0003,2050,alive,Earth (JP),Sendai
+Z-0270,Ewa,Szymańska,spouse [małżonek],PL-0005,2038,alive,Earth (PL),Gdańsk
+Z-0271,Ibrahima,Diallo,spouse [małżonek],SN-0001,2047,alive,Earth (SN),Saint-Louis
+Z-0272,Róisín,Calloway,spouse [małżonek],IE-0001,2048,alive,Earth (IE),Dublin
+Z-0273,Svetlana,Petrova,spouse [małżonek],RU-0002,2037,alive,Earth (RU),Novosibirsk
+Z-0274,Jonas,Weber,partner [partner],DE-0005,2039,alive,Earth (DE),Hamburg
+Z-0275,Akosua,Boateng,partner [partner],GH-0002,2040,alive,Earth (GH),Accra
+Z-0276,Tunde,Bello,partner [partner],NG-0007,2055,alive,Earth (NG),Lagos
+Z-0277,Agnieszka,Lewandowska,spouse [małżonek],PL-0007,2053,alive,Earth (PL),Gdańsk
+Z-0278,Sara,Nilsson,spouse [małżonek],SE-0002,2047,alive,Earth (SE),Kiruna
+Z-0279,Carlos,Ramírez,spouse [małżonek],MX-0002,2040,alive,Earth (MX),Monterrey; same-sex [jednopłciowa]
+Z-0280,Mikhail,Volkov,spouse [małżonek],RU-0003,2058,alive,Earth (RU),Novosibirsk
+Z-0281,Siobhán,Walsh,partner [partner],IE-0003,2054,alive,Earth (IE),Cork
+Z-0282,Katalin,Varga,sister [siostra],HU-0001,2040,alive,Earth (HU),Księga Dzień 470: Varga pisze do siostry
+Z-0283,Oliver,Turner,father,GB-0008,2007,dead,Earth (GB),
+Z-0284,Hannah,Turner,mother,GB-0008,1995,alive,Earth (GB),
+Z-0285,Rhys,Turner,child,GB-0008,2056,alive,Earth (GB),stays with family on Earth
+Z-0286,James,Jones,father,GB-0009,2015,alive,Earth (GB),
+Z-0287,Hannah,Jones,mother,GB-0009,2020,alive,Earth (GB),
+Z-0288,Thomas,Brown,partner [partner],GB-0009,2050,alive,Earth (GB),Bristol
+Z-0289,Eleanor,Jones,child,GB-0009,2076,alive,Earth (GB),stays with family on Earth
+Z-0290,Emily,Jones,child,GB-0009,2078,alive,Earth (GB),stays with family on Earth
+Z-0291,Rahim,Chowdhury,father,BD-0002,2004,dead,Earth (BD),
+Z-0292,Ayesha,Chowdhury,mother,BD-0002,2002,alive,Earth (BD),
+Z-0293,Farzana,Das,spouse [małżonek],BD-0002,2032,alive,Earth (BD),Dhaka
+Z-0294,Rumana,Chowdhury,child,BD-0002,2067,alive,Earth (BD),stays with family on Earth
+Z-0295,Andrei,Popov,father,RU-0004,2022,alive,Earth (RU),
+Z-0296,Olga,Popova,mother,RU-0004,2015,dead,Earth (RU),
+Z-0297,Sergei,Popov,spouse [małżonek],RU-0004,2044,alive,Earth (RU),Novosibirsk
+Z-0298,Anna,Popova,child,RU-0004,2072,alive,Earth (RU),stays with family on Earth
+Z-0299,Alexei,Popov,child,RU-0004,2084,alive,Earth (RU),stays with family on Earth
+Z-0300,Ivan,Smirnov,father,RU-0005,2031,alive,Earth (RU),
+Z-0301,Elena,Smirnova,mother,RU-0005,2026,alive,Earth (RU),
+Z-0302,Mikhail,Lebedev,partner [partner],RU-0005,2056,alive,Earth (RU),Novosibirsk
+Z-0303,Sergei,Smirnov,child,RU-0005,2084,alive,Earth (RU),stays with family on Earth
+Z-0304,Frederik,Hansen,father,DK-0003,2010,dead,Earth (DK),
+Z-0305,Karen,Hansen,mother,DK-0003,2018,alive,Earth (DK),
+Z-0306,Freja,Hansen,child,DK-0003,2078,alive,Earth (DK),stays with family on Earth
+Z-0307,Bence,Molnár,father,HU-0002,2012,dead,Earth (HU),
+Z-0308,Anna,Molnár,mother,HU-0002,2013,dead,Earth (HU),
+Z-0309,Réka,Molnár,spouse [małżonek],HU-0002,2042,alive,Earth (HU),Budapest
+Z-0310,Gergő,Molnár,child,HU-0002,2082,alive,Earth (HU),stays with family on Earth
+Z-0311,Dóra,Molnár,child,HU-0002,2080,alive,Earth (HU),stays with family on Earth
+Z-0312,Zsófia,Molnár,child,HU-0002,2073,alive,Earth (HU),stays with family on Earth
+Z-0313,Olumide,Danjuma,father,NG-0009,1999,dead,Earth (NG),
+Z-0314,Ngozi,Danjuma,mother,NG-0009,2006,alive,Earth (NG),
+Z-0315,Emeka,Danjuma,child,NG-0009,2068,alive,Earth (NG),stays with family on Earth
+Z-0316,Tomasz,Kowalski,father,PL-0009,2008,alive,Earth (PL),
+Z-0317,Ewa,Kowalska,mother,PL-0009,2008,dead,Earth (PL),
+Z-0318,Shota,Nakamura,father,JP-0004,2017,alive,Earth (JP),
+Z-0319,Sakura,Nakamura,mother,JP-0004,2017,alive,Earth (JP),
+Z-0320,Takumi,Ito,spouse [małżonek],JP-0004,2049,alive,Earth (JP),Sendai
+Z-0321,Seán,Kelly,father,IE-0004,2025,alive,Earth (IE),
+Z-0322,Aoife,Kelly,mother,IE-0004,2029,alive,Earth (IE),
+Z-0323,Ciara,Kelly,spouse [małżonek],IE-0004,2057,alive,Earth (IE),Cork
+Z-0324,Ji-hoon,Jung,father,KR-0003,2025,alive,Earth (KR),
+Z-0325,Min-ji,Jung,mother,KR-0003,2038,alive,Earth (KR),
+Z-0326,Ye-jin,Jung,spouse [małżonek],KR-0003,2067,alive,Earth (KR),Busan
+Z-0327,Dong-hyun,Jung,child,KR-0003,2083,alive,Earth (KR),stays with family on Earth
+Z-0328,Rahim,Sarkar,father,BD-0003,2040,alive,Earth (BD),
+Z-0329,Ayesha,Sarkar,mother,BD-0003,2044,alive,Earth (BD),
+Z-0330,Chih-ming,Tsai,father,TW-0002,2039,dead,Earth (TW),
+Z-0331,Pei-shan,Tsai,mother,TW-0002,2043,alive,Earth (TW),
+Z-0332,Yu-cheng,Lin,spouse [małżonek],TW-0002,2061,alive,Earth (TW),Hsinchu

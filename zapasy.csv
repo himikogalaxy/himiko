@@ -1,0 +1,24 @@
+statek,zasob,ilosc,jednostka,uwaga
+SHIP-HALLEY,food [żywność],360,days,do potwierdzenia
+SHIP-HALLEY,fresh food [świeża żywność],30,days,do potwierdzenia
+SHIP-HALLEY,water (recycled) [woda],540,days,do potwierdzenia
+SHIP-HALLEY,air reserve [rezerwa powietrza],60,days,do potwierdzenia
+SHIP-HALLEY,fuel [paliwo],100,%,"liczone z fizyki (manewry.csv, statki.csv)"
+SHIP-HALLEY,spare parts [części zamienne],80,%,do potwierdzenia
+SHIP-HALLEY,medical supplies [środki medyczne],90,%,do potwierdzenia
+SHIP-HALLEY,food quality [jakość jedzenia],7,1–10,wpływa na morale
+SHIP-HALLEY,equipment condition [stan sprzętu],95,%,spada bez części
+SHIP-HALLEY,medbay beds [łóżka w izbie chorych],6,beds,pojemność
+SHIP-HALLEY,crew cohesion [zgranie załogi],300,days together,od pierwszych przygotowań; do potwierdzenia
+SHIP-HALLEY,animal feed [karma zwierząt],360,days,zatwierdzone przez Andrzeja 16.11.2026; silnik.py zużywa 1 dzień na dzień (zasady_zycia.csv: zuzycie_karmy)
+SHIP-KITTIWAKE,fuel [paliwo],100,%,"liczone z fizyki (manewry.csv, statki.csv); tankowanie w porcie przez dostawy.csv"
+SHIP-KITTIWAKE,food [żywność],200,days,"szablon Supply Tender: kurier, ok. 200 dni dla pełnej załogi"
+SHIP-KITTIWAKE,fresh food [świeża żywność],20,days,szablon; bez hydroponiki
+SHIP-KITTIWAKE,water (recycled) [woda],300,days,szablon
+SHIP-KITTIWAKE,air reserve [rezerwa powietrza],30,days,szablon
+SHIP-KITTIWAKE,spare parts [części zamienne],80,%,szablon
+SHIP-KITTIWAKE,medical supplies [środki medyczne],90,%,szablon
+SHIP-KITTIWAKE,food quality [jakość jedzenia],7,1–10,wpływa na morale
+SHIP-KITTIWAKE,equipment condition [stan sprzętu],95,%,spada bez części
+SHIP-KITTIWAKE,medbay beds [łóżka w izbie chorych],2,beds,pojemność
+SHIP-KITTIWAKE,crew cohesion [zgranie załogi],0,days together,nowa załoga z kreatora

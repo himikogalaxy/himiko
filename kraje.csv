@@ -1,0 +1,39 @@
+kod,nazwa_en,nazwa_pl,kultura_en,region_en,region_pl
+AR,Argentina,Argentyna,Argentine,Latin American,latynoamerykańska
+BD,Bangladesh,Bangladesz,Bangladeshi,South Asian,południowoazjatycka
+BR,Brazil,Brazylia,Brazilian,Latin American,latynoamerykańska
+CL,Chile,Chile,Chilean,Latin American,latynoamerykańska
+CN,China,Chiny,Chinese,East Asian,wschodnioazjatycka
+CO,Colombia,Kolumbia,Colombian,Latin American,latynoamerykańska
+CZ,Czechia,Czechy,Czech,Central European,środkowoeuropejska
+DE,Germany,Niemcy,German,Central European,środkowoeuropejska
+DK,Denmark,Dania,Danish,Nordic,nordycka
+EE,Estonia,Estonia,Estonian,Baltic,bałtycka
+EG,Egypt,Egipt,Egyptian,Middle Eastern,bliskowschodnia
+ES,Spain,Hiszpania,Spanish,Southern European,południowoeuropejska
+GB,United Kingdom,Wielka Brytania,British,Western European,zachodnioeuropejska
+GH,Ghana,Ghana,Ghanaian,West African,zachodnioafrykańska
+GR,Greece,Grecja,Greek,Southern European,południowoeuropejska
+HR,Croatia,Chorwacja,Croatian,Southern European,południowoeuropejska
+HU,Hungary,Węgry,Hungarian,Central European,środkowoeuropejska
+IE,Ireland,Irlandia,Irish,Western European,zachodnioeuropejska
+IL,Israel,Izrael,Israeli,Middle Eastern,bliskowschodnia
+IT,Italy,Włochy,Italian,Southern European,południowoeuropejska
+JO,Jordan,Jordania,Jordanian,Middle Eastern,bliskowschodnia
+JP,Japan,Japonia,Japanese,East Asian,wschodnioazjatycka
+KR,South Korea,Korea Południowa,Korean,East Asian,wschodnioazjatycka
+LB,Lebanon,Liban,Lebanese,Middle Eastern,bliskowschodnia
+MX,Mexico,Meksyk,Mexican,Latin American,latynoamerykańska
+NG,Nigeria,Nigeria,Nigerian,West African,zachodnioafrykańska
+NL,Netherlands,Holandia,Dutch,Western European,zachodnioeuropejska
+NO,Norway,Norwegia,Norwegian,Nordic,nordycka
+PE,Peru,Peru,Peruvian,Latin American,latynoamerykańska
+PK,Pakistan,Pakistan,Pakistani,South Asian,południowoazjatycka
+PL,Poland,Polska,Polish,Central European,środkowoeuropejska
+PY,Paraguay,Paragwaj,Paraguayan,Latin American,latynoamerykańska
+RU,Russia,Rosja,Russian,Eastern European,wschodnioeuropejska
+SE,Sweden,Szwecja,Swedish,Nordic,nordycka
+SG,Singapore,Singapur,Singaporean,Southeast Asian,południowo-wschodnioazjatycka
+SN,Senegal,Senegal,Senegalese,West African,zachodnioafrykańska
+TW,Taiwan,Tajwan,Taiwanese,East Asian,wschodnioazjatycka
+ZA,South Africa,Republika Południowej Afryki,South African,Southern African,południowoafrykańska

@@ -1,0 +1,17 @@
+id,nazwa_en,nazwa_pl,typ,dotyczy,premia_proc,cena_kr,tryb,ryzyko,zrodlo
+OAD,Orbital Adaptation,Adaptacja Orbitalna,therapy,EVA,10,40000,none,bone and blood therapy; modification debt,canon 2058
+OCL,Ocular lens,soczewka oczna,implant,vision,20,18000,cold,can fail; offline only,new
+OCL2,Night-sight lens,soczewka nocna,implant,vision,35,42000,cold,headaches in bright light,new
+AUD,Cochlear booster,wzmacniacz słuchu,implant,hearing,25,15000,cold,tinnitus,new
+WMR,Working-memory chip (cold mode),chip pamięci roboczej (tryb zimny),chip,RES,15,60000,cold,successor of the Learning Chip; legal only offline,canon 2044/2048
+FOC,"Focus chip, street version","chip skupienia, wersja uliczna",chip,RES,30,9000,illegal,black market; can burn out,canon 2044
+STB,Hand stabilizer,stabilizator dłoni,implant,HLM/SCR,15,25000,cold,tremor if removed,new
+SRG,Surgeon tremor damper,tłumik drżenia chirurga,implant,DOC,20,30000,cold,,new
+BAL,Inner-ear balancer,równoważnik ucha wewnętrznego,implant,EVA,15,12000,cold,nausea in gravity,new
+ARM,Prosthetic arm,proteza ręki,prosthesis,strength,30,55000,cold,maintenance; repossession risk on unpaid debt,canon (modification debt)
+LEG,Prosthetic leg,proteza nogi,prosthesis,speed,10,35000,cold,maintenance,new
+EXO,Work exoskeleton,egzoszkielet roboczy,exoskeleton,strength,40,20000,none,"owned by ship, not by person",new
+RAD,Radiation-resistant marrow,szpik odporny na promieniowanie,genetic,radiation,30,70000,none,canon: Cold Marrow bank,canon (gates of transit)
+IMM,Immune edit,edycja odporności,genetic,disease,20,45000,none,,canon (base edit)
+SLP,Sleep regulator,regulator snu,implant,fatigue,20,14000,cold,insomnia after removal,new
+SPE,Speech implant,implant mowy,implant,speech,100,20000,cold,medical only,canon 2031

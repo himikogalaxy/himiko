@@ -1,0 +1,12 @@
+szablon,zasob,ilosc,jednostka,uwaga
+Supply Tender,food [żywność],200,days,"szablon Supply Tender: kurier, ok. 200 dni dla pełnej załogi"
+Supply Tender,fresh food [świeża żywność],20,days,szablon; bez hydroponiki
+Supply Tender,water (recycled) [woda],300,days,szablon
+Supply Tender,air reserve [rezerwa powietrza],30,days,szablon
+Supply Tender,fuel [paliwo],100,%,"liczone z fizyki (manewry.csv, statki.csv)"
+Supply Tender,spare parts [części zamienne],80,%,szablon
+Supply Tender,medical supplies [środki medyczne],90,%,szablon
+Supply Tender,food quality [jakość jedzenia],7,1–10,wpływa na morale
+Supply Tender,equipment condition [stan sprzętu],95,%,spada bez części
+Supply Tender,medbay beds [łóżka w izbie chorych],2,beds,pojemność
+Supply Tender,crew cohesion [zgranie załogi],0,days together,nowa załoga z kreatora

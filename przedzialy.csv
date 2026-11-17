@@ -1,0 +1,28 @@
+statek,id,nazwa_en,nazwa_pl,od_m,do_m,miejsce,stanowisko_bojowe,trafienie_k100,urzadzenia,urzadzenia_k100
+SHIP-HALLEY,C1,Sensors,maszt sensorów,0,12,spine,,01-04,1:Antenna [antena]; 2:Laser link [łącze laserowe]; 3:Forward thrusters T1–T2,1:01-02; 2:03-03; 3:04-04
+SHIP-HALLEY,C2,Bridge,mostek,12,26,spine,Bridge,05-09,4:Helm console [ster]; 5:Captain's chair [stanowisko dowódcy],4:05-07; 5:08-09
+SHIP-HALLEY,C3,Ops room (CIC),centrum informacji bojowej,26,44,spine,Ops room,10-15,6:Plot table [stół nawigacyjny]; 7:Sensors console [sensory]; 8:Window computer [obliczenia okna]; 9:Comms console [łączność],6:10-11; 7:12-13; 8:14-14; 9:15-15
+SHIP-HALLEY,C4,Armory and airlock A,zbrojownia i śluza A,44,58,spine,Corridors and airlocks,16-20,10:Armory [zbrojownia]; 11:Airlock A [śluza A],10:16-18; 11:19-20
+SHIP-HALLEY,C5,Archive,archiwum,58,72,spine,Archive,21-25,12:Archive vault [skarbiec archiwum]; 13:Cold copies [zimne kopie],12:21-23; 13:24-25
+SHIP-HALLEY,C6,Damage control,punkt ratowniczy,72,86,spine,Hull,26-30,14:Repair locker [magazyn ratowniczy]; 15:Hull patches [łaty kadłuba],14:26-28; 15:29-30
+SHIP-HALLEY,C7,Storm shelter (hub),schron burzowy (piasta),86,114,spine,Shelter,31-40,16:Water tanks [zbiorniki wody]; 17:Ring bearing [łożysko pierścienia],16:31-35; 17:36-40
+SHIP-HALLEY,C8,Hydroponics,hydroponika,114,138,spine,,41-49,18:Hydroponics [hydroponika],18:41-49
+SHIP-HALLEY,C9,Stores 1–3,magazyny 1–3,138,158,spine,Galley and stores,50-56,19:Food store [żywność]; 20:Water store [woda]; 21:Parts store [części],19:50-52; 20:53-54; 21:55-56
+SHIP-HALLEY,C10,Hangar and airlock B,hangar i śluza B,158,186,spine,Hangar,57-66,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2]; 25:Probe rack (12) [sondy]; 26:Airlock B [śluza B],22:57-58; 23:59-60; 24:61-62; 25:63-64; 26:65-66
+SHIP-HALLEY,C11,Life support,podtrzymanie życia,186,200,spine,Life support,67-71,27:Air plant [powietrze]; 28:Water recycler [odzysk wody],27:67-69; 28:70-71
+SHIP-HALLEY,C12,Backup reactor,reaktor awaryjny,200,214,spine,Engine room,72-76,29:Fission reactor [reaktor rozszczep.],29:72-76
+SHIP-HALLEY,C13,Main reactor,reaktor główny,214,232,spine,Engine room,77-82,30:Fusion reactor [reaktor fuzyjny]; 31:Radiators [radiatory],30:77-79; 31:80-82
+SHIP-HALLEY,C14,Main drive,napęd główny,232,240,spine,Engine room,83-85,32:Main drive [napęd]; 33:Aft thrusters T3–T4,32:83-84; 33:85-85
+SHIP-HALLEY,R1,Ring: quarters A and mess,pierścień: kwatery A i mesa,ring,ring,ringT,,86-92,34:Quarters A [kwatery A]; 35:Galley and mess [kambuz i mesa]; 36:Lifeboats 1–2 [szalupy 1–2],34:86-88; 35:89-90; 36:91-92
+SHIP-HALLEY,R2,"Ring: medbay, labs, quarters B","pierścień: izba chorych, laboratoria, kwatery B",ring,ring,ringB,Medbay,93-100,37:Medbay [izba chorych]; 38:Labs 1–3 [laboratoria 1–3]; 39:Animal house [zwierzętarnia]; 40:Quarters B [kwatery B]; 41:Lifeboats 3–4 [szalupy 3–4],37:93-94; 38:95-96; 39:97-98; 40:99-99; 41:100-100
+SHIP-KITTIWAKE,C1,Bridge and sensors,mostek i sensory,,,spine,Bridge,01-12,1:Antenna [antena]; 2:Laser link [łącze laserowe]; 3:Helm and navigation console [konsola steru i nawigacji]; 4:Captain's chair [stanowisko dowódcy],1:01-03; 2:04-05; 3:06-09; 4:10-12
+SHIP-KITTIWAKE,C2,Quarters and galley,kwatery i kambuz,,,spine,Galley and quarters,13-22,5:Crew quarters [kwatery załogi]; 6:Galley and mess [kambuz i mesa],5:13-18; 6:19-22
+SHIP-KITTIWAKE,C3,Medbay,izba chorych,,,spine,Medbay,23-27,"7:Medbay, 2 beds [izba chorych, 2 łóżka]",7:23-27
+SHIP-KITTIWAKE,C4,Defence quarters and armory,kwatery Obrony i zbrojownia,,,spine,Corridors and airlocks,28-36,8:Defence quarters [kwatery Obrony]; 9:Armory [zbrojownia],8:28-32; 9:33-36
+SHIP-KITTIWAKE,C5,Airlock and docking collar,śluza i kołnierz dokujący,,,spine,Corridors and airlocks,37-42,10:Airlock [śluza]; 11:Docking collar [kołnierz dokujący],10:37-39; 11:40-42
+SHIP-KITTIWAKE,C6,Cargo hold 1,ładownia 1,,,spine,Cargo hold,43-58,"12:Cargo, forward [ładunek, przód]; 13:Cargo crane [dźwig ładunkowy]",12:43-54; 13:55-58
+SHIP-KITTIWAKE,C7,Cargo hold 2,ładownia 2,,,spine,Cargo hold,59-70,"14:Cargo, aft [ładunek, tył]",14:59-70
+SHIP-KITTIWAKE,C8,Life support,podtrzymanie życia,,,spine,Life support,71-76,15:Air plant [powietrze]; 16:Water recycler [odzysk wody],15:71-73; 16:74-76
+SHIP-KITTIWAKE,C9,Reactor,reaktor,,,spine,Engine room,77-86,17:Fusion reactor [reaktor fuzyjny]; 18:Radiators [radiatory],17:77-82; 18:83-86
+SHIP-KITTIWAKE,C10,Fuel tanks,zbiorniki paliwa,,,spine,Engine room,87-94,19:Fuel tanks [zbiorniki paliwa],19:87-94
+SHIP-KITTIWAKE,C11,Main drive,napęd główny,,,spine,Engine room,95-100,20:Main drive [napęd]; 21:Thrusters [silniki manewrowe],20:95-98; 21:99-100

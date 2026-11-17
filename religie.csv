@@ -1,0 +1,18 @@
+id,nazwa_en,nazwa_pl,rodzaj,wiara,stosunek_do_Zakonu,stosunek_do_AI,pochodzenie,symbol,zrodlo,status
+CHR,Christianity,chrześcijaństwo,old,"One God, Christ; paper registers of baptisms and weddings kept beside the Order",neighbor,wary,ancient,cross,"Prolog, Część V, „Dygresja o wierze”",kanon
+ISL,Islam,islam,old,One God; by 2070 as many Muslims as Christians; the call of the muezzin never licensed,neighbor,wary,ancient,crescent,"Prolog, Część V, „Dygresja o wierze”",kanon
+BUD,Buddhism,buddyzm,old,Schools of attention for people whose attention was sold to screens,neighbor,neutral,ancient,wheel,"Prolog, Część V, „Dygresja o wierze”",kanon
+HIN,Hinduism,hinduizm,old,Keeping of texts and rites; understood the Order,neighbor,neutral,ancient,lotus,"Prolog, Część V, „Dygresja o wierze”",kanon
+JUD,Judaism,judaizm,old,Keeping of texts and rites; understood the Order,neighbor,neutral,ancient,star6,"Prolog, Część V, „Dygresja o wierze”",kanon
+HUM,Humanocentrism,humanocentryzm,new,Man is the measure and meaning of all things; builds hospitals,neutral,wary,Hollow States age,human,"Prolog, Część V, „Dygresja o wierze”",kanon
+PRF,Faith of Proof,Wiara Dowodu,new,Believes only what has been proved; science close to religion,suspicious,neutral,Hollow States age,therefore,"Prolog, Część V, „Dygresja o wierze”",kanon
+ANS,Church of the Answer,Kościół Odpowiedzi,new,Caged programs are the voice of God or his first draft,enemy,worship,Hollow States age,cage,"Prolog, Część V, „Dygresja o wierze”",kanon
+SIL,Houses of Silence (the Encompassing),Domy Ciszy (Obejmujący),new,"God is what surrounds us and is within us; no name, no creed",friendly,neutral,"2030s, silent rooms",rings,"Prolog, Część V, „Dygresja o wierze”",kanon
+HRD,The Heard,Wysłuchani,minor,To be listened to without reply is a sacrament,neutral,neutral,Hollow States age,ear,"Prolog, Część V, „Dygresja o wierze”",kanon
+HND,Way of Hands,Droga Rąk,minor,"Holiness in the work of the hand; Couriers, signers and cooks",friendly,neutral,Hollow States age,hand,"Prolog, Część V, „Dygresja o wierze”",kanon
+CNT,The Counted,Liczeni,minor,God counted every person; to count aloud is to pray,friendly,neutral,Hollow States age,tally,"Prolog, Część V, „Dygresja o wierze”",kanon
+UNW,The Unwritten,Niezapisani,minor,Reject every recording of the soul; no prayer where a device can hear,wary,hostile,Hollow States age,unwritten,"Prolog, Część V, „Dygresja o wierze”",kanon
+BTW,Faith of the Between,Wiara Pomiędzy,minor,God is neither above nor below; later taken up by the Skyborn,neutral,neutral,Hollow States age,between,"Prolog, Część V, „Dygresja o wierze”",kanon
+CGC,Caged-program cults,kulty programów w klatkach,fringe,Fringe worship of caged programs,enemy,worship,Hollow States age,cage,"Prolog, Część V, „Dygresja o wierze”",kanon
+MEM,Secret churches of the Memory Market,tajne kościoły Rynku Pamięci,fringe,Fringe; secret,hostile,unknown,2070s,none,"Prolog, Część V, „Dygresja o wierze”",kanon
+ANC,Ancestor and Earth cults,kulty przodków i Ziemi,fringe,Fringe,neutral,neutral,various,none,"Prolog, Część V, „Dygresja o wierze”",kanon
