@@ -3,3 +3,5 @@ SYS-0001,SYS-0001,Solar System [Układ Słoneczny],system [układ],,,,istnieje,2
 PLAN-0001,PLAN-0001,Earth [Ziemia],planet [planeta],,,SYS-0001,istnieje,2085-08-15,
 SHIP-HALLEY,SHIP-0001,Halley,ship [okręt],Survey Vessel,UN + Compact of Charters [ONZ + Układ Czarterowy],SYS-0001,w służbie,2085-08-15,"numer kanoniczny SHIP-HALLEY (nadany wcześniej, nie zmienia się); dane lotu w statki.csv"
 SHIP-KITTIWAKE,SHIP-0002,Kittiwake,ship [okręt],Supply Tender,UN + Compact of Charters [ONZ + Układ Czarterowy],SYS-0001,w służbie,2085-08-15,"numer kanoniczny SHIP-KITTIWAKE (nadany wcześniej, nie zmienia się); dane lotu w statki.csv"
+BANK-0001,BANK-0001,Charter Bank [Bank Czarterowy],bank [bank],,UN + Compact of Charters [ONZ + Układ Czarterowy],PLAN-0001,istnieje,2085-08-15,"centrala na Ziemi (niesymulowana); w silniku żyje Halley branch [oddział na Halleyu], który prowadzi księgę główną Twin Books; na pokładzie działa w imieniu banku kwatermistrz"
+CORP-0001,CORP-0001,Halley Canteen [Kantyna Halleya],corporation [korporacja],,UN + Compact of Charters [ONZ + Układ Czarterowy],SHIP-HALLEY,istnieje,2085-08-15,pierwsza firma; dostaje wydatki stylu życia ludzi na Halleyu

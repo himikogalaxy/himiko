@@ -1,95 +1,95 @@
-numer,pracodawca,pensja_brutto,podatek_proc,koszty_zycia,konto,oszczednosci,inwestycje,nieruchomosc,nieruchomosc_wartosc,zrodlo_majatku,dodatek_wyrownawczy,zamrozone
-HU-0001,Research Bureau [Biuro Badań],19070,20,200,41740,85260,0,Cabin on Halley; flat on Earth (HU),233000,savings,0,0
-LB-0001,Army [wojska lądowe],18120,20,450,16210,479790,0,Cabin on Halley; flat on Earth (LB),176000,savings,0,0
-DE-0001,Research Bureau [Biuro Badań],12010,20,550,17230,8170,0,Cabin on Halley; house on Earth (DE),337000,savings,0,0
-SG-0001,Research Bureau [Biuro Badań],11430,20,800,20120,30980,0,Cabin on Halley; house on Earth (SG),387000,savings,0,0
-NG-0001,Research Bureau [Biuro Badań],10840,20,200,4990,466810,1437000,Cabin on Halley; flat on Earth (NG); investments,222000,inheritance,0,0
-PL-0001,Research Bureau [Biuro Badań],11430,20,550,10490,23710,0,Cabin on Halley; house on Earth (PL),238000,savings,0,0
-JP-0001,Research Bureau [Biuro Badań],12790,20,300,12570,399430,0,Cabin on Halley; house on Earth (JP),307000,savings,0,0
-GB-0001,Research Bureau [Biuro Badań],10490,20,950,19320,53180,0,Cabin on Halley; flat on Earth (GB),218000,savings,0,0
-ES-0001,Research Bureau [Biuro Badań],14700,20,200,11820,88180,0,Cabin on Halley; flat on Earth (ES),188000,savings,0,0
-NG-0002,Research Bureau [Biuro Badań],12560,20,300,18250,324050,0,Cabin on Halley; house on Earth (NG),378000,savings,0,0
-DK-0001,Army [wojska lądowe],17110,20,800,30570,77430,0,Cabin on Halley; rented house on Earth (DK) [wynajmowany dom na Ziemi],0,savings,0,0
-NG-0003,Research Bureau [Biuro Badań],10720,20,300,18810,128790,0,Cabin on Halley; house on Earth (NG),329000,savings,0,0
-BR-0001,Research Bureau [Biuro Badań],10490,20,1300,12770,78230,0,Cabin on Halley; rented house on Earth (BR) [wynajmowany dom na Ziemi],0,savings,0,0
-PL-0002,Army [wojska lądowe],16640,20,700,34900,0,0,Cabin on Halley; flat on Earth (PL),200000,savings,0,0
-CZ-0001,Research Bureau [Biuro Badań],11080,20,200,21910,65890,0,Cabin on Halley; flat on Earth (CZ),189000,savings,0,0
-NO-0001,Army [wojska lądowe],15390,20,700,22040,86060,0,Cabin on Halley; flat on Earth (NO),224000,savings,0,0
-NG-0004,Research Bureau [Biuro Badań],10960,20,550,11920,64980,0,Cabin on Halley; house on Earth (NG),390000,savings,0,0
-IT-0001,Research Bureau [Biuro Badań],12130,20,200,8710,355290,0,Cabin on Halley; flat on Earth (IT),109000,savings,0,0
-KR-0001,Army [wojska lądowe],12380,20,450,11240,17860,0,Cabin on Halley; flat on Earth (KR),170000,savings,0,0
-MX-0001,Research Bureau [Biuro Badań],11310,20,450,23400,48900,0,Cabin on Halley; flat on Earth (MX),158000,savings,0,0
-DE-0002,Army [wojska lądowe],18120,20,550,21100,197400,0,Cabin on Halley; house on Earth (DE),181000,savings,0,0
-GR-0001,Research Bureau [Biuro Badań],15110,20,450,9880,3462120,10110000,Cabin on Halley; flat on Earth (GR); investments,137000,inheritance,0,0
-PE-0001,Research Bureau [Biuro Badań],11660,20,800,6850,135150,0,Cabin on Halley; house on Earth (PE),216000,savings,0,0
-PK-0001,Research Bureau [Biuro Badań],10370,20,800,24880,58120,0,Cabin on Halley; rented house on Earth (PK) [wynajmowany dom na Ziemi],0,savings,0,0
-HR-0001,Army [wojska lądowe],12790,20,550,15630,324370,0,Cabin on Halley; house on Earth (HR),191000,savings,0,0
-SE-0001,Research Bureau [Biuro Badań],12250,20,300,34540,213560,0,Cabin on Halley; house on Earth (SE),289000,savings,0,0
-ZA-0001,Army [wojska lądowe],15550,20,1050,19370,6930,0,Cabin on Halley; house on Earth (ZA),223000,savings,0,0
-JP-0002,Research Bureau [Biuro Badań],10840,20,950,23050,79050,0,Cabin on Halley; flat on Earth (JP),197000,savings,0,0
-DE-0003,Research Bureau [Biuro Badań],15200,20,300,29540,60460,0,Cabin on Halley; house on Earth (DE),184000,savings,0,0
-AR-0001,Research Bureau [Biuro Badań],11190,20,1050,16390,31610,0,Cabin on Halley; rented house on Earth (AR) [wynajmowany dom na Ziemi],0,savings,0,0
-RU-0001,Research Bureau [Biuro Badań],12790,20,450,24450,80450,0,Cabin on Halley; flat on Earth (RU),120000,savings,0,0
-BD-0001,Research Bureau [Biuro Badań],10610,20,800,11890,19110,0,Cabin on Halley; rented house on Earth (BD) [wynajmowany dom na Ziemi],0,savings,0,0
-DK-0002,Research Bureau [Biuro Badań],11780,20,200,26850,16950,0,Cabin on Halley; flat on Earth (DK),209000,savings,0,0
-IL-0001,Research Bureau [Biuro Badań],9230,20,700,10920,137480,0,Cabin on Halley; flat on Earth (IL),189000,savings,0,0
-NG-0005,Research Bureau [Biuro Badań],11080,20,700,5100,32300,0,Cabin on Halley; flat on Earth (NG),211000,savings,0,0
-CN-0001,Research Bureau [Biuro Badań],11660,20,300,5310,103590,0,Cabin on Halley; house on Earth (CN),275000,savings,0,0
-PL-0003,Research Bureau [Biuro Badań],10020,20,500,5520,54480,0,Cabin on Halley; rented flat on Earth (PL) [wynajmowane mieszkanie na Ziemi],0,savings,0,0
-GB-0002,Research Bureau [Biuro Badań],11080,20,550,27320,179180,0,Cabin on Halley; house on Earth (GB),308000,savings,0,0
-GB-0003,Research Bureau [Biuro Badań],1790,20,0,0,0,0,Cabin on Halley; family home on Earth (GB) [dom rodzinny na Ziemi],0,savings,0,0
-NL-0001,Research Bureau [Biuro Badań],1790,20,0,3350,8250,0,Cabin on Halley; family home on Earth (NL) [dom rodzinny na Ziemi],0,savings,0,0
-ES-0002,Research Bureau [Biuro Badań],12010,20,200,31320,246280,0,Cabin on Halley; flat on Earth (ES),128000,savings,0,0
-NO-0002,Halley mission (UN + Compact of Charters),19890,20,300,47880,138120,0,Cabin on Halley; house on Earth (NO),215000,savings,0,0
-NG-0006,Halley mission (UN + Compact of Charters),16800,20,800,31260,5440,0,Cabin on Halley; house on Earth (NG),190000,savings,0,0
-GB-0004,Halley mission (UN + Compact of Charters),10720,20,300,16160,38840,0,Cabin on Halley; house on Earth (GB),212000,savings,0,0
-PL-0004,Halley mission (UN + Compact of Charters),13030,20,450,45470,89530,0,Cabin on Halley; flat on Earth (PL),207000,savings,0,0
-EG-0001,Halley mission (UN + Compact of Charters),11430,20,800,11800,61800,0,Cabin on Halley; house on Earth (EG),348000,savings,0,0
-NO-0003,Halley mission (UN + Compact of Charters),11900,20,450,31210,47090,0,Cabin on Halley; flat on Earth (NO),173000,savings,0,0
-CL-0001,Halley mission (UN + Compact of Charters),10720,20,800,26120,1837880,8280000,Cabin on Halley; house on Earth (CL); investments,313000,sold a company,0,0
-GH-0001,Halley mission (UN + Compact of Charters),7520,20,300,7980,47120,0,Cabin on Halley; house on Earth (GH),198000,savings,0,0
-JP-0003,Halley mission (UN + Compact of Charters),10720,20,950,28770,35230,0,Cabin on Halley; flat on Earth (JP),211000,savings,0,0
-CO-0001,Halley mission (UN + Compact of Charters),11080,20,300,21000,390000,0,Cabin on Halley; house on Earth (CO),251000,savings,0,0
-DE-0004,Halley mission (UN + Compact of Charters),8260,20,750,23220,12780,0,Cabin on Halley; rented flat on Earth (DE) [wynajmowane mieszkanie na Ziemi],0,savings,830,0
-PL-0005,Halley mission (UN + Compact of Charters),10120,20,550,19960,685440,0,Cabin on Halley; house on Earth (PL),285000,savings,850,0
-SN-0001,Halley mission (UN + Compact of Charters),5190,20,800,18940,60,0,Cabin on Halley; rented house on Earth (SN) [wynajmowany dom na Ziemi],0,savings,0,0
-IE-0001,Halley mission (UN + Compact of Charters),8310,20,450,11400,1167600,2506000,Cabin on Halley; flat on Earth (IE); investments,191000,lucky investment,0,0
-RU-0002,Halley mission (UN + Compact of Charters),12010,20,550,14600,41200,0,Cabin on Halley; house on Earth (RU),281000,savings,0,0
-JO-0001,Halley mission (UN + Compact of Charters),8350,20,200,17280,22720,0,Cabin on Halley; flat on Earth (JO),141000,savings,830,0
-DE-0005,Halley mission (UN + Compact of Charters),12710,20,800,18090,129210,0,Cabin on Halley; house on Earth (DE),418000,savings,0,0
-ES-0003,Halley mission (UN + Compact of Charters),6040,20,450,22380,471620,0,Cabin on Halley; flat on Earth (ES),185000,savings,0,0
-TW-0001,Halley mission (UN + Compact of Charters),5420,20,750,5420,48680,0,Cabin on Halley; rented flat on Earth (TW) [wynajmowane mieszkanie na Ziemi],0,savings,0,0
-PL-0006,Halley mission (UN + Compact of Charters),4660,20,1000,10000,0,0,Cabin on Halley; rented flat on Earth (PL) [wynajmowane mieszkanie na Ziemi],0,savings,0,0
-NL-0002,Halley mission (UN + Compact of Charters),12250,20,450,8770,171730,0,Cabin on Halley; flat on Earth (NL),186000,savings,0,0
-GH-0002,Halley mission (UN + Compact of Charters),11660,20,550,19910,67290,0,Cabin on Halley; house on Earth (GH),212000,savings,0,0
-EE-0001,Halley mission (UN + Compact of Charters),9040,20,950,15800,3400,0,Cabin on Halley; flat on Earth (EE),144000,savings,910,0
-IE-0002,Halley mission (UN + Compact of Charters),12480,20,700,32070,39930,0,Cabin on Halley; flat on Earth (IE),126000,savings,0,0
-NG-0007,Halley mission (UN + Compact of Charters),4890,20,450,18580,35120,0,Cabin on Halley; flat on Earth (NG),195000,savings,0,0
-KR-0002,Halley mission (UN + Compact of Charters),7600,20,200,8460,25340,0,Cabin on Halley; flat on Earth (KR),129000,savings,0,0
-PL-0007,Halley mission (UN + Compact of Charters),5780,20,1000,4230,28770,0,Cabin on Halley; rented flat on Earth (PL) [wynajmowane mieszkanie na Ziemi],0,savings,830,0
-GB-0005,Order [Zakon],13260,20,300,25980,44620,0,Cabin on Halley; house on Earth (GB),317000,savings,0,0
-GB-0006,Order [Zakon],12480,20,450,22740,75360,0,Cabin on Halley; flat on Earth (GB),164000,savings,0,0
-PY-0001,Halley mission (UN + Compact of Charters),7780,20,1050,11000,0,0,Cabin on Halley; rented house on Earth (PY) [wynajmowany dom na Ziemi],0,savings,0,0
-PK-0002,Halley mission (UN + Compact of Charters),11310,20,450,23300,244700,0,Cabin on Halley; flat on Earth (PK),178000,savings,0,0
-SE-0002,Halley mission (UN + Compact of Charters),7430,20,750,8880,20120,0,Cabin on Halley; rented flat on Earth (SE) [wynajmowane mieszkanie na Ziemi],0,savings,0,0
-GB-0007,Defense Bureau [Biuro Obrony],16800,20,450,30210,220490,0,Cabin on Halley; flat on Earth (GB),108000,savings,0,0
-PL-0008,Defense Bureau [Biuro Obrony],14150,20,300,12740,107360,0,Cabin on Halley; house on Earth (PL),299000,savings,0,0
-PK-0003,Defense Bureau [Biuro Obrony],10840,20,450,17860,28540,0,Cabin on Halley; flat on Earth (PK),152000,savings,0,0
-MX-0002,Defense Bureau [Biuro Obrony],8570,20,800,26430,37770,0,Cabin on Halley; rented house on Earth (MX) [wynajmowany dom na Ziemi],0,savings,0,0
-RU-0003,Defense Bureau [Biuro Obrony],6680,20,300,21580,38320,0,Cabin on Halley; house on Earth (RU),325000,savings,0,0
-NG-0008,Defense Bureau [Biuro Obrony],5640,20,1050,6870,6130,0,Cabin on Halley; rented house on Earth (NG) [wynajmowany dom na Ziemi],0,savings,0,0
-IE-0003,Defense Bureau [Biuro Obrony],4600,20,1550,3950,10050,0,Cabin on Halley; rented house on Earth (IE) [wynajmowany dom na Ziemi],0,savings,0,0
-GB-0008,Kittiwake (UN + Compact of Charters),19190,20,200,50820,2020,0,Cabin on Kittiwake; flat on Earth (GB),106000,savings,0,0
-GB-0009,Kittiwake (UN + Compact of Charters),14610,20,800,17640,114950,0,Cabin on Kittiwake; house on Earth (GB),192000,savings,0,0
-BD-0002,Kittiwake (UN + Compact of Charters),12320,20,300,23850,112760,0,Cabin on Kittiwake; house on Earth (BD),411000,savings,0,0
-RU-0004,Kittiwake (UN + Compact of Charters),8040,20,1300,15130,5550,0,Cabin on Kittiwake; rented house on Earth (RU) [wynajmowany dom na Ziemi],0,savings,0,0
-RU-0005,Kittiwake (UN + Compact of Charters),6900,20,750,7240,14550,0,Cabin on Kittiwake; rented flat on Earth (RU) [wynajmowane mieszkanie na Ziemi],0,savings,0,0
-DK-0003,Kittiwake (UN + Compact of Charters),8830,20,1050,9530,98370,0,Cabin on Kittiwake; rented house on Earth (DK) [wynajmowany dom na Ziemi],0,savings,0,0
-HU-0002,Kittiwake (UN + Compact of Charters),8660,20,950,11240,3840,0,Cabin on Kittiwake; flat on Earth (HU),108000,savings,0,0
-NG-0009,Kittiwake (UN + Compact of Charters),6040,20,750,7800,2210,0,Cabin on Kittiwake; rented flat on Earth (NG) [wynajmowane mieszkanie na Ziemi],0,savings,0,0
-PL-0009,Defense Bureau [Biuro Obrony],8830,20,300,14290,9170,0,Cabin on Kittiwake; house on Earth (PL),198000,savings,0,0
-JP-0004,Defense Bureau [Biuro Obrony],6920,20,500,3480,2720,0,Cabin on Kittiwake; rented flat on Earth (JP) [wynajmowane mieszkanie na Ziemi],0,savings,0,0
-IE-0004,Defense Bureau [Biuro Obrony],5910,20,300,11510,235420,0,Cabin on Kittiwake; house on Earth (IE),220000,savings,0,0
-KR-0003,Defense Bureau [Biuro Obrony],5230,20,550,8380,35150,0,Cabin on Kittiwake; house on Earth (KR),302000,savings,0,0
-BD-0003,Defense Bureau [Biuro Obrony],4480,20,800,8380,32820,0,Cabin on Kittiwake; rented house on Earth (BD) [wynajmowany dom na Ziemi],0,savings,0,0
-TW-0002,Defense Bureau [Biuro Obrony],4480,20,300,6620,2750,0,Cabin on Kittiwake; house on Earth (TW),288000,savings,0,0
+numer,pracodawca,pensja_brutto,podatek_proc,koszty_zycia,konto,oszczednosci,inwestycje,nieruchomosc,nieruchomosc_wartosc,zrodlo_majatku,dodatek_wyrownawczy,zamrozone,bank
+HU-0001,Research Bureau [Biuro Badań],19070,20,200,41740,85260,0,Cabin on Halley; flat on Earth (HU),233000,savings,0,0,BANK-0001
+LB-0001,Army [wojska lądowe],18120,20,450,16210,479790,0,Cabin on Halley; flat on Earth (LB),176000,savings,0,0,BANK-0001
+DE-0001,Research Bureau [Biuro Badań],12010,20,550,17230,8170,0,Cabin on Halley; house on Earth (DE),337000,savings,0,0,BANK-0001
+SG-0001,Research Bureau [Biuro Badań],11430,20,800,20120,30980,0,Cabin on Halley; house on Earth (SG),387000,savings,0,0,BANK-0001
+NG-0001,Research Bureau [Biuro Badań],10840,20,200,4990,466810,1437000,Cabin on Halley; flat on Earth (NG); investments,222000,inheritance,0,0,BANK-0001
+PL-0001,Research Bureau [Biuro Badań],11430,20,550,10490,23710,0,Cabin on Halley; house on Earth (PL),238000,savings,0,0,BANK-0001
+JP-0001,Research Bureau [Biuro Badań],12790,20,300,12570,399430,0,Cabin on Halley; house on Earth (JP),307000,savings,0,0,BANK-0001
+GB-0001,Research Bureau [Biuro Badań],10490,20,950,19320,53180,0,Cabin on Halley; flat on Earth (GB),218000,savings,0,0,BANK-0001
+ES-0001,Research Bureau [Biuro Badań],14700,20,200,11820,88180,0,Cabin on Halley; flat on Earth (ES),188000,savings,0,0,BANK-0001
+NG-0002,Research Bureau [Biuro Badań],12560,20,300,18250,324050,0,Cabin on Halley; house on Earth (NG),378000,savings,0,0,BANK-0001
+DK-0001,Army [wojska lądowe],17110,20,800,30570,77430,0,Cabin on Halley; rented house on Earth (DK) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+NG-0003,Research Bureau [Biuro Badań],10720,20,300,18810,128790,0,Cabin on Halley; house on Earth (NG),329000,savings,0,0,BANK-0001
+BR-0001,Research Bureau [Biuro Badań],10490,20,1300,12770,78230,0,Cabin on Halley; rented house on Earth (BR) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+PL-0002,Army [wojska lądowe],16640,20,700,34900,0,0,Cabin on Halley; flat on Earth (PL),200000,savings,0,0,BANK-0001
+CZ-0001,Research Bureau [Biuro Badań],11080,20,200,21910,65890,0,Cabin on Halley; flat on Earth (CZ),189000,savings,0,0,BANK-0001
+NO-0001,Army [wojska lądowe],15390,20,700,22040,86060,0,Cabin on Halley; flat on Earth (NO),224000,savings,0,0,BANK-0001
+NG-0004,Research Bureau [Biuro Badań],10960,20,550,11920,64980,0,Cabin on Halley; house on Earth (NG),390000,savings,0,0,BANK-0001
+IT-0001,Research Bureau [Biuro Badań],12130,20,200,8710,355290,0,Cabin on Halley; flat on Earth (IT),109000,savings,0,0,BANK-0001
+KR-0001,Army [wojska lądowe],12380,20,450,11240,17860,0,Cabin on Halley; flat on Earth (KR),170000,savings,0,0,BANK-0001
+MX-0001,Research Bureau [Biuro Badań],11310,20,450,23400,48900,0,Cabin on Halley; flat on Earth (MX),158000,savings,0,0,BANK-0001
+DE-0002,Army [wojska lądowe],18120,20,550,21100,197400,0,Cabin on Halley; house on Earth (DE),181000,savings,0,0,BANK-0001
+GR-0001,Research Bureau [Biuro Badań],15110,20,450,9880,3462120,10110000,Cabin on Halley; flat on Earth (GR); investments,137000,inheritance,0,0,BANK-0001
+PE-0001,Research Bureau [Biuro Badań],11660,20,800,6850,135150,0,Cabin on Halley; house on Earth (PE),216000,savings,0,0,BANK-0001
+PK-0001,Research Bureau [Biuro Badań],10370,20,800,24880,58120,0,Cabin on Halley; rented house on Earth (PK) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+HR-0001,Army [wojska lądowe],12790,20,550,15630,324370,0,Cabin on Halley; house on Earth (HR),191000,savings,0,0,BANK-0001
+SE-0001,Research Bureau [Biuro Badań],12250,20,300,34540,213560,0,Cabin on Halley; house on Earth (SE),289000,savings,0,0,BANK-0001
+ZA-0001,Army [wojska lądowe],15550,20,1050,19370,6930,0,Cabin on Halley; house on Earth (ZA),223000,savings,0,0,BANK-0001
+JP-0002,Research Bureau [Biuro Badań],10840,20,950,23050,79050,0,Cabin on Halley; flat on Earth (JP),197000,savings,0,0,BANK-0001
+DE-0003,Research Bureau [Biuro Badań],15200,20,300,29540,60460,0,Cabin on Halley; house on Earth (DE),184000,savings,0,0,BANK-0001
+AR-0001,Research Bureau [Biuro Badań],11190,20,1050,16390,31610,0,Cabin on Halley; rented house on Earth (AR) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+RU-0001,Research Bureau [Biuro Badań],12790,20,450,24450,80450,0,Cabin on Halley; flat on Earth (RU),120000,savings,0,0,BANK-0001
+BD-0001,Research Bureau [Biuro Badań],10610,20,800,11890,19110,0,Cabin on Halley; rented house on Earth (BD) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+DK-0002,Research Bureau [Biuro Badań],11780,20,200,26850,16950,0,Cabin on Halley; flat on Earth (DK),209000,savings,0,0,BANK-0001
+IL-0001,Research Bureau [Biuro Badań],9230,20,700,10920,137480,0,Cabin on Halley; flat on Earth (IL),189000,savings,0,0,BANK-0001
+NG-0005,Research Bureau [Biuro Badań],11080,20,700,5100,32300,0,Cabin on Halley; flat on Earth (NG),211000,savings,0,0,BANK-0001
+CN-0001,Research Bureau [Biuro Badań],11660,20,300,5310,103590,0,Cabin on Halley; house on Earth (CN),275000,savings,0,0,BANK-0001
+PL-0003,Research Bureau [Biuro Badań],10020,20,500,5520,54480,0,Cabin on Halley; rented flat on Earth (PL) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+GB-0002,Research Bureau [Biuro Badań],11080,20,550,27320,179180,0,Cabin on Halley; house on Earth (GB),308000,savings,0,0,BANK-0001
+GB-0003,Research Bureau [Biuro Badań],1790,20,0,0,0,0,Cabin on Halley; family home on Earth (GB) [dom rodzinny na Ziemi],0,savings,0,0,BANK-0001
+NL-0001,Research Bureau [Biuro Badań],1790,20,0,3350,8250,0,Cabin on Halley; family home on Earth (NL) [dom rodzinny na Ziemi],0,savings,0,0,BANK-0001
+ES-0002,Research Bureau [Biuro Badań],12010,20,200,31320,246280,0,Cabin on Halley; flat on Earth (ES),128000,savings,0,0,BANK-0001
+NO-0002,Halley mission (UN + Compact of Charters),19890,20,300,47880,138120,0,Cabin on Halley; house on Earth (NO),215000,savings,0,0,BANK-0001
+NG-0006,Halley mission (UN + Compact of Charters),16800,20,800,31260,5440,0,Cabin on Halley; house on Earth (NG),190000,savings,0,0,BANK-0001
+GB-0004,Halley mission (UN + Compact of Charters),10720,20,300,16160,38840,0,Cabin on Halley; house on Earth (GB),212000,savings,0,0,BANK-0001
+PL-0004,Halley mission (UN + Compact of Charters),13030,20,450,45470,89530,0,Cabin on Halley; flat on Earth (PL),207000,savings,0,0,BANK-0001
+EG-0001,Halley mission (UN + Compact of Charters),11430,20,800,11800,61800,0,Cabin on Halley; house on Earth (EG),348000,savings,0,0,BANK-0001
+NO-0003,Halley mission (UN + Compact of Charters),11900,20,450,31210,47090,0,Cabin on Halley; flat on Earth (NO),173000,savings,0,0,BANK-0001
+CL-0001,Halley mission (UN + Compact of Charters),10720,20,800,26120,1837880,8280000,Cabin on Halley; house on Earth (CL); investments,313000,sold a company,0,0,BANK-0001
+GH-0001,Halley mission (UN + Compact of Charters),7520,20,300,7980,47120,0,Cabin on Halley; house on Earth (GH),198000,savings,0,0,BANK-0001
+JP-0003,Halley mission (UN + Compact of Charters),10720,20,950,28770,35230,0,Cabin on Halley; flat on Earth (JP),211000,savings,0,0,BANK-0001
+CO-0001,Halley mission (UN + Compact of Charters),11080,20,300,21000,390000,0,Cabin on Halley; house on Earth (CO),251000,savings,0,0,BANK-0001
+DE-0004,Halley mission (UN + Compact of Charters),8260,20,750,23220,12780,0,Cabin on Halley; rented flat on Earth (DE) [wynajmowane mieszkanie na Ziemi],0,savings,830,0,BANK-0001
+PL-0005,Halley mission (UN + Compact of Charters),10120,20,550,19960,685440,0,Cabin on Halley; house on Earth (PL),285000,savings,850,0,BANK-0001
+SN-0001,Halley mission (UN + Compact of Charters),5190,20,800,18940,60,0,Cabin on Halley; rented house on Earth (SN) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+IE-0001,Halley mission (UN + Compact of Charters),8310,20,450,11400,1167600,2506000,Cabin on Halley; flat on Earth (IE); investments,191000,lucky investment,0,0,BANK-0001
+RU-0002,Halley mission (UN + Compact of Charters),12010,20,550,14600,41200,0,Cabin on Halley; house on Earth (RU),281000,savings,0,0,BANK-0001
+JO-0001,Halley mission (UN + Compact of Charters),8350,20,200,17280,22720,0,Cabin on Halley; flat on Earth (JO),141000,savings,830,0,BANK-0001
+DE-0005,Halley mission (UN + Compact of Charters),12710,20,800,18090,129210,0,Cabin on Halley; house on Earth (DE),418000,savings,0,0,BANK-0001
+ES-0003,Halley mission (UN + Compact of Charters),6040,20,450,22380,471620,0,Cabin on Halley; flat on Earth (ES),185000,savings,0,0,BANK-0001
+TW-0001,Halley mission (UN + Compact of Charters),5420,20,750,5420,48680,0,Cabin on Halley; rented flat on Earth (TW) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+PL-0006,Halley mission (UN + Compact of Charters),4660,20,1000,10000,0,0,Cabin on Halley; rented flat on Earth (PL) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+NL-0002,Halley mission (UN + Compact of Charters),12250,20,450,8770,171730,0,Cabin on Halley; flat on Earth (NL),186000,savings,0,0,BANK-0001
+GH-0002,Halley mission (UN + Compact of Charters),11660,20,550,19910,67290,0,Cabin on Halley; house on Earth (GH),212000,savings,0,0,BANK-0001
+EE-0001,Halley mission (UN + Compact of Charters),9040,20,950,15800,3400,0,Cabin on Halley; flat on Earth (EE),144000,savings,910,0,BANK-0001
+IE-0002,Halley mission (UN + Compact of Charters),12480,20,700,32070,39930,0,Cabin on Halley; flat on Earth (IE),126000,savings,0,0,BANK-0001
+NG-0007,Halley mission (UN + Compact of Charters),4890,20,450,18580,35120,0,Cabin on Halley; flat on Earth (NG),195000,savings,0,0,BANK-0001
+KR-0002,Halley mission (UN + Compact of Charters),7600,20,200,8460,25340,0,Cabin on Halley; flat on Earth (KR),129000,savings,0,0,BANK-0001
+PL-0007,Halley mission (UN + Compact of Charters),5780,20,1000,4230,28770,0,Cabin on Halley; rented flat on Earth (PL) [wynajmowane mieszkanie na Ziemi],0,savings,830,0,BANK-0001
+GB-0005,Order [Zakon],13260,20,300,25980,44620,0,Cabin on Halley; house on Earth (GB),317000,savings,0,0,BANK-0001
+GB-0006,Order [Zakon],12480,20,450,22740,75360,0,Cabin on Halley; flat on Earth (GB),164000,savings,0,0,BANK-0001
+PY-0001,Halley mission (UN + Compact of Charters),7780,20,1050,11000,0,0,Cabin on Halley; rented house on Earth (PY) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+PK-0002,Halley mission (UN + Compact of Charters),11310,20,450,23300,244700,0,Cabin on Halley; flat on Earth (PK),178000,savings,0,0,BANK-0001
+SE-0002,Halley mission (UN + Compact of Charters),7430,20,750,8880,20120,0,Cabin on Halley; rented flat on Earth (SE) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+GB-0007,Defense Bureau [Biuro Obrony],16800,20,450,30210,220490,0,Cabin on Halley; flat on Earth (GB),108000,savings,0,0,BANK-0001
+PL-0008,Defense Bureau [Biuro Obrony],14150,20,300,12740,107360,0,Cabin on Halley; house on Earth (PL),299000,savings,0,0,BANK-0001
+PK-0003,Defense Bureau [Biuro Obrony],10840,20,450,17860,28540,0,Cabin on Halley; flat on Earth (PK),152000,savings,0,0,BANK-0001
+MX-0002,Defense Bureau [Biuro Obrony],8570,20,800,26430,37770,0,Cabin on Halley; rented house on Earth (MX) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+RU-0003,Defense Bureau [Biuro Obrony],6680,20,300,21580,38320,0,Cabin on Halley; house on Earth (RU),325000,savings,0,0,BANK-0001
+NG-0008,Defense Bureau [Biuro Obrony],5640,20,1050,6870,6130,0,Cabin on Halley; rented house on Earth (NG) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+IE-0003,Defense Bureau [Biuro Obrony],4600,20,1550,3950,10050,0,Cabin on Halley; rented house on Earth (IE) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+GB-0008,Kittiwake (UN + Compact of Charters),19190,20,200,50820,2020,0,Cabin on Kittiwake; flat on Earth (GB),106000,savings,0,0,BANK-0001
+GB-0009,Kittiwake (UN + Compact of Charters),14610,20,800,17640,114950,0,Cabin on Kittiwake; house on Earth (GB),192000,savings,0,0,BANK-0001
+BD-0002,Kittiwake (UN + Compact of Charters),12320,20,300,23850,112760,0,Cabin on Kittiwake; house on Earth (BD),411000,savings,0,0,BANK-0001
+RU-0004,Kittiwake (UN + Compact of Charters),8040,20,1300,15130,5550,0,Cabin on Kittiwake; rented house on Earth (RU) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+RU-0005,Kittiwake (UN + Compact of Charters),6900,20,750,7240,14550,0,Cabin on Kittiwake; rented flat on Earth (RU) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+DK-0003,Kittiwake (UN + Compact of Charters),8830,20,1050,9530,98370,0,Cabin on Kittiwake; rented house on Earth (DK) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+HU-0002,Kittiwake (UN + Compact of Charters),8660,20,950,11240,3840,0,Cabin on Kittiwake; flat on Earth (HU),108000,savings,0,0,BANK-0001
+NG-0009,Kittiwake (UN + Compact of Charters),6040,20,750,7800,2210,0,Cabin on Kittiwake; rented flat on Earth (NG) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+PL-0009,Defense Bureau [Biuro Obrony],8830,20,300,14290,9170,0,Cabin on Kittiwake; house on Earth (PL),198000,savings,0,0,BANK-0001
+JP-0004,Defense Bureau [Biuro Obrony],6920,20,500,3480,2720,0,Cabin on Kittiwake; rented flat on Earth (JP) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+IE-0004,Defense Bureau [Biuro Obrony],5910,20,300,11510,235420,0,Cabin on Kittiwake; house on Earth (IE),220000,savings,0,0,BANK-0001
+KR-0003,Defense Bureau [Biuro Obrony],5230,20,550,8380,35150,0,Cabin on Kittiwake; house on Earth (KR),302000,savings,0,0,BANK-0001
+BD-0003,Defense Bureau [Biuro Obrony],4480,20,800,8380,32820,0,Cabin on Kittiwake; rented house on Earth (BD) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+TW-0002,Defense Bureau [Biuro Obrony],4480,20,300,6620,2750,0,Cabin on Kittiwake; house on Earth (TW),288000,savings,0,0,BANK-0001

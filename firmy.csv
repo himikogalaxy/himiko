@@ -1,0 +1,3 @@
+numer,forma,konto_kr,bank,miejsce,poprzednik,nastepca,status,data_zmiany
+BANK-0001,bank,0,,SHIP-HALLEY,,,dziala,2085-08-15
+CORP-0001,corp,0,BANK-0001,SHIP-HALLEY,,,dziala,2085-08-15
