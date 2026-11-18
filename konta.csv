@@ -93,3 +93,8 @@ IE-0004,Defense Bureau [Biuro Obrony],5910,20,300,11510,235420,0,Cabin on Kittiw
 KR-0003,Defense Bureau [Biuro Obrony],5230,20,550,8380,35150,0,Cabin on Kittiwake; house on Earth (KR),302000,savings,0,0,BANK-0001
 BD-0003,Defense Bureau [Biuro Obrony],4480,20,800,8380,32820,0,Cabin on Kittiwake; rented house on Earth (BD) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
 TW-0002,Defense Bureau [Biuro Obrony],4480,20,300,6620,2750,0,Cabin on Kittiwake; house on Earth (TW),288000,savings,0,0,BANK-0001
+DE-0006,Research Bureau [Biuro Badań],10960,20,700,13400,49420,0,Cabin on Halley; flat on Earth (DE),229000,savings,0,0,BANK-0001
+KR-0004,Halley mission (UN + Compact of Charters),8480,20,1000,25120,0,0,Cabin on Halley; rented flat on Earth (KR) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+GR-0002,Halley mission (UN + Compact of Charters),4480,20,500,7480,2220,0,Cabin on Halley; rented flat on Earth (GR) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+GB-0010,Halley mission (UN + Compact of Charters),4890,20,1300,2610,147020,0,Cabin on Halley; rented house on Earth (GB) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+GB-0011,Halley mission (UN + Compact of Charters),7870,20,500,23310,8190,0,Cabin on Halley; rented flat on Earth (GB) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
