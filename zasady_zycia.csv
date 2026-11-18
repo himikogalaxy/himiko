@@ -1,6 +1,8 @@
 klucz,wartosc,opis
 zuzycie_zywnosci_na_osobe,1,dzień żywności na osobę na dzień; zapasy podane w dniach dla pełnej załogi
 zuzycie_swiezej_zywnosci,1,świeża żywność psuje się i schodzi 1 dzień na dzień
+strata_zywnosci_trwalej_mies,0.3,"% zapasu żywności trwałej traconego co miesiąc (psucie, szkodniki, uszkodzone opakowania), ok. 4% rocznie; liczone codziennie, także w porcie (Andrzej, 18.11.2026)"
+strata_swiezej_zywnosci_dzien,2,"% zapasu świeżej żywności, który psuje się każdego dnia; liczone codziennie, także w porcie (Andrzej, 18.11.2026)"
 zuzycie_wody,1,dzień wody na dzień (recykling już wliczony)
 zuzycie_czesci_na_30_dni,2,% części zamiennych zużywanych co 30 dni
 spadek_sprzetu_bez_czesci_na_30_dni,3,% stanu sprzętu traconego co 30 dni gdy części = 0
