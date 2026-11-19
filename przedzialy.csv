@@ -17,14 +17,14 @@ SHIP-HALLEY,R1,"Ring: quarters A, quarters C, mess","pierścień: kwatery A, kwa
 SHIP-HALLEY,R2,"Ring: medbay, labs, animal house, quarters B","pierścień: izba chorych, laboratoria, zwierzętarnia, kwatery B",ring,ring,ringB,Medbay,80-85,38:Medbay [izba chorych]; 39:Labs 1–3 [laboratoria 1–3]; 40:Animal house [zwierzętarnia]; 41:Quarters B [kwatery B]; 42:Lifeboats 3–4 [szalupy 3–4],38:80-81; 39:82-82; 40:83-83; 41:84-84; 42:85-85
 SHIP-HALLEY,H1,Hydroponics H1,hydroponika H1,86,110,spine,Hydroponics,86-93,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],43:86-89; 44:90-93
 SHIP-HALLEY,H2,Hydroponics H2,hydroponika H2,162,186,spine,Hydroponics,94-100,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],45:94-97; 46:98-100
-SHIP-KITTIWAKE,C1,Bridge and sensors,mostek i sensory,,,spine,Bridge,01-12,1:Antenna [antena]; 2:Laser link [łącze laserowe]; 3:Helm and navigation console [konsola steru i nawigacji]; 4:Captain's chair [stanowisko dowódcy],1:01-03; 2:04-05; 3:06-09; 4:10-12
-SHIP-KITTIWAKE,C2,Quarters and galley,kwatery i kambuz,,,spine,Galley and quarters,13-22,5:Crew quarters [kwatery załogi]; 6:Galley and mess [kambuz i mesa],5:13-18; 6:19-22
-SHIP-KITTIWAKE,C3,Medbay,izba chorych,,,spine,Medbay,23-27,"7:Medbay, 2 beds [izba chorych, 2 łóżka]",7:23-27
-SHIP-KITTIWAKE,C4,Defence quarters and armory,kwatery Obrony i zbrojownia,,,spine,Corridors and airlocks,28-36,8:Defence quarters [kwatery Obrony]; 9:Armory [zbrojownia],8:28-32; 9:33-36
-SHIP-KITTIWAKE,C5,Airlock and docking collar,śluza i kołnierz dokujący,,,spine,Corridors and airlocks,37-42,10:Airlock [śluza]; 11:Docking collar [kołnierz dokujący],10:37-39; 11:40-42
-SHIP-KITTIWAKE,C6,Cargo hold 1,ładownia 1,,,spine,Cargo hold,43-58,"12:Cargo, forward [ładunek, przód]; 13:Cargo crane [dźwig ładunkowy]",12:43-54; 13:55-58
-SHIP-KITTIWAKE,C7,Cargo hold 2,ładownia 2,,,spine,Cargo hold,59-70,"14:Cargo, aft [ładunek, tył]",14:59-70
-SHIP-KITTIWAKE,C8,Life support,podtrzymanie życia,,,spine,Life support,71-76,15:Air plant [powietrze]; 16:Water recycler [odzysk wody],15:71-73; 16:74-76
-SHIP-KITTIWAKE,C9,Reactor,reaktor,,,spine,Engine room,77-86,17:Fusion reactor [reaktor fuzyjny]; 18:Radiators [radiatory],17:77-82; 18:83-86
-SHIP-KITTIWAKE,C10,Fuel tanks,zbiorniki paliwa,,,spine,Engine room,87-94,19:Fuel tanks [zbiorniki paliwa],19:87-94
-SHIP-KITTIWAKE,C11,Main drive,napęd główny,,,spine,Engine room,95-100,20:Main drive [napęd]; 21:Thrusters [silniki manewrowe],20:95-98; 21:99-100
+SHIP-KITTIWAKE,C1,Bridge and sensors,mostek i sensory,0,6.4,spine,Bridge,01-12,1:Antenna [antena]; 2:Laser link [łącze laserowe]; 3:Helm and navigation console [konsola steru i nawigacji]; 4:Captain's chair [stanowisko dowódcy],1:01-03; 2:04-05; 3:06-09; 4:10-12
+SHIP-KITTIWAKE,C2,Quarters and galley,kwatery i kambuz,6.4,12.8,spine,Galley and quarters,13-22,5:Crew quarters [kwatery załogi]; 6:Galley and mess [kambuz i mesa],5:13-18; 6:19-22
+SHIP-KITTIWAKE,C3,Medbay,izba chorych,12.8,19.2,spine,Medbay,23-27,"7:Medbay, 2 beds [izba chorych, 2 łóżka]",7:23-27
+SHIP-KITTIWAKE,C4,Defence quarters and armory,kwatery Obrony i zbrojownia,19.2,25.6,spine,Corridors and airlocks,28-36,8:Defence quarters [kwatery Obrony]; 9:Armory [zbrojownia],8:28-32; 9:33-36
+SHIP-KITTIWAKE,C5,Airlock and docking collar,śluza i kołnierz dokujący,25.6,32,spine,Corridors and airlocks,37-42,10:Airlock [śluza]; 11:Docking collar [kołnierz dokujący],10:37-39; 11:40-42
+SHIP-KITTIWAKE,C6,Cargo hold 1,ładownia 1,32,38.4,spine,Cargo hold,43-58,"12:Cargo, forward [ładunek, przód]; 13:Cargo crane [dźwig ładunkowy]",12:43-54; 13:55-58
+SHIP-KITTIWAKE,C7,Cargo hold 2,ładownia 2,38.4,44.8,spine,Cargo hold,59-70,"14:Cargo, aft [ładunek, tył]",14:59-70
+SHIP-KITTIWAKE,C8,Life support,podtrzymanie życia,44.8,51.2,spine,Life support,71-76,15:Air plant [powietrze]; 16:Water recycler [odzysk wody],15:71-73; 16:74-76
+SHIP-KITTIWAKE,C9,Reactor,reaktor,51.2,60.8,spine,Engine room,77-86,17:Fusion reactor [reaktor fuzyjny]; 18:Radiators [radiatory],17:77-82; 18:83-86
+SHIP-KITTIWAKE,C10,Fuel tanks,zbiorniki paliwa,60.8,115.2,spine,Engine room,87-94,19:Fuel tanks [zbiorniki paliwa],19:87-94
+SHIP-KITTIWAKE,C11,Main drive,napęd główny,115.2,124.8,spine,Engine room,95-100,20:Main drive [napęd]; 21:Thrusters [silniki manewrowe],20:95-98; 21:99-100

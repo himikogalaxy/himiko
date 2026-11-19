@@ -1,0 +1,23 @@
+klucz,wartosc,jednostka,zrodlo
+wysokosc_pokladu_m,3.2,m,"pokład z konstrukcją (2,5 m w świetle + 0,7 m strop i instalacje); Mistrz Gry 19.11.2026, do potwierdzenia"
+gestosc_D2_t_m3,0.1624,t/m3,ciekły deuter D2 w temperaturze wrzenia 23 K
+gestosc_He3_t_m3,0.0592,t/m3,"ciekły hel-3 w temperaturze wrzenia 3,2 K"
+udzial_D_masa,0.4,ułamek,"D-He3 1:1 atomów: D 2 u, He-3 3 u → deuter 40% masy (Ekonomia, decyzja 8)"
+zapas_zbiornikow,0.10,ułamek,"izolacja kriogeniczna, ścianki, wolna przestrzeń nad cieczą"
+rdzen_r_m,8.0,m,"standard Stoczni: rdzeń mieszkalny Ø 16 m (wariant Płaszcz, Andrzej 19.11.2026); mały statek bez płaszcza = kadłub Ø 16 m"
+szyb_m2,8.0,m2,"winda 2,4 × 2,4 m (5,8 m²) + 2 drabiny awaryjne po ok. 1,1 m²"
+ladunek_gestosc_t_m3,0.5,t/m3,"mieszany ładunek zaopatrzeniowy (woda 1,0; żywność pakowana ok. 0,6; części ok. 0,4)"
+ladunek_dostep,1.3,mnożnik,"przejścia, mocowania, dźwig: +30% objętości"
+kwatery_m2_na_osobe,10,m2,kajuta ok. 6 m² + udział w higienie i przejściach
+mesa_m2_na_osobe,1.0,m2,"pół załogi naraz przy stole, po 2 m²"
+mesa_kambuz_m2,40,m2,kuchnia i spiżarka podręczna
+funkcja_m2,100,m2,"każda inna funkcja w pierścieniu (izba chorych, laboratoria, zwierzętarnia) na start"
+korytarze_dodatek,0.25,ułamek,korytarze i ciągi komunikacyjne
+pierscien_pokoj_m,3.0,m,głębokość pomieszczenia po każdej stronie korytarza
+pierscien_korytarz_m,1.5,m,korytarz w osi pierścienia
+pierscien_poziomy,2,szt.,Andrzej 19.11.2026: 2 poziomy (propozycja Stoczni)
+poklady_min,2,szt.,"najmniejszy przedział: 2 pokłady (włazy, instalacje)"
+poklady_reaktor,3,szt.,reaktor z osłoną i radiatorami
+poklady_naped,3,szt.,"napęd: komora, dysza; bez stałej obsady"
+poklady_ladownia_min,2,szt.,ładownia z dźwigiem
+uprawy_m2_na_osobe,40,m2,"pełna dieta z upraw na osobę (bioregeneracja, rząd wielkości NASA BIO-Plex); potrzeba = osoby × pokrycie hydroponiki × ta liczba"
