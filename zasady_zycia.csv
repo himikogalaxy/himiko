@@ -48,3 +48,8 @@ stopnie_awans,"w pokoju: stopień oficera z wieku (do 29 Second lieutenant/Lieut
 zuzycie_karmy,1,"dzień karmy zwierząt na dzień, gdy na statku żyje choć jedno zwierzę (zwierzeta.csv, status żyje); zapas w zapasy.csv: animal feed; kontrola ostrzega przy < 60 dniach bez dostawy"
 planowanie_na_biezaco,"tylko najbliższy kurs, liczony z aktualnego stanu","nie planujemy lotów ani dostaw daleko w przód (decyzja Andrzeja 16.11.2026). W manewry.csv i dostawy.csv jest tylko najbliższy kurs każdego kuriera; następny dopisuje się, gdy kurier wróci do portu, a ilości ładunku liczy się z aktualnych zapasów i potrzeb (np. ile dni jedzenia brakuje). Kontrola ostrzega, gdy kurier z cyklem nie ma zaplanowanego następnego kursu."
 rekrutacja_dni,30,"dni od wakatu do zatrudnienia rekruta na Ziemi (potem lot kurierem); ZATWIERDZONE przez Andrzeja 19.11.2026: czarter trzyma stałą rezerwę ludzi szkolonych, ćwiczonych i w gotowości do wylotu (wypadki się zdarzają), ale minimalną, bez dużych zapasów"
+smiertelnosc_selekcja,0.5,"mnożnik tablicy śmiertelności dla ludzi wybranych na misję (badania, selekcja: efekt zdrowego pracownika); propozycja Mistrza Gry 19.11.2026"
+smiertelnosc_kosmos,1.0,"mnożnik za życie w kosmosie (promieniowanie, izolacja, daleko od szpitala); na razie 1.0 = bez zmian, do decyzji Andrzeja"
+smiertelnosc_palenie,2.0,mnożnik dla palaczy (w zdrowiu 'Smoker'); palenie mniej więcej podwaja śmiertelność; propozycja Mistrza Gry 19.11.2026
+smiertelnosc_alkohol,1.5,mnożnik dla nałogu alcohol [alkohol]; propozycja Mistrza Gry 19.11.2026
+smiertelnosc_chipy,1.3,mnożnik dla nałogu street chips [chipy uliczne]; propozycja Mistrza Gry 19.11.2026
