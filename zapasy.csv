@@ -22,3 +22,5 @@ SHIP-KITTIWAKE,food quality [jakość jedzenia],7,1–10,wpływa na morale
 SHIP-KITTIWAKE,equipment condition [stan sprzętu],95,%,spada bez części
 SHIP-KITTIWAKE,medbay beds [łóżka w izbie chorych],2,beds,pojemność
 SHIP-KITTIWAKE,crew cohesion [zgranie załogi],0,days together,nowa załoga z kreatora
+SHIP-HALLEY,shield ice [lód tarczy],1068.8,t,"oslony.py: lód tarcz dziobowej i rufowej (Stocznia, decyzja Andrzeja 21.11.2026); ubywa w locie (erozja pyłu), dolewka na postoju"
+SHIP-KITTIWAKE,shield ice [lód tarczy],42.0,t,"oslony.py: lód tarcz dziobowej i rufowej (Stocznia, decyzja Andrzeja 21.11.2026); ubywa w locie (erozja pyłu), dolewka na postoju"

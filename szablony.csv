@@ -1,7 +1,7 @@
 szablon,wzor,rodzaj,typ,masa_sucha_t,masa_pelna_t,predkosc_spalin_kms,ludzie,ludzie_opis,zapasy_dni,obsada,uwaga
-Survey Vessel,Halley,ship [okręt],Long-Range Survey Vessel [statek badawczy dalekiego zasięgu],18000,38000,20000,80,"80 (załoga, naukowcy, Obrona, Zakon)",360,do zatwierdzenia,wzór: SHIP-HALLEY; obsadę zaproponować Andrzejowi przy pierwszym użyciu
+Survey Vessel,Halley,ship [okręt],Long-Range Survey Vessel [statek badawczy dalekiego zasięgu],18000,38000,20000,80,"80 (załoga, naukowcy, Obrona, Zakon)",360,do zatwierdzenia,"wzór: SHIP-HALLEY; obsadę zaproponować Andrzejowi przy pierwszym użyciu; masy BEZ osłon: kreator dolicza tarcze, radar, laser i cewkę (oslony.py, decyzja Andrzeja 21.11.2026)"
 Tender,Tern,ship [okręt],Tender [statek pomocniczy],,,,2,2,,do zatwierdzenia,masy: nie mam tej danej
-Supply Tender,Kittiwake,ship [okręt],Supply Tender [statek zaopatrzeniowy],600,1374,20000,14,8 załogi + 6 Office of Defence (drużyna: Sergeant + 5),200,zatwierdzona,"Mistrz Gry, decyzja Andrzeja 17.11.2026"
+Supply Tender,Kittiwake,ship [okręt],Supply Tender [statek zaopatrzeniowy],600,1374,20000,14,8 załogi + 6 Office of Defence (drużyna: Sergeant + 5),200,zatwierdzona,"Mistrz Gry, decyzja Andrzeja 17.11.2026; masy BEZ osłon: kreator dolicza tarcze, radar, laser i cewkę (oslony.py, decyzja Andrzeja 21.11.2026)"
 Slow Freighter,Long Patience,ship [okręt],Slow Freighter [wolny frachtowiec],,,,,załoga + 28 w Kojach Powolnego Snu,,do zatwierdzenia,masy i liczba załogi: nie mam tej danej
 Charter Freighter,Pelagia,ship [okręt],Charter Freighter [frachtowiec czarterowy],,,,31,31,,do zatwierdzenia,masy: nie mam tej danej
 Colony Freighter,Calder/Hesper/Dovetail,ship [okręt],Colony Freighter [frachtowiec kolonijny],,,,97,ok. 97 na statek,,do zatwierdzenia,masy: nie mam tej danej; zapasy długie

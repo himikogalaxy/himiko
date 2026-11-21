@@ -1,5 +1,5 @@
 statek,przedzial,poklad,nazwa,od_dziobu_m,promien_m,ciazenie_g,powierzchnia_m2,przeznaczenie,urzadzenia
-SHIP-HALLEY,C1,1,Deck 1 [Pokład 1],0,,0.5 (thrust; 0 coasting),152,Sensors [maszt sensorów],1:Antenna [antena]
+SHIP-HALLEY,C1,1,Deck 1 [Pokład 1],0,,0.5 (thrust; 0 coasting),163,Sensors [maszt sensorów],1:Antenna [antena]
 SHIP-HALLEY,C1,2,Deck 2 [Pokład 2],3.2,,0.5 (thrust; 0 coasting),193,Sensors [maszt sensorów] — core deck [rdzeń],2:Laser link [łącze laserowe]
 SHIP-HALLEY,C1,3,Deck 3 [Pokład 3],6.4,,0.5 (thrust; 0 coasting),193,Sensors [maszt sensorów] — core deck [rdzeń],3:Forward thrusters T1–T2
 SHIP-HALLEY,C1,4,Deck 4 [Pokład 4],9.6,,0.5 (thrust; 0 coasting),193,Sensors [maszt sensorów] — core deck [rdzeń],
@@ -63,29 +63,29 @@ SHIP-HALLEY,C9,61,Deck 61 [Pokład 61],192,,0.5 (thrust; 0 coasting),193,"Stores
 SHIP-HALLEY,C9,62,Deck 62 [Pokład 62],195.2,,0.5 (thrust; 0 coasting),193,"Stores 1–3 [magazyny 1–3] — core deck, fuel jacket around [rdzeń, wokół płaszcz paliwa]",
 SHIP-HALLEY,C9,63,Deck 63 [Pokład 63],198.4,,0.5 (thrust; 0 coasting),193,"Stores 1–3 [magazyny 1–3] — core deck, fuel jacket around [rdzeń, wokół płaszcz paliwa]",21:Parts store [części]
 SHIP-HALLEY,C9,64,Deck 64 [Pokład 64],201.6,,0.5 (thrust; 0 coasting),193,"Stores 1–3 [magazyny 1–3] — core deck, fuel jacket around [rdzeń, wokół płaszcz paliwa]",
-SHIP-HALLEY,C10,65,Deck 65 [Pokład 65],204.8,,0.5 (thrust; 0 coasting),2560,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",22:Tern scout [zwiadowca Tern]
-SHIP-HALLEY,C10,66,Deck 66 [Pokład 66],208,,0.5 (thrust; 0 coasting),2560,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",23:Shuttle 1 [prom 1]
-SHIP-HALLEY,C10,67,Deck 67 [Pokład 67],211.2,,0.5 (thrust; 0 coasting),2560,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",
-SHIP-HALLEY,C10,68,Deck 68 [Pokład 68],214.4,,0.5 (thrust; 0 coasting),2560,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",24:Shuttle 2 [prom 2]
-SHIP-HALLEY,C10,69,Deck 69 [Pokład 69],217.6,,0.5 (thrust; 0 coasting),2560,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",
-SHIP-HALLEY,C10,70,Deck 70 [Pokład 70],220.8,,0.5 (thrust; 0 coasting),2560,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",25:Probe rack (12) [sondy]
-SHIP-HALLEY,C10,71,Deck 71 [Pokład 71],224,,0.5 (thrust; 0 coasting),2560,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",
-SHIP-HALLEY,C10,72,Deck 72 [Pokład 72],227.2,,0.5 (thrust; 0 coasting),2560,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",26:Airlock B [śluza B]
-SHIP-HALLEY,C10,73,Deck 73 [Pokład 73],230.4,,0.5 (thrust; 0 coasting),2560,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",
+SHIP-HALLEY,C10,65,Deck 65 [Pokład 65],204.8,,0.5 (thrust; 0 coasting),2733,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",22:Tern scout [zwiadowca Tern]
+SHIP-HALLEY,C10,66,Deck 66 [Pokład 66],208,,0.5 (thrust; 0 coasting),2733,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",23:Shuttle 1 [prom 1]
+SHIP-HALLEY,C10,67,Deck 67 [Pokład 67],211.2,,0.5 (thrust; 0 coasting),2733,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",
+SHIP-HALLEY,C10,68,Deck 68 [Pokład 68],214.4,,0.5 (thrust; 0 coasting),2733,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",24:Shuttle 2 [prom 2]
+SHIP-HALLEY,C10,69,Deck 69 [Pokład 69],217.6,,0.5 (thrust; 0 coasting),2733,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",
+SHIP-HALLEY,C10,70,Deck 70 [Pokład 70],220.8,,0.5 (thrust; 0 coasting),2733,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",25:Probe rack (12) [sondy]
+SHIP-HALLEY,C10,71,Deck 71 [Pokład 71],224,,0.5 (thrust; 0 coasting),2733,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",
+SHIP-HALLEY,C10,72,Deck 72 [Pokład 72],227.2,,0.5 (thrust; 0 coasting),2733,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",26:Airlock B [śluza B]
+SHIP-HALLEY,C10,73,Deck 73 [Pokład 73],230.4,,0.5 (thrust; 0 coasting),2733,"Hangar and airlock B [hangar i śluza B] — hangar bay, full hull width [hangar na całą szerokość]",
 SHIP-HALLEY,C11,74,Deck 74 [Pokład 74],233.6,,0.5 (thrust; 0 coasting),193,"Life support [podtrzymanie życia] — core deck, fuel jacket around [rdzeń, wokół płaszcz paliwa]",27:Air plant [powietrze]
 SHIP-HALLEY,C11,75,Deck 75 [Pokład 75],236.8,,0.5 (thrust; 0 coasting),193,"Life support [podtrzymanie życia] — core deck, fuel jacket around [rdzeń, wokół płaszcz paliwa]",
 SHIP-HALLEY,C11,76,Deck 76 [Pokład 76],240,,0.5 (thrust; 0 coasting),193,"Life support [podtrzymanie życia] — core deck, fuel jacket around [rdzeń, wokół płaszcz paliwa]",28:Water recycler [odzysk wody]
 SHIP-HALLEY,C11,77,Deck 77 [Pokład 77],243.2,,0.5 (thrust; 0 coasting),193,"Life support [podtrzymanie życia] — core deck, fuel jacket around [rdzeń, wokół płaszcz paliwa]",
-SHIP-HALLEY,C12,78,Deck 78 [Pokład 78],246.4,,0.5 (thrust; 0 coasting),1404,"Backup reactor [reaktor awaryjny] — machinery deck, full hull width [pokład maszynowy]",29:Fission reactor [reaktor rozszczep.]
-SHIP-HALLEY,C12,79,Deck 79 [Pokład 79],249.6,,0.5 (thrust; 0 coasting),1404,"Backup reactor [reaktor awaryjny] — machinery deck, full hull width [pokład maszynowy]",
-SHIP-HALLEY,C12,80,Deck 80 [Pokład 80],252.8,,0.5 (thrust; 0 coasting),1404,"Backup reactor [reaktor awaryjny] — machinery deck, full hull width [pokład maszynowy]",
-SHIP-HALLEY,C12,81,Deck 81 [Pokład 81],256,,0.5 (thrust; 0 coasting),1404,"Backup reactor [reaktor awaryjny] — machinery deck, full hull width [pokład maszynowy]",
-SHIP-HALLEY,C12,82,Deck 82 [Pokład 82],259.2,,0.5 (thrust; 0 coasting),1404,"Backup reactor [reaktor awaryjny] — machinery deck, full hull width [pokład maszynowy]",
-SHIP-HALLEY,C13,83,Deck 83 [Pokład 83],262.4,,0.5 (thrust; 0 coasting),1404,"Main reactor [reaktor główny] — machinery deck, full hull width [pokład maszynowy]",30:Fusion reactor [reaktor fuzyjny]
-SHIP-HALLEY,C13,84,Deck 84 [Pokład 84],265.6,,0.5 (thrust; 0 coasting),1404,"Main reactor [reaktor główny] — machinery deck, full hull width [pokład maszynowy]",
-SHIP-HALLEY,C13,85,Deck 85 [Pokład 85],268.8,,0.5 (thrust; 0 coasting),1404,"Main reactor [reaktor główny] — machinery deck, full hull width [pokład maszynowy]",31:Radiators [radiatory]
-SHIP-HALLEY,C13,86,Deck 86 [Pokład 86],272,,0.5 (thrust; 0 coasting),1404,"Main reactor [reaktor główny] — machinery deck, full hull width [pokład maszynowy]",
-SHIP-HALLEY,C13,87,Deck 87 [Pokład 87],275.2,,0.5 (thrust; 0 coasting),1404,"Main reactor [reaktor główny] — machinery deck, full hull width [pokład maszynowy]",
+SHIP-HALLEY,C12,78,Deck 78 [Pokład 78],246.4,,0.5 (thrust; 0 coasting),1498,"Backup reactor [reaktor awaryjny] — machinery deck, full hull width [pokład maszynowy]",29:Fission reactor [reaktor rozszczep.]
+SHIP-HALLEY,C12,79,Deck 79 [Pokład 79],249.6,,0.5 (thrust; 0 coasting),1498,"Backup reactor [reaktor awaryjny] — machinery deck, full hull width [pokład maszynowy]",
+SHIP-HALLEY,C12,80,Deck 80 [Pokład 80],252.8,,0.5 (thrust; 0 coasting),1498,"Backup reactor [reaktor awaryjny] — machinery deck, full hull width [pokład maszynowy]",
+SHIP-HALLEY,C12,81,Deck 81 [Pokład 81],256,,0.5 (thrust; 0 coasting),1498,"Backup reactor [reaktor awaryjny] — machinery deck, full hull width [pokład maszynowy]",
+SHIP-HALLEY,C12,82,Deck 82 [Pokład 82],259.2,,0.5 (thrust; 0 coasting),1498,"Backup reactor [reaktor awaryjny] — machinery deck, full hull width [pokład maszynowy]",
+SHIP-HALLEY,C13,83,Deck 83 [Pokład 83],262.4,,0.5 (thrust; 0 coasting),1498,"Main reactor [reaktor główny] — machinery deck, full hull width [pokład maszynowy]",30:Fusion reactor [reaktor fuzyjny]
+SHIP-HALLEY,C13,84,Deck 84 [Pokład 84],265.6,,0.5 (thrust; 0 coasting),1498,"Main reactor [reaktor główny] — machinery deck, full hull width [pokład maszynowy]",
+SHIP-HALLEY,C13,85,Deck 85 [Pokład 85],268.8,,0.5 (thrust; 0 coasting),1498,"Main reactor [reaktor główny] — machinery deck, full hull width [pokład maszynowy]",31:Radiators [radiatory]
+SHIP-HALLEY,C13,86,Deck 86 [Pokład 86],272,,0.5 (thrust; 0 coasting),1498,"Main reactor [reaktor główny] — machinery deck, full hull width [pokład maszynowy]",
+SHIP-HALLEY,C13,87,Deck 87 [Pokład 87],275.2,,0.5 (thrust; 0 coasting),1498,"Main reactor [reaktor główny] — machinery deck, full hull width [pokład maszynowy]",
 SHIP-HALLEY,C14,88,Deck 88 [Pokład 88],278.4,,0.5 (thrust; 0 coasting),0,"Main drive — machinery, no crew deck [maszyneria, bez pokładu załogi]",32:Main drive [napęd]
 SHIP-HALLEY,C14,89,Deck 89 [Pokład 89],281.6,,0.5 (thrust; 0 coasting),0,"Main drive — machinery, no crew deck [maszyneria, bez pokładu załogi]",33:Aft thrusters T3–T4
 SHIP-HALLEY,C14,90,Deck 90 [Pokład 90],284.8,,0.5 (thrust; 0 coasting),0,"Main drive — machinery, no crew deck [maszyneria, bez pokładu załogi]",
@@ -129,6 +129,9 @@ SHIP-KITTIWAKE,C10,33,Deck 33 [Pokład 33],102.4,,0.1 (thrust; 0 coasting),0,"Fu
 SHIP-KITTIWAKE,C10,34,Deck 34 [Pokład 34],105.6,,0.1 (thrust; 0 coasting),0,"Fuel tank level, access ladder only [poziom zbiornika, tylko drabina]",
 SHIP-KITTIWAKE,C10,35,Deck 35 [Pokład 35],108.8,,0.1 (thrust; 0 coasting),0,"Fuel tank level, access ladder only [poziom zbiornika, tylko drabina]",
 SHIP-KITTIWAKE,C10,36,Deck 36 [Pokład 36],112,,0.1 (thrust; 0 coasting),0,"Fuel tank level, access ladder only [poziom zbiornika, tylko drabina]",
-SHIP-KITTIWAKE,C11,37,Deck 37 [Pokład 37],115.2,,0.1 (thrust; 0 coasting),0,"Main drive — machinery, no crew deck [maszyneria, bez pokładu załogi]",20:Main drive [napęd]
-SHIP-KITTIWAKE,C11,38,Deck 38 [Pokład 38],118.4,,0.1 (thrust; 0 coasting),0,"Main drive — machinery, no crew deck [maszyneria, bez pokładu załogi]",21:Thrusters [silniki manewrowe]
-SHIP-KITTIWAKE,C11,39,Deck 39 [Pokład 39],121.6,,0.1 (thrust; 0 coasting),0,"Main drive — machinery, no crew deck [maszyneria, bez pokładu załogi]",
+SHIP-KITTIWAKE,C10,37,Deck 37 [Pokład 37],115.2,,0.1 (thrust; 0 coasting),0,"Fuel tank level, access ladder only [poziom zbiornika, tylko drabina]",
+SHIP-KITTIWAKE,C10,38,Deck 38 [Pokład 38],118.4,,0.1 (thrust; 0 coasting),0,"Fuel tank level, access ladder only [poziom zbiornika, tylko drabina]",
+SHIP-KITTIWAKE,C10,39,Deck 39 [Pokład 39],121.6,,0.1 (thrust; 0 coasting),0,"Fuel tank level, access ladder only [poziom zbiornika, tylko drabina]",
+SHIP-KITTIWAKE,C11,40,Deck 40 [Pokład 40],124.8,,0.1 (thrust; 0 coasting),0,"Main drive — machinery, no crew deck [maszyneria, bez pokładu załogi]",20:Main drive [napęd]
+SHIP-KITTIWAKE,C11,41,Deck 41 [Pokład 41],128,,0.1 (thrust; 0 coasting),0,"Main drive — machinery, no crew deck [maszyneria, bez pokładu załogi]",21:Thrusters [silniki manewrowe]
+SHIP-KITTIWAKE,C11,42,Deck 42 [Pokład 42],131.2,,0.1 (thrust; 0 coasting),0,"Main drive — machinery, no crew deck [maszyneria, bez pokładu załogi]",
