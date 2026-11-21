@@ -48,8 +48,8 @@ stopnie_awans,"w pokoju: stopień oficera z wieku (do 29 Second lieutenant/Lieut
 zuzycie_karmy,1,"dzień karmy zwierząt na dzień, gdy na statku żyje choć jedno zwierzę (zwierzeta.csv, status żyje); zapas w zapasy.csv: animal feed; kontrola ostrzega przy < 60 dniach bez dostawy"
 planowanie_na_biezaco,"tylko najbliższy kurs, liczony z aktualnego stanu","nie planujemy lotów ani dostaw daleko w przód (decyzja Andrzeja 16.11.2026). W manewry.csv i dostawy.csv jest tylko najbliższy kurs każdego kuriera; następny dopisuje się, gdy kurier wróci do portu, a ilości ładunku liczy się z aktualnych zapasów i potrzeb (np. ile dni jedzenia brakuje). Kontrola ostrzega, gdy kurier z cyklem nie ma zaplanowanego następnego kursu."
 rekrutacja_dni,30,"dni od wakatu do zatrudnienia rekruta na Ziemi (potem lot kurierem); ZATWIERDZONE przez Andrzeja 19.11.2026: czarter trzyma stałą rezerwę ludzi szkolonych, ćwiczonych i w gotowości do wylotu (wypadki się zdarzają), ale minimalną, bez dużych zapasów"
-smiertelnosc_selekcja,0.5,"mnożnik tablicy śmiertelności dla ludzi wybranych na misję (badania, selekcja: efekt zdrowego pracownika); propozycja Mistrza Gry 19.11.2026"
-smiertelnosc_kosmos,1.0,"mnożnik za życie w kosmosie (promieniowanie, izolacja, daleko od szpitala); na razie 1.0 = bez zmian, do decyzji Andrzeja"
+smiertelnosc_selekcja,0.5,"mnożnik dla ludzi wybranych na misję (badania lekarskie, selekcja zdrowych): ZATWIERDZONE (Andrzej 21.11.2026)"
+smiertelnosc_kosmos,1.0,mnożnik ryzyka życia w kosmosie: 1.0 = bez dodatkowego ryzyka (wypadki i promieniowanie liczą inne mechanizmy): ZATWIERDZONE (Andrzej 21.11.2026)
 smiertelnosc_palenie,2.0,mnożnik dla palaczy (w zdrowiu 'Smoker'); palenie mniej więcej podwaja śmiertelność; propozycja Mistrza Gry 19.11.2026
 smiertelnosc_alkohol,1.5,mnożnik dla nałogu alcohol [alkohol]; propozycja Mistrza Gry 19.11.2026
 smiertelnosc_chipy,1.3,mnożnik dla nałogu street chips [chipy uliczne]; propozycja Mistrza Gry 19.11.2026
@@ -71,3 +71,19 @@ zespol_podatnosc,20;55;14;11,"Zespół Przejścia, ukryta podatność losowana p
 zespol_dni_ciezki,3-30,dni dezorientacji przy ciężkim Zespole (status chory); propozycja Mistrza Gry 21.11.2026
 zespol_dni_blokada,7-30,dni dezorientacji przy blokadzie (status chory; Kerr: 11 dni); propozycja Mistrza Gry 21.11.2026
 zespol_blokada_po,2,"blokada działa po tylu przejściach (pełny kurs tam i z powrotem); kanon: Kerr wrócił Linią, a przy następnej próbie stracił ją po 40 s"
+kurier_pasazerowie,6,pasażerów na zwykły kurs kuriera (wolne koje Kittiwake): ZATWIERDZONE (Andrzej 21.11.2026); nadmiar czeka na Ziemi na następny kurs
+kurier_pasazerowie_specjalny,12,"kurs specjalny: do 12 pasażerów kosztem drużyny Obrony (żołnierze zostają w porcie na ten kurs, etat wraca w następnym); TYLKO na decyzję Andrzeja / Mistrza Gry, wpis w dzienniku; silnik sam nie robi"
+kurier_zaloga_min,8,załoga kuriera nietykalna (minimum do lotu): Kittiwake 8 osób floty; limit fizyczny 12 koi dla pasażerów (Andrzej 21.11.2026)
+antykoncepcja_awaria_rok,0.2,"% na rok dla kobiety 18–49 na statku misji (obowiązkowa antykoncepcja długodziałająca, zasada czarteru: promieniowanie, Karta Dawki; realna skuteczność wkładki i implantu 0,05–0,8 % na rok); awaria = ciąża jako zaczep fabularny i decyzja Andrzeja; propozycja Mistrza Gry 21.11.2026, do zatwierdzenia przy testach"
+planeta_urodzenia_start,9,"urodzeń na 1000 osób na rok na planecie od lądowania (kanon: 5 dzieci w 2 lata przy 290 osadnikach = 8,6 ‰); ciąże z par (relacje stałe M–K); ZATWIERDZONE (Andrzej 21.11.2026)"
+planeta_urodzenia_max,25,"‰ na rok przy dobrobycie (jedzenie, mieszkania, bezpieczeństwo); kryzys (głód, wojna) obniża (Andrzej 21.11.2026)"
+planeta_urodzenia_kryzys,0.5,"mnożnik wskaźnika urodzeń w kryzysie (głód, wojna); propozycja Mistrza Gry 21.11.2026, do zatwierdzenia przy testach"
+ciaza_dni,280,czas ciąży w dniach (ok. 9 miesięcy)
+polog_dni,90,"po porodzie matka niezdolna do pracy (etat trzyma pełniący); propozycja Mistrza Gry 21.11.2026, do zatwierdzenia przy testach"
+awans_staz_lat,2,"minimalny staż w stopniu do awansu zwykłego (lata); staż od ostatniego wpisu w awanse.csv, a dla ludzi sprzed silnika od 19.10.2084 (brak danej o dacie stopnia); propozycja Mistrza Gry 21.11.2026, do zatwierdzenia przy testach"
+awans_nagany_blokuja,1,1 = nagana blokuje awans zwykły (Andrzej 21.11.2026)
+emerytura_wiek_flota,65,wiek graniczny floty (Andrzej 21.11.2026); nauka i Zakon bez limitu
+emerytura_wiek_obrona,55,wiek graniczny Obrony i wojska (Andrzej 21.11.2026; wojsko Army liczone jak Obrona: propozycja)
+emerytura_szansa,3;3;30,"dobrowolne odejście, rzut w dniu urodzin od wieku granicznego: % w roku granicznym ; + % za każdy rok więcej ; maksimum % (szansa niska, ci ludzie żyją pracą); propozycja Mistrza Gry 21.11.2026, do zatwierdzenia przy testach"
+renta_dni,180,"kto jest chory lub ranny dłużej niż tyle dni, odchodzi ze służby w każdym wieku (renta); propozycja Mistrza Gry 21.11.2026, do zatwierdzenia przy testach"
+starzenie_umiejetnosci,"60;4;CBT,EVA,SCR,FIR","od wieku ; co ile lat −1 ; które umiejętności fizyczne (wiedza i dowodzenie zostają); propozycja Mistrza Gry 21.11.2026, do zatwierdzenia przy testach"
