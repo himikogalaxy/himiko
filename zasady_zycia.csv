@@ -53,3 +53,8 @@ smiertelnosc_kosmos,1.0,"mnożnik za życie w kosmosie (promieniowanie, izolacja
 smiertelnosc_palenie,2.0,mnożnik dla palaczy (w zdrowiu 'Smoker'); palenie mniej więcej podwaja śmiertelność; propozycja Mistrza Gry 19.11.2026
 smiertelnosc_alkohol,1.5,mnożnik dla nałogu alcohol [alkohol]; propozycja Mistrza Gry 19.11.2026
 smiertelnosc_chipy,1.3,mnożnik dla nałogu street chips [chipy uliczne]; propozycja Mistrza Gry 19.11.2026
+naprawa_udzial_dnia,0.5,"część dnia, jaką mechanicy z pokładu (ENG > 0) poświęcają naprawom; moc ekipy = Σ ENG/5 × ten udział roboczodni na dzień; propozycja Mistrza Gry 21.11.2026"
+czesci_dni,80,ile dni co najmniej mija od zamówienia części na Ziemi do dostawy kurierem (lot Kittiwake ok. 78 dni + załadunek); propozycja Mistrza Gry 21.11.2026
+uszkodzenie_lekkie,50;5-15,"szansa % ; roboczodni naprawy (lekkie, z zapasów pokładowych); propozycja Mistrza Gry 21.11.2026"
+uszkodzenie_ciezkie,35;20-60,"szansa % ; roboczodni naprawy (ciężkie, z zapasów pokładowych); propozycja Mistrza Gry 21.11.2026"
+uszkodzenie_zniszczone,15;40-120,szansa % ; roboczodni naprawy (zniszczone: najpierw części z Ziemi kurierem); propozycja Mistrza Gry 21.11.2026
