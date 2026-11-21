@@ -20,3 +20,5 @@ SHIP-KITTIWAKE,zbiorniki_przedzialy,C10,poklady.py (Stocznia 19.11.2026)
 SHIP-KITTIWAKE,rdzen_r_m,8,poklady.py (Stocznia 19.11.2026)
 SHIP-KITTIWAKE,wysokosc_pokladu_m,3.2,poklady.py (Stocznia 19.11.2026)
 SHIP-TERN,dlugosc_m,14,"kanon (Księga Pierwsza): Tern, czternaście metrów długości"
+SHIP-HALLEY-S1,dlugosc_m,18,"Andrzej 21.11.2026 (czat Silnik życia): prom 18 m, 4 osoby + ładunek; mieści się w hangarze C10 i w tabeli Vargi (do 20 m)"
+SHIP-HALLEY-S2,dlugosc_m,18,"Andrzej 21.11.2026 (czat Silnik życia): prom 18 m, 4 osoby + ładunek; mieści się w hangarze C10 i w tabeli Vargi (do 20 m)"
