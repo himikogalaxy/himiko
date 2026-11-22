@@ -100,3 +100,4 @@ kwaterunek_oficer_kajuta,tak,"ZATWIERDZONE przez Andrzeja 22.11.2026: po awansie
 pary_morale_rozstanie,-2,"PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026; równowaga: Mistrz Gry): morale obojga po rozstaniu (tabele PARA_ROZPAD_*, PARA_ROMANS_MIESIAC)"
 pary_morale_nowa_para,1,"PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026; równowaga: Mistrz Gry): morale obojga, gdy powstaje nowa para (PARA_NOWA_*, romans staje się parą)"
 pary_morale_zdradzony,-3,"PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026; równowaga: Mistrz Gry): morale zdradzonego partnera, gdy romans wychodzi na jaw albo staje się parą"
+poduszka_przed_lotem_dni,30,"tyle dni przed zaplanowanym lotem silnik sam zamawia to, czego brakuje do celu „przed lotem” w poduszka.csv (Andrzej 22.11.2026: automat zamawiania wszystkiego z wyprzedzeniem, dla każdej jednostki)"
