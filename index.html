@@ -98,7 +98,7 @@ const lnk=(id,t)=>`<a href="#${encodeURIComponent(id)}">${esc(t||id)}</a>`;
 function tabH(rows,cols){if(!rows.length)return '<p class="note">brak</p>';return '<table class="mini"><thead><tr>'+cols.map(c=>'<th>'+esc(c[0])+'</th>').join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(c=>'<td>'+c[1](r)+'</td>').join('')+'</tr>').join('')+'</tbody></table>'}
 const ZYWI=new Set(['żyje','ranny','chory']);
 async function teczkaJ(j){
- const [J,S,L,Z,PZ,ZP,LD]=await Promise.all(['jednostki.csv','statki.csv','ludzie.csv','zwierzeta.csv','przedzialy.csv','zapasy.csv','lancuch_dowodzenia.csv'].map(csv));
+ const [J,S,L,Z,PZ,ZP,LD,MZ,KW]=await Promise.all(['jednostki.csv','statki.csv','ludzie.csv','zwierzeta.csv','przedzialy.csv','zapasy.csv','lancuch_dowodzenia.csv','mieszkania.csv','kwaterunek.csv'].map(csv));
  const id=j.numer;const sc=[];let x=j;while(x&&x.nadrzedna&&sc.length<20){x=J.find(y=>y.numer===x.nadrzedna);if(x)sc.unshift(x)}
  let h=`<h2>${ik(id)} ${esc(j.nazwa)} <span class="note">${esc(id)}${j.nr_ewid&&j.nr_ewid!==id?' · '+esc(j.nr_ewid):''}</span></h2>`;
  if(sc.length)h+=`<p class="note">📍 ${sc.map(y=>lnk(y.numer,y.nazwa)).join(' › ')} › <b>${esc(j.nazwa)}</b></p>`;
@@ -112,6 +112,9 @@ async function teczkaJ(j){
  const ld=LD.filter(r=>r.statek===id).sort((a,b)=>kol(a.kolejnosc)-kol(b.kolejnosc));
  if(ld.length||s)h+=sec('Łańcuch dowodzenia',tabH(ld,[['kolejność',r=>esc(r.kolejnosc)],['numer',r=>lnk(r.numer)],['kto',r=>esc(r.imie_nazwisko)],['stopień',r=>esc(r.stopien)],['uwaga',r=>esc(r.uwaga)]]));
  const pz=PZ.filter(r=>r.statek===id);if(pz.length||s)h+=sec('Przedziały i tabela trafień k100',tab(pz,['id','nazwa_en','nazwa_pl','trafienie_k100','urzadzenia','urzadzenia_k100','stanowisko_bojowe']));
+ {const mz=MZ.filter(m=>m.statek===id);if(mz.length){const im=Object.fromEntries(L.map(p=>[p.numer,p.imie+' '+p.nazwisko]));const kw=KW.filter(k=>!k.do_data&&k.adres);
+  const kto=a=>kw.filter(k=>k.adres===a).map(k=>k.osoba);const wol=mz.reduce((s,m)=>s+(+m.miejsca||0)-kto(m.adres).length,0);const zaj=mz.filter(m=>kto(m.adres).length).length;
+  h+=sec(`🏠 Mieszkania (${mz.length}; zajęte ${zaj}; wolnych miejsc ${wol})`,tabH(mz,[['adres',m=>esc(m.adres)],['typ',m=>esc(m.typ)],['m²',m=>esc(m.m2)],['miejsca',m=>kto(m.adres).length+'/'+esc(m.miejsca)],['mieszkańcy',m=>kto(m.adres).map(n=>lnk(n)+' '+esc(im[n]||'')).join(', ')||'<span class="note">wolne</span>']]))}}
  const zp=ZP.filter(r=>r.statek===id);if(zp.length||s)h+=sec('📦 Zapasy',tab(zp,['zasob','ilosc','jednostka','uwaga']));
  const zw=Z.filter(a=>a.statek===id);if(zw.length)h+=sec('🐾 Zwierzęta',zw.map(a=>`<p>${lnk(a.numer)} ${esc(a.imie||a.gatunek_pl)} <span class="note">${esc(a.gatunek_pl)}${a.liczba?' × '+esc(a.liczba):''}</span></p>`).join(''));
  if(s||j.numer.startsWith('STN-')){const md=dz.filter(y=>y.numer.startsWith('MOD-'));h+=sec('⚙️ Moduły',md.length?md.map(y=>`<p>${lnk(y.numer,y.nazwa)}</p>`).join(''):'<p class="note">brak</p>')}
@@ -136,7 +139,7 @@ async function teczka(q){
  try{if(location.hash!=='#'+id)history.replaceState(null,'','#'+id)}catch(e){}
  if(a){const LL=Object.fromEntries(L.map(x=>[x.numer,x.imie+' '+x.nazwisko]));
   $('tw').innerHTML=`<h2>🐾 ${esc(a.imie||a.gatunek_pl)} <span class="note">${esc(a.numer)}</span></h2>`+sec('Dane zwierzęcia',kv(a,new Set(['data_zmiany'])))+sec('Opiekunowie',esc((a.opiekunowie||'').split(';').map(x=>x.trim()).filter(Boolean).map(x=>x+(LL[x]?' ('+LL[x]+')':'')).join(', ')||'brak'));return}
- const F=['ludzie_umiejetnosci.csv','ludzie_wyksztalcenie.csv','ludzie_zycie.csv','krewni_ziemia.csv','rodzicielstwo.csv','relacje.csv','ludzie_cialo.csv','ludzie_ulepszenia.csv','ludzie_zaslugi.csv','przedmioty.csv','konta.csv','dlugi.csv','dochody.csv','konta_ukryte.csv','stanowiska_bojowe.csv','kraje.csv','umiejetnosci.csv',];
+ const F=['ludzie_umiejetnosci.csv','ludzie_wyksztalcenie.csv','ludzie_zycie.csv','krewni_ziemia.csv','rodzicielstwo.csv','relacje.csv','ludzie_cialo.csv','ludzie_ulepszenia.csv','ludzie_zaslugi.csv','przedmioty.csv','konta.csv','dlugi.csv','dochody.csv','konta_ukryte.csv','stanowiska_bojowe.csv','kraje.csv','umiejetnosci.csv','kwaterunek.csv','mieszkania.csv'];
  const D=Object.fromEntries(await Promise.all(F.map(async f=>[f,await csv(f)])));
  const my=(f,k='numer')=>D[f].filter(x=>x[k]===id);
  const kraj=D['kraje.csv'].find(x=>x.kod===p.obywatelstwo||x.kod===p.pochodzenie);
@@ -152,6 +155,11 @@ async function teczka(q){
   if(doch.length)b+='<p><b>Ukryte dochody</b></p>'+tab(doch,['platnik','stanowisko','stopien','szczebel','pensja_brutto','podatek','konto']);
   if(ku.length)b+='<p><b>Konto ukryte</b></p>'+ku.map(x=>`<p>${esc(x.platnik)}: <b>${kr(+x.saldo)}</b></p>`).join('');
   h+=sec('🕵️ Tajemnice',b,true)}
+ {const kw=my('kwaterunek.csv','osoba').sort((a,b)=>(b.od_data||'').localeCompare(a.od_data||''));const MZ=Object.fromEntries(D['mieszkania.csv'].map(m=>[m.adres,m]));const teraz=kw.find(k=>!k.do_data&&k.adres);
+  const wsp=teraz?D['kwaterunek.csv'].filter(k=>!k.do_data&&k.adres===teraz.adres&&k.osoba!==id):[];
+  let b=teraz?`<p>🏠 <b>${esc(teraz.adres)}</b> <span class="note">${esc((MZ[teraz.adres]||{}).typ||'')} · ${esc((MZ[teraz.adres]||{}).m2||'')} m² · od ${esc(teraz.od_atr)}</span></p>`+(wsp.length?`<p class="note">mieszka z: ${wsp.map(k=>lnk(k.osoba)+' '+esc(imie[k.osoba]||'')).join(', ')}</p>`:''):'<p class="note">bez adresu</p>';
+  if(kw.length>1)b+='<p><b>Historia adresów</b></p>'+tab(kw,['adres','od_atr','do_atr','zrodlo']);
+  h+=sec('Adres [kwaterunek]',b)}
  h+=sec('Stanowisko bojowe',tab(my('stanowiska_bojowe.csv'),['przydzial_dzienny','stanowisko_bojowe','miejsce']));
  h+=sec('Umiejętności',tab(my('ludzie_umiejetnosci.csv').map(x=>Object.assign({},x,{nazwa:UM[x.kod]||''})),['kod','nazwa','poziom','premia','uwaga'],x=>x.uwaga==='hidden'));
  h+=sec('Wykształcenie',my('ludzie_wyksztalcenie.csv').map(x=>'<p>'+esc(x.wyksztalcenie)+'</p>').join('')||'<p class="note">brak</p>');

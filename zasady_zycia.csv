@@ -96,3 +96,7 @@ poczta_forma,zimny list / ciepła wiadomość,"Andrzej 21.11.2026: wiadomości m
 poczta_zimne_proc,60,"% listów przez Szczelinę pisanych jako zimny list (reszta: ciepła wiadomość); zatwierdzone 21.11.2026: ZATWIERDZONE (Andrzej 22.11.2026, przegląd liczb)"
 poczta_ciepla_dziala_proc,50,"% ciepłych wiadomości, które zmieniają morale adresata (zimny list zawsze ±1); zatwierdzone 21.11.2026: ZATWIERDZONE (Andrzej 22.11.2026, przegląd liczb)"
 lot_rezerwa_paliwa_proc,10,"PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026): jednostka pokładowa (silnik.py --lot) musi mieć po całym locie, z powrotem, co najmniej tyle % paliwa; 10% jak rezerwa kuriera Kittiwake po kursie"
+kwaterunek_oficer_kajuta,tak,"PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026): tak = oficer (stopnie oficerskie, Kronikarz, Pieczętarz) po awansie albo przylocie przenosi się do wolnej kajuty oficerskiej, jak w przydziale startowym Stoczni; nie = zostaje w swojej kajucie"
+pary_morale_rozstanie,-2,"PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026; równowaga: Mistrz Gry): morale obojga po rozstaniu (tabele PARA_ROZPAD_*, PARA_ROMANS_MIESIAC)"
+pary_morale_nowa_para,1,"PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026; równowaga: Mistrz Gry): morale obojga, gdy powstaje nowa para (PARA_NOWA_*, romans staje się parą)"
+pary_morale_zdradzony,-3,"PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026; równowaga: Mistrz Gry): morale zdradzonego partnera, gdy romans wychodzi na jaw albo staje się parą"
