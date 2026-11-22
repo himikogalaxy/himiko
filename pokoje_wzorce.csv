@@ -25,8 +25,8 @@ bridge,6,Bridge electronics [elektronika mostka],20,,,,29,mała załoga
 bridge,9,Bridge stores [magazyn mostka],wypełnienie,,,,,
 cargo,1,Crane control [sterowanie dźwigiem],15,crane,,,,
 cargo,9,Cargo hold [ładownia],wypełnienie,*,,,,
-crew quarters,1,Crew cabins [kajuty załogi],kajuty:Crew,crew quarters,,,,
-crew quarters,2,Heads and showers [łazienki],osoby:Crew:0.5,,,,,
+crew quarters,1,Crew housing [mieszkania załogi],mieszkania:Crew,crew quarters,,,,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+crew quarters,2,Heads and showers [łazienki],osoby:Crew:0.5,,,,,łazienki wspólne dla kajut pojedynczych
 damage control,1,Damage control station [stanowisko ratownicze],40,,,,,
 damage control,2,Repair locker [magazyn ratowniczy],80,repair,,,,
 damage control,3,Hull patch store [magazyn łat kadłuba],80,patch,,,,
@@ -34,14 +34,19 @@ damage control,4,Machine shop [warsztat mechaniczny],pokład,,,,,
 damage control,5,Fabrication [drukarnie 3D],90,,,,,
 damage control,6,Electrical shop [warsztat elektryczny],60,,,,,
 damage control,9,Spare parts [części zamienne],wypełnienie,,,,,
-defence quarters,1,Defence cabins [kajuty Obrony],kajuty:Defense,defence quarters,,,,
-defence quarters,2,Heads and showers [łazienki],osoby:Defense:0.5,,,,,
+defence quarters,1,Defence housing [mieszkania Obrony],mieszkania:Defense,defence quarters,,,,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+defence quarters,2,Heads and showers [łazienki],osoby:Defense:0.5,,,,,łazienki wspólne dla kajut pojedynczych
 galley,1,Galley [kambuz],40,galley,L1,30,,
 galley,1,Galley [kambuz],15,galley,L1,,29,mała załoga
 galley,2,Mess [mesa],osoby:*:1.0,,L1,,,pół załogi naraz
 galley,3,Gym [siłownia],60,,L1,30,,ćwiczenia w ciążeniu
 galley,3,Gym [siłownia],15,,L1,,29,mała załoga
 galley,4,Laundry [pralnia],15,,L1,,,
+galley,5,Lounge [świetlica],150,,L1,30,,
+galley,6,Café [kawiarnia],40,,L1,30,,Kantyna Halleya (CORP-0001)
+galley,7,Sports hall [sala sportowa],200,,L1,30,,
+galley,8,Viewing lounge [salon widokowy],60,,L1,30,,okna na kosmos
+galley,9,Garden lounge [ogród rekreacyjny],100,,L1,30,,"rośliny dla odpoczynku, nie na jedzenie"
 hangar,1,Hangar control [kontrola hangaru],40,,,,,
 hangar,2,Probe rack [stojak sond],30,probe,,,,
 hangar,3,Craft workshop [warsztat statków],200,,,,,
@@ -54,6 +59,11 @@ hydroponics,9,Grow deck [pokład uprawny],wypełnienie,*,,,,regały i lampy
 labs,1,Lab 1 [laboratorium 1],100,labs,L1,,,
 labs,2,Lab 2 [laboratorium 2],100,,L1,,,
 labs,3,Lab 3 [laboratorium 3],100,,L1,,,
+labs,5,Library [biblioteka],80,,L1,30,,
+labs,6,Chapel [kaplica],60,,L1,30,,wspólna dla wszystkich wyznań (religie.csv)
+labs,7,School and nursery [szkoła i żłobek],80,,L1,30,,na przyszłe dzieci
+labs,8,Hobby workshop [pracownia hobby],50,,L1,30,,
+labs,9,Music room [sala muzyczna],30,,L1,30,,
 life support,1,Air plant [instalacja powietrza],pokład,air,,30,,
 life support,1,Air plant [instalacja powietrza],60,air,,,29,mała załoga
 life support,2,Water recycler [odzysk wody],pokład,water,,30,,
@@ -78,12 +88,12 @@ ops room,5,Navigation office [biuro nawigacji],40,,,,,
 ops room,6,Analysis office [biuro analiz],40,,,,,
 ops room,7,Heads [toalety],8,,,,,
 ops room,9,Ops stores [magazyn operacyjny],wypełnienie,,,,,
-quarters a,1,Cabins A [kajuty A],kajuty:Crew,quarters a,L2,,,flota
-quarters a,2,Heads and showers A [łazienki A],osoby:Crew:0.5,,L2,,,
-quarters b,1,Cabins B [kajuty B],kajuty:Science,quarters b,L2,,,nauka
-quarters b,2,Heads and showers B [łazienki B],osoby:Science:0.5,,L2,,,
-quarters c,1,Cabins C [kajuty C],kajuty:Defense,quarters c,L2,,,Obrona
-quarters c,2,Heads and showers C [łazienki C],osoby:Defense:0.5,,L2,,,
+quarters a,1,Housing A [mieszkania A],mieszkania:Crew,quarters a,L2,,,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+quarters a,2,Heads and showers A [łazienki A],osoby:Crew:0.5,,L2,,,łazienki wspólne dla kajut pojedynczych
+quarters b,1,Housing B [mieszkania B],mieszkania:Science,quarters b,L2,,,"nauka; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+quarters b,2,Heads and showers B [łazienki B],osoby:Science:0.5,,L2,,,łazienki wspólne dla kajut pojedynczych
+quarters c,1,Housing C [mieszkania C],mieszkania:Defense,quarters c,L2,,,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+quarters c,2,Heads and showers C [łazienki C],osoby:Defense:0.5,,L2,,,łazienki wspólne dla kajut pojedynczych
 reactor,1,Reactor control room [sterownia reaktora],60,,,30,,
 reactor,1,Reactor control room [sterownia reaktora],20,,,,29,mała załoga
 reactor,2,Reactor vessel [zbiornik reaktora],pokład,reactor,,,,
