@@ -49,3 +49,11 @@ cewka_kw_m2,0.04,kW/m2,"propozycja: chłodziarki nadprzewodnika (ok. 25 K), prą
 dawka_gcr_msv_dzien,1.84,mSv/dzień,"promieniowanie kosmiczne w statku bez osłony (MSL, lot na Marsa); przy Szwie pewnie więcej: brak danej"
 cewka_gcr_redukcja,0.10,ułamek,"M1: o tyle mniej dawki z promieniowania kosmicznego — Mistrz Gry, decyzja Andrzeja 21.11.2026 (osłony statków, Stocznia)"
 cewka_burza_redukcja,0.90,ułamek,"M1: o tyle mniej dawki z burzy słonecznej — Mistrz Gry, decyzja Andrzeja 21.11.2026 (osłony statków, Stocznia)"
+gestosc_LH2_t_m3,0.0708,t/m3,ciekły wodór (20 K)
+gestosc_LOX_t_m3,1.141,t/m3,ciekły tlen (90 K)
+isp_h2o2_s,450,s,"silnik wodorowo-tlenowy w próżni (klasa RL10); paliwo z elektrolizy wody na Halleyu (produkty.csv: hydrogen, oxygen, od roku 0)"
+mieszanka_O_F,6,mnożnik,tlen : wodór masowo
+tlen_kg_osoba_dzien,0.84,kg,zużycie tlenu na osobę na dzień (rząd wielkości NASA BVAD); mała jednostka bez odzysku
+woda_kg_osoba_dzien,3.5,kg,woda do picia i jedzenia na osobę na dzień; mała jednostka bez odzysku
+jedzenie_kg_osoba_dzien,1.8,kg,racje z opakowaniem na osobę na dzień
+masa_osoby_t,0.1,t,człowiek ze skafandrem i rzeczami
