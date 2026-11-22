@@ -1,6 +1,7 @@
 numer,forma,konto_kr,bank,miejsce,poprzednik,nastepca,status,data_zmiany,oszczednosci_kr,inwestycje_kr,nieruchomosc,nieruchomosc_wartosc_kr
 BANK-0001,bank,0,,SHIP-HALLEY,,,dziala,2085-08-15,,,,
 CORP-0001,corp,0,BANK-0001,SHIP-HALLEY,,,dziala,2085-08-15,,,,
+CORP-0002,corp,0,BANK-0001,PLAN-0001,,,dziala,2085-08-15,,,,
 HOME-0001,household,18120,BANK-0001,,,,dziala,2085-08-15,203980,0,,0
 HOME-0002,household,29000,BANK-0001,,,,dziala,2085-08-15,88790,0,,0
 HOME-0003,household,15580,BANK-0001,,,,dziala,2085-08-15,80390,0,,0
