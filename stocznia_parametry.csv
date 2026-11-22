@@ -54,6 +54,8 @@ gestosc_LOX_t_m3,1.141,t/m3,ciekły tlen (90 K)
 isp_h2o2_s,450,s,"silnik wodorowo-tlenowy w próżni (klasa RL10); paliwo z elektrolizy wody na Halleyu (produkty.csv: hydrogen, oxygen, od roku 0)"
 mieszanka_O_F,6,mnożnik,tlen : wodór masowo
 tlen_kg_osoba_dzien,0.84,kg,zużycie tlenu na osobę na dzień (rząd wielkości NASA BVAD); mała jednostka bez odzysku
-woda_kg_osoba_dzien,3.5,kg,woda do picia i jedzenia na osobę na dzień; mała jednostka bez odzysku
+woda_kg_osoba_dzien,3.5,kg,"woda do picia i jedzenia na osobę na dzień; mała jednostka bez odzysku; także miara zapasu wody: 1 dzień zapasu = pełna załoga × 3,5 kg (woda w dniach i w tonach, Andrzej 22.11.2026)"
 jedzenie_kg_osoba_dzien,1.8,kg,racje z opakowaniem na osobę na dzień
 masa_osoby_t,0.1,t,człowiek ze skafandrem i rzeczami
+elektroliza_kwh_kg_h2,55,kWh,energia elektrolizy na 1 kg wodoru (dzisiejsze elektrolizery ok. 50–55 kWh/kg); 1 kg H2 = 9 kg wody → 8 kg tlenu (chemia)
+elektroliza_min_woda_dni,360,dni,"elektrolizer bierze tylko wodę ponad tę rezerwę picia (PROPOZYCJA, Zasady silnika 22.11.2026)"

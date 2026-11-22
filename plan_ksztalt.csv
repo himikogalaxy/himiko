@@ -73,3 +73,6 @@ SHIP-HALLEY-S2,paliwo_t,14.66,craft.py (Stocznia 22.11.2026)
 SHIP-HALLEY-S2,zbiorniki_m3,44.7,craft.py (Stocznia 22.11.2026)
 SHIP-HALLEY-S2,zapasy_t,0.172,craft.py (Stocznia 22.11.2026)
 SHIP-HALLEY-S2,przyspieszenie_g,0.30,craft.py (Stocznia 22.11.2026)
+SHIP-HALLEY,elektrolizer_kw,1000,"decyzja Andrzeja 22.11.2026 (moc: PROPOZYCJA): elektrolizer wody, ok. 436 kg wodoru na dobę; tankuje Terna w dobę"
+SHIP-HALLEY,magazyn_h2_t,9.19,decyzja Andrzeja 22.11.2026 (PROPOZYCJA): magazyn wodoru na 2 pełne tankowania jednostek pokładowych
+SHIP-HALLEY,magazyn_o2_t,55.17,decyzja Andrzeja 22.11.2026 (PROPOZYCJA): magazyn tlenu na 2 pełne tankowania jednostek pokładowych
