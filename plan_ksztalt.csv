@@ -76,3 +76,4 @@ SHIP-HALLEY-S2,przyspieszenie_g,0.30,craft.py (Stocznia 22.11.2026)
 SHIP-HALLEY,elektrolizer_kw,1000,"decyzja Andrzeja 22.11.2026 (moc: PROPOZYCJA): elektrolizer wody, ok. 436 kg wodoru na dobę; tankuje Terna w dobę"
 SHIP-HALLEY,magazyn_h2_t,9.19,decyzja Andrzeja 22.11.2026 (PROPOZYCJA): magazyn wodoru na 2 pełne tankowania jednostek pokładowych
 SHIP-HALLEY,magazyn_o2_t,55.17,decyzja Andrzeja 22.11.2026 (PROPOZYCJA): magazyn tlenu na 2 pełne tankowania jednostek pokładowych
+SHIP-KITTIWAKE,ladunek_t,150,"ładowność (t): ładunek, z którym liczono paliwo kuriera (dziennik 100: masa pełna 1374 t bez ładunku + 150 t); ładownie C6–C7 (4 pokłady × 193 m² × 3,2 m = 2 470 m³ ≈ 950 t przy 0,5 t/m³ i +30% na dostęp) mieszczą więcej, ale cięższy ładunek = za mało paliwa (Zasady silnika 22.11.2026, po pytaniu Andrzeja)"
