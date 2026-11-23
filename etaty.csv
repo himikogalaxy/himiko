@@ -98,3 +98,9 @@ ETAT-0096,SHIP-KITTIWAKE,ROLA-051,Sergeant,PL-0009,,,obsadzony,2085-08-15,ważny
 ETAT-0097,SHIP-KITTIWAKE,ROLA-032,"Engineer, reactor",RU-0004,,,obsadzony,2085-08-15,krytyczny,silnik,
 ETAT-0098,SHIP-KITTIWAKE,ROLA-031,"Engineer, drive",RU-0005,,,obsadzony,2085-08-15,krytyczny,silnik,
 ETAT-0099,SHIP-KITTIWAKE,ROLA-046,Guard,TW-0002,,,obsadzony,2085-08-15,zwykły,silnik,
+ETAT-0100,SHIP-HALLEY,ROLA-087,Archivist of the Order,GB-0012,,,obsadzony,2085-08-15,ważny,Andrzej,nowy etat (kreator)
+ETAT-0101,SHIP-HALLEY,ROLA-088,"Watch leader, Wardens of the Order",RU-0006,,,obsadzony,2085-08-15,ważny,Andrzej,nowy etat (kreator)
+ETAT-0102,SHIP-HALLEY,ROLA-089,"Senior warden, Wardens of the Order",HU-0003,,,obsadzony,2085-08-15,ważny,Andrzej,nowy etat (kreator)
+ETAT-0103,SHIP-HALLEY,ROLA-090,Warden of the Order,BR-0002,,,obsadzony,2085-08-15,ważny,Andrzej,nowy etat (kreator)
+ETAT-0104,SHIP-HALLEY,ROLA-090,Warden of the Order,JP-0005,,,obsadzony,2085-08-15,ważny,Andrzej,nowy etat (kreator)
+ETAT-0105,SHIP-KITTIWAKE,ROLA-053,Sealkeeper of the Order,EG-0002,,,obsadzony,2085-08-15,zwykły,Andrzej,nowy etat (kreator)

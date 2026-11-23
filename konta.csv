@@ -98,3 +98,9 @@ KR-0004,Halley mission (UN + Compact of Charters),8480,20,1000,25120,0,0,Cabin o
 GR-0002,Halley mission (UN + Compact of Charters),4480,20,500,7480,2220,0,Cabin on Halley; rented flat on Earth (GR) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
 GB-0010,Halley mission (UN + Compact of Charters),4890,20,1300,2610,147020,0,Cabin on Halley; rented house on Earth (GB) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
 GB-0011,Halley mission (UN + Compact of Charters),7870,20,500,23310,8190,0,Cabin on Halley; rented flat on Earth (GB) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+GB-0012,Order [Zakon],12010,20,550,18880,10720,0,Cabin on Halley; house on Earth (GB),217000,savings,0,0,BANK-0001
+RU-0006,Order [Zakon],9100,20,200,21690,221180,0,Cabin on Halley; flat on Earth (RU),156000,savings,0,0,BANK-0001
+HU-0003,Order [Zakon],6260,20,800,15040,10790,0,Cabin on Halley; house on Earth (HU),261000,savings,0,0,BANK-0001
+BR-0002,Order [Zakon],4720,20,500,11830,5910,0,Cabin on Halley; rented flat on Earth (BR) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001
+JP-0005,Order [Zakon],4720,20,800,13590,2150,0,Cabin on Halley; rented house on Earth (JP) [wynajmowany dom na Ziemi],0,savings,0,0,BANK-0001
+EG-0002,Kittiwake (UN + Compact of Charters),12790,20,500,37140,6890,0,Cabin on Kittiwake; rented flat on Earth (EG) [wynajmowane mieszkanie na Ziemi],0,savings,0,0,BANK-0001

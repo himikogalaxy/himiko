@@ -1,0 +1,7 @@
+jednostka,szczebel,ludzie,miejsce,klucznicy,nadzor_wartownikow,uwaga,zrodlo
+PLAN-0001,Central Archive [Archiwum Centralne],0,,,,"czarna skrzynka, Trzej Pierwsi","archiwa.py (Silnik życia, decyzja Andrzeja 23.11.2026, Mistrz Gry)"
+SHIP-HALLEY,Vault [Skarbiec],90,C5 Archive,GB-0005; GB-0012; GB-0006,GB-0006,Ugoda o Zapisach: skarbiec tylko trzema kluczami naraz,"archiwa.py (Silnik życia, decyzja Andrzeja 23.11.2026, Mistrz Gry)"
+SHIP-HALLEY-S1,none [brak],0,,,,"poniżej 10 osób: świadkowie, Kronikarz spisuje relację po powrocie","archiwa.py (Silnik życia, decyzja Andrzeja 23.11.2026, Mistrz Gry)"
+SHIP-HALLEY-S2,none [brak],0,,,,"poniżej 10 osób: świadkowie, Kronikarz spisuje relację po powrocie","archiwa.py (Silnik życia, decyzja Andrzeja 23.11.2026, Mistrz Gry)"
+SHIP-KITTIWAKE,Records locker [Szafa zapisów],15,C1 Bridge and sensors,EG-0002,,"Pieczętnik otwiera sam, przy świadku; pieczęć pokazuje, że ktoś otworzył","archiwa.py (Silnik życia, decyzja Andrzeja 23.11.2026, Mistrz Gry)"
+SHIP-TERN,none [brak],0,,,,"poniżej 10 osób: świadkowie, Kronikarz spisuje relację po powrocie","archiwa.py (Silnik życia, decyzja Andrzeja 23.11.2026, Mistrz Gry)"
