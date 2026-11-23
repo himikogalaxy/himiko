@@ -40,7 +40,7 @@ SHIP-HALLEY,C5,19,1,Archive vault [skarbiec archiwum],171,12:Archive vault [skar
 SHIP-HALLEY,C5,20,1,Cold copies room [zimne kopie],80,13:Cold copies [zimne kopie],,papierowe kopie (zimne archiwum)
 SHIP-HALLEY,C5,20,2,Reading room [czytelnia],40,,,
 SHIP-HALLEY,C5,20,3,Records office [biuro ewidencji],30,,,
-SHIP-HALLEY,C5,20,4,Archive stacks [regały archiwum],21,,,
+SHIP-HALLEY,C5,20,4,Guard post [wartownia],15,,,"Zakon, szczebel skarbca (od 50 osób): drzwi do skarbca, grafik zmian, zamknięta skrzynka z 2 ogłuszaczami (Andrzej 23.11.2026)"
 SHIP-HALLEY,C5,21,1,Archive stacks [regały archiwum],171,,,
 SHIP-HALLEY,C5,22,1,Archive stacks [regały archiwum],171,,,
 SHIP-HALLEY,C6,23,1,Damage control station [stanowisko ratownicze],40,,,
@@ -135,11 +135,14 @@ SHIP-HALLEY,R1,R1-L2,2,Couple's flats [mieszkania dla par] ×2,48,34:Quarters A 
 SHIP-HALLEY,R1,R1-L2,3,Officer's cabins [kajuty oficerskie] ×13,208,34:Quarters A [kwatery A],13,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
 SHIP-HALLEY,R1,R1-L2,4,Single cabins [kajuty pojedyncze] ×19,228,34:Quarters A [kwatery A],19,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
 SHIP-HALLEY,R1,R1-L2,5,Heads and showers A [łazienki A],18,,,łazienki wspólne dla kajut pojedynczych
-SHIP-HALLEY,R1,R1-L2,6,Officer's cabins [kajuty oficerskie] ×2,32,35:Quarters C [kwatery C],2,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R1,R1-L2,7,Single cabins [kajuty pojedyncze] ×4,48,35:Quarters C [kwatery C],4,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R1,R1-L2,8,Heads and showers C [łazienki C],8,,,łazienki wspólne dla kajut pojedynczych
-SHIP-HALLEY,R1,R1-L2,9,"Family flats, reserve [rezerwowe mieszkania rodzinne] ×12",432,,,"dla rodzin, nowych ludzi i wymiany załogi"
-SHIP-HALLEY,R1,R1-L2,10,Ring stores [magazyn pierścienia],24,,,
+SHIP-HALLEY,R1,R1-L2,6,Officer's cabins [kajuty oficerskie] ×1,16,,,Zakon: Archiwista (urząd Zakonu = kajuta oficerska; Andrzej 23.11.2026)
+SHIP-HALLEY,R1,R1-L2,7,Single cabins [kajuty pojedyncze] ×4,48,,,Zakon: 4 Wartowników (Andrzej 23.11.2026)
+SHIP-HALLEY,R1,R1-L2,8,Order store [schowek Zakonu],8,,,Zakon (Andrzej 23.11.2026)
+SHIP-HALLEY,R1,R1-L2,9,Officer's cabins [kajuty oficerskie] ×2,32,35:Quarters C [kwatery C],2,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R1,R1-L2,10,Single cabins [kajuty pojedyncze] ×4,48,35:Quarters C [kwatery C],4,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R1,R1-L2,11,Heads and showers C [łazienki C],8,,,łazienki wspólne dla kajut pojedynczych
+SHIP-HALLEY,R1,R1-L2,12,"Family flats, reserve [rezerwowe mieszkania rodzinne] ×10",360,,,"dla rodzin, nowych ludzi i wymiany załogi"
+SHIP-HALLEY,R1,R1-L2,13,Ring stores [magazyn pierścienia],24,,,
 SHIP-HALLEY,R2,R2-L1,1,Medbay ward [izba chorych],100,38:Medbay [izba chorych],,
 SHIP-HALLEY,R2,R2-L1,2,Surgery [sala zabiegowa],30,,,
 SHIP-HALLEY,R2,R2-L1,3,Pharmacy [apteka],15,,,
@@ -186,8 +189,8 @@ SHIP-KITTIWAKE,C1,1,1,Bridge [mostek],60,3:Helm and navigation console [konsola 
 SHIP-KITTIWAKE,C1,1,2,Captain's day room [gabinet kapitana],25,,,
 SHIP-KITTIWAKE,C1,1,3,Heads [toalety],8,,,
 SHIP-KITTIWAKE,C1,1,4,Bridge electronics [elektronika mostka],20,,,mała załoga
-SHIP-KITTIWAKE,C1,1,5,Sensor room [pomieszczenie sensorów],40,1:Antenna [antena]; 2:Laser link [łącze laserowe],,mała załoga
-SHIP-KITTIWAKE,C1,1,6,Bridge stores [magazyn mostka],18,,,
+SHIP-KITTIWAKE,C1,1,5,Record cabinet [szafa zapisów],4,,,"Zakon, szczebel szafy (10–49 osób); od 50 skarbiec w przedziale Archive; od 500 Dom Zakonu = osobny obiekt (Andrzej 23.11.2026)"
+SHIP-KITTIWAKE,C1,1,6,Sensor room [pomieszczenie sensorów],40,1:Antenna [antena]; 2:Laser link [łącze laserowe],,mała załoga
 SHIP-KITTIWAKE,C1,2,1,Bridge stores [magazyn mostka],171,,,
 SHIP-KITTIWAKE,C2,3,1,Galley [kambuz],15,6:Galley and mess [kambuz i mesa],,mała załoga
 SHIP-KITTIWAKE,C2,3,2,Mess [mesa],14,,,pół załogi naraz
@@ -198,7 +201,9 @@ SHIP-KITTIWAKE,C2,3,6,Officer's cabins [kajuty oficerskie] ×2,32,5:Crew quarter
 SHIP-KITTIWAKE,C2,3,7,Stores and equipment [magazyn i sprzęt],56,,,
 SHIP-KITTIWAKE,C2,4,1,Single cabins [kajuty pojedyncze] ×5,60,5:Crew quarters [kwatery załogi],5,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
 SHIP-KITTIWAKE,C2,4,2,Heads and showers [łazienki],8,,,łazienki wspólne dla kajut pojedynczych
-SHIP-KITTIWAKE,C2,4,3,Stores and equipment [magazyn i sprzęt],103,,,
+SHIP-KITTIWAKE,C2,4,3,Passenger berths [koje pasażerskie] ×5,30,,,pula pasażerska kuriera (zasady_zycia: kurier_pasazerowie 6 = 5 koi + koja Pieczętnika)
+SHIP-KITTIWAKE,C2,4,4,Sealkeeper's berth [koja Pieczętnika],6,,,"z puli pasażerskiej, dla Pieczętnika w drodze (Andrzej 23.11.2026)"
+SHIP-KITTIWAKE,C2,4,5,Stores and equipment [magazyn i sprzęt],67,,,
 SHIP-KITTIWAKE,C3,5,1,Medbay [izba chorych],30,"7:Medbay, 2 beds [izba chorych, 2 łóżka]",,mała załoga
 SHIP-KITTIWAKE,C3,5,2,Pharmacy [apteka],15,,,
 SHIP-KITTIWAKE,C3,5,3,Stores and equipment [magazyn i sprzęt],126,,,

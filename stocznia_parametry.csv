@@ -62,3 +62,8 @@ elektroliza_min_woda_dni,360,dni,"elektrolizer bierze tylko wodę ponad tę reze
 elektroliza_min_lod_proc,50,%,"każdy statek z elektrolizerem: gdy nie leci (brak manewru), elektrolizer bierze najpierw lód tarczy ponad ten % pojemności tarcz, potem wodę ponad rezerwę picia; w locie tylko wodę; w dniu startu manewru lód tarczy dolewany do pełna z wody do picia (tarcza ważniejsza; zostaje woda na lot: lot_woda_zapas_mnoznik) (Andrzej 22.11.2026; próg = granica ostrzeżenia kontroli, PROPOZYCJA)"
 lot_woda_zapas_mnoznik,1,mnożnik,"przed lotem tarcza dostaje wodę do picia, ale zostaje jej co najmniej dni lotu × mnożnik (Andrzej 22.11.2026: tarcza ważniejsza niż woda, bez wody do 3 dni, po przebiciu nikt; mnożnik PROPOZYCJA)"
 lot_min_tarcza_proc,50,%,"statek nie startuje, gdy po dolewce z wody lód tarczy jest poniżej tylu % pojemności tarcz; start przesuwa się z dnia na dzień, aż lodu będzie dość (ZATWIERDZONE przez Andrzeja 22.11.2026)"
+iss_czesci_t_rok,2.88,t/rok,"ISS 10.2017–12.2023: maintenance ok. 18 000 kg / 6,25 roku (NASA ICES-2024-132, Historical Review of Logistics Mass… ISS)"
+iss_zaloga,7,osób,mediana załogi ISS w tym okresie (to samo źródło)
+iss_masa_t,420,t,masa ISS (rząd wielkości)
+kadlub_udzial_iss,0.1,ułamek,"PROPOZYCJA: część konserwacji ISS przypadająca na kadłub (łaty, uszczelki, powłoki); reszta = urządzenia"
+technologia_2084,0.5,mnożnik,Andrzej 22.11.2026: sprzęt z 2084 psuje się 2 razy rzadziej niż na ISS

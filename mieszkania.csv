@@ -48,8 +48,11 @@ Halley R1-L2-038,SHIP-HALLEY,R1,R1-L2,Single cabins [kajuty pojedyncze],12,1,
 Halley R1-L2-039,SHIP-HALLEY,R1,R1-L2,Single cabins [kajuty pojedyncze],12,1,
 Halley R1-L2-040,SHIP-HALLEY,R1,R1-L2,Single cabins [kajuty pojedyncze],12,1,
 Halley R1-L2-041,SHIP-HALLEY,R1,R1-L2,Single cabins [kajuty pojedyncze],12,1,
-Halley R1-L2-042,SHIP-HALLEY,R1,R1-L2,"Family flats, reserve [rezerwowe mieszkania rodzinne]",36,4,
-Halley R1-L2-043,SHIP-HALLEY,R1,R1-L2,"Family flats, reserve [rezerwowe mieszkania rodzinne]",36,4,
+Halley R1-L2-042a,SHIP-HALLEY,R1,R1-L2,Single cabins [kajuty pojedyncze],12,1,"Zakon: Wartownik (z mieszkania Halley R1-L2-042, Andrzej 23.11.2026)"
+Halley R1-L2-042b,SHIP-HALLEY,R1,R1-L2,Single cabins [kajuty pojedyncze],12,1,"Zakon: Wartownik (z mieszkania Halley R1-L2-042, Andrzej 23.11.2026)"
+Halley R1-L2-042c,SHIP-HALLEY,R1,R1-L2,Single cabins [kajuty pojedyncze],12,1,"Zakon: Wartownik (z mieszkania Halley R1-L2-042, Andrzej 23.11.2026)"
+Halley R1-L2-043a,SHIP-HALLEY,R1,R1-L2,Officer's cabins [kajuty oficerskie],16,1,"Zakon: Archiwista (z mieszkania Halley R1-L2-043; obok schowek Zakonu 8 m², Andrzej 23.11.2026)"
+Halley R1-L2-043b,SHIP-HALLEY,R1,R1-L2,Single cabins [kajuty pojedyncze],12,1,"Zakon: czwarty Wartownik (z mieszkania Halley R1-L2-043, Andrzej 23.11.2026)"
 Halley R1-L2-044,SHIP-HALLEY,R1,R1-L2,"Family flats, reserve [rezerwowe mieszkania rodzinne]",36,4,
 Halley R1-L2-045,SHIP-HALLEY,R1,R1-L2,"Family flats, reserve [rezerwowe mieszkania rodzinne]",36,4,
 Halley R1-L2-046,SHIP-HALLEY,R1,R1-L2,"Family flats, reserve [rezerwowe mieszkania rodzinne]",36,4,

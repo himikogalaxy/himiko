@@ -7,6 +7,7 @@ archive,1,Archive vault [skarbiec archiwum],pokład,vault,,,,
 archive,2,Cold copies room [zimne kopie],80,cold copies,,,,papierowe kopie (zimne archiwum)
 archive,3,Reading room [czytelnia],40,,,,,
 archive,4,Records office [biuro ewidencji],30,,,,,
+archive,5,Guard post [wartownia],15,,,50,,"Zakon, szczebel skarbca (od 50 osób): drzwi do skarbca, grafik zmian, zamknięta skrzynka z 2 ogłuszaczami (Andrzej 23.11.2026)"
 archive,9,Archive stacks [regały archiwum],wypełnienie,,,,,
 armory,1,Armory [zbrojownia],80,armory,,30,,
 armory,1,Armory [zbrojownia],30,armory,,,29,mała załoga
@@ -22,11 +23,14 @@ bridge,4,Watch rest room [pokój wachty],30,,,30,,koje dla wachty mostka
 bridge,5,Heads [toalety],8,,,,,
 bridge,6,Bridge electronics [elektronika mostka],pokład,,,30,,
 bridge,6,Bridge electronics [elektronika mostka],20,,,,29,mała załoga
+bridge,8,Record cabinet [szafa zapisów],4,,,10,49,"Zakon, szczebel szafy (10–49 osób); od 50 skarbiec w przedziale Archive; od 500 Dom Zakonu = osobny obiekt (Andrzej 23.11.2026)"
 bridge,9,Bridge stores [magazyn mostka],wypełnienie,,,,,
 cargo,1,Crane control [sterowanie dźwigiem],15,crane,,,,
 cargo,9,Cargo hold [ładownia],wypełnienie,*,,,,
 crew quarters,1,Crew housing [mieszkania załogi],mieszkania:Crew,crew quarters,,,,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
 crew quarters,2,Heads and showers [łazienki],osoby:Crew:0.5,,,,,łazienki wspólne dla kajut pojedynczych
+crew quarters,3,Passenger berths [koje pasażerskie] ×5,30,,,,,pula pasażerska kuriera (zasady_zycia: kurier_pasazerowie 6 = 5 koi + koja Pieczętnika)
+crew quarters,4,Sealkeeper's berth [koja Pieczętnika],6,,,,,"z puli pasażerskiej, dla Pieczętnika w drodze (Andrzej 23.11.2026)"
 damage control,1,Damage control station [stanowisko ratownicze],40,,,,,
 damage control,2,Repair locker [magazyn ratowniczy],80,repair,,,,
 damage control,3,Hull patch store [magazyn łat kadłuba],80,patch,,,,
@@ -90,6 +94,9 @@ ops room,7,Heads [toalety],8,,,,,
 ops room,9,Ops stores [magazyn operacyjny],wypełnienie,,,,,
 quarters a,1,Housing A [mieszkania A],mieszkania:Crew,quarters a,L2,,,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
 quarters a,2,Heads and showers A [łazienki A],osoby:Crew:0.5,,L2,,,łazienki wspólne dla kajut pojedynczych
+quarters a,3,Officer's cabins [kajuty oficerskie] ×1,16,,L2,50,,Zakon: Archiwista (urząd Zakonu = kajuta oficerska; Andrzej 23.11.2026)
+quarters a,4,Single cabins [kajuty pojedyncze] ×4,48,,L2,50,,Zakon: 4 Wartowników (Andrzej 23.11.2026)
+quarters a,5,Order store [schowek Zakonu],8,,L2,50,,Zakon (Andrzej 23.11.2026)
 quarters b,1,Housing B [mieszkania B],mieszkania:Science,quarters b,L2,,,"nauka; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
 quarters b,2,Heads and showers B [łazienki B],osoby:Science:0.5,,L2,,,łazienki wspólne dla kajut pojedynczych
 quarters c,1,Housing C [mieszkania C],mieszkania:Defense,quarters c,L2,,,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
