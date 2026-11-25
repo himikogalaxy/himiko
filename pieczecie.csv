@@ -1,4 +1,4 @@
 numer,statek,gdzie,co,zalozona,zalozona_atr,zalozyl,swiadek_zalozenia,zerwana,zerwana_atr,zerwal,swiadek_zerwania,uwaga,zrodlo
-SEAL-0001,SHIP-HALLEY,"C5 Archive, vault door",vault [skarbiec],2085-08-15,0·300 ATR,GB-0006,GB-0005,,,,,zamknięcie skarbca przed wylotem,"Silnik życia, decyzja Andrzeja 23.11.2026 (Mistrz Gry): ochrona archiwów Zakonu"
-SEAL-0002,SHIP-HALLEY,"C5 Archive, guard room",stun gun box [skrzynka z ogłuszaczami],2085-08-15,0·300 ATR,GB-0006,RU-0006,,,,,ogłuszacze wydaje tylko Pieczętnik,"Silnik życia, decyzja Andrzeja 23.11.2026 (Mistrz Gry): ochrona archiwów Zakonu"
-SEAL-0003,SHIP-KITTIWAKE,C1 Bridge and sensors,records locker [szafa zapisów],2085-08-15,0·300 ATR,EG-0002,GB-0008,,,,,szafa zapisów kuriera,"Silnik życia, decyzja Andrzeja 23.11.2026 (Mistrz Gry): ochrona archiwów Zakonu"
+SEAL-0001,SHIP-HALLEY,"C5 Archive, vault door",vault [skarbiec],2085-08-15,0·300 ATR,GB-0006,GB-0005,,,,,closing the vault before departure,"Silnik życia, decyzja Andrzeja 23.11.2026 (Mistrz Gry): ochrona archiwów Zakonu"
+SEAL-0002,SHIP-HALLEY,"C5 Archive, guard room",stun gun box [skrzynka z ogłuszaczami],2085-08-15,0·300 ATR,GB-0006,RU-0006,,,,,stunners are issued only by the Sealkeeper,"Silnik życia, decyzja Andrzeja 23.11.2026 (Mistrz Gry): ochrona archiwów Zakonu"
+SEAL-0003,SHIP-KITTIWAKE,C1 Bridge and sensors,records locker [szafa zapisów],2085-08-15,0·300 ATR,EG-0002,GB-0008,,,,,courier records locker,"Silnik życia, decyzja Andrzeja 23.11.2026 (Mistrz Gry): ochrona archiwów Zakonu"

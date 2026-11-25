@@ -1,31 +1,31 @@
 statek,zasob,ilosc,jednostka,uwaga
-SHIP-HALLEY,food,360,days,do potwierdzenia
-SHIP-HALLEY,fresh food,30,days,do potwierdzenia
-SHIP-HALLEY,water (recycled),540,days,do potwierdzenia
-SHIP-HALLEY,air reserve,60,days,do potwierdzenia
-SHIP-HALLEY,fuel,100,%,"liczone z fizyki (manewry.csv, statki.csv)"
-SHIP-HALLEY,spare parts,80,%,do potwierdzenia
-SHIP-HALLEY,medical supplies,90,%,do potwierdzenia
-SHIP-HALLEY,food quality,7,1–10,wpływa na morale
-SHIP-HALLEY,equipment condition,95,%,spada bez części
-SHIP-HALLEY,medbay beds,6,beds,pojemność
-SHIP-HALLEY,crew cohesion,300,days together,od pierwszych przygotowań; do potwierdzenia
-SHIP-HALLEY,animal feed,360,days,zatwierdzone przez Andrzeja 16.11.2026; silnik.py zużywa 1 dzień na dzień (zasady_zycia.csv: zuzycie_karmy)
-SHIP-KITTIWAKE,fuel,100,%,"liczone z fizyki (manewry.csv, statki.csv); tankowanie w porcie przez dostawy.csv"
-SHIP-KITTIWAKE,food,200,days,"szablon Supply Tender: kurier, ok. 200 dni dla pełnej załogi"
+SHIP-HALLEY,food,360,days,to be confirmed
+SHIP-HALLEY,fresh food,30,days,to be confirmed
+SHIP-HALLEY,water (recycled),540,days,to be confirmed
+SHIP-HALLEY,air reserve,60,days,to be confirmed
+SHIP-HALLEY,fuel,100,%,"calculated from physics (manewry.csv, statki.csv)"
+SHIP-HALLEY,spare parts,80,%,to be confirmed
+SHIP-HALLEY,medical supplies,90,%,to be confirmed
+SHIP-HALLEY,food quality,7,1–10,affects morale
+SHIP-HALLEY,equipment condition,95,%,falls without parts
+SHIP-HALLEY,medbay beds,6,beds,capacity
+SHIP-HALLEY,crew cohesion,300,days together,from the first preparations; to be confirmed
+SHIP-HALLEY,animal feed,360,days,approved by Andrzej 16.11.2026; silnik.py uses 1 day per day (zasady_zycia.csv: zuzycie_karmy)
+SHIP-KITTIWAKE,fuel,100,%,"calculated from physics (manewry.csv, statki.csv); refuelling in port via dostawy.csv"
+SHIP-KITTIWAKE,food,200,days,"template Supply Tender: courier, approx. 200 days for a full crew"
 SHIP-KITTIWAKE,fresh food,20,days,szablon; bez hydroponiki
 SHIP-KITTIWAKE,water (recycled),300,days,szablon
 SHIP-KITTIWAKE,air reserve,30,days,szablon
 SHIP-KITTIWAKE,spare parts,80,%,szablon
 SHIP-KITTIWAKE,medical supplies,90,%,szablon
-SHIP-KITTIWAKE,food quality,7,1–10,wpływa na morale
-SHIP-KITTIWAKE,equipment condition,95,%,spada bez części
-SHIP-KITTIWAKE,medbay beds,2,beds,pojemność
-SHIP-KITTIWAKE,crew cohesion,0,days together,nowa załoga z kreatora
-SHIP-HALLEY,shield ice,1068.8,t,"oslony.py: lód tarcz dziobowej i rufowej (Stocznia, decyzja Andrzeja 21.11.2026); ubywa w locie (erozja pyłu), dolewka na postoju"
-SHIP-KITTIWAKE,shield ice,42.0,t,"oslony.py: lód tarcz dziobowej i rufowej (Stocznia, decyzja Andrzeja 21.11.2026); ubywa w locie (erozja pyłu), dolewka na postoju"
-SHIP-TERN,fuel,100,%,"H2/O2; 100% = paliwo_t z craft.py (plan_ksztalt.csv); pełne zbiorniki na start: PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026); ubywa w locie (silnik.py --lot, manewry.csv), tankowanie po powrocie z zapasów wodoru i tlenu okrętu-matki"
-SHIP-HALLEY-S1,fuel,100,%,"H2/O2; 100% = paliwo_t z craft.py (plan_ksztalt.csv); pełne zbiorniki na start: PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026); ubywa w locie (silnik.py --lot, manewry.csv), tankowanie po powrocie z zapasów wodoru i tlenu okrętu-matki"
-SHIP-HALLEY-S2,fuel,100,%,"H2/O2; 100% = paliwo_t z craft.py (plan_ksztalt.csv); pełne zbiorniki na start: PROPOZYCJA do zatwierdzenia przez Andrzeja (Zasady silnika 22.11.2026); ubywa w locie (silnik.py --lot, manewry.csv), tankowanie po powrocie z zapasów wodoru i tlenu okrętu-matki"
-SHIP-HALLEY,hydrogen,9.19,t,"zapas startowy: 2 pełne tankowania Terna i obu promów (2 × 32,18 t paliwa, O:F 6); dorabia elektrolizer z wody ponad rezerwę picia; decyzja Andrzeja 22.11.2026 (ilość: PROPOZYCJA)"
-SHIP-HALLEY,oxygen,55.17,t,zapas startowy: 2 pełne tankowania Terna i obu promów; z elektrolizy; nadwyżka do systemu powietrza; decyzja Andrzeja 22.11.2026 (ilość: PROPOZYCJA)
+SHIP-KITTIWAKE,food quality,7,1–10,affects morale
+SHIP-KITTIWAKE,equipment condition,95,%,falls without parts
+SHIP-KITTIWAKE,medbay beds,2,beds,capacity
+SHIP-KITTIWAKE,crew cohesion,0,days together,new crew from the creator
+SHIP-HALLEY,shield ice,1068.8,t,"oslony.py: ice of the bow and stern shields (Shipyard, Andrzej's decision 21.11.2026); depletes in flight (dust erosion), topped up at rest"
+SHIP-KITTIWAKE,shield ice,42.0,t,"oslony.py: ice of the bow and stern shields (Shipyard, Andrzej's decision 21.11.2026); depletes in flight (dust erosion), topped up at rest"
+SHIP-TERN,fuel,100,%,"H2/O2; 100% = paliwo_t from craft.py (plan_ksztalt.csv); full tanks at start: PROPOSAL for Andrzej to approve (Engine Rules 22.11.2026); depletes in flight (silnik.py --lot, manewry.csv), refuelled after return from the mother ship's hydrogen and oxygen stores"
+SHIP-HALLEY-S1,fuel,100,%,"H2/O2; 100% = paliwo_t from craft.py (plan_ksztalt.csv); full tanks at start: PROPOSAL for Andrzej to approve (Engine Rules 22.11.2026); depletes in flight (silnik.py --lot, manewry.csv), refuelled after return from the mother ship's hydrogen and oxygen stores"
+SHIP-HALLEY-S2,fuel,100,%,"H2/O2; 100% = paliwo_t from craft.py (plan_ksztalt.csv); full tanks at start: PROPOSAL for Andrzej to approve (Engine Rules 22.11.2026); depletes in flight (silnik.py --lot, manewry.csv), refuelled after return from the mother ship's hydrogen and oxygen stores"
+SHIP-HALLEY,hydrogen,9.19,t,"starting stock: 2 full refuellings of Tern and both shuttles (2 × 32,18 t of propellant, O:F 6); topped up by the electrolyser from water above the drinking reserve; Andrzej's decision 22.11.2026 (amount: PROPOSAL)"
+SHIP-HALLEY,oxygen,55.17,t,starting stock: 2 full refuellings of Tern and both shuttles; from electrolysis; surplus to the air system; Andrzej's decision 22.11.2026 (amount: PROPOSAL)

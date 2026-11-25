@@ -48,11 +48,11 @@ Halley R1-L2-038,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,
 Halley R1-L2-039,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,
 Halley R1-L2-040,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,
 Halley R1-L2-041,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,
-Halley R1-L2-042a,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,"Zakon: Wartownik (z mieszkania Halley R1-L2-042, Andrzej 23.11.2026)"
-Halley R1-L2-042b,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,"Zakon: Wartownik (z mieszkania Halley R1-L2-042, Andrzej 23.11.2026)"
-Halley R1-L2-042c,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,"Zakon: Wartownik (z mieszkania Halley R1-L2-042, Andrzej 23.11.2026)"
-Halley R1-L2-043a,SHIP-HALLEY,R1,R1-L2,Officer's cabins,16,1,"Zakon: Archiwista (z mieszkania Halley R1-L2-043; obok schowek Zakonu 8 m², Andrzej 23.11.2026)"
-Halley R1-L2-043b,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,"Zakon: czwarty Wartownik (z mieszkania Halley R1-L2-043, Andrzej 23.11.2026)"
+Halley R1-L2-042a,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,"Order: Warden (from flat Halley R1-L2-042, Andrzej 23.11.2026)"
+Halley R1-L2-042b,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,"Order: Warden (from flat Halley R1-L2-042, Andrzej 23.11.2026)"
+Halley R1-L2-042c,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,"Order: Warden (from flat Halley R1-L2-042, Andrzej 23.11.2026)"
+Halley R1-L2-043a,SHIP-HALLEY,R1,R1-L2,Officer's cabins,16,1,"Order: Archivist (from flat Halley R1-L2-043; next to it an Order store of 8 m², Andrzej 23.11.2026)"
+Halley R1-L2-043b,SHIP-HALLEY,R1,R1-L2,Single cabins,12,1,"Order: fourth Warden (from flat Halley R1-L2-043, Andrzej 23.11.2026)"
 Halley R1-L2-044,SHIP-HALLEY,R1,R1-L2,"Family flats, reserve",36,4,
 Halley R1-L2-045,SHIP-HALLEY,R1,R1-L2,"Family flats, reserve",36,4,
 Halley R1-L2-046,SHIP-HALLEY,R1,R1-L2,"Family flats, reserve",36,4,
@@ -136,4 +136,4 @@ Kittiwake D7-003,SHIP-KITTIWAKE,C4,7,Single cabins,12,1,
 Kittiwake D7-004,SHIP-KITTIWAKE,C4,7,Single cabins,12,1,
 Kittiwake D7-005,SHIP-KITTIWAKE,C4,7,Single cabins,12,1,
 Kittiwake D7-006,SHIP-KITTIWAKE,C4,7,Single cabins,12,1,
-Kittiwake D3-004,SHIP-KITTIWAKE,C2,3,Officer's cabins,16,1,dobudowane za zgodą Andrzeja 23.11.2026 (rozbudowa Kittiwake: kajuta dla EG-0002)
+Kittiwake D3-004,SHIP-KITTIWAKE,C2,3,Officer's cabins,16,1,built with Andrzej's consent 23.11.2026 (Kittiwake extension: cabin for EG-0002)

@@ -248,7 +248,7 @@ Z-0246,Patrick,Fitzgerald,child,IE-0003,2082,alive,Earth (IE),stays with family 
 Z-0247,Mary,Fitzgerald,child,IE-0003,2082,alive,Earth (IE),stays with family on Earth,
 Z-0248,Niamh,Fitzgerald,child,IE-0003,2084,alive,Earth (IE),stays with family on Earth,
 Z-0249,Péter,Varga,spouse,HU-0001,2039,alive,Earth (HU),Budapest,9680
-Z-0250,Felix,Müller,spouse,DE-0001,2035,alive,Earth (DE),Munich; same-sex [jednopłciowa],8670
+Z-0250,Felix,Müller,spouse,DE-0001,2035,alive,Earth (DE),Munich; same-sex,8670
 Z-0251,Piotr,Wolski,spouse,PL-0001,2041,alive,Earth (PL),Kraków,4730
 Z-0252,Aiko,Aoki,spouse,JP-0001,2028,alive,Earth (JP),Sendai,8740
 Z-0253,Sophie,Evans,spouse,GB-0001,2052,alive,Earth (GB),Bristol,7080
@@ -257,7 +257,7 @@ Z-0255,Pedro,Costa,partner,BR-0001,2048,alive,Earth (BR),São Paulo,
 Z-0256,Martin,Černý,partner,CZ-0001,2042,alive,Earth (CZ),Brno,
 Z-0257,Silje,Olsen,spouse,NO-0001,2042,alive,Earth (NO),Bergen,6010
 Z-0258,Matteo,Ferrari,partner,IT-0001,2040,alive,Earth (IT),Turin,
-Z-0259,Fernanda,Hernández,partner,MX-0001,2042,alive,Earth (MX),Mexico City; same-sex [jednopłciowa],
+Z-0259,Fernanda,Hernández,partner,MX-0001,2042,alive,Earth (MX),Mexico City; same-sex,
 Z-0260,Faisal,Siddiqui,spouse,PK-0001,2058,alive,Earth (PK),Lahore,6520
 Z-0261,Erik,Lindqvist,spouse,SE-0001,2039,alive,Earth (SE),Gothenburg,8300
 Z-0262,Facundo,González,spouse,AR-0001,2044,alive,Earth (AR),Buenos Aires,5870
@@ -266,7 +266,7 @@ Z-0264,Krzysztof,Kamiński,partner,PL-0003,2056,alive,Earth (PL),Kraków,
 Z-0265,Emily,Hargrove,spouse,GB-0002,2045,alive,Earth (GB),Bristol,5800
 Z-0266,Thomas,Evans,partner,GB-0003,2066,alive,Earth (GB),Bristol,
 Z-0267,Omar,Mostafa,partner,EG-0001,2049,alive,Earth (EG),Cairo,
-Z-0268,Yaw,Asamoah,partner,GH-0001,2049,alive,Earth (GH),Kumasi; same-sex [jednopłciowa],
+Z-0268,Yaw,Asamoah,partner,GH-0001,2049,alive,Earth (GH),Kumasi; same-sex,
 Z-0269,Ren,Hasegawa,spouse,JP-0003,2050,alive,Earth (JP),Sendai,5450
 Z-0270,Ewa,Szymańska,spouse,PL-0005,2038,alive,Earth (PL),Gdańsk,8390
 Z-0271,Ibrahima,Diallo,spouse,SN-0001,2047,alive,Earth (SN),Saint-Louis,3780
@@ -277,10 +277,10 @@ Z-0275,Akosua,Boateng,partner,GH-0002,2040,alive,Earth (GH),Accra,
 Z-0276,Tunde,Bello,partner,NG-0007,2055,alive,Earth (NG),Lagos,
 Z-0277,Agnieszka,Lewandowska,spouse,PL-0007,2053,alive,Earth (PL),Gdańsk,3490
 Z-0278,Sara,Nilsson,spouse,SE-0002,2047,alive,Earth (SE),Kiruna,7550
-Z-0279,Carlos,Ramírez,spouse,MX-0002,2040,alive,Earth (MX),Monterrey; same-sex [jednopłciowa],8210
+Z-0279,Carlos,Ramírez,spouse,MX-0002,2040,alive,Earth (MX),Monterrey; same-sex,8210
 Z-0280,Mikhail,Volkov,spouse,RU-0003,2058,alive,Earth (RU),Novosibirsk,3800
 Z-0281,Siobhán,Walsh,partner,IE-0003,2054,alive,Earth (IE),Cork,
-Z-0282,Katalin,Varga,sister,HU-0001,2040,alive,Earth (HU),Księga Dzień 470: Varga pisze do siostry,
+Z-0282,Katalin,Varga,sister,HU-0001,2040,alive,Earth (HU),"Book, Day 470: Varga writes to his sister",
 Z-0283,Oliver,Turner,father,GB-0008,2007,dead,Earth (GB),,
 Z-0284,Hannah,Turner,mother,GB-0008,1995,alive,Earth (GB),,
 Z-0285,Rhys,Turner,child,GB-0008,2056,alive,Earth (GB),stays with family on Earth,

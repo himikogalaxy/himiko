@@ -1,40 +1,40 @@
 klucz,wartosc,opis
-pensja_baza,2600,Kr/mies. dla najniższego szczebla
-pensja_za_szczebel,1300,Kr/mies. za każdy szczebel stanowiska
-staz_za_rok,0.015,"+1,5% za każdy rok pracy od 24. roku życia"
-staz_max,0.4,maksymalny dodatek za staż (40%)
-premia_za_poziom_umiejetnosci,0.03,+3% za każdy poziom umiejętności stanowiska powyżej 3
-dodatek_kosmiczny,0.15,+15% za służbę w głębokim kosmosie (cały Halley)
+pensja_baza,2600,Kr/month for the lowest rank
+pensja_za_szczebel,1300,Kr/month for each rank of the post
+staz_za_rok,0.015,"+1,5% for each year of work from age 24"
+staz_max,0.4,maximum seniority supplement (40%)
+premia_za_poziom_umiejetnosci,0.03,+3% for each skill level of the post above 3
+dodatek_kosmiczny,0.15,+15% for deep-space service (all of Halley)
 podatek_proc,20,podatek od pensji (%)
-koszty_zycia_statek,0,Kr/mies. na misji: kajuta i jedzenie zapewnia czarter (decyzja Andrzeja 15.11.2026); wydatki na statku = styl życia i zdarzenia
-czynsz_mieszkanie,500,Kr/mies. wynajmowane mieszkanie na Ziemi (rented flat)
-czynsz_dom,800,Kr/mies. wynajmowany dom na Ziemi (rented house)
-utrzymanie_mieszkanie,200,"Kr/mies. własne mieszkanie na Ziemi: opłaty stałe (śmieci, przyłącza prądu, gazu, wody, podatek lokalny)"
-utrzymanie_dom,300,Kr/mies. własny dom na Ziemi: opłaty stałe
-dziecko_na_ziemi,250,Kr/mies. na każde żyjące dziecko poniżej 18 lat na Ziemi (utrzymanie rodziny)
+koszty_zycia_statek,0,Kr/month on the mission: cabin and food provided by the charter (Andrzej's decision 15.11.2026); expenses on the ship = lifestyle and events
+czynsz_mieszkanie,500,Kr/month rent for a flat on Earth (rented flat)
+czynsz_dom,800,Kr/month rent for a house on Earth (rented house)
+utrzymanie_mieszkanie,200,"Kr/month own flat on Earth: fixed charges (waste, electricity, gas and water connections, local tax)"
+utrzymanie_dom,300,Kr/month own house on Earth: fixed charges
+dziecko_na_ziemi,250,Kr/month for each living child under 18 on Earth (family upkeep)
 dom_rodzinny,0,"Kr/mies. dom rodzinny (family home), np. studenci"
-oproc_oszczednosci,2,% rocznie od oszczędności
+oproc_oszczednosci,2,% per year on savings
 oproc_hipoteka,4,% rocznie
-oproc_modyfikacja,6,% rocznie (dług za modyfikację z Prologu)
+oproc_modyfikacja,6,% per year (debt for the modification from the Prologue)
 oproc_pozyczka,9,% rocznie
-pozyczka_debet_miesiace,36,brak na koncie: najpierw z oszczędności; gdy się skończą: pożyczka na debet (oproc_pozyczka) spłacana w tylu ratach
-styl_oszczedny,5,"% pensji netto co miesiąc na życie osobiste (kantyna, drobiazgi, prezenty)"
-styl_zwykly,15,% pensji netto co miesiąc na życie osobiste
-styl_rozrzutny,35,% pensji netto co miesiąc na życie osobiste
-zdarzenia_finansowe,k100 raz w miesiącu,każdy żywy człowiek rzuca k100 w dniu wypłaty (tabela zdarzenia_finansowe.csv); osoby z nałogiem rzucają dodatkowo; ziarno = data + numer
-prog_dziennika,1,zdarzenie finansowe ≥ tyle pensji netto trafia do dziennika jako zaczep fabularny
-pensja_naukowca,tytuł + stanowisko,"szczebel = tytuł (Student 1, Bachelor 2 [licencjat/inżynier], Master 3, PhD 4, Professor 5, Academician 6, z poziomu umiejętności stanowiska: ludzie.csv umiejetnosc_stanowiska; tytuł na karcie jest osobisty, z najlepszej specjalizacji) + stanowisko (szef naukowy +2, zastępca/kierownik +1); jak w rzeczywistości: wykształcenie i funkcja"
-staz_studenta_proc,40,student jest na stażu: dostaje stypendium = 40% zwykłej pensji (staże często słabo płatne)
-kredyt_studencki,"3% rocznie, spłata od ukończenia studiów","studenci mają kredyt studencki; w trakcie studiów rata 0, odsetki rosną; po zmianie stanowiska ze Student ustalić ratę (zdarzenie)"
-pensja_ukryta,pensja_baza + pensja_za_szczebel × szczebel w tajnej organizacji,"dochody.csv: dodatkowe źródła dochodu (jawna pensja zostaje w konta.csv). Ukryta pensja = PEŁNA pensja z tego samego wzoru (Prujący: Recruit 1 = 3 900, Regular 2 = 5 200, Senior 3 = 6 500, Leader 4 = 7 800, Captain 5 = 9 100 Kr brutto); bez podatku, bez dodatku kosmicznego, bez stażu; wypłata 1. dnia miesiąca razem z jawną, na konto ukryte (konta_ukryte.csv); styl życia i zdarzenia finansowe tylko z konta jawnego; bez przelewów ukryte → jawne (Mistrz Gry, decyzja Andrzeja 17.11.2026)"
-gospodarstwo_wplata_proc,50,"% pensji netto każdego małżonka co miesiąc (dzień wypłaty) na konto gospodarstwa HOME; gdy konto HOME < 0: dopłata po połowie do zera; wspólne zakupy z konta HOME, prywatne z prywatnego (właściciel = kto płaci) (decyzja Andrzeja 22.11.2026)"
-pensja_malzonka_ziemia,pensja_baza + pensja_za_szczebel × szczebel,"symulowana pensja małżonka z Ziemi (tylko współwłaściciele gospodarstw): staż z wieku, bez dodatku kosmicznego, podatek podatek_proc; szczebel losowany raz ze świeżym ziarnem wg rozkładu załogi; netto w krewni_ziemia.csv pensja_netto_kr; reszta życia małżonka = czarna skrzynka (PROPOZYCJA, decyzja Andrzeja 22.11.2026)"
-gosp_start_konto_mies,0.5-3,"saldo startowe konta gospodarstwa (dzień startu): losowo tyle miesięcznych wpłat obojga małżonków (PROPOZYCJA, decyzja Andrzeja 22.11.2026: wylosować z ziarna)"
-gosp_start_oszcz_mies,0-24,oszczędności startowe gospodarstwa: losowo tyle miesięcznych wpłat obojga małżonków; inwestycje 0 (nie mam tej danej) (PROPOZYCJA)
-prog_duza_transakcja_kr,105000,"duża transakcja: kwota ≥ tyle (ok. 12 miesięcznych pensji netto, mediana załogi 8 768 Kr) albo statek, nieruchomość, udziały → od razu karta rozliczeniowa z trzema podpisami; bez niej transakcja nie istnieje; nie dotyczy zbiorczych rozliczeń CLR ↔ BANK i sald startowych (ZATWIERDZONE przez Andrzeja 22.11.2026)"
-karta_podpis_bank,stanowisko:Quartermaster;stanowisko:Purser;dzial:Supply;lancuch,"podpis banku na karcie rozliczeniowej, według RÓL na jednostce oddziału banku (statek, miasto, baza, kopalnia…): kwatermistrz (na Halleyu IE-0002 Lorcan Moody) → intendent (DE-0005 Ottilie Kessler) → najważniejszy obecny z zaopatrzenia → łańcuch dowodzenia jednostki (ZATWIERDZONE przez Andrzeja 22.11.2026)"
-karta_podpis_zakon,zakon_rola:Sealkeeper;zakon_rola:Chronicler;sluzba:Order,"podpis Zakonu, według RÓL na jednostce oddziału: Pieczętnik (na Halleyu GB-0006 Ruth Abernathy) → Kronikarz (GB-0005 Tobias Wren) → każdy obecny jawny członek Zakonu; brak = karta niepełna (ZATWIERDZONE przez Andrzeja 22.11.2026)"
-karta_swiadek,losowany,"świadek: zdrowy dorosły obecny na statku oddziału, nie z działu zaopatrzenia (bank) ani z Zakonu; losowany skryptem, ziarno karta|data|nr karty; każdy oddział banku (BANK-…) robi własną kartę na swojej jednostce (Andrzej 22.11.2026)"
-platnosci,Sieć Imienna + karta rozliczeniowa,"na co dzień płatność elektroniczna w Sieci Imiennej przez węzeł BANK-0001 (natychmiastowe sprawdzenie salda; brak: oszczędności, potem debet) = wygoda, nie dowód; prawda = karta rozliczeniowa z trzema podpisami (raz w miesiącu w dniu wypłaty, przy każdym Odpisie: silnik.py --karta-rozliczeniowa, od razu przy dużej transakcji); przy sporze karta wygrywa z saldem w komputerze (Mistrz Gry, decyzja Andrzeja 22.11.2026)"
-zrodlo_pieniadza,CLR-0001 → BANK-0001 → konto,"każdy Kredyt wchodzący do Himiko ma nadawcę: pensje i inne wpływy z Ziemi zbiorczo CLR-0001 (Unia Rozliczeniowa) → BANK-0001, potem BANK-0001 → konto osoby (płatnik w tytule); spłaty pożyczek bankowych wracają BANK-0001 → CLR-0001; oddział wychodzi na zero (Mistrz Gry, decyzja Andrzeja 22.11.2026)"
-portfel_imienny,chip albo karta-żeton,"portfel elektroniczny = okno na konto w banku przez Sieć Imienną, nie osobne pieniądze: chip (np. w nadgarstku); Zakon i Nadzy (bez implantów) noszą kartę-żeton z tą samą funkcją; bez sieci (za Szczeliną, awaria) chip zapisuje płatności lokalnie (ksiega_lokalna.csv) i synchronizuje się z bankiem po powrocie; limit płatności offline: nie mam tej danej; kradzież albo klon chipu, płatności „na lewo” = zaczepy fabularne, wychodzą przy karcie rozliczeniowej (ZATWIERDZONE przez Andrzeja 22.11.2026)"
+pozyczka_debet_miesiace,36,no money in the account: first from savings; when those run out: an overdraft loan (oproc_pozyczka) repaid in this many instalments
+styl_oszczedny,5,"% of net pay each month for personal life (canteen, small items, gifts)"
+styl_zwykly,15,% of net pay each month for personal life
+styl_rozrzutny,35,% of net pay each month for personal life
+zdarzenia_finansowe,k100 raz w miesiącu,every living person rolls d100 on payday (table zdarzenia_finansowe.csv); people with an addiction roll additionally; seed = date + number
+prog_dziennika,1,a financial event of at least this many net salaries goes into the log as a story hook
+pensja_naukowca,tytuł + stanowisko,"rank = title (Student 1, Bachelor 2, Master 3, PhD 4, Professor 5, Academician 6, from the skill level of the post: ludzie.csv umiejetnosc_stanowiska; the title on the card is personal, from the best specialization) + post (science chief +2, deputy/head +1); as in reality: education and function"
+staz_studenta_proc,40,a student is on an internship: receives a stipend = 40% of the normal salary (internships are often poorly paid)
+kredyt_studencki,"3% rocznie, spłata od ukończenia studiów","students have a student loan; during studies the instalment is 0 and interest grows; after leaving the Student post, set the instalment (event)"
+pensja_ukryta,pensja_baza + pensja_za_szczebel × szczebel w tajnej organizacji,"dochody.csv: additional sources of income (the open salary stays in konta.csv). Hidden salary = the FULL salary from the same formula (Unpickers: Recruit 1 = 3 900, Regular 2 = 5 200, Senior 3 = 6 500, Leader 4 = 7 800, Captain 5 = 9 100 Kr gross); no tax, no space supplement, no seniority; paid on the 1st day of the month together with the open one, to the hidden account (konta_ukryte.csv); lifestyle and financial events only from the open account; no transfers hidden → open (Game Master, Andrzej's decision 17.11.2026)"
+gospodarstwo_wplata_proc,50,"% of each spouse's net pay each month (payday) into the HOME household account; when the HOME account < 0: top-up in halves to zero; shared purchases from the HOME account, private ones from the private account (owner = whoever pays) (Andrzej's decision 22.11.2026)"
+pensja_malzonka_ziemia,pensja_baza + pensja_za_szczebel × szczebel,"simulated salary of a spouse on Earth (only co-owners of households): seniority from age, no space supplement, tax podatek_proc; rank drawn once with a fresh seed from the crew distribution; net in krewni_ziemia.csv pensja_netto_kr; the rest of the spouse's life = black box (PROPOSAL, Andrzej's decision 22.11.2026)"
+gosp_start_konto_mies,0.5-3,"starting balance of the household account (start day): randomly this many monthly contributions of both spouses (PROPOSAL, Andrzej's decision 22.11.2026: draw from the seed)"
+gosp_start_oszcz_mies,0-24,starting savings of the household: randomly this many monthly contributions of both spouses; investments 0 (data not available) (PROPOSAL)
+prog_duza_transakcja_kr,105000,"large transaction: amount ≥ this (approx. 12 monthly net salaries, crew median 8 768 Kr) or a ship, real estate or shares → a settlement card with three signatures right away; without it the transaction does not exist; does not apply to collective CLR ↔ BANK settlements and starting balances (APPROVED by Andrzej 22.11.2026)"
+karta_podpis_bank,stanowisko:Quartermaster;stanowisko:Purser;dzial:Supply;lancuch,"bank signature on the settlement card, by ROLES on the bank branch's unit (ship, city, base, mine…): quartermaster (on Halley IE-0002 Lorcan Moody) → purser (DE-0005 Ottilie Kessler) → the most senior present person from supply → the unit's chain of command (APPROVED by Andrzej 22.11.2026)"
+karta_podpis_zakon,zakon_rola:Sealkeeper;zakon_rola:Chronicler;sluzba:Order,"Order signature, by ROLES on the branch's unit: Sealkeeper (on Halley GB-0006 Ruth Abernathy) → Chronicler (GB-0005 Tobias Wren) → any present open member of the Order; none = incomplete card (APPROVED by Andrzej 22.11.2026)"
+karta_swiadek,losowany,"witness: a healthy adult present on the branch's ship, not from the supply department (bank) or the Order; drawn by script, seed card|date|card number; each bank branch (BANK-…) makes its own card on its own unit (Andrzej 22.11.2026)"
+platnosci,Sieć Imienna + karta rozliczeniowa,"everyday electronic payment in the Named Net through the BANK-0001 node (instant balance check; if short: savings first, then overdraft) = convenience, not proof; truth = the settlement card with three signatures (once a month on payday, at every Transcript (Odpis): silnik.py --karta-rozliczeniowa, right away for a large transaction); in a dispute the card beats the balance in the computer (Game Master, Andrzej's decision 22.11.2026)"
+zrodlo_pieniadza,CLR-0001 → BANK-0001 → konto,"every Credit entering Himiko has a sender: salaries and other income from Earth collectively CLR-0001 (Clearing Union) → BANK-0001, then BANK-0001 → the person's account (payer in the title); repayments of bank loans go back BANK-0001 → CLR-0001; the branch comes out at zero (Game Master, Andrzej's decision 22.11.2026)"
+portfel_imienny,chip albo karta-żeton,"electronic wallet = a window onto the bank account through the Named Net, not separate money: a chip (e.g. in the wrist); the Order and the Bare (no implants) carry a token card with the same function; without the network (beyond the Seam, a failure) the chip records payments locally (ksiega_lokalna.csv) and syncs with the bank after the return; offline payment limit: data not available; theft or cloning of a chip, payments ""under the table"" = story hooks, surfacing at the settlement card (APPROVED by Andrzej 22.11.2026)"

@@ -1,36 +1,36 @@
 wzor,kolejnosc,pomieszczenie,m2,urzadzenia,poziom,od_zalogi,do_zalogi,uwaga
 airlock,1,Airlock,40,airlock;docking,,,,
 airlock,2,Suit room,50,,,30,,skafandry EVA
-airlock,2,Suit room,20,,,,29,mała załoga
+airlock,2,Suit room,20,,,,29,small crew
 animal house,1,Animal house,100,animal,L2,,,
 archive,1,Archive vault,pokład,vault,,,,
 archive,2,Cold copies room,80,cold copies,,,,papierowe kopie (zimne archiwum)
 archive,3,Reading room,40,,,,,
 archive,4,Records office,30,,,,,
-archive,5,Guard post,15,,,50,,"Zakon, szczebel skarbca (od 50 osób): drzwi do skarbca, grafik zmian, zamknięta skrzynka z 2 ogłuszaczami (Andrzej 23.11.2026)"
+archive,5,Guard post,15,,,50,,"Order, vault tier (from 50 people): door to the vault, shift schedule, locked box with 2 stunners (Andrzej 23.11.2026)"
 archive,9,Archive stacks,wypełnienie,,,,,
 armory,1,Armory,80,armory,,30,,
-armory,1,Armory,30,armory,,,29,mała załoga
+armory,1,Armory,30,armory,,,29,small crew
 armory,2,Defence ready room,50,,,30,,
 armory,3,Brig,25,,,30,,
 armory,4,Training room,pokład,,,30,,
 armory,9,Gear stores,wypełnienie,,,,,
 bridge,1,Bridge,pokład,helm;captain;navigation,,30,,
-bridge,1,Bridge,60,helm;captain;navigation,,,29,mała załoga
+bridge,1,Bridge,60,helm;captain;navigation,,,29,small crew
 bridge,2,Captain's day room,25,,,10,,
 bridge,3,Briefing room,45,,,30,,
 bridge,4,Watch rest room,30,,,30,,koje dla wachty mostka
 bridge,5,Heads,8,,,,,
 bridge,6,Bridge electronics,pokład,,,30,,
-bridge,6,Bridge electronics,20,,,,29,mała załoga
-bridge,8,Record cabinet,4,,,10,49,"Zakon, szczebel szafy (10–49 osób); od 50 skarbiec w przedziale Archive; od 500 Dom Zakonu = osobny obiekt (Andrzej 23.11.2026)"
+bridge,6,Bridge electronics,20,,,,29,small crew
+bridge,8,Record cabinet,4,,,10,49,"Order, records locker tier (10–49 people); from 50 a vault in the Archive compartment; from 500 the House of the Order = a separate facility (Andrzej 23.11.2026)"
 bridge,9,Bridge stores,wypełnienie,,,,,
 cargo,1,Crane control,15,crane,,,,
 cargo,9,Cargo hold,wypełnienie,*,,,,
 crew quarters,1,Crew housing,mieszkania:Crew,crew quarters,,,,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-crew quarters,2,Heads and showers,osoby:Crew:0.5,,,,,łazienki wspólne dla kajut pojedynczych
-crew quarters,3,Passenger berths [koje pasażerskie] ×5,30,,,,,pula pasażerska kuriera (zasady_zycia: kurier_pasazerowie 6 = 5 koi + koja Pieczętnika)
-crew quarters,4,Sealkeeper's berth,6,,,,,"z puli pasażerskiej, dla Pieczętnika w drodze (Andrzej 23.11.2026)"
+crew quarters,2,Heads and showers,osoby:Crew:0.5,,,,,shared bathrooms for the single cabins
+crew quarters,3,Passenger berths [koje pasażerskie] ×5,30,,,,,courier passenger pool (zasady_zycia: kurier_pasazerowie 6 = 5 bunks + the Sealkeeper's bunk)
+crew quarters,4,Sealkeeper's berth,6,,,,,"from the passenger pool, for the Sealkeeper in transit (Andrzej 23.11.2026)"
 damage control,1,Damage control station,40,,,,,
 damage control,2,Repair locker,80,repair,,,,
 damage control,3,Hull patch store,80,patch,,,,
@@ -39,49 +39,49 @@ damage control,5,Fabrication,90,,,,,
 damage control,6,Electrical shop,60,,,,,
 damage control,9,Spare parts,wypełnienie,,,,,
 defence quarters,1,Defence housing,mieszkania:Defense,defence quarters,,,,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-defence quarters,2,Heads and showers,osoby:Defense:0.5,,,,,łazienki wspólne dla kajut pojedynczych
+defence quarters,2,Heads and showers,osoby:Defense:0.5,,,,,shared bathrooms for the single cabins
 galley,1,Galley,40,galley,L1,30,,
-galley,1,Galley,15,galley,L1,,29,mała załoga
-galley,2,Mess,osoby:*:1.0,,L1,,,pół załogi naraz
-galley,3,Gym,60,,L1,30,,ćwiczenia w ciążeniu
-galley,3,Gym,15,,L1,,29,mała załoga
+galley,1,Galley,15,galley,L1,,29,small crew
+galley,2,Mess,osoby:*:1.0,,L1,,,half the crew at a time
+galley,3,Gym,60,,L1,30,,exercise under gravity
+galley,3,Gym,15,,L1,,29,small crew
 galley,4,Laundry,15,,L1,,,
 galley,5,Lounge,150,,L1,30,,
 galley,6,Café,40,,L1,30,,Kantyna Halleya (CORP-0001)
 galley,7,Sports hall,200,,L1,30,,
-galley,8,Viewing lounge,60,,L1,30,,okna na kosmos
-galley,9,Garden lounge,100,,L1,30,,"rośliny dla odpoczynku, nie na jedzenie"
+galley,8,Viewing lounge,60,,L1,30,,windows onto space
+galley,9,Garden lounge,100,,L1,30,,"plants for relaxation, not for food"
 hangar,1,Hangar control,40,,,,,
 hangar,2,Probe rack,30,probe,,,,
 hangar,3,Craft workshop,200,,,,,
 hangar,4,Craft fuel store,150,,,,,
-hangar,9,Hangar bay,wypełnienie,tern;shuttle,,,,przestrzeń hangaru przez kilka pokładów
+hangar,9,Hangar bay,wypełnienie,tern;shuttle,,,,hangar space spanning several decks
 hydroponics,1,Nutrient and water room,60,,,,,
 hydroponics,2,Harvest and processing,60,,,,,
 hydroponics,3,Seed bank,20,,,,,
-hydroponics,9,Grow deck,wypełnienie,*,,,,regały i lampy
+hydroponics,9,Grow deck,wypełnienie,*,,,,shelves and lamps
 labs,1,Lab 1,100,labs,L1,,,
 labs,2,Lab 2,100,,L1,,,
 labs,3,Lab 3,100,,L1,,,
 labs,5,Library,80,,L1,30,,
-labs,6,Chapel,60,,L1,30,,wspólna dla wszystkich wyznań (religie.csv)
-labs,7,School and nursery,80,,L1,30,,na przyszłe dzieci
+labs,6,Chapel,60,,L1,30,,shared by all faiths (religie.csv)
+labs,7,School and nursery,80,,L1,30,,for future children
 labs,8,Hobby workshop,50,,L1,30,,
 labs,9,Music room,30,,L1,30,,
 life support,1,Air plant,pokład,air,,30,,
-life support,1,Air plant,60,air,,,29,mała załoga
+life support,1,Air plant,60,air,,,29,small crew
 life support,2,Water recycler,pokład,water,,30,,
-life support,2,Water recycler,60,water,,,29,mała załoga
+life support,2,Water recycler,60,water,,,29,small crew
 life support,3,Waste processing,90,,,30,,
-life support,3,Waste processing,30,,,,29,mała załoga
+life support,3,Waste processing,30,,,,29,small crew
 life support,4,CO2 scrubbers,60,,,30,,
-life support,4,CO2 scrubbers,20,,,,29,mała załoga
+life support,4,CO2 scrubbers,20,,,,29,small crew
 life support,5,Life support control,25,,,30,,
 life support,9,Life support stores,wypełnienie,,,,,
 lifeboat,1,Lifeboat bay,40,lifeboat,L1,,,
 lifeboat,2,Lifeboat bay,40,,L1,,,
 medbay,1,Medbay ward,100,medbay,L1,30,,
-medbay,1,Medbay,30,medbay,L1,,29,mała załoga
+medbay,1,Medbay,30,medbay,L1,,29,small crew
 medbay,2,Surgery,30,,L1,30,,
 medbay,3,Pharmacy,15,,L1,,,
 ops room,1,Combat information centre,pokład,plot;sensors console,,,,CIC
@@ -93,39 +93,39 @@ ops room,6,Analysis office,40,,,,,
 ops room,7,Heads,8,,,,,
 ops room,9,Ops stores,wypełnienie,,,,,
 quarters a,1,Housing A,mieszkania:Crew,quarters a,L2,,,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-quarters a,2,Heads and showers A,osoby:Crew:0.5,,L2,,,łazienki wspólne dla kajut pojedynczych
-quarters a,3,Officer's cabins [kajuty oficerskie] ×1,16,,L2,50,,Zakon: Archiwista (urząd Zakonu = kajuta oficerska; Andrzej 23.11.2026)
-quarters a,4,Single cabins [kajuty pojedyncze] ×4,48,,L2,50,,Zakon: 4 Wartowników (Andrzej 23.11.2026)
+quarters a,2,Heads and showers A,osoby:Crew:0.5,,L2,,,shared bathrooms for the single cabins
+quarters a,3,Officer's cabins [kajuty oficerskie] ×1,16,,L2,50,,Order: Archivist (an Order office = an officer's cabin; Andrzej 23.11.2026)
+quarters a,4,Single cabins [kajuty pojedyncze] ×4,48,,L2,50,,Order: 4 Wardens (Andrzej 23.11.2026)
 quarters a,5,Order store,8,,L2,50,,Zakon (Andrzej 23.11.2026)
 quarters b,1,Housing B,mieszkania:Science,quarters b,L2,,,"nauka; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-quarters b,2,Heads and showers B,osoby:Science:0.5,,L2,,,łazienki wspólne dla kajut pojedynczych
+quarters b,2,Heads and showers B,osoby:Science:0.5,,L2,,,shared bathrooms for the single cabins
 quarters c,1,Housing C,mieszkania:Defense,quarters c,L2,,,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-quarters c,2,Heads and showers C,osoby:Defense:0.5,,L2,,,łazienki wspólne dla kajut pojedynczych
+quarters c,2,Heads and showers C,osoby:Defense:0.5,,L2,,,shared bathrooms for the single cabins
 reactor,1,Reactor control room,60,,,30,,
-reactor,1,Reactor control room,20,,,,29,mała załoga
+reactor,1,Reactor control room,20,,,,29,small crew
 reactor,2,Reactor vessel,pokład,reactor,,,,
 reactor,3,Shielding,pokład,,,30,,
-reactor,4,Radiator pumps,pokład,radiator,,30,,tylko gdy statek ma radiatory w tym przedziale
-reactor,4,Radiator pumps,40,radiator,,,29,mała załoga
+reactor,4,Radiator pumps,pokład,radiator,,30,,only if the ship has radiators in this compartment
+reactor,4,Radiator pumps,40,radiator,,,29,small crew
 reactor,5,Power distribution,200,,,30,,
-reactor,5,Power distribution,40,,,,29,mała załoga
+reactor,5,Power distribution,40,,,,29,small crew
 reactor,9,Coolant and power,wypełnienie,,,,,
-sensors,1,Sensor bay,pokład,antenna,,30,,anteny i czujniki dziobowe
-sensors,1,Sensor room,40,antenna;laser,,,29,mała załoga
+sensors,1,Sensor bay,pokład,antenna,,30,,bow antennas and sensors
+sensors,1,Sensor room,40,antenna;laser,,,29,small crew
 sensors,2,Laser link room,60,laser,,30,,
 sensors,3,Forward thruster room,80,thruster,,,,
 sensors,4,Sensor electronics,90,,,30,,
-sensors,9,Shield water tank,wypełnienie,,,,,woda osłania dziób przed promieniowaniem
+sensors,9,Shield water tank,wypełnienie,,,,,water shields the bow from radiation
 stores,1,Food store,pokład,food,,,,
 stores,2,Cold store,90,,,,,
 stores,3,Water store,pokład,water,,,,
 stores,4,Parts store,pokład,parts,,,,
 stores,5,Quartermaster office,20,,,,,
 stores,9,General stores,wypełnienie,,,,,
-storm shelter,1,Water tanks,pokład,water,,,,woda osłania schron
+storm shelter,1,Water tanks,pokład,water,,,,water shields the shelter
 storm shelter,2,Water tanks,pokład,water,,,,
 storm shelter,3,Water tanks,pokład,water,,,,
-storm shelter,4,Storm shelter,pokład,,,,,"cała załoga × ok. 1,5 m² + zapas"
-storm shelter,5,Ring bearing and spoke access,pokład,bearing,,,,windy do pierścienia
+storm shelter,4,Storm shelter,pokład,,,,,"whole crew × approx. 1,5 m² + reserve"
+storm shelter,5,Ring bearing and spoke access,pokład,bearing,,,,lifts to the ring
 storm shelter,6,Shelter supplies,40,,,,,
 storm shelter,9,Water tanks,wypełnienie,water,,,,

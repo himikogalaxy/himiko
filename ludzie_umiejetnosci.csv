@@ -218,14 +218,14 @@ NG-0008,EVA,2,+20%,
 IE-0003,SEC,3,+30%,
 IE-0003,EVA,2,+20%,
 IE-0003,CBT,1,+10%,
-PL-0005,FIR,6,+60%,extra duty: ship firefighter [fucha: strażak pokładowy]
-SN-0001,FIR,2,+20%,extra duty: ship firefighter [fucha: strażak pokładowy]
-IE-0001,FIR,4,+40%,extra duty: ship firefighter [fucha: strażak pokładowy]
-KR-0002,FIR,4,+40%,extra duty: ship firefighter [fucha: strażak pokładowy]
-GH-0001,FIR,4,+40%,extra duty: ship firefighter [fucha: strażak pokładowy]
-PY-0001,FIR,4,+40%,extra duty: ship firefighter [fucha: strażak pokładowy]
-PL-0007,FIR,3,+30%,extra duty: ship firefighter [fucha: strażak pokładowy]
-SE-0002,FIR,2,+20%,extra duty: ship firefighter [fucha: strażak pokładowy]
+PL-0005,FIR,6,+60%,extra duty: ship firefighter
+SN-0001,FIR,2,+20%,extra duty: ship firefighter
+IE-0001,FIR,4,+40%,extra duty: ship firefighter
+KR-0002,FIR,4,+40%,extra duty: ship firefighter
+GH-0001,FIR,4,+40%,extra duty: ship firefighter
+PY-0001,FIR,4,+40%,extra duty: ship firefighter
+PL-0007,FIR,3,+30%,extra duty: ship firefighter
+SE-0002,FIR,2,+20%,extra duty: ship firefighter
 GB-0008,CMD,6,+60%,
 GB-0008,NAV,6,+60%,
 GB-0008,SOC,4,+40%,
@@ -241,7 +241,7 @@ BD-0002,EVA,1,+10%,
 RU-0004,ENG,4,+40%,
 RU-0004,ELE,1,+10%,
 RU-0004,EVA,2,+20%,
-RU-0004,FIR,4,+40%,extra duty: ship firefighter [fucha: strażak pokładowy]
+RU-0004,FIR,4,+40%,extra duty: ship firefighter
 RU-0005,ENG,2,+20%,
 RU-0005,ELE,1,+10%,
 RU-0005,EVA,1,+10%,
@@ -288,7 +288,7 @@ GB-0010,EVA,1,+10%,
 GB-0011,LSU,5,+50%,
 GB-0011,ELE,3,+30%,
 GB-0011,EVA,2,+20%,
-GB-0011,FIR,3,+30%,extra duty: ship firefighter [fucha: strażak pokładowy]
+GB-0011,FIR,3,+30%,extra duty: ship firefighter
 GB-0012,REC,7,+70%,
 GB-0012,WRI,5,+50%,
 GB-0012,RES,5,+50%,
