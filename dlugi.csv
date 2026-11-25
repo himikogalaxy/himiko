@@ -1,76 +1,76 @@
 numer,rodzaj,kwota,oprocentowanie_roczne,rata_mies
-DE-0001,mortgage [kredyt hipoteczny],267400,4.0,2707
-SG-0001,mortgage [kredyt hipoteczny],292100,4.0,2957
-NG-0001,modification debt [dług za modyfikację],45800,6.0,885
-PL-0001,mortgage [kredyt hipoteczny],189200,4.0,3484
-GB-0001,mortgage [kredyt hipoteczny],168300,4.0,3100
-GB-0001,modification debt [dług za modyfikację],36700,6.0,710
-GB-0001,consumer loan [pożyczka],13500,9.0,617
-NG-0002,mortgage [kredyt hipoteczny],30300,4.0,184
-NG-0003,mortgage [kredyt hipoteczny],218900,4.0,1326
-NG-0003,modification debt [dług za modyfikację],50700,6.0,1542
-PL-0002,mortgage [kredyt hipoteczny],98900,4.0,599
-CZ-0001,mortgage [kredyt hipoteczny],112100,4.0,679
-CZ-0001,modification debt [dług za modyfikację],31700,6.0,1405
-NO-0001,mortgage [kredyt hipoteczny],147300,4.0,2713
-NO-0001,modification debt [dług za modyfikację],34800,6.0,673
-NG-0004,mortgage [kredyt hipoteczny],241900,4.0,1466
-KR-0001,mortgage [kredyt hipoteczny],87100,4.0,1604
-MX-0001,mortgage [kredyt hipoteczny],44300,4.0,449
-DE-0002,modification debt [dług za modyfikację],27500,6.0,837
-SE-0001,modification debt [dług za modyfikację],44100,6.0,853
-ZA-0001,mortgage [kredyt hipoteczny],167300,4.0,3081
-JP-0002,mortgage [kredyt hipoteczny],89100,4.0,902
-DE-0003,mortgage [kredyt hipoteczny],21000,4.0,213
-RU-0001,modification debt [dług za modyfikację],31900,6.0,970
-DK-0002,mortgage [kredyt hipoteczny],106800,4.0,1081
-IL-0001,mortgage [kredyt hipoteczny],46500,4.0,471
-IL-0001,modification debt [dług za modyfikację],56900,6.0,2522
-NG-0005,mortgage [kredyt hipoteczny],96400,4.0,1775
-CN-0001,mortgage [kredyt hipoteczny],134900,4.0,1366
-GB-0002,mortgage [kredyt hipoteczny],135900,4.0,1376
-GB-0002,modification debt [dług za modyfikację],57600,6.0,1114
-NL-0001,consumer loan [pożyczka],11600,9.0,369
-ES-0002,modification debt [dług za modyfikację],39600,6.0,766
-NO-0002,mortgage [kredyt hipoteczny],44200,4.0,448
-NO-0002,modification debt [dług za modyfikację],46800,6.0,905
-NG-0006,mortgage [kredyt hipoteczny],121700,4.0,2241
-GB-0004,mortgage [kredyt hipoteczny],131000,4.0,2413
-EG-0001,mortgage [kredyt hipoteczny],247600,4.0,4560
-NO-0003,mortgage [kredyt hipoteczny],88300,4.0,894
-GH-0001,mortgage [kredyt hipoteczny],112100,4.0,1135
-JP-0003,mortgage [kredyt hipoteczny],78000,4.0,790
-PL-0005,modification debt [dług za modyfikację],22400,6.0,433
-RU-0002,mortgage [kredyt hipoteczny],206800,4.0,1253
-JO-0001,mortgage [kredyt hipoteczny],93000,4.0,564
-DE-0005,mortgage [kredyt hipoteczny],80800,4.0,818
-DE-0005,modification debt [dług za modyfikację],47500,6.0,918
-TW-0001,modification debt [dług za modyfikację],32100,6.0,621
-NL-0002,modification debt [dług za modyfikację],18500,6.0,563
-GH-0002,mortgage [kredyt hipoteczny],76900,4.0,466
-GH-0002,modification debt [dług za modyfikację],23300,6.0,1033
-EE-0001,mortgage [kredyt hipoteczny],105200,4.0,1065
-NG-0007,mortgage [kredyt hipoteczny],128400,4.0,778
-NG-0007,modification debt [dług za modyfikację],33300,6.0,1013
-KR-0002,mortgage [kredyt hipoteczny],53800,4.0,545
-GB-0005,mortgage [kredyt hipoteczny],77600,4.0,786
-GB-0006,mortgage [kredyt hipoteczny],4100,4.0,76
-PK-0002,modification debt [dług za modyfikację],42000,6.0,812
-GB-0007,modification debt [dług za modyfikację],52700,6.0,1603
-PL-0008,mortgage [kredyt hipoteczny],127100,4.0,2341
-PK-0003,mortgage [kredyt hipoteczny],99400,4.0,1006
-MX-0002,consumer loan [pożyczka],4200,9.0,192
-RU-0003,mortgage [kredyt hipoteczny],191900,4.0,1943
-GB-0003,student loan [kredyt studencki],36000,3.0,0
-NL-0001,student loan [kredyt studencki],42000,3.0,0
-GB-0008,mortgage [kredyt hipoteczny],62800,4.0,636
-GB-0009,mortgage [kredyt hipoteczny],80400,4.0,814
-DK-0003,modification debt [dług za modyfikację],38100,6.0,1689
-IE-0004,mortgage [kredyt hipoteczny],97400,4.0,590
-KR-0003,mortgage [kredyt hipoteczny],149300,4.0,905
-TW-0002,mortgage [kredyt hipoteczny],109400,4.0,1108
-DE-0006,mortgage [kredyt hipoteczny],60300,4.0,365
-KR-0004,modification debt [dług za modyfikację],34900,6.0,1062
-KR-0004,consumer loan [pożyczka],4200,9.0,134
-HU-0003,mortgage [kredyt hipoteczny],90600,4.0,549
-JP-0005,modification debt [dług za modyfikację],34900,6.0,1547
+DE-0001,mortgage,267400,4.0,2707
+SG-0001,mortgage,292100,4.0,2957
+NG-0001,modification debt,45800,6.0,885
+PL-0001,mortgage,189200,4.0,3484
+GB-0001,mortgage,168300,4.0,3100
+GB-0001,modification debt,36700,6.0,710
+GB-0001,consumer loan,13500,9.0,617
+NG-0002,mortgage,30300,4.0,184
+NG-0003,mortgage,218900,4.0,1326
+NG-0003,modification debt,50700,6.0,1542
+PL-0002,mortgage,98900,4.0,599
+CZ-0001,mortgage,112100,4.0,679
+CZ-0001,modification debt,31700,6.0,1405
+NO-0001,mortgage,147300,4.0,2713
+NO-0001,modification debt,34800,6.0,673
+NG-0004,mortgage,241900,4.0,1466
+KR-0001,mortgage,87100,4.0,1604
+MX-0001,mortgage,44300,4.0,449
+DE-0002,modification debt,27500,6.0,837
+SE-0001,modification debt,44100,6.0,853
+ZA-0001,mortgage,167300,4.0,3081
+JP-0002,mortgage,89100,4.0,902
+DE-0003,mortgage,21000,4.0,213
+RU-0001,modification debt,31900,6.0,970
+DK-0002,mortgage,106800,4.0,1081
+IL-0001,mortgage,46500,4.0,471
+IL-0001,modification debt,56900,6.0,2522
+NG-0005,mortgage,96400,4.0,1775
+CN-0001,mortgage,134900,4.0,1366
+GB-0002,mortgage,135900,4.0,1376
+GB-0002,modification debt,57600,6.0,1114
+NL-0001,consumer loan,11600,9.0,369
+ES-0002,modification debt,39600,6.0,766
+NO-0002,mortgage,44200,4.0,448
+NO-0002,modification debt,46800,6.0,905
+NG-0006,mortgage,121700,4.0,2241
+GB-0004,mortgage,131000,4.0,2413
+EG-0001,mortgage,247600,4.0,4560
+NO-0003,mortgage,88300,4.0,894
+GH-0001,mortgage,112100,4.0,1135
+JP-0003,mortgage,78000,4.0,790
+PL-0005,modification debt,22400,6.0,433
+RU-0002,mortgage,206800,4.0,1253
+JO-0001,mortgage,93000,4.0,564
+DE-0005,mortgage,80800,4.0,818
+DE-0005,modification debt,47500,6.0,918
+TW-0001,modification debt,32100,6.0,621
+NL-0002,modification debt,18500,6.0,563
+GH-0002,mortgage,76900,4.0,466
+GH-0002,modification debt,23300,6.0,1033
+EE-0001,mortgage,105200,4.0,1065
+NG-0007,mortgage,128400,4.0,778
+NG-0007,modification debt,33300,6.0,1013
+KR-0002,mortgage,53800,4.0,545
+GB-0005,mortgage,77600,4.0,786
+GB-0006,mortgage,4100,4.0,76
+PK-0002,modification debt,42000,6.0,812
+GB-0007,modification debt,52700,6.0,1603
+PL-0008,mortgage,127100,4.0,2341
+PK-0003,mortgage,99400,4.0,1006
+MX-0002,consumer loan,4200,9.0,192
+RU-0003,mortgage,191900,4.0,1943
+GB-0003,student loan,36000,3.0,0
+NL-0001,student loan,42000,3.0,0
+GB-0008,mortgage,62800,4.0,636
+GB-0009,mortgage,80400,4.0,814
+DK-0003,modification debt,38100,6.0,1689
+IE-0004,mortgage,97400,4.0,590
+KR-0003,mortgage,149300,4.0,905
+TW-0002,mortgage,109400,4.0,1108
+DE-0006,mortgage,60300,4.0,365
+KR-0004,modification debt,34900,6.0,1062
+KR-0004,consumer loan,4200,9.0,134
+HU-0003,mortgage,90600,4.0,549
+JP-0005,modification debt,34900,6.0,1547

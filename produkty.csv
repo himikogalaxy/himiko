@@ -1,93 +1,93 @@
 id,nazwa,pietro,od_roku,jednostka,zrodlo,cena_ziemia_kr,uwaga
-water_ice,Water ice [Lód wodny],raw,3,t,"asteroidy lodowe, typ C",,jednostka do potwierdzenia
-ammonia_ice,Ammonia ice [Lód amoniakalny],raw,3,t,asteroidy lodowe,,jednostka do potwierdzenia
-co2_ice,CO₂ ice [Suchy lód],raw,3,t,asteroidy lodowe,,jednostka do potwierdzenia
-methane_ice,Methane ice [Lód metanowy],raw,3,t,asteroidy lodowe,,jednostka do potwierdzenia
-carbonaceous_regolith,Carbonaceous regolith [Regolit węglisty],raw,3,t,typ C,,jednostka do potwierdzenia
-organic_tar,Organic tar [Smoła organiczna],raw,4,t,typ C (kerogen),,jednostka do potwierdzenia
-silicate_regolith,Silicate regolith [Regolit krzemianowy],raw,4,t,typ S,,jednostka do potwierdzenia
-olivine,Olivine [Oliwin],raw,4,t,"typ S (magnez, żelazo)",,jednostka do potwierdzenia
-sulfide_ore,Sulfide ore [Ruda siarczkowa],raw,4,t,typ S/M (troilit),,jednostka do potwierdzenia
-iron_nickel,Iron-nickel [Żelazo-nikiel],raw,4,t,typ M,,jednostka do potwierdzenia
-anorthite,Anorthite [Anortyt],raw,8,t,"typ S (glin, wapń)",,jednostka do potwierdzenia
-phosphate_ore,Phosphate ore [Ruda fosforowa],raw,8,t,typ M/S,,jednostka do potwierdzenia
-pgm_ore,PGM ore [Ruda platynowców],raw,8,t,typ M,,jednostka do potwierdzenia
-rare_earth_ore,Rare earth ore [Ruda ziem rzadkich],raw,8,t,typ S/M,,jednostka do potwierdzenia
-uranium_ore,Uranium ore [Ruda uranu],raw,Z,t,źródło w Himiko: brak danej (fabuła),,jednostka do potwierdzenia
-helium_3_gas,Helium-3 gas [Hel-3 surowy],raw,Z,kg,źródło w Himiko: brak danej (fabuła); na Ziemi z Księżyca,,jednostka do potwierdzenia
-biomass,Biomass [Biomasa],raw,0,t,"hydroponika, algi",,jednostka do potwierdzenia
-scrap,Scrap [Złom],raw,0,t,"rozbiórka, wraki",,jednostka do potwierdzenia
-energy,Energy [Energia],raw,0,MWh,"reaktory, panele",,jednostka do potwierdzenia
-water,Water [Woda],processed,0,t,"lód, recykling",,jednostka do potwierdzenia
-hydrogen,Hydrogen [Wodór],processed,0,t,elektroliza wody,,jednostka do potwierdzenia
-oxygen,Oxygen [Tlen],processed,0,t,elektroliza wody,,jednostka do potwierdzenia
-heavy_water,Heavy water [Ciężka woda],processed,3,t,wzbogacanie wody,,jednostka do potwierdzenia
-deuterium,Deuterium [Deuter],processed,3,kg,ciężka woda,,jednostka do potwierdzenia
-helium_3,Helium-3 [Hel-3 czysty],processed,Z,kg,hel-3 surowy,,jednostka do potwierdzenia
-fusion_pellets,Fusion pellets [Granulki paliwowe D-He3],processed,3,kg,deuter + hel-3,,jednostka do potwierdzenia
-enriched_uranium,Enriched uranium [Uran wzbogacony],processed,Z,kg,ruda uranu,,jednostka do potwierdzenia
-fuel_rods,Fuel rods [Pręty paliwowe],processed,Z,szt.,uran wzbogacony,,jednostka do potwierdzenia
-nitrogen,Nitrogen [Azot],processed,3,t,amoniak,,jednostka do potwierdzenia
-ammonia,Ammonia [Amoniak],processed,3,t,lód amoniakalny,,jednostka do potwierdzenia
-methane,Methane [Metan],processed,4,t,lód metanowy; CO₂ + wodór,,jednostka do potwierdzenia
-carbon,Carbon [Węgiel],processed,4,t,"regolit węglisty, CO₂",,jednostka do potwierdzenia
-sulfur,Sulfur [Siarka],processed,4,t,ruda siarczkowa,,jednostka do potwierdzenia
-sulfuric_acid,Sulfuric acid [Kwas siarkowy],processed,4,t,"siarka, woda",,jednostka do potwierdzenia
-fertilizer,Fertilizer [Nawozy],processed,4,t,"amoniak, fosfor, biomasa",,jednostka do potwierdzenia
-nitric_acid,Nitric acid [Kwas azotowy],processed,8,t,amoniak,,jednostka do potwierdzenia
-phosphorus,Phosphorus [Fosfor],processed,8,t,ruda fosforowa,,jednostka do potwierdzenia
-iron,Iron [Żelazo],processed,4,t,żelazo-nikiel,,jednostka do potwierdzenia
-nickel,Nickel [Nikiel],processed,4,t,żelazo-nikiel,,jednostka do potwierdzenia
-cobalt,Cobalt [Kobalt],processed,4,t,żelazo-nikiel,,jednostka do potwierdzenia
-steel,Steel [Stal],processed,4,t,"żelazo, węgiel",,jednostka do potwierdzenia
-aluminium,Aluminium [Aluminium],processed,8,t,anortyt,,jednostka do potwierdzenia
-magnesium,Magnesium [Magnez],processed,8,t,oliwin,,jednostka do potwierdzenia
-titanium,Titanium [Tytan],processed,8,t,regolit krzemianowy,,jednostka do potwierdzenia
-platinum,Platinum [Platyna],processed,8,kg,ruda platynowców,,jednostka do potwierdzenia
-rare_earth_metals,Rare earth metals [Metale ziem rzadkich],processed,8,kg,ruda ziem rzadkich,,jednostka do potwierdzenia
-copper,Copper [Miedź],processed,Z,t,rzadka w asteroidach,,jednostka do potwierdzenia
-lithium,Lithium [Lit],processed,Z,t,rzadki w asteroidach,,jednostka do potwierdzenia
-print_feedstock,Print feedstock [Proszek do druku 3D],processed,0,t,"złom, metale",,jednostka do potwierdzenia
-algae_paste,Algae paste [Pasta z alg],processed,0,t,biomasa,,jednostka do potwierdzenia
-sintered_regolith,Sintered regolith [Spiek regolitowy],processed,4,t,regolit,,jednostka do potwierdzenia
-glass,Glass [Szkło],processed,4,t,regolit krzemianowy,,jednostka do potwierdzenia
-silicon,Silicon [Krzem],processed,8,t,regolit krzemianowy,,jednostka do potwierdzenia
-plastics,Plastics [Tworzywa],processed,8,t,"węgiel, wodór, smoła",,jednostka do potwierdzenia
-carbon_fiber,Carbon fiber [Włókno węglowe],processed,8,t,"węgiel, tworzywa",,jednostka do potwierdzenia
-textiles,Textiles [Tkaniny],processed,8,t,"tworzywa, biomasa",,jednostka do potwierdzenia
-ceramics,Ceramics [Ceramika],processed,8,t,"regolit, tlenki",,jednostka do potwierdzenia
-aerogel,Aerogel [Aerożel],processed,8,t,krzem,,jednostka do potwierdzenia
-superconductors,Superconductors [Nadprzewodniki],processed,Z,kg,"metale ziem rzadkich, miedź",,jednostka do potwierdzenia
-semiconductors,Semiconductors [Półprzewodniki],processed,8,kg,krzem,,jednostka do potwierdzenia
-explosive_compounds,Explosive compounds [Związki wybuchowe],processed,8,t,"amoniak, kwas azotowy",,jednostka do potwierdzenia
-air_mix,Air mix [Mieszanka oddechowa],goods,0,t,"tlen, azot",,jednostka do potwierdzenia
-fresh_food,Fresh food [Świeża żywność],goods,0,t,biomasa,,jednostka do potwierdzenia; mało (hydroponika)
-alcohol,Alcohol [Alkohol],goods,0,l,biomasa (bimber),,jednostka do potwierdzenia
-rations,Rations [Racje],goods,4,t,"biomasa, pasta z alg",,jednostka do potwierdzenia
-animal_feed,Animal feed [Karma zwierząt],goods,4,t,biomasa,,jednostka do potwierdzenia
-hygiene_products,Hygiene products [Środki higieny],goods,4,t,chemia,,jednostka do potwierdzenia
-medical_kits,Medical kits [Apteczki],goods,4,szt.,"tworzywa, leki",,jednostka do potwierdzenia
-medicine,Medicine [Leki],goods,8,kg,chemia,,jednostka do potwierdzenia; wcześniej tylko import (Z)
-clothing,Clothing [Odzież],goods,8,szt.,tkaniny,,jednostka do potwierdzenia
-spare_parts,Spare parts [Części zamienne],goods,0,t,proszek do druku,,jednostka do potwierdzenia; reszta import (Z)
-hull_plates,Hull plates [Płyty kadłuba],goods,4,t,stal,,jednostka do potwierdzenia
-radiation_shielding,Radiation shielding [Osłony radiacyjne],goods,4,t,"woda, spiek",,jednostka do potwierdzenia
-habitat_modules,Habitat modules [Moduły mieszkalne],goods,4,szt.,"stal, szkło, części",,jednostka do potwierdzenia
-radiators,Radiators [Radiatory],goods,8,szt.,"aluminium, ceramika",,jednostka do potwierdzenia
-solar_panels,Solar panels [Panele słoneczne],goods,8,szt.,"krzem, szkło, aluminium",,jednostka do potwierdzenia
-batteries,Batteries [Akumulatory],goods,8,szt.,"lit, nikiel, kobalt",,jednostka do potwierdzenia
-cables,Cables [Kable],goods,8,t,"aluminium, miedź",,jednostka do potwierdzenia
-spacesuits,Spacesuits [Skafandry],goods,8,szt.,"tkaniny, tworzywa, elektronika",,jednostka do potwierdzenia
-reactor_parts,Reactor parts [Części reaktora],goods,Z,szt.,"nadprzewodniki, stal, ceramika",,jednostka do potwierdzenia
-mining_equipment,Mining equipment [Sprzęt górniczy],goods,4,szt.,"stal, części",,jednostka do potwierdzenia
-mining_drones,Mining drones [Drony górnicze],goods,4,szt.,"części, elektronika",,jednostka do potwierdzenia
-electronics,Electronics [Elektronika],goods,8,kg,"półprzewodniki, platyna, tworzywa",,jednostka do potwierdzenia; wcześniej tylko import (Z)
-sensors,Sensors [Czujniki],goods,8,szt.,elektronika,,jednostka do potwierdzenia
-machinery,Machinery [Maszyny],goods,8,szt.,"stal, części, elektronika",,jednostka do potwierdzenia
-implants,Implants [Implanty],goods,Z,szt.,"elektronika, platyna",,jednostka do potwierdzenia
-explosives,Explosives [Materiały wybuchowe],goods,8,t,związki wybuchowe,,jednostka do potwierdzenia; także górnicze; wcześniej tylko import (Z)
-ammunition,Ammunition [Amunicja],goods,8,szt.,"stal, związki wybuchowe",,jednostka do potwierdzenia; wcześniej tylko import (Z)
-small_arms,Small arms [Broń ręczna],goods,8,szt.,"stal, części",,jednostka do potwierdzenia
-missiles,Missiles [Pociski],goods,Z,szt.,"elektronika, paliwo, materiały wybuchowe",,jednostka do potwierdzenia
-luxury_goods,Luxury goods [Towary luksusowe],goods,Z,szt.,—,,jednostka do potwierdzenia
-street_chips,Street chips [Chipy uliczne],goods,Z,szt.,—,,jednostka do potwierdzenia; kontrabanda
+water_ice,Water ice,raw,3,t,"asteroidy lodowe, typ C",,jednostka do potwierdzenia
+ammonia_ice,Ammonia ice,raw,3,t,asteroidy lodowe,,jednostka do potwierdzenia
+co2_ice,CO₂ ice,raw,3,t,asteroidy lodowe,,jednostka do potwierdzenia
+methane_ice,Methane ice,raw,3,t,asteroidy lodowe,,jednostka do potwierdzenia
+carbonaceous_regolith,Carbonaceous regolith,raw,3,t,typ C,,jednostka do potwierdzenia
+organic_tar,Organic tar,raw,4,t,typ C (kerogen),,jednostka do potwierdzenia
+silicate_regolith,Silicate regolith,raw,4,t,typ S,,jednostka do potwierdzenia
+olivine,Olivine,raw,4,t,"typ S (magnez, żelazo)",,jednostka do potwierdzenia
+sulfide_ore,Sulfide ore,raw,4,t,typ S/M (troilit),,jednostka do potwierdzenia
+iron_nickel,Iron-nickel,raw,4,t,typ M,,jednostka do potwierdzenia
+anorthite,Anorthite,raw,8,t,"typ S (glin, wapń)",,jednostka do potwierdzenia
+phosphate_ore,Phosphate ore,raw,8,t,typ M/S,,jednostka do potwierdzenia
+pgm_ore,PGM ore,raw,8,t,typ M,,jednostka do potwierdzenia
+rare_earth_ore,Rare earth ore,raw,8,t,typ S/M,,jednostka do potwierdzenia
+uranium_ore,Uranium ore,raw,Z,t,źródło w Himiko: brak danej (fabuła),110820,jednostka do potwierdzenia
+helium_3_gas,Helium-3 gas,raw,Z,kg,źródło w Himiko: brak danej (fabuła); na Ziemi z Księżyca,22000,jednostka do potwierdzenia
+biomass,Biomass,raw,0,t,"hydroponika, algi",260,jednostka do potwierdzenia
+scrap,Scrap,raw,0,t,"rozbiórka, wraki",340,jednostka do potwierdzenia
+energy,Energy,raw,0,MWh,"reaktory, panele",70,jednostka do potwierdzenia
+water,Water,processed,0,t,"lód, recykling",0,jednostka do potwierdzenia
+hydrogen,Hydrogen,processed,0,t,elektroliza wody,1280,jednostka do potwierdzenia
+oxygen,Oxygen,processed,0,t,elektroliza wody,100,jednostka do potwierdzenia
+heavy_water,Heavy water,processed,3,t,wzbogacanie wody,683200,jednostka do potwierdzenia
+deuterium,Deuterium,processed,3,kg,ciężka woda,3400,jednostka do potwierdzenia
+helium_3,Helium-3,processed,Z,kg,hel-3 surowy,22000,jednostka do potwierdzenia
+fusion_pellets,Fusion pellets,processed,3,kg,deuter + hel-3,14560,jednostka do potwierdzenia
+enriched_uranium,Enriched uranium,processed,Z,kg,ruda uranu,1597.75,jednostka do potwierdzenia
+fuel_rods,Fuel rods,processed,Z,szt.,uran wzbogacony,,jednostka do potwierdzenia
+nitrogen,Nitrogen,processed,3,t,amoniak,100,jednostka do potwierdzenia
+ammonia,Ammonia,processed,3,t,lód amoniakalny,320,jednostka do potwierdzenia
+methane,Methane,processed,4,t,lód metanowy; CO₂ + wodór,110,jednostka do potwierdzenia
+carbon,Carbon,processed,4,t,"regolit węglisty, CO₂",320,jednostka do potwierdzenia
+sulfur,Sulfur,processed,4,t,ruda siarczkowa,130,jednostka do potwierdzenia
+sulfuric_acid,Sulfuric acid,processed,4,t,"siarka, woda",100,jednostka do potwierdzenia
+fertilizer,Fertilizer,processed,4,t,"amoniak, fosfor, biomasa",260,jednostka do potwierdzenia
+nitric_acid,Nitric acid,processed,8,t,amoniak,320,jednostka do potwierdzenia
+phosphorus,Phosphorus,processed,8,t,ruda fosforowa,1920,jednostka do potwierdzenia
+iron,Iron,processed,4,t,żelazo-nikiel,320,jednostka do potwierdzenia
+nickel,Nickel,processed,4,t,żelazo-nikiel,9690,jednostka do potwierdzenia
+cobalt,Cobalt,processed,4,t,żelazo-nikiel,21210,jednostka do potwierdzenia
+steel,Steel,processed,4,t,"żelazo, węgiel",540,jednostka do potwierdzenia
+aluminium,Aluminium,processed,8,t,anortyt,1680,jednostka do potwierdzenia
+magnesium,Magnesium,processed,8,t,oliwin,1920,jednostka do potwierdzenia
+titanium,Titanium,processed,8,t,regolit krzemianowy,3760,jednostka do potwierdzenia
+platinum,Platinum,processed,8,kg,ruda platynowców,26300.24,jednostka do potwierdzenia
+rare_earth_metals,Rare earth metals,processed,8,kg,ruda ziem rzadkich,38.35,jednostka do potwierdzenia
+copper,Copper,processed,Z,t,rzadka w asteroidach,7290,jednostka do potwierdzenia
+lithium,Lithium,processed,Z,t,rzadki w asteroidach,10860,jednostka do potwierdzenia
+print_feedstock,Print feedstock,processed,0,t,"złom, metale",12780,jednostka do potwierdzenia
+algae_paste,Algae paste,processed,0,t,biomasa,1920,jednostka do potwierdzenia
+sintered_regolith,Sintered regolith,processed,4,t,regolit,,jednostka do potwierdzenia
+glass,Glass,processed,4,t,regolit krzemianowy,640,jednostka do potwierdzenia
+silicon,Silicon,processed,8,t,regolit krzemianowy,4150,jednostka do potwierdzenia
+plastics,Plastics,processed,8,t,"węgiel, wodór, smoła",960,jednostka do potwierdzenia
+carbon_fiber,Carbon fiber,processed,8,t,"węgiel, tworzywa",12780,jednostka do potwierdzenia
+textiles,Textiles,processed,8,t,"tworzywa, biomasa",5110,jednostka do potwierdzenia
+ceramics,Ceramics,processed,8,t,"regolit, tlenki",6390,jednostka do potwierdzenia
+aerogel,Aerogel,processed,8,t,krzem,639100,jednostka do potwierdzenia
+superconductors,Superconductors,processed,Z,kg,"metale ziem rzadkich, miedź",319.55,jednostka do potwierdzenia
+semiconductors,Semiconductors,processed,8,kg,krzem,639.1,jednostka do potwierdzenia
+explosive_compounds,Explosive compounds,processed,8,t,"amoniak, kwas azotowy",640,jednostka do potwierdzenia
+air_mix,Air mix,goods,0,t,"tlen, azot",50,jednostka do potwierdzenia
+fresh_food,Fresh food,goods,0,t,biomasa,1390,jednostka do potwierdzenia; mało (hydroponika)
+alcohol,Alcohol,goods,0,l,biomasa (bimber),3.49,jednostka do potwierdzenia
+rations,Rations,goods,4,t,"biomasa, pasta z alg",5230,jednostka do potwierdzenia
+animal_feed,Animal feed,goods,4,t,biomasa,350,jednostka do potwierdzenia
+hygiene_products,Hygiene products,goods,4,t,chemia,1740,jednostka do potwierdzenia
+medical_kits,Medical kits,goods,4,szt.,"tworzywa, leki",,jednostka do potwierdzenia
+medicine,Medicine,goods,8,kg,chemia,174.3,jednostka do potwierdzenia; wcześniej tylko import (Z)
+clothing,Clothing,goods,8,szt.,tkaniny,,jednostka do potwierdzenia
+spare_parts,Spare parts,goods,0,t,proszek do druku,,jednostka do potwierdzenia; reszta import (Z)
+hull_plates,Hull plates,goods,4,t,stal,10460,jednostka do potwierdzenia
+radiation_shielding,Radiation shielding,goods,4,t,"woda, spiek",1740,jednostka do potwierdzenia
+habitat_modules,Habitat modules,goods,4,szt.,"stal, szkło, części",,jednostka do potwierdzenia
+radiators,Radiators,goods,8,szt.,"aluminium, ceramika",,jednostka do potwierdzenia
+solar_panels,Solar panels,goods,8,szt.,"krzem, szkło, aluminium",,jednostka do potwierdzenia
+batteries,Batteries,goods,8,szt.,"lit, nikiel, kobalt",,jednostka do potwierdzenia
+cables,Cables,goods,8,t,"aluminium, miedź",5230,jednostka do potwierdzenia
+spacesuits,Spacesuits,goods,8,szt.,"tkaniny, tworzywa, elektronika",,jednostka do potwierdzenia
+reactor_parts,Reactor parts,goods,Z,szt.,"nadprzewodniki, stal, ceramika",,jednostka do potwierdzenia
+mining_equipment,Mining equipment,goods,4,szt.,"stal, części",,jednostka do potwierdzenia
+mining_drones,Mining drones,goods,4,szt.,"części, elektronika",,jednostka do potwierdzenia
+electronics,Electronics,goods,8,kg,"półprzewodniki, platyna, tworzywa",1394.4,jednostka do potwierdzenia; wcześniej tylko import (Z)
+sensors,Sensors,goods,8,szt.,elektronika,,jednostka do potwierdzenia
+machinery,Machinery,goods,8,szt.,"stal, części, elektronika",,jednostka do potwierdzenia
+implants,Implants,goods,Z,szt.,"elektronika, platyna",,jednostka do potwierdzenia
+explosives,Explosives,goods,8,t,związki wybuchowe,350,jednostka do potwierdzenia; także górnicze; wcześniej tylko import (Z)
+ammunition,Ammunition,goods,8,szt.,"stal, związki wybuchowe",,jednostka do potwierdzenia; wcześniej tylko import (Z)
+small_arms,Small arms,goods,8,szt.,"stal, części",,jednostka do potwierdzenia
+missiles,Missiles,goods,Z,szt.,"elektronika, paliwo, materiały wybuchowe",,jednostka do potwierdzenia
+luxury_goods,Luxury goods,goods,Z,szt.,—,,jednostka do potwierdzenia
+street_chips,Street chips,goods,Z,szt.,—,,jednostka do potwierdzenia; kontrabanda

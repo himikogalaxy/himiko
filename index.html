@@ -61,6 +61,7 @@ th{position:sticky;top:0;background:var(--panel);font-size:.72rem;letter-spacing
 <option value="ludzie.csv">Ludzie</option><option value="statki.csv">Statki</option><option value="frakcje.csv">Frakcje i państwa</option><option value="miejsca.csv">Miejsca</option><option value="technologie.csv">Technologie</option><option value="zasoby.csv">Zasoby i asteroidy</option><option value="zegar.csv">Zegar</option><option value="newsy.csv">Newsy</option><option value="numery.csv">Ostatnie numery</option><option value="ludzie_umiejetnosci.csv">Umiejętności ludzi</option><option value="ludzie_wyksztalcenie.csv">Wykształcenie ludzi</option><option value="umiejetnosci.csv">Katalog umiejętności</option><option value="konta.csv">Bank: konta</option><option value="ludzie_zycie.csv">Życie: rodzina, zdrowie, lojalność</option><option value="relacje.csv">Relacje między ludźmi</option><option value="religie.csv">Katalog religii</option><option value="dlugi.csv">Bank: długi</option><option value="zasady_ekonomii.csv">Zasady ekonomii</option><option value="krewni_ziemia.csv">Krewni na Ziemi</option><option value="ludzie_cialo.csv">Ciało: narodziny, implanty, modyfikacje</option><option value="ludzie_ulepszenia.csv">Ulepszenia ludzi</option><option value="ulepszenia.csv">Katalog ulepszeń</option><option value="stanowiska_bojowe.csv">Stanowiska bojowe</option><option value="lancuch_dowodzenia.csv">Łańcuch dowodzenia</option><option value="zapasy.csv">Zapasy statków</option><option value="zasady_zycia.csv">Zasady życia i walki</option><option value="ludzie_zaslugi.csv">Zasługi: misje, odznaczenia</option><option value="odznaczenia.csv">Katalog odznaczeń</option><option value="przedzialy.csv">Przedziały statków</option><option value="jednostki.csv">Rejestr jednostek</option><option value="zwierzeta.csv">Zwierzęta</option><option value="szablony.csv">Szablony okrętów</option><option value="szablony_obsada.csv">Szablony: obsada</option><option value="szablony_przedzialy.csv">Szablony: przedziały</option><option value="szablony_zapasy.csv">Szablony: zapasy</option>
 </select>
 <input id="q" type="search" placeholder="Szukaj: nazwisko, numer, miejsce, status…" aria-label="Szukaj">
+<button type="button" id="lang" title="Język terminów: PL = English [polski], EN = English" aria-label="Przełącz język EN/PL">EN / PL</button>
 </div>
 <div class="stats" id="stats"></div>
 <div class="wrap"><table id="t"></table></div>
@@ -69,7 +70,12 @@ th{position:sticky;top:0;background:var(--panel);font-size:.72rem;letter-spacing
 <script>
 function parseCSV(s){const R=[];let r=[],c='',q=false;for(let i=0;i<s.length;i++){const ch=s[i];if(q){if(ch==='"'){if(s[i+1]==='"'){c+='"';i++}else q=false}else c+=ch}else if(ch==='"')q=true;else if(ch===','){r.push(c);c=''}else if(ch==='\n'){r.push(c);R.push(r);r=[];c=''}else if(ch!=='\r')c+=ch}if(c!==''||r.length){r.push(c);R.push(r)}return R}
 const $=id=>document.getElementById(id);let head=[],rows=[];const MAX=300;
-function esc(x){return String(x).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]))}
+// JĘZYK (Temat B, 24.11.2026): dane po angielsku, polski z slownik.csv; PL = „English [polski]”, EN = „English”; wybór zapamiętany
+const DEFAULT_LANG='en';let LANG=DEFAULT_LANG;try{LANG=localStorage.getItem('himiko_lang')||DEFAULT_LANG}catch(e){}
+let SLW={};const SLW_P=fetch('slownik.csv',{cache:'no-store'}).then(r=>r.ok?r.text():'').then(t=>{const a=parseCSV(t||'');const h=a[0]||[];a.slice(1).forEach(r=>{const o=Object.fromEntries(h.map((k,i)=>[k,r[i]||'']));if(o.en&&!o.kontekst&&!SLW[o.en])SLW[o.en]=o.pl})}).catch(()=>{});
+function tr(x){const s=String(x);if(LANG!=='pl')return s;const p=SLW[s.trim()];return p?s+' ['+p+']':s}
+function esc(x){return tr(x).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]))}
+document.addEventListener('DOMContentLoaded',()=>{const b=document.getElementById('lang');if(!b)return;const u=()=>{b.textContent=LANG==='pl'?'🇵🇱 PL → EN':'🇬🇧 EN → PL'};u();b.onclick=()=>{LANG=LANG==='pl'?'en':'pl';try{localStorage.setItem('himiko_lang',LANG)}catch(e){};u();location.reload()}});
 function draw(){const q=$('q').value.trim().toLowerCase();const f=q?rows.filter(r=>r.join(' ').toLowerCase().includes(q)):rows;
  let h='<thead><tr>'+head.map(x=>'<th>'+esc(x)+'</th>').join('')+'</tr></thead><tbody>';
  f.slice(0,MAX).forEach(r=>{h+='<tr>'+r.map(x=>'<td'+(x.length>40?' class="long"':'')+'>'+esc(x)+'</td>').join('')+'</tr>'});
@@ -79,7 +85,7 @@ function draw(){const q=$('q').value.trim().toLowerCase();const f=q?rows.filter(
  $('stats').innerHTML=st.map(s=>'<div class="stat"><b>'+s[1].toLocaleString('pl-PL')+'</b><span>'+esc(s[0])+'</span></div>').join('');
  $('note').textContent=!rows.length?'Ten rejestr jest jeszcze pusty.':(f.length>MAX?'Pokazuję pierwsze '+MAX+' z '+f.length+'. Zawęź wyszukiwanie.':'');}
 function load(){$('t').innerHTML='';$('note').textContent='Ładowanie…';fetch($('file').value).then(r=>r.text()).then(t=>{const a=parseCSV(t);head=a[0]||[];rows=a.slice(1);draw()}).catch(()=>{$('note').textContent='Nie udało się wczytać pliku.'})}
-$('file').addEventListener('change',load);$('q').addEventListener('input',draw);load();
+$('file').addEventListener('change',load);$('q').addEventListener('input',draw);SLW_P.then(load);
 
 /* ---------- Teczka (widok Mistrza Gry) ---------- */
 const PL={numer:'numer',imie:'imię',nazwisko:'nazwisko',plec:'płeć',wiek_0_300:'wiek (0·300)',wiek_karta:'wiek na karcie',pochodzenie:'pochodzenie',stanowisko:'stanowisko',cecha:'cecha',statek:'statek',dzial:'dział',lokalizacja:'lokalizacja',status:'status',data_urodzenia:'data urodzenia',urodzony_atr:'urodzony (gra)',sluzba:'służba',stopien:'stopień',dziedzina_nauki:'dziedzina nauki',obywatelstwo:'obywatelstwo',frakcja:'frakcja',miejsce_zamieszkania:'miejsce zamieszkania',waznosc:'ważność',umiejetnosc_stanowiska:'umiejętność stanowiska',tajna_rola:'tajna rola',zakon_rola:'rola w Zakonie',zakon_szczebel:'szczebel w Zakonie',reputacja_ukryta:'reputacja ukryta'};
@@ -129,7 +135,7 @@ async function drzewo(){
   return w?`<li><details${dz.length?' open':''}><summary>${t}</summary><ul>${w}</ul></details></li>`:`<li>${t}</li>`};
  const korz=J.filter(j=>!j.nadrzedna||!J.some(y=>y.numer===j.nadrzedna));
  $('drz').innerHTML=korz.length?'<ul>'+korz.map(j=>wezel(j,0)).join('')+'</ul>':'<p class="note">brak jednostek</p>'}
-drzewo();
+SLW_P.then(drzewo);
 async function teczka(q){
  const id=norm(q);$('tw').innerHTML='<p class="note">Ładowanie…</p>';
  const [L,Z,J]=await Promise.all([csv('ludzie.csv'),csv('zwierzeta.csv'),csv('jednostki.csv')]);
@@ -175,7 +181,7 @@ async function teczka(q){
  $('tw').innerHTML=h}
 $('tf').addEventListener('submit',e=>{e.preventDefault();const v=$('tq').value;if(v.trim())teczka(v)});
 function zHash(){const h=decodeURIComponent(location.hash.slice(1));if(/^[A-Za-z]+-[A-Za-z0-9-]+$/.test(h)){$('tq').value=h;teczka(h)}}
-window.addEventListener('hashchange',zHash);zHash();
+window.addEventListener('hashchange',zHash);SLW_P.then(zHash);
 </script>
 
 </body></html>

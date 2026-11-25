@@ -247,67 +247,67 @@ Z-0245,Patrick,Fitzgerald,father,IE-0003,2028,dead,Earth (IE),,
 Z-0246,Patrick,Fitzgerald,child,IE-0003,2082,alive,Earth (IE),stays with family on Earth,
 Z-0247,Mary,Fitzgerald,child,IE-0003,2082,alive,Earth (IE),stays with family on Earth,
 Z-0248,Niamh,Fitzgerald,child,IE-0003,2084,alive,Earth (IE),stays with family on Earth,
-Z-0249,Péter,Varga,spouse [małżonek],HU-0001,2039,alive,Earth (HU),Budapest,9680
-Z-0250,Felix,Müller,spouse [małżonek],DE-0001,2035,alive,Earth (DE),Munich; same-sex [jednopłciowa],8670
-Z-0251,Piotr,Wolski,spouse [małżonek],PL-0001,2041,alive,Earth (PL),Kraków,4730
-Z-0252,Aiko,Aoki,spouse [małżonek],JP-0001,2028,alive,Earth (JP),Sendai,8740
-Z-0253,Sophie,Evans,spouse [małżonek],GB-0001,2052,alive,Earth (GB),Bristol,7080
-Z-0254,Funmilayo,Oyelaran,spouse [małżonek],NG-0002,2032,alive,Earth (NG),Ibadan,8740
-Z-0255,Pedro,Costa,partner [partner],BR-0001,2048,alive,Earth (BR),São Paulo,
-Z-0256,Martin,Černý,partner [partner],CZ-0001,2042,alive,Earth (CZ),Brno,
-Z-0257,Silje,Olsen,spouse [małżonek],NO-0001,2042,alive,Earth (NO),Bergen,6010
-Z-0258,Matteo,Ferrari,partner [partner],IT-0001,2040,alive,Earth (IT),Turin,
-Z-0259,Fernanda,Hernández,partner [partner],MX-0001,2042,alive,Earth (MX),Mexico City; same-sex [jednopłciowa],
-Z-0260,Faisal,Siddiqui,spouse [małżonek],PK-0001,2058,alive,Earth (PK),Lahore,6520
-Z-0261,Erik,Lindqvist,spouse [małżonek],SE-0001,2039,alive,Earth (SE),Gothenburg,8300
-Z-0262,Facundo,González,spouse [małżonek],AR-0001,2044,alive,Earth (AR),Buenos Aires,5870
-Z-0263,Rahim,Rahman,spouse [małżonek],BD-0001,2055,alive,Earth (BD),Dhaka,3400
-Z-0264,Krzysztof,Kamiński,partner [partner],PL-0003,2056,alive,Earth (PL),Kraków,
-Z-0265,Emily,Hargrove,spouse [małżonek],GB-0002,2045,alive,Earth (GB),Bristol,5800
-Z-0266,Thomas,Evans,partner [partner],GB-0003,2066,alive,Earth (GB),Bristol,
-Z-0267,Omar,Mostafa,partner [partner],EG-0001,2049,alive,Earth (EG),Cairo,
-Z-0268,Yaw,Asamoah,partner [partner],GH-0001,2049,alive,Earth (GH),Kumasi; same-sex [jednopłciowa],
-Z-0269,Ren,Hasegawa,spouse [małżonek],JP-0003,2050,alive,Earth (JP),Sendai,5450
-Z-0270,Ewa,Szymańska,spouse [małżonek],PL-0005,2038,alive,Earth (PL),Gdańsk,8390
-Z-0271,Ibrahima,Diallo,spouse [małżonek],SN-0001,2047,alive,Earth (SN),Saint-Louis,3780
-Z-0272,Róisín,Calloway,spouse [małżonek],IE-0001,2048,alive,Earth (IE),Dublin,3730
-Z-0273,Svetlana,Petrova,spouse [małżonek],RU-0002,2037,alive,Earth (RU),Novosibirsk,8490
-Z-0274,Jonas,Weber,partner [partner],DE-0005,2039,alive,Earth (DE),Hamburg,
-Z-0275,Akosua,Boateng,partner [partner],GH-0002,2040,alive,Earth (GH),Accra,
-Z-0276,Tunde,Bello,partner [partner],NG-0007,2055,alive,Earth (NG),Lagos,
-Z-0277,Agnieszka,Lewandowska,spouse [małżonek],PL-0007,2053,alive,Earth (PL),Gdańsk,3490
-Z-0278,Sara,Nilsson,spouse [małżonek],SE-0002,2047,alive,Earth (SE),Kiruna,7550
-Z-0279,Carlos,Ramírez,spouse [małżonek],MX-0002,2040,alive,Earth (MX),Monterrey; same-sex [jednopłciowa],8210
-Z-0280,Mikhail,Volkov,spouse [małżonek],RU-0003,2058,alive,Earth (RU),Novosibirsk,3800
-Z-0281,Siobhán,Walsh,partner [partner],IE-0003,2054,alive,Earth (IE),Cork,
-Z-0282,Katalin,Varga,sister [siostra],HU-0001,2040,alive,Earth (HU),Księga Dzień 470: Varga pisze do siostry,
+Z-0249,Péter,Varga,spouse,HU-0001,2039,alive,Earth (HU),Budapest,9680
+Z-0250,Felix,Müller,spouse,DE-0001,2035,alive,Earth (DE),Munich; same-sex [jednopłciowa],8670
+Z-0251,Piotr,Wolski,spouse,PL-0001,2041,alive,Earth (PL),Kraków,4730
+Z-0252,Aiko,Aoki,spouse,JP-0001,2028,alive,Earth (JP),Sendai,8740
+Z-0253,Sophie,Evans,spouse,GB-0001,2052,alive,Earth (GB),Bristol,7080
+Z-0254,Funmilayo,Oyelaran,spouse,NG-0002,2032,alive,Earth (NG),Ibadan,8740
+Z-0255,Pedro,Costa,partner,BR-0001,2048,alive,Earth (BR),São Paulo,
+Z-0256,Martin,Černý,partner,CZ-0001,2042,alive,Earth (CZ),Brno,
+Z-0257,Silje,Olsen,spouse,NO-0001,2042,alive,Earth (NO),Bergen,6010
+Z-0258,Matteo,Ferrari,partner,IT-0001,2040,alive,Earth (IT),Turin,
+Z-0259,Fernanda,Hernández,partner,MX-0001,2042,alive,Earth (MX),Mexico City; same-sex [jednopłciowa],
+Z-0260,Faisal,Siddiqui,spouse,PK-0001,2058,alive,Earth (PK),Lahore,6520
+Z-0261,Erik,Lindqvist,spouse,SE-0001,2039,alive,Earth (SE),Gothenburg,8300
+Z-0262,Facundo,González,spouse,AR-0001,2044,alive,Earth (AR),Buenos Aires,5870
+Z-0263,Rahim,Rahman,spouse,BD-0001,2055,alive,Earth (BD),Dhaka,3400
+Z-0264,Krzysztof,Kamiński,partner,PL-0003,2056,alive,Earth (PL),Kraków,
+Z-0265,Emily,Hargrove,spouse,GB-0002,2045,alive,Earth (GB),Bristol,5800
+Z-0266,Thomas,Evans,partner,GB-0003,2066,alive,Earth (GB),Bristol,
+Z-0267,Omar,Mostafa,partner,EG-0001,2049,alive,Earth (EG),Cairo,
+Z-0268,Yaw,Asamoah,partner,GH-0001,2049,alive,Earth (GH),Kumasi; same-sex [jednopłciowa],
+Z-0269,Ren,Hasegawa,spouse,JP-0003,2050,alive,Earth (JP),Sendai,5450
+Z-0270,Ewa,Szymańska,spouse,PL-0005,2038,alive,Earth (PL),Gdańsk,8390
+Z-0271,Ibrahima,Diallo,spouse,SN-0001,2047,alive,Earth (SN),Saint-Louis,3780
+Z-0272,Róisín,Calloway,spouse,IE-0001,2048,alive,Earth (IE),Dublin,3730
+Z-0273,Svetlana,Petrova,spouse,RU-0002,2037,alive,Earth (RU),Novosibirsk,8490
+Z-0274,Jonas,Weber,partner,DE-0005,2039,alive,Earth (DE),Hamburg,
+Z-0275,Akosua,Boateng,partner,GH-0002,2040,alive,Earth (GH),Accra,
+Z-0276,Tunde,Bello,partner,NG-0007,2055,alive,Earth (NG),Lagos,
+Z-0277,Agnieszka,Lewandowska,spouse,PL-0007,2053,alive,Earth (PL),Gdańsk,3490
+Z-0278,Sara,Nilsson,spouse,SE-0002,2047,alive,Earth (SE),Kiruna,7550
+Z-0279,Carlos,Ramírez,spouse,MX-0002,2040,alive,Earth (MX),Monterrey; same-sex [jednopłciowa],8210
+Z-0280,Mikhail,Volkov,spouse,RU-0003,2058,alive,Earth (RU),Novosibirsk,3800
+Z-0281,Siobhán,Walsh,partner,IE-0003,2054,alive,Earth (IE),Cork,
+Z-0282,Katalin,Varga,sister,HU-0001,2040,alive,Earth (HU),Księga Dzień 470: Varga pisze do siostry,
 Z-0283,Oliver,Turner,father,GB-0008,2007,dead,Earth (GB),,
 Z-0284,Hannah,Turner,mother,GB-0008,1995,alive,Earth (GB),,
 Z-0285,Rhys,Turner,child,GB-0008,2056,alive,Earth (GB),stays with family on Earth,
 Z-0286,James,Jones,father,GB-0009,2015,alive,Earth (GB),,
 Z-0287,Hannah,Jones,mother,GB-0009,2020,alive,Earth (GB),,
-Z-0288,Thomas,Brown,partner [partner],GB-0009,2050,alive,Earth (GB),Bristol,
+Z-0288,Thomas,Brown,partner,GB-0009,2050,alive,Earth (GB),Bristol,
 Z-0289,Eleanor,Jones,child,GB-0009,2076,alive,Earth (GB),stays with family on Earth,
 Z-0290,Emily,Jones,child,GB-0009,2078,alive,Earth (GB),stays with family on Earth,
 Z-0291,Rahim,Chowdhury,father,BD-0002,2004,dead,Earth (BD),,
 Z-0292,Ayesha,Chowdhury,mother,BD-0002,2002,alive,Earth (BD),,
-Z-0293,Farzana,Das,spouse [małżonek],BD-0002,2032,alive,Earth (BD),Dhaka,8740
+Z-0293,Farzana,Das,spouse,BD-0002,2032,alive,Earth (BD),Dhaka,8740
 Z-0294,Rumana,Chowdhury,child,BD-0002,2067,alive,Earth (BD),stays with family on Earth,
 Z-0295,Andrei,Popov,father,RU-0004,2022,alive,Earth (RU),,
 Z-0296,Olga,Popova,mother,RU-0004,2015,dead,Earth (RU),,
-Z-0297,Sergei,Popov,spouse [małżonek],RU-0004,2044,alive,Earth (RU),Novosibirsk,3920
+Z-0297,Sergei,Popov,spouse,RU-0004,2044,alive,Earth (RU),Novosibirsk,3920
 Z-0298,Anna,Popova,child,RU-0004,2072,alive,Earth (RU),stays with family on Earth,
 Z-0299,Alexei,Popov,child,RU-0004,2084,alive,Earth (RU),stays with family on Earth,
 Z-0300,Ivan,Smirnov,father,RU-0005,2031,alive,Earth (RU),,
 Z-0301,Elena,Smirnova,mother,RU-0005,2026,alive,Earth (RU),,
-Z-0302,Mikhail,Lebedev,partner [partner],RU-0005,2056,alive,Earth (RU),Novosibirsk,
+Z-0302,Mikhail,Lebedev,partner,RU-0005,2056,alive,Earth (RU),Novosibirsk,
 Z-0303,Sergei,Smirnov,child,RU-0005,2084,alive,Earth (RU),stays with family on Earth,
 Z-0304,Frederik,Hansen,father,DK-0003,2010,dead,Earth (DK),,
 Z-0305,Karen,Hansen,mother,DK-0003,2018,alive,Earth (DK),,
 Z-0306,Freja,Hansen,child,DK-0003,2078,alive,Earth (DK),stays with family on Earth,
 Z-0307,Bence,Molnár,father,HU-0002,2012,dead,Earth (HU),,
 Z-0308,Anna,Molnár,mother,HU-0002,2013,dead,Earth (HU),,
-Z-0309,Réka,Molnár,spouse [małżonek],HU-0002,2042,alive,Earth (HU),Budapest,6010
+Z-0309,Réka,Molnár,spouse,HU-0002,2042,alive,Earth (HU),Budapest,6010
 Z-0310,Gergő,Molnár,child,HU-0002,2082,alive,Earth (HU),stays with family on Earth,
 Z-0311,Dóra,Molnár,child,HU-0002,2080,alive,Earth (HU),stays with family on Earth,
 Z-0312,Zsófia,Molnár,child,HU-0002,2073,alive,Earth (HU),stays with family on Earth,
@@ -318,22 +318,22 @@ Z-0316,Tomasz,Kowalski,father,PL-0009,2008,alive,Earth (PL),,
 Z-0317,Ewa,Kowalska,mother,PL-0009,2008,dead,Earth (PL),,
 Z-0318,Shota,Nakamura,father,JP-0004,2017,alive,Earth (JP),,
 Z-0319,Sakura,Nakamura,mother,JP-0004,2017,alive,Earth (JP),,
-Z-0320,Takumi,Ito,spouse [małżonek],JP-0004,2049,alive,Earth (JP),Sendai,7360
+Z-0320,Takumi,Ito,spouse,JP-0004,2049,alive,Earth (JP),Sendai,7360
 Z-0321,Seán,Kelly,father,IE-0004,2025,alive,Earth (IE),,
 Z-0322,Aoife,Kelly,mother,IE-0004,2029,alive,Earth (IE),,
-Z-0323,Ciara,Kelly,spouse [małżonek],IE-0004,2057,alive,Earth (IE),Cork,6610
+Z-0323,Ciara,Kelly,spouse,IE-0004,2057,alive,Earth (IE),Cork,6610
 Z-0324,Ji-hoon,Jung,father,KR-0003,2025,alive,Earth (KR),,
 Z-0325,Min-ji,Jung,mother,KR-0003,2038,alive,Earth (KR),,
-Z-0326,Ye-jin,Jung,spouse [małżonek],KR-0003,2067,alive,Earth (KR),Busan,4160
+Z-0326,Ye-jin,Jung,spouse,KR-0003,2067,alive,Earth (KR),Busan,4160
 Z-0327,Dong-hyun,Jung,child,KR-0003,2083,alive,Earth (KR),stays with family on Earth,
 Z-0328,Rahim,Sarkar,father,BD-0003,2040,alive,Earth (BD),,
 Z-0329,Ayesha,Sarkar,mother,BD-0003,2044,alive,Earth (BD),,
 Z-0330,Chih-ming,Tsai,father,TW-0002,2039,dead,Earth (TW),,
 Z-0331,Pei-shan,Tsai,mother,TW-0002,2043,alive,Earth (TW),,
-Z-0332,Yu-cheng,Lin,spouse [małżonek],TW-0002,2061,alive,Earth (TW),Hsinchu,6240
+Z-0332,Yu-cheng,Lin,spouse,TW-0002,2061,alive,Earth (TW),Hsinchu,6240
 Z-0333,Jan,Schneider,father,DE-0006,2019,alive,Earth (DE),,
 Z-0334,Miriam,Schneider,mother,DE-0006,2026,dead,Earth (DE),,
-Z-0335,Anna,Schmidt,spouse [małżonek],DE-0006,2051,alive,Earth (DE),Hamburg,7180
+Z-0335,Anna,Schmidt,spouse,DE-0006,2051,alive,Earth (DE),Hamburg,7180
 Z-0336,Tobias,Schneider,child,DE-0006,2070,alive,Earth (DE),stays with family on Earth,
 Z-0337,Katharina,Schneider,child,DE-0006,2078,alive,Earth (DE),stays with family on Earth,
 Z-0338,Jae-won,Jang,father,KR-0004,2012,dead,Earth (KR),,
@@ -342,7 +342,7 @@ Z-0340,Hyun-woo,Jang,child,KR-0004,2074,alive,Earth (KR),stays with family on Ea
 Z-0341,Seo-yeon,Jang,child,KR-0004,2084,alive,Earth (KR),stays with family on Earth,
 Z-0342,Dimitris,Oikonomou,father,GR-0002,2037,alive,Earth (GR),,
 Z-0343,Eleni,Oikonomou,mother,GR-0002,2031,alive,Earth (GR),,
-Z-0344,Sofia,Antoniou,partner [partner],GR-0002,2071,alive,Earth (GR),Athens,
+Z-0344,Sofia,Antoniou,partner,GR-0002,2071,alive,Earth (GR),Athens,
 Z-0345,James,Walker,father,GB-0010,2031,alive,Earth (GB),,
 Z-0346,Megan,Walker,mother,GB-0010,2024,alive,Earth (GB),,
 Z-0347,Emily,Walker,child,GB-0010,2083,alive,Earth (GB),stays with family on Earth,
@@ -355,7 +355,7 @@ Z-0353,Rhys,Hughes,child,GB-0012,2063,alive,Earth (GB),stays with family on Eart
 Z-0354,James,Hughes,child,GB-0012,2076,alive,Earth (GB),stays with family on Earth,
 Z-0355,Mikhail,Kozlov,father,RU-0006,1999,dead,Earth (RU),,
 Z-0356,Elena,Kozlova,mother,RU-0006,2005,alive,Earth (RU),,
-Z-0357,Andrei,Kozlov,spouse [małżonek],RU-0006,2033,alive,Earth (RU),Novosibirsk,5100
+Z-0357,Andrei,Kozlov,spouse,RU-0006,2033,alive,Earth (RU),Novosibirsk,5100
 Z-0358,Dmitry,Kozlov,child,RU-0006,2061,alive,Earth (RU),stays with family on Earth,
 Z-0359,Ádám,Tóth,father,HU-0003,2019,alive,Earth (HU),,
 Z-0360,Zsófia,Tóth,mother,HU-0003,2026,alive,Earth (HU),,
@@ -363,9 +363,9 @@ Z-0361,Anna,Tóth,child,HU-0003,2071,alive,Earth (HU),stays with family on Earth
 Z-0362,Máté,Tóth,child,HU-0003,2078,alive,Earth (HU),stays with family on Earth,
 Z-0363,Felipe,Ferreira,father,BR-0002,2024,alive,Earth (BR),,
 Z-0364,Larissa,Ferreira,mother,BR-0002,2034,alive,Earth (BR),,
-Z-0365,João,Souza,partner [partner],BR-0002,2054,alive,Earth (BR),São Paulo,
+Z-0365,João,Souza,partner,BR-0002,2054,alive,Earth (BR),São Paulo,
 Z-0366,Haruto,Takahashi,father,JP-0005,2029,alive,Earth (JP),,
 Z-0367,Misaki,Takahashi,mother,JP-0005,2026,alive,Earth (JP),,
 Z-0368,Omar,Saleh,father,EG-0002,2006,dead,Earth (EG),,
 Z-0369,Yasmin,Saleh,mother,EG-0002,2004,alive,Earth (EG),,
-Z-0370,Hana,Hassan,partner [partner],EG-0002,2036,alive,Earth (EG),Cairo,
+Z-0370,Hana,Hassan,partner,EG-0002,2036,alive,Earth (EG),Cairo,

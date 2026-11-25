@@ -1,12 +1,12 @@
 szablon,id,nazwa_en,nazwa_pl,od_m,do_m,miejsce,stanowisko_bojowe,trafienie_k100,urzadzenia,urzadzenia_k100
 Supply Tender,C1,Bridge and sensors,mostek i sensory,,,spine,Bridge,01-12,1:Antenna [antena]; 2:Laser link [łącze laserowe]; 3:Helm and navigation console [konsola steru i nawigacji]; 4:Captain's chair [stanowisko dowódcy],1:01-03; 2:04-05; 3:06-09; 4:10-12
 Supply Tender,C2,Quarters and galley,kwatery i kambuz,,,spine,Galley and quarters,13-22,5:Crew quarters [kwatery załogi]; 6:Galley and mess [kambuz i mesa],5:13-18; 6:19-22
-Supply Tender,C3,Medbay,izba chorych,,,spine,Medbay,23-27,"7:Medbay, 2 beds [izba chorych, 2 łóżka]",7:23-27
+Supply Tender,C3,Medbay,izba chorych,,,spine,Medbay,23-27,"7:Medbay, 2 beds",7:23-27
 Supply Tender,C4,Defence quarters and armory,kwatery Obrony i zbrojownia,,,spine,Corridors and airlocks,28-36,8:Defence quarters [kwatery Obrony]; 9:Armory [zbrojownia],8:28-32; 9:33-36
 Supply Tender,C5,Airlock and docking collar,śluza i kołnierz dokujący,,,spine,Corridors and airlocks,37-42,10:Airlock [śluza]; 11:Docking collar [kołnierz dokujący],10:37-39; 11:40-42
 Supply Tender,C6,Cargo hold 1,ładownia 1,,,spine,Cargo hold,43-58,"12:Cargo, forward [ładunek, przód]; 13:Cargo crane [dźwig ładunkowy]",12:43-54; 13:55-58
-Supply Tender,C7,Cargo hold 2,ładownia 2,,,spine,Cargo hold,59-70,"14:Cargo, aft [ładunek, tył]",14:59-70
+Supply Tender,C7,Cargo hold 2,ładownia 2,,,spine,Cargo hold,59-70,"14:Cargo, aft",14:59-70
 Supply Tender,C8,Life support,podtrzymanie życia,,,spine,Life support,71-76,15:Air plant [powietrze]; 16:Water recycler [odzysk wody],15:71-73; 16:74-76
 Supply Tender,C9,Reactor,reaktor,,,spine,Engine room,77-86,17:Fusion reactor [reaktor fuzyjny]; 18:Radiators [radiatory],17:77-82; 18:83-86
-Supply Tender,C10,Fuel tanks,zbiorniki paliwa,,,spine,Engine room,87-94,19:Fuel tanks [zbiorniki paliwa],19:87-94
+Supply Tender,C10,Fuel tanks,zbiorniki paliwa,,,spine,Engine room,87-94,19:Fuel tanks,19:87-94
 Supply Tender,C11,Main drive,napęd główny,,,spine,Engine room,95-100,20:Main drive [napęd]; 21:Thrusters [silniki manewrowe],20:95-98; 21:99-100

@@ -1,235 +1,235 @@
 statek,przedzial,poklad,nr,pomieszczenie,powierzchnia_m2,urzadzenia,mieszkancy,uwaga
-SHIP-HALLEY,C1,1,1,Sensor bay [przedział sensorów],141,1:Antenna [antena],,anteny i czujniki dziobowe
-SHIP-HALLEY,C1,2,1,Laser link room [pomieszczenie łącza laserowego],60,2:Laser link [łącze laserowe],,
-SHIP-HALLEY,C1,2,2,Forward thruster room [silniki manewrowe dziobowe],80,3:Forward thrusters T1–T2,,
-SHIP-HALLEY,C1,2,3,Shield water tank [woda osłonowa],31,,,
-SHIP-HALLEY,C1,3,1,Sensor electronics [elektronika sensorów],90,,,
-SHIP-HALLEY,C1,3,2,Shield water tank [woda osłonowa],81,,,
-SHIP-HALLEY,C1,4,1,Shield water tank [woda osłonowa],171,,,
-SHIP-HALLEY,C2,5,1,Bridge [mostek],171,4:Helm console [ster]; 5:Captain's chair [stanowisko dowódcy],,
-SHIP-HALLEY,C2,6,1,Captain's day room [gabinet kapitana],25,,,
-SHIP-HALLEY,C2,6,2,Briefing room [sala odpraw],45,,,
-SHIP-HALLEY,C2,6,3,Watch rest room [pokój wachty],30,,,koje dla wachty mostka
-SHIP-HALLEY,C2,6,4,Heads [toalety],8,,,
-SHIP-HALLEY,C2,6,5,Bridge stores [magazyn mostka],63,,,
-SHIP-HALLEY,C2,7,1,Bridge electronics [elektronika mostka],171,,,
-SHIP-HALLEY,C2,8,1,Bridge stores [magazyn mostka],171,,,
-SHIP-HALLEY,C3,9,1,Combat information centre [centrum informacji bojowej],171,6:Plot table [stół nawigacyjny]; 7:Sensors console [sensory],,CIC
-SHIP-HALLEY,C3,10,1,Comms room [łączność],60,9:Comms console [łączność],,
-SHIP-HALLEY,C3,10,2,Window computer room [serwerownia obliczeń okna],90,8:Window computer [obliczenia okna],,
-SHIP-HALLEY,C3,10,3,Ops stores [magazyn operacyjny],21,,,
-SHIP-HALLEY,C3,11,1,Server cooling [chłodzenie serwerowni],60,,,
-SHIP-HALLEY,C3,11,2,Navigation office [biuro nawigacji],40,,,
-SHIP-HALLEY,C3,11,3,Analysis office [biuro analiz],40,,,
-SHIP-HALLEY,C3,11,4,Heads [toalety],8,,,
-SHIP-HALLEY,C3,11,5,Ops stores [magazyn operacyjny],23,,,
-SHIP-HALLEY,C3,12,1,Sensor electronics [elektronika sensorów],90,,,
-SHIP-HALLEY,C3,12,2,Ops stores [magazyn operacyjny],81,,,
-SHIP-HALLEY,C3,13,1,Ops stores [magazyn operacyjny],171,,,
-SHIP-HALLEY,C3,14,1,Ops stores [magazyn operacyjny],171,,,
-SHIP-HALLEY,C4,15,1,Armory [zbrojownia],80,10:Armory [zbrojownia],,
-SHIP-HALLEY,C4,15,2,Defence ready room [pokój dyżurny Obrony],50,,,
-SHIP-HALLEY,C4,15,3,Brig [areszt],25,,,
-SHIP-HALLEY,C4,15,4,Gear stores [magazyn sprzętu],16,,,
-SHIP-HALLEY,C4,16,1,Training room [sala ćwiczeń],171,,,
-SHIP-HALLEY,C4,17,1,Airlock [śluza],40,11:Airlock A [śluza A],,
-SHIP-HALLEY,C4,17,2,Suit room [szatnia skafandrów],50,,,skafandry EVA
-SHIP-HALLEY,C4,17,3,Gear stores [magazyn sprzętu],81,,,
-SHIP-HALLEY,C4,18,1,Gear stores [magazyn sprzętu],171,,,
-SHIP-HALLEY,C5,19,1,Archive vault [skarbiec archiwum],171,12:Archive vault [skarbiec archiwum],,
-SHIP-HALLEY,C5,20,1,Cold copies room [zimne kopie],80,13:Cold copies [zimne kopie],,papierowe kopie (zimne archiwum)
-SHIP-HALLEY,C5,20,2,Reading room [czytelnia],40,,,
-SHIP-HALLEY,C5,20,3,Records office [biuro ewidencji],30,,,
-SHIP-HALLEY,C5,20,4,Guard post [wartownia],15,,,"Zakon, szczebel skarbca (od 50 osób): drzwi do skarbca, grafik zmian, zamknięta skrzynka z 2 ogłuszaczami (Andrzej 23.11.2026)"
-SHIP-HALLEY,C5,21,1,Archive stacks [regały archiwum],171,,,
-SHIP-HALLEY,C5,22,1,Archive stacks [regały archiwum],171,,,
-SHIP-HALLEY,C6,23,1,Damage control station [stanowisko ratownicze],40,,,
-SHIP-HALLEY,C6,23,2,Repair locker [magazyn ratowniczy],80,14:Repair locker [magazyn ratowniczy],,
-SHIP-HALLEY,C6,23,3,Spare parts [części zamienne],51,,,
-SHIP-HALLEY,C6,24,1,Hull patch store [magazyn łat kadłuba],80,15:Hull patches [łaty kadłuba],,
-SHIP-HALLEY,C6,24,2,Spare parts [części zamienne],91,,,
-SHIP-HALLEY,C6,25,1,Machine shop [warsztat mechaniczny],171,,,
-SHIP-HALLEY,C6,26,1,Fabrication [drukarnie 3D],90,,,
-SHIP-HALLEY,C6,26,2,Electrical shop [warsztat elektryczny],60,,,
-SHIP-HALLEY,C6,26,3,Spare parts [części zamienne],21,,,
-SHIP-HALLEY,C6,27,1,Spare parts [części zamienne],171,,,
-SHIP-HALLEY,C7,35,1,Water tanks [zbiorniki wody],171,16:Water tanks [zbiorniki wody],,woda osłania schron
-SHIP-HALLEY,C7,36,1,Water tanks [zbiorniki wody],171,16:Water tanks [zbiorniki wody],,
-SHIP-HALLEY,C7,37,1,Water tanks [zbiorniki wody],171,16:Water tanks [zbiorniki wody],,
-SHIP-HALLEY,C7,38,1,Storm shelter [schron przeciwburzowy],171,,,"cała załoga × ok. 1,5 m² + zapas"
-SHIP-HALLEY,C7,39,1,Ring bearing and spoke access [łożysko pierścienia i wejście do szprych],171,17:Ring bearing [łożysko pierścienia],,windy do pierścienia
-SHIP-HALLEY,C7,40,1,Shelter supplies [zapasy schronu],40,,,
-SHIP-HALLEY,C7,40,2,Water tanks [zbiorniki wody],131,16:Water tanks [zbiorniki wody],,
-SHIP-HALLEY,C7,41,1,Water tanks [zbiorniki wody],171,16:Water tanks [zbiorniki wody],,
-SHIP-HALLEY,C7,42,1,Water tanks [zbiorniki wody],171,16:Water tanks [zbiorniki wody],,
-SHIP-HALLEY,C7,43,1,Water tanks [zbiorniki wody],171,16:Water tanks [zbiorniki wody],,
-SHIP-HALLEY,C8,44,1,Nutrient and water room [pożywki i woda],60,,,
-SHIP-HALLEY,C8,44,2,Harvest and processing [zbiór i przetwórnia],60,,,
-SHIP-HALLEY,C8,44,3,Seed bank [bank nasion],20,,,
-SHIP-HALLEY,C8,44,4,Grow deck [pokład uprawny],31,18:Hydroponics [hydroponika],,
-SHIP-HALLEY,C8,45,1,Grow deck [pokład uprawny],171,18:Hydroponics [hydroponika],,
-SHIP-HALLEY,C8,46,1,Grow deck [pokład uprawny],171,18:Hydroponics [hydroponika],,
-SHIP-HALLEY,C8,47,1,Grow deck [pokład uprawny],171,18:Hydroponics [hydroponika],,
-SHIP-HALLEY,C8,48,1,Grow deck [pokład uprawny],171,18:Hydroponics [hydroponika],,
-SHIP-HALLEY,C8,49,1,Grow deck [pokład uprawny],171,18:Hydroponics [hydroponika],,
-SHIP-HALLEY,C8,50,1,Grow deck [pokład uprawny],171,18:Hydroponics [hydroponika],,
-SHIP-HALLEY,C8,51,1,Grow deck [pokład uprawny],171,18:Hydroponics [hydroponika],,
-SHIP-HALLEY,C9,59,1,Food store [magazyn żywności],171,19:Food store [żywność],,
-SHIP-HALLEY,C9,60,1,Cold store [chłodnia],90,,,
-SHIP-HALLEY,C9,60,2,General stores [magazyn ogólny],81,,,
-SHIP-HALLEY,C9,61,1,Water store [magazyn wody],171,20:Water store [woda],,
-SHIP-HALLEY,C9,62,1,Parts store [magazyn części],171,21:Parts store [części],,
-SHIP-HALLEY,C9,63,1,Quartermaster office [biuro kwatermistrza],20,,,
-SHIP-HALLEY,C9,63,2,General stores [magazyn ogólny],151,,,
-SHIP-HALLEY,C9,64,1,General stores [magazyn ogólny],171,,,
-SHIP-HALLEY,C10,65,1,Hangar control [kontrola hangaru],40,,,
-SHIP-HALLEY,C10,65,2,Probe rack [stojak sond],30,25:Probe rack (12) [sondy],,
-SHIP-HALLEY,C10,65,3,Craft workshop [warsztat statków],200,,,
-SHIP-HALLEY,C10,65,4,Craft fuel store [paliwo dla promów],150,,,
-SHIP-HALLEY,C10,65,5,Airlock [śluza],40,26:Airlock B [śluza B],,
-SHIP-HALLEY,C10,65,6,Suit room [szatnia skafandrów],50,,,skafandry EVA
-SHIP-HALLEY,C10,65,7,Hangar bay [hangar],1813,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
-SHIP-HALLEY,C10,66,1,Hangar bay [hangar],2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
-SHIP-HALLEY,C10,67,1,Hangar bay [hangar],2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
-SHIP-HALLEY,C10,68,1,Hangar bay [hangar],2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
-SHIP-HALLEY,C10,69,1,Hangar bay [hangar],2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
-SHIP-HALLEY,C10,70,1,Hangar bay [hangar],2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
-SHIP-HALLEY,C10,71,1,Hangar bay [hangar],2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
-SHIP-HALLEY,C10,72,1,Hangar bay [hangar],2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
-SHIP-HALLEY,C10,73,1,Hangar bay [hangar],2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
-SHIP-HALLEY,C11,74,1,Air plant [instalacja powietrza],171,27:Air plant [powietrze],,
-SHIP-HALLEY,C11,75,1,Water recycler [odzysk wody],171,28:Water recycler [odzysk wody],,
-SHIP-HALLEY,C11,76,1,Waste processing [przetwarzanie odpadów],90,,,
-SHIP-HALLEY,C11,76,2,CO2 scrubbers [pochłaniacze CO2],60,,,
-SHIP-HALLEY,C11,76,3,Life support stores [magazyn podtrzymania życia],21,,,
-SHIP-HALLEY,C11,77,1,Life support control [sterownia podtrzymania życia],25,,,
-SHIP-HALLEY,C11,77,2,Life support stores [magazyn podtrzymania życia],146,,,
-SHIP-HALLEY,C12,78,1,Reactor control room [sterownia reaktora],60,,,
-SHIP-HALLEY,C12,78,2,Coolant and power [chłodzenie i zasilanie],1213,,,
-SHIP-HALLEY,C12,79,1,Reactor vessel [zbiornik reaktora],1273,29:Fission reactor [reaktor rozszczep.],,
-SHIP-HALLEY,C12,80,1,Shielding [osłona reaktora],1273,,,
-SHIP-HALLEY,C12,81,1,Power distribution [rozdzielnia mocy],200,,,
-SHIP-HALLEY,C12,81,2,Coolant and power [chłodzenie i zasilanie],1073,,,
-SHIP-HALLEY,C12,82,1,Coolant and power [chłodzenie i zasilanie],1273,,,
-SHIP-HALLEY,C13,83,1,Reactor control room [sterownia reaktora],60,,,
-SHIP-HALLEY,C13,83,2,Coolant and power [chłodzenie i zasilanie],1213,,,
-SHIP-HALLEY,C13,84,1,Reactor vessel [zbiornik reaktora],1273,30:Fusion reactor [reaktor fuzyjny],,
-SHIP-HALLEY,C13,85,1,Shielding [osłona reaktora],1273,,,
-SHIP-HALLEY,C13,86,1,Radiator pumps [pompy radiatorów],1273,31:Radiators [radiatory],,tylko gdy statek ma radiatory w tym przedziale
-SHIP-HALLEY,C13,87,1,Power distribution [rozdzielnia mocy],200,,,
-SHIP-HALLEY,C13,87,2,Coolant and power [chłodzenie i zasilanie],1073,,,
-SHIP-HALLEY,R1,R1-L1,1,Galley [kambuz],40,36:Galley and mess [kambuz i mesa],,
-SHIP-HALLEY,R1,R1-L1,2,Mess [mesa],85,,,pół załogi naraz
-SHIP-HALLEY,R1,R1-L1,3,Gym [siłownia],60,,,ćwiczenia w ciążeniu
-SHIP-HALLEY,R1,R1-L1,4,Laundry [pralnia],15,,,
-SHIP-HALLEY,R1,R1-L1,5,Lounge [świetlica],150,,,
-SHIP-HALLEY,R1,R1-L1,6,Café [kawiarnia],40,,,Kantyna Halleya (CORP-0001)
-SHIP-HALLEY,R1,R1-L1,7,Sports hall [sala sportowa],200,,,
-SHIP-HALLEY,R1,R1-L1,8,Viewing lounge [salon widokowy],60,,,okna na kosmos
-SHIP-HALLEY,R1,R1-L1,9,Garden lounge [ogród rekreacyjny],100,,,"rośliny dla odpoczynku, nie na jedzenie"
-SHIP-HALLEY,R1,R1-L1,10,Lifeboat bay [stanowisko szalupy],40,37:Lifeboats 1–2 [szalupy 1–2],,
-SHIP-HALLEY,R1,R1-L1,11,Lifeboat bay [stanowisko szalupy],40,,,
+SHIP-HALLEY,C1,1,1,Sensor bay,141,1:Antenna,,anteny i czujniki dziobowe
+SHIP-HALLEY,C1,2,1,Laser link room,60,2:Laser link,,
+SHIP-HALLEY,C1,2,2,Forward thruster room,80,3:Forward thrusters T1–T2,,
+SHIP-HALLEY,C1,2,3,Shield water tank,31,,,
+SHIP-HALLEY,C1,3,1,Sensor electronics,90,,,
+SHIP-HALLEY,C1,3,2,Shield water tank,81,,,
+SHIP-HALLEY,C1,4,1,Shield water tank,171,,,
+SHIP-HALLEY,C2,5,1,Bridge,171,4:Helm console [ster]; 5:Captain's chair [stanowisko dowódcy],,
+SHIP-HALLEY,C2,6,1,Captain's day room,25,,,
+SHIP-HALLEY,C2,6,2,Briefing room,45,,,
+SHIP-HALLEY,C2,6,3,Watch rest room,30,,,koje dla wachty mostka
+SHIP-HALLEY,C2,6,4,Heads,8,,,
+SHIP-HALLEY,C2,6,5,Bridge stores,63,,,
+SHIP-HALLEY,C2,7,1,Bridge electronics,171,,,
+SHIP-HALLEY,C2,8,1,Bridge stores,171,,,
+SHIP-HALLEY,C3,9,1,Combat information centre,171,6:Plot table [stół nawigacyjny]; 7:Sensors console [sensory],,CIC
+SHIP-HALLEY,C3,10,1,Comms room,60,9:Comms console,,
+SHIP-HALLEY,C3,10,2,Window computer room,90,8:Window computer,,
+SHIP-HALLEY,C3,10,3,Ops stores,21,,,
+SHIP-HALLEY,C3,11,1,Server cooling,60,,,
+SHIP-HALLEY,C3,11,2,Navigation office,40,,,
+SHIP-HALLEY,C3,11,3,Analysis office,40,,,
+SHIP-HALLEY,C3,11,4,Heads,8,,,
+SHIP-HALLEY,C3,11,5,Ops stores,23,,,
+SHIP-HALLEY,C3,12,1,Sensor electronics,90,,,
+SHIP-HALLEY,C3,12,2,Ops stores,81,,,
+SHIP-HALLEY,C3,13,1,Ops stores,171,,,
+SHIP-HALLEY,C3,14,1,Ops stores,171,,,
+SHIP-HALLEY,C4,15,1,Armory,80,10:Armory,,
+SHIP-HALLEY,C4,15,2,Defence ready room,50,,,
+SHIP-HALLEY,C4,15,3,Brig,25,,,
+SHIP-HALLEY,C4,15,4,Gear stores,16,,,
+SHIP-HALLEY,C4,16,1,Training room,171,,,
+SHIP-HALLEY,C4,17,1,Airlock,40,11:Airlock A,,
+SHIP-HALLEY,C4,17,2,Suit room,50,,,skafandry EVA
+SHIP-HALLEY,C4,17,3,Gear stores,81,,,
+SHIP-HALLEY,C4,18,1,Gear stores,171,,,
+SHIP-HALLEY,C5,19,1,Archive vault,171,12:Archive vault,,
+SHIP-HALLEY,C5,20,1,Cold copies room,80,13:Cold copies,,papierowe kopie (zimne archiwum)
+SHIP-HALLEY,C5,20,2,Reading room,40,,,
+SHIP-HALLEY,C5,20,3,Records office,30,,,
+SHIP-HALLEY,C5,20,4,Guard post,15,,,"Zakon, szczebel skarbca (od 50 osób): drzwi do skarbca, grafik zmian, zamknięta skrzynka z 2 ogłuszaczami (Andrzej 23.11.2026)"
+SHIP-HALLEY,C5,21,1,Archive stacks,171,,,
+SHIP-HALLEY,C5,22,1,Archive stacks,171,,,
+SHIP-HALLEY,C6,23,1,Damage control station,40,,,
+SHIP-HALLEY,C6,23,2,Repair locker,80,14:Repair locker,,
+SHIP-HALLEY,C6,23,3,Spare parts,51,,,
+SHIP-HALLEY,C6,24,1,Hull patch store,80,15:Hull patches,,
+SHIP-HALLEY,C6,24,2,Spare parts,91,,,
+SHIP-HALLEY,C6,25,1,Machine shop,171,,,
+SHIP-HALLEY,C6,26,1,Fabrication,90,,,
+SHIP-HALLEY,C6,26,2,Electrical shop,60,,,
+SHIP-HALLEY,C6,26,3,Spare parts,21,,,
+SHIP-HALLEY,C6,27,1,Spare parts,171,,,
+SHIP-HALLEY,C7,35,1,Water tanks,171,16:Water tanks,,woda osłania schron
+SHIP-HALLEY,C7,36,1,Water tanks,171,16:Water tanks,,
+SHIP-HALLEY,C7,37,1,Water tanks,171,16:Water tanks,,
+SHIP-HALLEY,C7,38,1,Storm shelter,171,,,"cała załoga × ok. 1,5 m² + zapas"
+SHIP-HALLEY,C7,39,1,Ring bearing and spoke access,171,17:Ring bearing,,windy do pierścienia
+SHIP-HALLEY,C7,40,1,Shelter supplies,40,,,
+SHIP-HALLEY,C7,40,2,Water tanks,131,16:Water tanks,,
+SHIP-HALLEY,C7,41,1,Water tanks,171,16:Water tanks,,
+SHIP-HALLEY,C7,42,1,Water tanks,171,16:Water tanks,,
+SHIP-HALLEY,C7,43,1,Water tanks,171,16:Water tanks,,
+SHIP-HALLEY,C8,44,1,Nutrient and water room,60,,,
+SHIP-HALLEY,C8,44,2,Harvest and processing,60,,,
+SHIP-HALLEY,C8,44,3,Seed bank,20,,,
+SHIP-HALLEY,C8,44,4,Grow deck,31,18:Hydroponics,,
+SHIP-HALLEY,C8,45,1,Grow deck,171,18:Hydroponics,,
+SHIP-HALLEY,C8,46,1,Grow deck,171,18:Hydroponics,,
+SHIP-HALLEY,C8,47,1,Grow deck,171,18:Hydroponics,,
+SHIP-HALLEY,C8,48,1,Grow deck,171,18:Hydroponics,,
+SHIP-HALLEY,C8,49,1,Grow deck,171,18:Hydroponics,,
+SHIP-HALLEY,C8,50,1,Grow deck,171,18:Hydroponics,,
+SHIP-HALLEY,C8,51,1,Grow deck,171,18:Hydroponics,,
+SHIP-HALLEY,C9,59,1,Food store,171,19:Food store,,
+SHIP-HALLEY,C9,60,1,Cold store,90,,,
+SHIP-HALLEY,C9,60,2,General stores,81,,,
+SHIP-HALLEY,C9,61,1,Water store,171,20:Water store,,
+SHIP-HALLEY,C9,62,1,Parts store,171,21:Parts store,,
+SHIP-HALLEY,C9,63,1,Quartermaster office,20,,,
+SHIP-HALLEY,C9,63,2,General stores,151,,,
+SHIP-HALLEY,C9,64,1,General stores,171,,,
+SHIP-HALLEY,C10,65,1,Hangar control,40,,,
+SHIP-HALLEY,C10,65,2,Probe rack,30,25:Probe rack (12),,
+SHIP-HALLEY,C10,65,3,Craft workshop,200,,,
+SHIP-HALLEY,C10,65,4,Craft fuel store,150,,,
+SHIP-HALLEY,C10,65,5,Airlock,40,26:Airlock B,,
+SHIP-HALLEY,C10,65,6,Suit room,50,,,skafandry EVA
+SHIP-HALLEY,C10,65,7,Hangar bay,1813,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
+SHIP-HALLEY,C10,66,1,Hangar bay,2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
+SHIP-HALLEY,C10,67,1,Hangar bay,2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
+SHIP-HALLEY,C10,68,1,Hangar bay,2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
+SHIP-HALLEY,C10,69,1,Hangar bay,2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
+SHIP-HALLEY,C10,70,1,Hangar bay,2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
+SHIP-HALLEY,C10,71,1,Hangar bay,2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
+SHIP-HALLEY,C10,72,1,Hangar bay,2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
+SHIP-HALLEY,C10,73,1,Hangar bay,2323,22:Tern scout [zwiadowca Tern]; 23:Shuttle 1 [prom 1]; 24:Shuttle 2 [prom 2],,
+SHIP-HALLEY,C11,74,1,Air plant,171,27:Air plant,,
+SHIP-HALLEY,C11,75,1,Water recycler,171,28:Water recycler,,
+SHIP-HALLEY,C11,76,1,Waste processing,90,,,
+SHIP-HALLEY,C11,76,2,CO2 scrubbers,60,,,
+SHIP-HALLEY,C11,76,3,Life support stores,21,,,
+SHIP-HALLEY,C11,77,1,Life support control,25,,,
+SHIP-HALLEY,C11,77,2,Life support stores,146,,,
+SHIP-HALLEY,C12,78,1,Reactor control room,60,,,
+SHIP-HALLEY,C12,78,2,Coolant and power,1213,,,
+SHIP-HALLEY,C12,79,1,Reactor vessel,1273,29:Fission reactor,,
+SHIP-HALLEY,C12,80,1,Shielding,1273,,,
+SHIP-HALLEY,C12,81,1,Power distribution,200,,,
+SHIP-HALLEY,C12,81,2,Coolant and power,1073,,,
+SHIP-HALLEY,C12,82,1,Coolant and power,1273,,,
+SHIP-HALLEY,C13,83,1,Reactor control room,60,,,
+SHIP-HALLEY,C13,83,2,Coolant and power,1213,,,
+SHIP-HALLEY,C13,84,1,Reactor vessel,1273,30:Fusion reactor,,
+SHIP-HALLEY,C13,85,1,Shielding,1273,,,
+SHIP-HALLEY,C13,86,1,Radiator pumps,1273,31:Radiators,,tylko gdy statek ma radiatory w tym przedziale
+SHIP-HALLEY,C13,87,1,Power distribution,200,,,
+SHIP-HALLEY,C13,87,2,Coolant and power,1073,,,
+SHIP-HALLEY,R1,R1-L1,1,Galley,40,36:Galley and mess,,
+SHIP-HALLEY,R1,R1-L1,2,Mess,90,,,pół załogi naraz
+SHIP-HALLEY,R1,R1-L1,3,Gym,60,,,ćwiczenia w ciążeniu
+SHIP-HALLEY,R1,R1-L1,4,Laundry,15,,,
+SHIP-HALLEY,R1,R1-L1,5,Lounge,150,,,
+SHIP-HALLEY,R1,R1-L1,6,Café,40,,,Kantyna Halleya (CORP-0001)
+SHIP-HALLEY,R1,R1-L1,7,Sports hall,200,,,
+SHIP-HALLEY,R1,R1-L1,8,Viewing lounge,60,,,okna na kosmos
+SHIP-HALLEY,R1,R1-L1,9,Garden lounge,100,,,"rośliny dla odpoczynku, nie na jedzenie"
+SHIP-HALLEY,R1,R1-L1,10,Lifeboat bay,40,37:Lifeboats 1–2,,
+SHIP-HALLEY,R1,R1-L1,11,Lifeboat bay,40,,,
 SHIP-HALLEY,R1,R1-L1,12,"Family flats, reserve [rezerwowe mieszkania rodzinne] ×8",288,,,"dla rodzin, nowych ludzi i wymiany załogi"
-SHIP-HALLEY,R1,R1-L2,1,Captain's quarters [kwatera kapitana] ×1,24,34:Quarters A [kwatery A],1,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R1,R1-L2,2,Couple's flats [mieszkania dla par] ×2,48,34:Quarters A [kwatery A],4,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R1,R1-L2,3,Officer's cabins [kajuty oficerskie] ×13,208,34:Quarters A [kwatery A],13,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R1,R1-L2,4,Single cabins [kajuty pojedyncze] ×19,228,34:Quarters A [kwatery A],19,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R1,R1-L2,5,Heads and showers A [łazienki A],18,,,łazienki wspólne dla kajut pojedynczych
+SHIP-HALLEY,R1,R1-L2,1,Captain's quarters [kwatera kapitana] ×1,24,34:Quarters A,1,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R1,R1-L2,2,Couple's flats [mieszkania dla par] ×2,48,34:Quarters A,4,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R1,R1-L2,3,Officer's cabins [kajuty oficerskie] ×13,208,34:Quarters A,13,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R1,R1-L2,4,Single cabins [kajuty pojedyncze] ×24,288,34:Quarters A,24,"flota; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R1,R1-L2,5,Heads and showers A,20,,,łazienki wspólne dla kajut pojedynczych
 SHIP-HALLEY,R1,R1-L2,6,Officer's cabins [kajuty oficerskie] ×1,16,,,Zakon: Archiwista (urząd Zakonu = kajuta oficerska; Andrzej 23.11.2026)
 SHIP-HALLEY,R1,R1-L2,7,Single cabins [kajuty pojedyncze] ×4,48,,,Zakon: 4 Wartowników (Andrzej 23.11.2026)
-SHIP-HALLEY,R1,R1-L2,8,Order store [schowek Zakonu],8,,,Zakon (Andrzej 23.11.2026)
-SHIP-HALLEY,R1,R1-L2,9,Officer's cabins [kajuty oficerskie] ×2,32,35:Quarters C [kwatery C],2,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R1,R1-L2,10,Single cabins [kajuty pojedyncze] ×4,48,35:Quarters C [kwatery C],4,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R1,R1-L2,11,Heads and showers C [łazienki C],8,,,łazienki wspólne dla kajut pojedynczych
-SHIP-HALLEY,R1,R1-L2,12,"Family flats, reserve [rezerwowe mieszkania rodzinne] ×10",360,,,"dla rodzin, nowych ludzi i wymiany załogi"
-SHIP-HALLEY,R1,R1-L2,13,Ring stores [magazyn pierścienia],24,,,
-SHIP-HALLEY,R2,R2-L1,1,Medbay ward [izba chorych],100,38:Medbay [izba chorych],,
-SHIP-HALLEY,R2,R2-L1,2,Surgery [sala zabiegowa],30,,,
-SHIP-HALLEY,R2,R2-L1,3,Pharmacy [apteka],15,,,
-SHIP-HALLEY,R2,R2-L1,4,Lab 1 [laboratorium 1],100,39:Labs 1–3 [laboratoria 1–3],,
-SHIP-HALLEY,R2,R2-L1,5,Lab 2 [laboratorium 2],100,,,
-SHIP-HALLEY,R2,R2-L1,6,Lab 3 [laboratorium 3],100,,,
-SHIP-HALLEY,R2,R2-L1,7,Library [biblioteka],80,,,
-SHIP-HALLEY,R2,R2-L1,8,Chapel [kaplica],60,,,wspólna dla wszystkich wyznań (religie.csv)
-SHIP-HALLEY,R2,R2-L1,9,School and nursery [szkoła i żłobek],80,,,na przyszłe dzieci
-SHIP-HALLEY,R2,R2-L1,10,Hobby workshop [pracownia hobby],50,,,
-SHIP-HALLEY,R2,R2-L1,11,Music room [sala muzyczna],30,,,
-SHIP-HALLEY,R2,R2-L1,12,Lifeboat bay [stanowisko szalupy],40,42:Lifeboats 3–4 [szalupy 3–4],,
-SHIP-HALLEY,R2,R2-L1,13,Lifeboat bay [stanowisko szalupy],40,,,
+SHIP-HALLEY,R1,R1-L2,8,Order store,8,,,Zakon (Andrzej 23.11.2026)
+SHIP-HALLEY,R1,R1-L2,9,Officer's cabins [kajuty oficerskie] ×2,32,35:Quarters C,2,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R1,R1-L2,10,Single cabins [kajuty pojedyncze] ×4,48,35:Quarters C,4,"Obrona; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R1,R1-L2,11,Heads and showers C,8,,,łazienki wspólne dla kajut pojedynczych
+SHIP-HALLEY,R1,R1-L2,12,"Family flats, reserve [rezerwowe mieszkania rodzinne] ×8",288,,,"dla rodzin, nowych ludzi i wymiany załogi"
+SHIP-HALLEY,R1,R1-L2,13,Ring stores,34,,,
+SHIP-HALLEY,R2,R2-L1,1,Medbay ward,100,38:Medbay,,
+SHIP-HALLEY,R2,R2-L1,2,Surgery,30,,,
+SHIP-HALLEY,R2,R2-L1,3,Pharmacy,15,,,
+SHIP-HALLEY,R2,R2-L1,4,Lab 1,100,39:Labs 1–3,,
+SHIP-HALLEY,R2,R2-L1,5,Lab 2,100,,,
+SHIP-HALLEY,R2,R2-L1,6,Lab 3,100,,,
+SHIP-HALLEY,R2,R2-L1,7,Library,80,,,
+SHIP-HALLEY,R2,R2-L1,8,Chapel,60,,,wspólna dla wszystkich wyznań (religie.csv)
+SHIP-HALLEY,R2,R2-L1,9,School and nursery,80,,,na przyszłe dzieci
+SHIP-HALLEY,R2,R2-L1,10,Hobby workshop,50,,,
+SHIP-HALLEY,R2,R2-L1,11,Music room,30,,,
+SHIP-HALLEY,R2,R2-L1,12,Lifeboat bay,40,42:Lifeboats 3–4,,
+SHIP-HALLEY,R2,R2-L1,13,Lifeboat bay,40,,,
 SHIP-HALLEY,R2,R2-L1,14,"Family flats, reserve [rezerwowe mieszkania rodzinne] ×8",288,,,"dla rodzin, nowych ludzi i wymiany załogi"
-SHIP-HALLEY,R2,R2-L1,15,Ring stores [magazyn pierścienia],18,,,
-SHIP-HALLEY,R2,R2-L2,1,Animal house [zwierzętarnia],100,40:Animal house [zwierzętarnia],,
-SHIP-HALLEY,R2,R2-L2,2,Couple's flats [mieszkania dla par] ×2,48,41:Quarters B [kwatery B],4,"nauka; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R2,R2-L2,3,Officer's cabins [kajuty oficerskie] ×7,112,41:Quarters B [kwatery B],7,"nauka; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R2,R2-L2,4,Single cabins [kajuty pojedyncze] ×31,372,41:Quarters B [kwatery B],31,"nauka; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-HALLEY,R2,R2-L2,5,Heads and showers B [łazienki B],21,,,łazienki wspólne dla kajut pojedynczych
+SHIP-HALLEY,R2,R2-L1,15,Ring stores,18,,,
+SHIP-HALLEY,R2,R2-L2,1,Animal house,100,40:Animal house,,
+SHIP-HALLEY,R2,R2-L2,2,Couple's flats [mieszkania dla par] ×2,48,41:Quarters B,4,"nauka; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R2,R2-L2,3,Officer's cabins [kajuty oficerskie] ×7,112,41:Quarters B,7,"nauka; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R2,R2-L2,4,Single cabins [kajuty pojedyncze] ×31,372,41:Quarters B,31,"nauka; kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-HALLEY,R2,R2-L2,5,Heads and showers B,21,,,łazienki wspólne dla kajut pojedynczych
 SHIP-HALLEY,R2,R2-L2,6,"Family flats, reserve [rezerwowe mieszkania rodzinne] ×11",396,,,"dla rodzin, nowych ludzi i wymiany załogi"
-SHIP-HALLEY,R2,R2-L2,7,Ring stores [magazyn pierścienia],21,,,
-SHIP-HALLEY,H1,28,1,Nutrient and water room [pożywki i woda],60,,,
-SHIP-HALLEY,H1,28,2,Harvest and processing [zbiór i przetwórnia],60,,,
-SHIP-HALLEY,H1,28,3,Seed bank [bank nasion],20,,,
-SHIP-HALLEY,H1,28,4,Grow deck [pokład uprawny],31,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
-SHIP-HALLEY,H1,29,1,Grow deck [pokład uprawny],171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
-SHIP-HALLEY,H1,30,1,Grow deck [pokład uprawny],171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
-SHIP-HALLEY,H1,31,1,Grow deck [pokład uprawny],171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
-SHIP-HALLEY,H1,32,1,Grow deck [pokład uprawny],171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
-SHIP-HALLEY,H1,33,1,Grow deck [pokład uprawny],171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
-SHIP-HALLEY,H1,34,1,Grow deck [pokład uprawny],171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
-SHIP-HALLEY,H2,52,1,Nutrient and water room [pożywki i woda],60,,,
-SHIP-HALLEY,H2,52,2,Harvest and processing [zbiór i przetwórnia],60,,,
-SHIP-HALLEY,H2,52,3,Seed bank [bank nasion],20,,,
-SHIP-HALLEY,H2,52,4,Grow deck [pokład uprawny],31,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
-SHIP-HALLEY,H2,53,1,Grow deck [pokład uprawny],171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
-SHIP-HALLEY,H2,54,1,Grow deck [pokład uprawny],171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
-SHIP-HALLEY,H2,55,1,Grow deck [pokład uprawny],171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
-SHIP-HALLEY,H2,56,1,Grow deck [pokład uprawny],171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
-SHIP-HALLEY,H2,57,1,Grow deck [pokład uprawny],171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
-SHIP-HALLEY,H2,58,1,Grow deck [pokład uprawny],171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
-SHIP-KITTIWAKE,C1,1,1,Bridge [mostek],60,3:Helm and navigation console [konsola steru i nawigacji]; 4:Captain's chair [stanowisko dowódcy],,mała załoga
-SHIP-KITTIWAKE,C1,1,2,Captain's day room [gabinet kapitana],25,,,
-SHIP-KITTIWAKE,C1,1,3,Heads [toalety],8,,,
-SHIP-KITTIWAKE,C1,1,4,Bridge electronics [elektronika mostka],20,,,mała załoga
-SHIP-KITTIWAKE,C1,1,5,Record cabinet [szafa zapisów],4,,,"Zakon, szczebel szafy (10–49 osób); od 50 skarbiec w przedziale Archive; od 500 Dom Zakonu = osobny obiekt (Andrzej 23.11.2026)"
-SHIP-KITTIWAKE,C1,1,6,Sensor room [pomieszczenie sensorów],40,1:Antenna [antena]; 2:Laser link [łącze laserowe],,mała załoga
-SHIP-KITTIWAKE,C1,2,1,Bridge stores [magazyn mostka],171,,,
-SHIP-KITTIWAKE,C2,3,1,Galley [kambuz],15,6:Galley and mess [kambuz i mesa],,mała załoga
-SHIP-KITTIWAKE,C2,3,2,Mess [mesa],14,,,pół załogi naraz
-SHIP-KITTIWAKE,C2,3,3,Gym [siłownia],15,,,mała załoga
-SHIP-KITTIWAKE,C2,3,4,Laundry [pralnia],15,,,
-SHIP-KITTIWAKE,C2,3,5,Captain's quarters [kwatera kapitana] ×1,24,5:Crew quarters [kwatery załogi],1,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-KITTIWAKE,C2,3,6,Officer's cabins [kajuty oficerskie] ×2,32,5:Crew quarters [kwatery załogi],2,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-KITTIWAKE,C2,3,7,Stores and equipment [magazyn i sprzęt],56,,,
-SHIP-KITTIWAKE,C2,4,1,Single cabins [kajuty pojedyncze] ×5,60,5:Crew quarters [kwatery załogi],5,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-KITTIWAKE,C2,4,2,Heads and showers [łazienki],8,,,łazienki wspólne dla kajut pojedynczych
+SHIP-HALLEY,R2,R2-L2,7,Ring stores,21,,,
+SHIP-HALLEY,H1,28,1,Nutrient and water room,60,,,
+SHIP-HALLEY,H1,28,2,Harvest and processing,60,,,
+SHIP-HALLEY,H1,28,3,Seed bank,20,,,
+SHIP-HALLEY,H1,28,4,Grow deck,31,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
+SHIP-HALLEY,H1,29,1,Grow deck,171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
+SHIP-HALLEY,H1,30,1,Grow deck,171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
+SHIP-HALLEY,H1,31,1,Grow deck,171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
+SHIP-HALLEY,H1,32,1,Grow deck,171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
+SHIP-HALLEY,H1,33,1,Grow deck,171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
+SHIP-HALLEY,H1,34,1,Grow deck,171,43:Grow racks H1 [regały uprawne H1]; 44:Grow lights H1 [lampy wzrostowe H1],,
+SHIP-HALLEY,H2,52,1,Nutrient and water room,60,,,
+SHIP-HALLEY,H2,52,2,Harvest and processing,60,,,
+SHIP-HALLEY,H2,52,3,Seed bank,20,,,
+SHIP-HALLEY,H2,52,4,Grow deck,31,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
+SHIP-HALLEY,H2,53,1,Grow deck,171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
+SHIP-HALLEY,H2,54,1,Grow deck,171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
+SHIP-HALLEY,H2,55,1,Grow deck,171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
+SHIP-HALLEY,H2,56,1,Grow deck,171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
+SHIP-HALLEY,H2,57,1,Grow deck,171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
+SHIP-HALLEY,H2,58,1,Grow deck,171,45:Grow racks H2 [regały uprawne H2]; 46:Grow lights H2 [lampy wzrostowe H2],,
+SHIP-KITTIWAKE,C1,1,1,Bridge,60,3:Helm and navigation console [konsola steru i nawigacji]; 4:Captain's chair [stanowisko dowódcy],,mała załoga
+SHIP-KITTIWAKE,C1,1,2,Captain's day room,25,,,
+SHIP-KITTIWAKE,C1,1,3,Heads,8,,,
+SHIP-KITTIWAKE,C1,1,4,Bridge electronics,20,,,mała załoga
+SHIP-KITTIWAKE,C1,1,5,Record cabinet,4,,,"Zakon, szczebel szafy (10–49 osób); od 50 skarbiec w przedziale Archive; od 500 Dom Zakonu = osobny obiekt (Andrzej 23.11.2026)"
+SHIP-KITTIWAKE,C1,1,6,Sensor room,40,1:Antenna [antena]; 2:Laser link [łącze laserowe],,mała załoga
+SHIP-KITTIWAKE,C1,2,1,Bridge stores,171,,,
+SHIP-KITTIWAKE,C2,3,1,Galley,15,6:Galley and mess,,mała załoga
+SHIP-KITTIWAKE,C2,3,2,Mess,15,,,pół załogi naraz
+SHIP-KITTIWAKE,C2,3,3,Gym,15,,,mała załoga
+SHIP-KITTIWAKE,C2,3,4,Laundry,15,,,
+SHIP-KITTIWAKE,C2,3,5,Captain's quarters [kwatera kapitana] ×1,24,5:Crew quarters,1,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-KITTIWAKE,C2,3,6,Officer's cabins [kajuty oficerskie] ×3,48,5:Crew quarters,3,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-KITTIWAKE,C2,3,7,Stores and equipment,39,,,
+SHIP-KITTIWAKE,C2,4,1,Single cabins [kajuty pojedyncze] ×5,60,5:Crew quarters,5,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-KITTIWAKE,C2,4,2,Heads and showers,8,,,łazienki wspólne dla kajut pojedynczych
 SHIP-KITTIWAKE,C2,4,3,Passenger berths [koje pasażerskie] ×5,30,,,pula pasażerska kuriera (zasady_zycia: kurier_pasazerowie 6 = 5 koi + koja Pieczętnika)
-SHIP-KITTIWAKE,C2,4,4,Sealkeeper's berth [koja Pieczętnika],6,,,"z puli pasażerskiej, dla Pieczętnika w drodze (Andrzej 23.11.2026)"
-SHIP-KITTIWAKE,C2,4,5,Stores and equipment [magazyn i sprzęt],67,,,
-SHIP-KITTIWAKE,C3,5,1,Medbay [izba chorych],30,"7:Medbay, 2 beds [izba chorych, 2 łóżka]",,mała załoga
-SHIP-KITTIWAKE,C3,5,2,Pharmacy [apteka],15,,,
-SHIP-KITTIWAKE,C3,5,3,Stores and equipment [magazyn i sprzęt],126,,,
-SHIP-KITTIWAKE,C3,6,1,Stores and equipment [magazyn i sprzęt],171,,,
-SHIP-KITTIWAKE,C4,7,1,Single cabins [kajuty pojedyncze] ×6,72,8:Defence quarters [kwatery Obrony],6,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
-SHIP-KITTIWAKE,C4,7,2,Heads and showers [łazienki],8,,,łazienki wspólne dla kajut pojedynczych
-SHIP-KITTIWAKE,C4,7,3,Armory [zbrojownia],30,9:Armory [zbrojownia],,mała załoga
-SHIP-KITTIWAKE,C4,7,4,Gear stores [magazyn sprzętu],61,,,
-SHIP-KITTIWAKE,C4,8,1,Gear stores [magazyn sprzętu],171,,,
-SHIP-KITTIWAKE,C5,9,1,Airlock [śluza],40,10:Airlock [śluza]; 11:Docking collar [kołnierz dokujący],,
-SHIP-KITTIWAKE,C5,9,2,Suit room [szatnia skafandrów],20,,,mała załoga
-SHIP-KITTIWAKE,C5,9,3,Stores and equipment [magazyn i sprzęt],111,,,
-SHIP-KITTIWAKE,C5,10,1,Stores and equipment [magazyn i sprzęt],171,,,
-SHIP-KITTIWAKE,C6,11,1,Crane control [sterowanie dźwigiem],15,13:Cargo crane [dźwig ładunkowy],,
-SHIP-KITTIWAKE,C6,11,2,Cargo hold [ładownia],156,"12:Cargo, forward [ładunek, przód]; 13:Cargo crane [dźwig ładunkowy]",,
-SHIP-KITTIWAKE,C6,12,1,Cargo hold [ładownia],171,"12:Cargo, forward [ładunek, przód]; 13:Cargo crane [dźwig ładunkowy]",,
-SHIP-KITTIWAKE,C7,13,1,Cargo hold [ładownia],171,"14:Cargo, aft [ładunek, tył]",,
-SHIP-KITTIWAKE,C7,14,1,Cargo hold [ładownia],171,"14:Cargo, aft [ładunek, tył]",,
-SHIP-KITTIWAKE,C8,15,1,Air plant [instalacja powietrza],60,15:Air plant [powietrze],,mała załoga
-SHIP-KITTIWAKE,C8,15,2,Water recycler [odzysk wody],60,16:Water recycler [odzysk wody],,mała załoga
-SHIP-KITTIWAKE,C8,15,3,Waste processing [przetwarzanie odpadów],30,,,mała załoga
-SHIP-KITTIWAKE,C8,15,4,CO2 scrubbers [pochłaniacze CO2],20,,,mała załoga
-SHIP-KITTIWAKE,C8,16,1,Life support stores [magazyn podtrzymania życia],171,,,
-SHIP-KITTIWAKE,C9,17,1,Reactor control room [sterownia reaktora],20,,,mała załoga
-SHIP-KITTIWAKE,C9,17,2,Coolant and power [chłodzenie i zasilanie],144,,,
-SHIP-KITTIWAKE,C9,18,1,Reactor vessel [zbiornik reaktora],164,17:Fusion reactor [reaktor fuzyjny],,
-SHIP-KITTIWAKE,C9,19,1,Radiator pumps [pompy radiatorów],40,18:Radiators [radiatory],,mała załoga
-SHIP-KITTIWAKE,C9,19,2,Power distribution [rozdzielnia mocy],40,,,mała załoga
-SHIP-KITTIWAKE,C9,19,3,Coolant and power [chłodzenie i zasilanie],84,,,
+SHIP-KITTIWAKE,C2,4,4,Sealkeeper's berth,6,,,"z puli pasażerskiej, dla Pieczętnika w drodze (Andrzej 23.11.2026)"
+SHIP-KITTIWAKE,C2,4,5,Stores and equipment,67,,,
+SHIP-KITTIWAKE,C3,5,1,Medbay,30,"7:Medbay, 2 beds",,mała załoga
+SHIP-KITTIWAKE,C3,5,2,Pharmacy,15,,,
+SHIP-KITTIWAKE,C3,5,3,Stores and equipment,126,,,
+SHIP-KITTIWAKE,C3,6,1,Stores and equipment,171,,,
+SHIP-KITTIWAKE,C4,7,1,Single cabins [kajuty pojedyncze] ×6,72,8:Defence quarters,6,"kapitan 24 m², para 24 m², oficer 16 m², pojedyncza 12 m² (Andrzej 22.11.2026)"
+SHIP-KITTIWAKE,C4,7,2,Heads and showers,8,,,łazienki wspólne dla kajut pojedynczych
+SHIP-KITTIWAKE,C4,7,3,Armory,30,9:Armory,,mała załoga
+SHIP-KITTIWAKE,C4,7,4,Gear stores,61,,,
+SHIP-KITTIWAKE,C4,8,1,Gear stores,171,,,
+SHIP-KITTIWAKE,C5,9,1,Airlock,40,10:Airlock [śluza]; 11:Docking collar [kołnierz dokujący],,
+SHIP-KITTIWAKE,C5,9,2,Suit room,20,,,mała załoga
+SHIP-KITTIWAKE,C5,9,3,Stores and equipment,111,,,
+SHIP-KITTIWAKE,C5,10,1,Stores and equipment,171,,,
+SHIP-KITTIWAKE,C6,11,1,Crane control,15,13:Cargo crane,,
+SHIP-KITTIWAKE,C6,11,2,Cargo hold,156,"12:Cargo, forward [ładunek, przód]; 13:Cargo crane [dźwig ładunkowy]",,
+SHIP-KITTIWAKE,C6,12,1,Cargo hold,171,"12:Cargo, forward [ładunek, przód]; 13:Cargo crane [dźwig ładunkowy]",,
+SHIP-KITTIWAKE,C7,13,1,Cargo hold,171,"14:Cargo, aft",,
+SHIP-KITTIWAKE,C7,14,1,Cargo hold,171,"14:Cargo, aft",,
+SHIP-KITTIWAKE,C8,15,1,Air plant,60,15:Air plant,,mała załoga
+SHIP-KITTIWAKE,C8,15,2,Water recycler,60,16:Water recycler,,mała załoga
+SHIP-KITTIWAKE,C8,15,3,Waste processing,30,,,mała załoga
+SHIP-KITTIWAKE,C8,15,4,CO2 scrubbers,20,,,mała załoga
+SHIP-KITTIWAKE,C8,16,1,Life support stores,171,,,
+SHIP-KITTIWAKE,C9,17,1,Reactor control room,20,,,mała załoga
+SHIP-KITTIWAKE,C9,17,2,Coolant and power,144,,,
+SHIP-KITTIWAKE,C9,18,1,Reactor vessel,164,17:Fusion reactor,,
+SHIP-KITTIWAKE,C9,19,1,Radiator pumps,40,18:Radiators,,mała załoga
+SHIP-KITTIWAKE,C9,19,2,Power distribution,40,,,mała załoga
+SHIP-KITTIWAKE,C9,19,3,Coolant and power,84,,,

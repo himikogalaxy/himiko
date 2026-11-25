@@ -1,11 +1,11 @@
 id,nazwa_en,nazwa_pl,organizacja,za_co,wstazka,kolory,medal
-LVS,Long Voyage Star,Gwiazda Długiej Podróży,Civil Fleet,5 long voyages,w n w,#1a3a7a #E8B923 #1a3a7a,gold star [złota gwiazda]
-HSV,Hull Saver,Ratownik Kadłuba,Civil Fleet,saving the ship in a hull breach,n w n,#c62828 #ffffff #c62828,gold disc with red centre [złoty krążek z czerwonym środkiem]
-CLC,Clean Log Clasp,Klamra Czystego Dziennika,Civil Fleet,10 years without an incident,n n n,#2e7d32 #a5d6a7 #2e7d32,gold clasp [złota klamra]
-DSM,Defense Service Medal,Medal Służby Obrony,Defense Bureau,long service,w w,#0c5bc6 #0c3a7a,bronze disc [brązowy krążek]
-DVC,Valor Cross,Krzyż Męstwa,Defense Bureau,courage under fire,n d n,#7a0000 #E8B923 #7a0000,gold cross [złoty krzyż]
-WND,Wound Bar,Belka Rannego,Defense Bureau,wounded in service,d,#6a1b9a,purple heart [fioletowe serce]
-PRS,Prize of the Measured,Nagroda Zmierzonych,Research Bureau,outstanding measurement or discovery,w d w,#00838f #E8B923 #00838f,gold dial [złota tarcza pomiarowa]
-FLD,Field Expedition Badge,Odznaka Wyprawy Terenowej,Research Bureau,field expedition in hard conditions,n w,#6d4c41 #9ccc65,bronze mountain [brązowa góra]
-LEF,Silver Leaf,Srebrny Liść,Order,faithful record-keeping,d w d,#9e9e9e #212121 #9e9e9e,silver leaf [srebrny liść]
-PLG,Port Grain Ribbon,Wstęga Zbożowa,civil (any),help in famine or disaster on Earth,w n n w,#f9a825 #2e7d32 #2e7d32 #f9a825,gold grain ear [złoty kłos]
+LVS,Long Voyage Star,Gwiazda Długiej Podróży,Civil Fleet,5 long voyages,w n w,#1a3a7a #E8B923 #1a3a7a,gold star
+HSV,Hull Saver,Ratownik Kadłuba,Civil Fleet,saving the ship in a hull breach,n w n,#c62828 #ffffff #c62828,gold disc with red centre
+CLC,Clean Log Clasp,Klamra Czystego Dziennika,Civil Fleet,10 years without an incident,n n n,#2e7d32 #a5d6a7 #2e7d32,gold clasp
+DSM,Defense Service Medal,Medal Służby Obrony,Defense Bureau,long service,w w,#0c5bc6 #0c3a7a,bronze disc
+DVC,Valor Cross,Krzyż Męstwa,Defense Bureau,courage under fire,n d n,#7a0000 #E8B923 #7a0000,gold cross
+WND,Wound Bar,Belka Rannego,Defense Bureau,wounded in service,d,#6a1b9a,purple heart
+PRS,Prize of the Measured,Nagroda Zmierzonych,Research Bureau,outstanding measurement or discovery,w d w,#00838f #E8B923 #00838f,gold dial
+FLD,Field Expedition Badge,Odznaka Wyprawy Terenowej,Research Bureau,field expedition in hard conditions,n w,#6d4c41 #9ccc65,bronze mountain
+LEF,Silver Leaf,Srebrny Liść,Order,faithful record-keeping,d w d,#9e9e9e #212121 #9e9e9e,silver leaf
+PLG,Port Grain Ribbon,Wstęga Zbożowa,civil (any),help in famine or disaster on Earth,w n n w,#f9a825 #2e7d32 #2e7d32 #f9a825,gold grain ear

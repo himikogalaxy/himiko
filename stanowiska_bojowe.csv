@@ -1,106 +1,106 @@
 numer,przydzial_dzienny,stanowisko_bojowe,miejsce
-HU-0001,R2 Labs [laboratoria],Science adviser to the bridge [doradca naukowy],Bridge [mostek]
-LB-0001,C3 Ops room [centrum informacji bojowej],Navigation plot [nanoszenie kursu],Ops room [centrum informacji bojowej]
-DE-0001,R2 Labs [laboratoria],Sensors and tracking [sensory i namiar],Ops room [centrum informacji bojowej]
-SG-0001,R2 Labs [laboratoria],Sensors and tracking [sensory i namiar],Ops room [centrum informacji bojowej]
-NG-0001,R2 Labs [laboratoria],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-PL-0001,R2 Labs [laboratoria],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-JP-0001,R2 Labs [laboratoria],Shelter warden [opiekun schronu],Shelter [schron]
-GB-0001,R2 Labs [laboratoria],Damage reports runner [goniec meldunków o uszkodzeniach],Corridors and airlocks [korytarze i śluzy]
-ES-0001,R2 Labs [laboratoria],Sensors and tracking [sensory i namiar],Ops room [centrum informacji bojowej]
-NG-0002,C3 Ops room [centrum informacji bojowej],Navigation plot [nanoszenie kursu],Ops room [centrum informacji bojowej]
-DK-0001,C3 Ops room [centrum informacji bojowej],Navigation plot [nanoszenie kursu],Ops room [centrum informacji bojowej]
-NG-0003,C3 Ops room [centrum informacji bojowej],Navigation plot [nanoszenie kursu],Ops room [centrum informacji bojowej]
-BR-0001,C3 Ops room [centrum informacji bojowej],Navigation plot [nanoszenie kursu],Ops room [centrum informacji bojowej]
-PL-0002,C10 Hangar and airlock B [hangar i śluza B],Sensors and tracking [sensory i namiar],Ops room [centrum informacji bojowej]
-CZ-0001,C10 Hangar and airlock B [hangar i śluza B],Sensors and tracking [sensory i namiar],Ops room [centrum informacji bojowej]
-NO-0001,C10 Hangar and airlock B [hangar i śluza B],Sensors and tracking [sensory i namiar],Ops room [centrum informacji bojowej]
-NG-0004,C10 Hangar and airlock B [hangar i śluza B],Sensors and tracking [sensory i namiar],Ops room [centrum informacji bojowej]
-IT-0001,C10 Hangar and airlock B [hangar i śluza B],Sensors and tracking [sensory i namiar],Ops room [centrum informacji bojowej]
-KR-0001,C10 Hangar and airlock B [hangar i śluza B],Sensors and tracking [sensory i namiar],Ops room [centrum informacji bojowej]
-MX-0001,C10 Hangar and airlock B [hangar i śluza B],Probe launch crew [obsługa sond],Hangar [hangar]
-DE-0002,C10 Hangar and airlock B [hangar i śluza B],Probe launch crew [obsługa sond],Hangar [hangar]
-GR-0001,R2 Labs [laboratoria],Window computer operator [obliczenia okna],Ops room [centrum informacji bojowej]
-PE-0001,R2 Labs [laboratoria],Damage reports runner [goniec meldunków o uszkodzeniach],Corridors and airlocks [korytarze i śluzy]
-PK-0001,R2 Labs [laboratoria],Damage reports runner [goniec meldunków o uszkodzeniach],Corridors and airlocks [korytarze i śluzy]
-HR-0001,R2 Labs [laboratoria],Damage reports runner [goniec meldunków o uszkodzeniach],Corridors and airlocks [korytarze i śluzy]
-SE-0001,R2 Labs [laboratoria],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-ZA-0001,R2 Labs [laboratoria],Damage reports runner [goniec meldunków o uszkodzeniach],Corridors and airlocks [korytarze i śluzy]
-JP-0002,R2 Labs [laboratoria],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-DE-0003,R2 Labs [laboratoria],Engine room assistant [pomocnik maszynowni],Engine room [maszynownia]
-AR-0001,R2 Labs [laboratoria],Engine room assistant [pomocnik maszynowni],Engine room [maszynownia]
-RU-0001,R2 Labs [laboratoria],Engine room assistant [pomocnik maszynowni],Engine room [maszynownia]
-BD-0001,R2 Labs [laboratoria],Engine room assistant [pomocnik maszynowni],Engine room [maszynownia]
-DK-0002,C8 Hydroponics [hydroponika],Medical assistant [pomocnik medyczny],Medbay [izba chorych]
-IL-0001,H1 Hydroponics H1 [hydroponika H1],Medical assistant [pomocnik medyczny],Medbay [izba chorych]
-NG-0005,R2 Labs [laboratoria],Medical assistant [pomocnik medyczny],Medbay [izba chorych]
-CN-0001,C5 Archive [archiwum],Cold machines in battle [zimne maszyny w walce],Archive [archiwum]
-PL-0003,C5 Archive [archiwum],Keeper of the record in battle [strażnik zapisu w walce],Archive [archiwum]
-GB-0002,C5 Archive [archiwum],Cold machines in battle [zimne maszyny w walce],Archive [archiwum]
-GB-0003,R2 Labs [laboratoria],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-NL-0001,R2 Labs [laboratoria],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-ES-0002,R2 Labs [laboratoria],Engine room assistant [pomocnik maszynowni],Engine room [maszynownia]
-NO-0002,C2 Bridge [mostek],Commanding officer [dowódca],Bridge [mostek]
-NG-0006,C2 Bridge [mostek],Executive officer [zastępca dowódcy],Ops room [centrum informacji bojowej]
-GB-0004,C2 Bridge [mostek],Officer of the watch [oficer wachtowy],Bridge [mostek]
-PL-0004,C13 Main reactor [reaktor główny],Engine room watch [wachta maszynowni],Engine room [maszynownia]
-EG-0001,C14 Main drive [napęd główny],Engine room watch [wachta maszynowni],Engine room [maszynownia]
-NO-0003,C13 Main reactor [reaktor główny],Engine room watch [wachta maszynowni],Engine room [maszynownia]
-CL-0001,C13 Main reactor [reaktor główny],Engine room watch [wachta maszynowni],Engine room [maszynownia]
-GH-0001,C13 Main reactor [reaktor główny],Fire and damage control team [zespół gaśniczo-ratowniczy],Hull [kadłub]
-JP-0003,C2 Bridge [mostek],Helmsman [sternik],Bridge [mostek]
-CO-0001,C2 Bridge [mostek],Helmsman [sternik],Bridge [mostek]
-DE-0004,C10 Hangar and airlock B [hangar i śluza B],Small-craft pilot on standby [pilot rezerwowy],Hangar [hangar]
-PL-0005,C6 Damage control [punkt ratowniczy],Fire and damage control team [zespół gaśniczo-ratowniczy],Hull [kadłub]
-SN-0001,C6 Damage control [punkt ratowniczy],Fire and damage control team [zespół gaśniczo-ratowniczy],Hull [kadłub]
-IE-0001,C6 Damage control [punkt ratowniczy],Fire and damage control team [zespół gaśniczo-ratowniczy],Hull [kadłub]
-RU-0002,C3 Ops room [centrum informacji bojowej],Communications officer [łączność],Ops room [centrum informacji bojowej]
-JO-0001,C3 Ops room [centrum informacji bojowej],Communications officer [łączność],Ops room [centrum informacji bojowej]
-DE-0005,C9 Stores [magazyny],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-ES-0003,R1 Galley and mess [kambuz i mesa],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-TW-0001,R1 Galley and mess [kambuz i mesa],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-PL-0006,C9 Stores [magazyny],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-NL-0002,R2 Medbay [izba chorych],Casualty station [punkt przyjęcia rannych],Medbay [izba chorych]
-GH-0002,R2 Medbay [izba chorych],Casualty station [punkt przyjęcia rannych],Medbay [izba chorych]
-EE-0001,R2 Medbay [izba chorych],Casualty station [punkt przyjęcia rannych],Medbay [izba chorych]
-IE-0002,C9 Stores [magazyny],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-NG-0007,C9 Stores [magazyny],Supply and stretcher party [zaopatrzenie i noszowi],Galley and stores [kambuz i magazyny]
-KR-0002,C10 Hangar and airlock B [hangar i śluza B],Fire and damage control team [zespół gaśniczo-ratowniczy],Hull [kadłub]
-PL-0007,C12 Backup reactor [reaktor awaryjny],Fire and damage control team [zespół gaśniczo-ratowniczy],Hull [kadłub]
-GB-0005,C5 Archive [archiwum],Keeper of the record in battle [zapis przebiegu walki],Archive [archiwum]
-GB-0006,C5 Archive [archiwum],Keeper of the record in battle [zapis przebiegu walki],Archive [archiwum]
-PY-0001,C13 Main reactor [reaktor główny],Fire and damage control team [zespół gaśniczo-ratowniczy],Hull [kadłub]
-PK-0002,C11 Life support [podtrzymanie życia],Life support watch [wachta podtrzymania życia],Life support [podtrzymanie życia]
-SE-0002,C11 Life support [podtrzymanie życia],Fire and damage control team [zespół gaśniczo-ratowniczy],Hull [kadłub]
-GB-0007,C10 Hangar and airlock B [hangar i śluza B],Small-craft pilot [pilot Terna],Hangar [hangar]
-PL-0008,C4 Armory and airlock A [zbrojownia i śluza A],Security commander [dowódca ochrony],Ops room [centrum informacji bojowej]
-PK-0003,C4 Armory and airlock A [zbrojownia i śluza A],Boarding defence [obrona przed abordażem],Corridors and airlocks [korytarze i śluzy]
-MX-0002,C4 Armory and airlock A [zbrojownia i śluza A],Boarding defence [obrona przed abordażem],Corridors and airlocks [korytarze i śluzy]
-RU-0003,C4 Armory and airlock A [zbrojownia i śluza A],Boarding defence [obrona przed abordażem],Corridors and airlocks [korytarze i śluzy]
-NG-0008,C4 Armory and airlock A [zbrojownia i śluza A],Guard of the records [straż zapisów],Archive [archiwum]
-IE-0003,C4 Armory and airlock A [zbrojownia i śluza A],Boarding defence [obrona przed abordażem],Corridors and airlocks [korytarze i śluzy]
-GB-0008,C1 Bridge [mostek],Commanding officer [dowódca],Bridge [mostek]
-GB-0009,C1 Bridge [mostek],Helm [ster],Bridge [mostek]
-BD-0002,C1 Bridge [mostek],Navigation and sensors [nawigacja i sensory],Bridge [mostek]
-RU-0004,C9 Reactor [reaktor],Engine room crew [obsługa maszynowni],Engine room [maszynownia]
-RU-0005,C11 Main drive [napęd główny],Engine room crew [obsługa maszynowni],Engine room [maszynownia]
-DK-0003,C3 Medbay [izba chorych],Casualty station [punkt przyjęcia rannych],Medbay [izba chorych]
-HU-0002,C6 Cargo hold 1 [ładownia 1],Damage control party [grupa ratownicza],Corridors and airlocks [korytarze i śluzy]
-NG-0009,C2 Quarters and galley [kwatery i kambuz],Supply and stretcher party [zaopatrzenie i noszowi],Galley and quarters [kambuz i kwatery]
-PL-0009,C4 Defence quarters and armory [kwatery Obrony i zbrojownia],Boarding defence [obrona przed abordażem],Corridors and airlocks [korytarze i śluzy]
-JP-0004,C4 Defence quarters and armory [kwatery Obrony i zbrojownia],Boarding defence [obrona przed abordażem],Corridors and airlocks [korytarze i śluzy]
-IE-0004,C4 Defence quarters and armory [kwatery Obrony i zbrojownia],Cargo hold guard [straż ładowni],Cargo hold [ładownia]
-KR-0003,C4 Defence quarters and armory [kwatery Obrony i zbrojownia],Cargo hold guard [straż ładowni],Cargo hold [ładownia]
-BD-0003,C4 Defence quarters and armory [kwatery Obrony i zbrojownia],Boarding defence [obrona przed abordażem],Corridors and airlocks [korytarze i śluzy]
-TW-0002,C4 Defence quarters and armory [kwatery Obrony i zbrojownia],Boarding defence [obrona przed abordażem],Corridors and airlocks [korytarze i śluzy]
-DE-0006,H2 Hydroponics H2 [hydroponika H2],Hydroponics damage control [ratownictwo hydroponiki],Hydroponics [hydroponika]
-KR-0004,C8 Hydroponics [hydroponika],Hydroponics damage control [ratownictwo hydroponiki],Hydroponics [hydroponika]
-GR-0002,H1 Hydroponics H1 [hydroponika H1],Hydroponics damage control [ratownictwo hydroponiki],Hydroponics [hydroponika]
-GB-0010,H2 Hydroponics H2 [hydroponika H2],Hydroponics damage control [ratownictwo hydroponiki],Hydroponics [hydroponika]
-GB-0011,H1 Hydroponics H1 [hydroponika H1],Hydroponics damage control [ratownictwo hydroponiki],Hydroponics [hydroponika]
-GB-0012,C5 Archive [archiwum],Keeper of the record in battle [zapis przebiegu walki],Archive [archiwum]
-RU-0006,C5 Archive [archiwum],Guard of the vault [straż skarbca],Archive [archiwum]
-HU-0003,C5 Archive [archiwum],Guard of the vault [straż skarbca],Archive [archiwum]
-BR-0002,C5 Archive [archiwum],Guard of the vault [straż skarbca],Archive [archiwum]
-JP-0005,C5 Archive [archiwum],Guard of the vault [straż skarbca],Archive [archiwum]
-EG-0002,"C1 Bridge and sensors [mostek i czujniki], records locker [szafa zapisów]",Keeper of the record in battle [zapis przebiegu walki],Bridge [mostek]
+HU-0001,R2 Labs,Science adviser to the bridge,Bridge
+LB-0001,C3 Ops room,Navigation plot,Ops room
+DE-0001,R2 Labs,Sensors and tracking,Ops room
+SG-0001,R2 Labs,Sensors and tracking,Ops room
+NG-0001,R2 Labs,Supply and stretcher party,Galley and stores
+PL-0001,R2 Labs,Supply and stretcher party,Galley and stores
+JP-0001,R2 Labs,Shelter warden,Shelter
+GB-0001,R2 Labs,Damage reports runner,Corridors and airlocks
+ES-0001,R2 Labs,Sensors and tracking,Ops room
+NG-0002,C3 Ops room,Navigation plot,Ops room
+DK-0001,C3 Ops room,Navigation plot,Ops room
+NG-0003,C3 Ops room,Navigation plot,Ops room
+BR-0001,C3 Ops room,Navigation plot,Ops room
+PL-0002,C10 Hangar and airlock B,Sensors and tracking,Ops room
+CZ-0001,C10 Hangar and airlock B,Sensors and tracking,Ops room
+NO-0001,C10 Hangar and airlock B,Sensors and tracking,Ops room
+NG-0004,C10 Hangar and airlock B,Sensors and tracking,Ops room
+IT-0001,C10 Hangar and airlock B,Sensors and tracking,Ops room
+KR-0001,C10 Hangar and airlock B,Sensors and tracking,Ops room
+MX-0001,C10 Hangar and airlock B,Probe launch crew,Hangar
+DE-0002,C10 Hangar and airlock B,Probe launch crew,Hangar
+GR-0001,R2 Labs,Window computer operator,Ops room
+PE-0001,R2 Labs,Damage reports runner,Corridors and airlocks
+PK-0001,R2 Labs,Damage reports runner,Corridors and airlocks
+HR-0001,R2 Labs,Damage reports runner,Corridors and airlocks
+SE-0001,R2 Labs,Supply and stretcher party,Galley and stores
+ZA-0001,R2 Labs,Damage reports runner,Corridors and airlocks
+JP-0002,R2 Labs,Supply and stretcher party,Galley and stores
+DE-0003,R2 Labs,Engine room assistant,Engine room
+AR-0001,R2 Labs,Engine room assistant,Engine room
+RU-0001,R2 Labs,Engine room assistant,Engine room
+BD-0001,R2 Labs,Engine room assistant,Engine room
+DK-0002,C8 Hydroponics,Medical assistant,Medbay
+IL-0001,H1 Hydroponics H1,Medical assistant,Medbay
+NG-0005,R2 Labs,Medical assistant,Medbay
+CN-0001,C5 Archive,Cold machines in battle,Archive
+PL-0003,C5 Archive,Keeper of the record in battle,Archive
+GB-0002,C5 Archive,Cold machines in battle,Archive
+GB-0003,R2 Labs,Supply and stretcher party,Galley and stores
+NL-0001,R2 Labs,Supply and stretcher party,Galley and stores
+ES-0002,R2 Labs,Engine room assistant,Engine room
+NO-0002,C2 Bridge,Commanding officer,Bridge
+NG-0006,C2 Bridge,Executive officer,Ops room
+GB-0004,C2 Bridge,Officer of the watch,Bridge
+PL-0004,C13 Main reactor,Engine room watch,Engine room
+EG-0001,C14 Main drive,Engine room watch,Engine room
+NO-0003,C13 Main reactor,Engine room watch,Engine room
+CL-0001,C13 Main reactor,Engine room watch,Engine room
+GH-0001,C13 Main reactor,Fire and damage control team,Hull
+JP-0003,C2 Bridge,Helmsman,Bridge
+CO-0001,C2 Bridge,Helmsman,Bridge
+DE-0004,C10 Hangar and airlock B,Small-craft pilot on standby,Hangar
+PL-0005,C6 Damage control,Fire and damage control team,Hull
+SN-0001,C6 Damage control,Fire and damage control team,Hull
+IE-0001,C6 Damage control,Fire and damage control team,Hull
+RU-0002,C3 Ops room,Communications officer,Ops room
+JO-0001,C3 Ops room,Communications officer,Ops room
+DE-0005,C9 Stores,Supply and stretcher party,Galley and stores
+ES-0003,R1 Galley and mess,Supply and stretcher party,Galley and stores
+TW-0001,R1 Galley and mess,Supply and stretcher party,Galley and stores
+PL-0006,C9 Stores,Supply and stretcher party,Galley and stores
+NL-0002,R2 Medbay,Casualty station,Medbay
+GH-0002,R2 Medbay,Casualty station,Medbay
+EE-0001,R2 Medbay,Casualty station,Medbay
+IE-0002,C9 Stores,Supply and stretcher party,Galley and stores
+NG-0007,C9 Stores,Supply and stretcher party,Galley and stores
+KR-0002,C10 Hangar and airlock B,Fire and damage control team,Hull
+PL-0007,C12 Backup reactor,Fire and damage control team,Hull
+GB-0005,C5 Archive,Keeper of the record in battle,Archive
+GB-0006,C5 Archive,Keeper of the record in battle,Archive
+PY-0001,C13 Main reactor,Fire and damage control team,Hull
+PK-0002,C11 Life support,Life support watch,Life support
+SE-0002,C11 Life support,Fire and damage control team,Hull
+GB-0007,C10 Hangar and airlock B,Small-craft pilot,Hangar
+PL-0008,C4 Armory and airlock A,Security commander,Ops room
+PK-0003,C4 Armory and airlock A,Boarding defence,Corridors and airlocks
+MX-0002,C4 Armory and airlock A,Boarding defence,Corridors and airlocks
+RU-0003,C4 Armory and airlock A,Boarding defence,Corridors and airlocks
+NG-0008,C4 Armory and airlock A,Guard of the records,Archive
+IE-0003,C4 Armory and airlock A,Boarding defence,Corridors and airlocks
+GB-0008,C1 Bridge,Commanding officer,Bridge
+GB-0009,C1 Bridge,Helm,Bridge
+BD-0002,C1 Bridge,Navigation and sensors,Bridge
+RU-0004,C9 Reactor,Engine room crew,Engine room
+RU-0005,C11 Main drive,Engine room crew,Engine room
+DK-0003,C3 Medbay,Casualty station,Medbay
+HU-0002,C6 Cargo hold 1,Damage control party,Corridors and airlocks
+NG-0009,C2 Quarters and galley,Supply and stretcher party,Galley and quarters
+PL-0009,C4 Defence quarters and armory,Boarding defence,Corridors and airlocks
+JP-0004,C4 Defence quarters and armory,Boarding defence,Corridors and airlocks
+IE-0004,C4 Defence quarters and armory,Cargo hold guard,Cargo hold
+KR-0003,C4 Defence quarters and armory,Cargo hold guard,Cargo hold
+BD-0003,C4 Defence quarters and armory,Boarding defence,Corridors and airlocks
+TW-0002,C4 Defence quarters and armory,Boarding defence,Corridors and airlocks
+DE-0006,H2 Hydroponics H2,Hydroponics damage control,Hydroponics
+KR-0004,C8 Hydroponics,Hydroponics damage control,Hydroponics
+GR-0002,H1 Hydroponics H1,Hydroponics damage control,Hydroponics
+GB-0010,H2 Hydroponics H2,Hydroponics damage control,Hydroponics
+GB-0011,H1 Hydroponics H1,Hydroponics damage control,Hydroponics
+GB-0012,C5 Archive,Keeper of the record in battle,Archive
+RU-0006,C5 Archive,Guard of the vault,Archive
+HU-0003,C5 Archive,Guard of the vault,Archive
+BR-0002,C5 Archive,Guard of the vault,Archive
+JP-0005,C5 Archive,Guard of the vault,Archive
+EG-0002,"C1 Bridge and sensors [mostek i czujniki], records locker [szafa zapisów]",Keeper of the record in battle,Bridge

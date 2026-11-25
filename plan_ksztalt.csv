@@ -1,10 +1,10 @@
 statek,klucz,wartosc,zrodlo
 SHIP-HALLEY,profil,0:5.6;2:7.83;4:10.03;6:12.16;8:14.22;10:16.17;12:17.99;14:19.65;16:21.14;18:22.42;20:23.5;22:24.35;24:24.96;26:25.34;28:25.48;30:25.48;32:25.48;34:25.48;36:25.48;38:25.48;40:25.48;42:25.48;44:25.48;46:25.48;48:25.48;50:25.48;52:25.48;54:25.48;56:25.48;58:25.48;60:25.48;62:25.48;64:25.48;66:25.48;68:25.48;70:25.48;72:25.48;74:25.48;76:25.48;78:25.48;80:25.48;82:25.48;84:25.48;86:25.48;88:25.48;90:25.48;92:25.48;94:25.48;96:25.48;98:25.48;100:25.48;102:25.48;104:25.48;106:25.48;108:25.48;110:25.48;112:25.48;114:25.48;116:25.48;118:25.48;120:25.48;122:25.48;124:25.48;126:25.48;128:25.48;130:25.48;132:25.48;134:25.48;136:25.48;138:25.48;140:25.48;142:25.48;144:25.48;146:25.48;148:25.48;150:25.48;152:25.48;154:25.48;156:25.48;158:25.48;160:25.48;162:25.48;164:25.48;166:25.48;168:25.48;170:25.48;172:25.48;174:25.48;176:25.48;178:25.48;180:25.48;182:25.48;184:25.48;186:25.48;188:25.48;190:25.48;192:25.48;194:25.48;196:25.48;198:25.48;200:25.48;202:25.48;204:27.52;206:29.54;208:29.54;210:29.54;212:29.54;214:29.54;216:29.54;218:29.54;220:29.54;222:29.54;224:29.54;226:29.54;228:29.54;230:29.54;232:29.54;234:29.54;236:27.52;238:25.48;240:25.48;242:25.48;244:25.48;246:23.68;248:21.9;250:21.9;252:21.9;254:21.9;256:21.9;258:21.9;260:21.9;262:21.9;264:21.9;266:21.9;268:21.9;270:21.9;272:21.9;274:21.9;276:21.9;278:21.9;280:21.9;282:22.38;284:23.8;286:26.21;288:29.54,poklady.py (Stocznia 19.11.2026)
-SHIP-HALLEY,pierscien,"R = 60 m, 2.7 rpm, 0.5 g, locked during thrust [zablokowany przy ciągu]",halley_plan.py
+SHIP-HALLEY,pierscien,"R = 60 m, 2.7 rpm, 0.5 g, locked during thrust",halley_plan.py
 SHIP-HALLEY,pierscien_r_m,60,halley_plan.py; kanon
 SHIP-HALLEY,ciag,0.5 g,"halley_plan.py; kanon (lot 35 dni przy 0,5 g)"
 SHIP-KITTIWAKE,ciag,0.1 g,"statki.csv (cel: 0,1 g)"
-SHIP-HALLEY,zbiorniki_uklad,Jacket [Płaszcz],poklady.py (Stocznia 19.11.2026)
+SHIP-HALLEY,zbiorniki_uklad,Jacket,poklady.py (Stocznia 19.11.2026)
 SHIP-HALLEY,zbiorniki_m3,358188,poklady.py (Stocznia 19.11.2026)
 SHIP-HALLEY,zbiorniki_przedzialy,C3;C4;C5;C6;C7;C8;C9;C11;H1;H2,poklady.py (Stocznia 19.11.2026)
 SHIP-HALLEY,rdzen_r_m,8,poklady.py (Stocznia 19.11.2026)
@@ -14,7 +14,7 @@ SHIP-HALLEY,pierscien_szer_m,7.5,poklady.py (Stocznia 19.11.2026)
 SHIP-HALLEY,pierscien_poziomy,2,poklady.py (Stocznia 19.11.2026)
 SHIP-HALLEY,pierscien_obr_min,2.7,poklady.py (Stocznia 19.11.2026)
 SHIP-KITTIWAKE,kadlub_r_m,8.00,poklady.py (Stocznia 19.11.2026)
-SHIP-KITTIWAKE,zbiorniki_uklad,Barrel [Beczka],poklady.py (Stocznia 19.11.2026)
+SHIP-KITTIWAKE,zbiorniki_uklad,Barrel,poklady.py (Stocznia 19.11.2026)
 SHIP-KITTIWAKE,zbiorniki_m3,12541,poklady.py (Stocznia 19.11.2026)
 SHIP-KITTIWAKE,zbiorniki_przedzialy,C10,poklady.py (Stocznia 19.11.2026)
 SHIP-KITTIWAKE,rdzen_r_m,8,poklady.py (Stocznia 19.11.2026)
@@ -25,42 +25,42 @@ SHIP-HALLEY-S2,dlugosc_m,18,"Andrzej 21.11.2026 (czat Silnik życia): prom 18 m,
 SHIP-TERN,srednica_m,4.0,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni); mieści się w hangarze C10
 SHIP-TERN,wysokosc_m,4.0,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni) (kadłub walcowy)
 SHIP-TERN,profil,0:0.15;1.5:0.15;2:1.2;3:1.8;4:2;9.5:2;10:1.7;12.5:1.7;13:1.2;14:1.5,"zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): maszt sensorów 0–2 m, kabina 4–9,5 m, zbiorniki 10–12,5 m, dysza 13–14 m"
-SHIP-TERN,rola,Survey and scout craft [okręt pomiarowy i zwiadowczy],Andrzej 22.11.2026
+SHIP-TERN,rola,Survey and scout craft,Andrzej 22.11.2026
 SHIP-TERN,miejsca,4,Andrzej 22.11.2026: 2 załogi + 2 naukowców (kanon KOT-0012: 4 osoby)
 SHIP-TERN,zapasy_dni,14,Andrzej 22.11.2026 (kanon: 9 dni za Szwem + zapas)
 SHIP-TERN,masa_konstrukcji_t,10,"zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): kabina dla 4 osób jak Orion (ok. 8,5 t) + sensory; kanon: Stocznia zdejmowała z niego masę"
 SHIP-TERN,ladunek_t,0.5,"zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): znaczniki czasu (ITEM), próbki"
 SHIP-TERN,delta_v_ms,1000,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): podejście do Szwu i powrót (100 km) + manewry za Szwem + rezerwa
 SHIP-TERN,ciag_kn,45,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): silnik główny H2/O2 + silniczki RCS do trzymania Linii (9 cm)
-SHIP-TERN,naped,H2/O2 main engine + H2/O2 RCS [silnik wodorowo-tlenowy + silniczki manewrowe],zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni); tankowanie z elektrolizy wody na Halleyu
+SHIP-TERN,naped,H2/O2 main engine + H2/O2 RCS,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni); tankowanie z elektrolizy wody na Halleyu
 SHIP-TERN,wyposazenie,Atomic clock pair [para zegarów atomowych]; Flight recorders [rejestratory lotu]; Gravimeter [grawimetr]; Magnetometer [magnetometr]; Spectrometer suite [spektrometry]; Radiation counters [liczniki promieniowania]; Lidar [lidar]; Telescope camera [kamera teleskopowa]; Laser link [łącze laserowe]; Time-marker rack [stojak znaczników czasu],"zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni); kanon: dziennik pokładowy, rejestratory, własny zegar, znacznik czasu (KOT-0012)"
 SHIP-TERN,oslony,"Whipple bumper on the nose (1 mm Al, 10 cm gap) [zderzak Whipple na dziobie]; drinking water around the seats as storm shelter [woda wokół foteli jako schron]",zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S1,srednica_m,5.0,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S1,wysokosc_m,4.0,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S1,profil,0:0.6;2:2;4:2.5;16:2.5;17:2.1;18:2.3,"zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): kabina 0–4 m, ładownia 4–16 m ze zbiornikami H2/O2 pod podłogą (ok. 48 m³), dysza 16–18 m"
-SHIP-HALLEY-S1,rola,Shuttle: crew and cargo transfer [prom: przewóz ludzi i ładunku],Andrzej 21.11.2026
+SHIP-HALLEY-S1,rola,Shuttle: crew and cargo transfer,Andrzej 21.11.2026
 SHIP-HALLEY-S1,miejsca,4,Andrzej 21.11.2026
 SHIP-HALLEY-S1,zapasy_dni,7,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S1,masa_konstrukcji_t,20,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S1,ladunek_t,5,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): ładownia
 SHIP-HALLEY-S1,delta_v_ms,2000,"zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): przewozy, lądowanie na małych księżycach i asteroidach"
 SHIP-HALLEY-S1,ciag_kn,120,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
-SHIP-HALLEY-S1,naped,H2/O2 main engine + H2/O2 RCS [silnik wodorowo-tlenowy + silniczki manewrowe],zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
+SHIP-HALLEY-S1,naped,H2/O2 main engine + H2/O2 RCS,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S1,wyposazenie,Cargo bay with crane arm [ładownia z ramieniem dźwigu]; Docking adapter [adapter dokowania]; Landing legs [nogi do lądowania]; Flight recorders [rejestratory lotu],zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
-SHIP-HALLEY-S1,oslony,Whipple bumper on the nose [zderzak Whipple na dziobie],zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
+SHIP-HALLEY-S1,oslony,Whipple bumper on the nose,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S2,srednica_m,5.0,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S2,wysokosc_m,4.0,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S2,profil,0:0.6;2:2;4:2.5;16:2.5;17:2.1;18:2.3,"zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): kabina 0–4 m, ładownia 4–16 m ze zbiornikami H2/O2 pod podłogą (ok. 48 m³), dysza 16–18 m"
-SHIP-HALLEY-S2,rola,Shuttle: crew and cargo transfer [prom: przewóz ludzi i ładunku],Andrzej 21.11.2026
+SHIP-HALLEY-S2,rola,Shuttle: crew and cargo transfer,Andrzej 21.11.2026
 SHIP-HALLEY-S2,miejsca,4,Andrzej 21.11.2026
 SHIP-HALLEY-S2,zapasy_dni,7,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S2,masa_konstrukcji_t,20,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S2,ladunek_t,5,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): ładownia
 SHIP-HALLEY-S2,delta_v_ms,2000,"zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni): przewozy, lądowanie na małych księżycach i asteroidach"
 SHIP-HALLEY-S2,ciag_kn,120,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
-SHIP-HALLEY-S2,naped,H2/O2 main engine + H2/O2 RCS [silnik wodorowo-tlenowy + silniczki manewrowe],zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
+SHIP-HALLEY-S2,naped,H2/O2 main engine + H2/O2 RCS,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-HALLEY-S2,wyposazenie,Cargo bay with crane arm [ładownia z ramieniem dźwigu]; Docking adapter [adapter dokowania]; Landing legs [nogi do lądowania]; Flight recorders [rejestratory lotu],zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
-SHIP-HALLEY-S2,oslony,Whipple bumper on the nose [zderzak Whipple na dziobie],zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
+SHIP-HALLEY-S2,oslony,Whipple bumper on the nose,zatwierdzone przez Andrzeja 22.11.2026 (projekt Stoczni)
 SHIP-TERN,paliwo_t,2.86,craft.py (Stocznia 22.11.2026)
 SHIP-TERN,zbiorniki_m3,8.7,craft.py (Stocznia 22.11.2026)
 SHIP-TERN,zapasy_t,0.344,craft.py (Stocznia 22.11.2026)

@@ -1,0 +1,95 @@
+id,klasa,cena_kr_kg,data,zrodlo
+water_ice,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+ammonia_ice,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+co2_ice,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+methane_ice,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+carbonaceous_regolith,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+organic_tar,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+silicate_regolith,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+olivine,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+sulfide_ore,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+iron_nickel,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+anorthite,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+phosphate_ore,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+pgm_ore,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+rare_earth_ore,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+uranium_ore,,110.82,2085-08-15,"źródło: U3O8 2025 śr. 58,46 USD/lb (EIA) ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+helium_3_gas,,22000,2085-08-15,decyzja Andrzeja 23.11.2026
+biomass,,0.26,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+scrap,,0.34,2085-08-15,"szacunek Claude'a: złom stalowy ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+energy,,0.07,2085-08-15,"szacunek Claude'a: 80 USD/MWh, cena za kWh ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+water,,0,2085-08-15,"szacunek Claude'a: woda 2 USD/m3 ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+hydrogen,,1.28,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+oxygen,,0.1,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+heavy_water,,683.2,2085-08-15,"źródło: D2O ok. 1 069 USD/kg ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+deuterium,,3400,2085-08-15,"decyzja Andrzeja 23.11.2026: z ciężkiej wody po korekcie 2084 (683 Kr/kg D2O, 20% masy to D)"
+helium_3,,22000,2085-08-15,decyzja Andrzeja 23.11.2026
+fusion_pellets,,14560,2085-08-15,decyzja Andrzeja 23.11.2026: 40% deuter + 60% hel-3 (masowo)
+enriched_uranium,,1597.75,2085-08-15,"szacunek Claude'a: paliwo reaktorowe ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+fuel_rods,,2236.85,2085-08-15,"szacunek Claude'a: za kg ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+nitrogen,,0.1,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+ammonia,,0.32,2085-08-15,"źródło: amoniak 2025 ok. 450 USD/short ton (USGS) ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+methane,,0.11,2085-08-15,"źródło: gaz Henry Hub 2025 śr. 3,44 USD/MMBtu (USGS) ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+carbon,,0.32,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+sulfur,,0.13,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+sulfuric_acid,,0.1,2085-08-15,"źródło: ok. 160 USD/t (FOB Chiny) ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+fertilizer,,0.26,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+nitric_acid,,0.32,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+phosphorus,,1.92,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+iron,,0.32,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+nickel,,9.69,2085-08-15,"źródło: nikiel 2025 śr. 15 162 USD/t (LME/WB) ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+cobalt,,21.21,2085-08-15,"źródło: kobalt II kw. 2025 33 183 USD/t ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+steel,,0.54,2085-08-15,"źródło: HRC USA 2025 ok. 800–900 USD/t ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+aluminium,,1.68,2085-08-15,"źródło: aluminium 2025 śr. 2 632 USD/t ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+magnesium,,1.92,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+titanium,,3.76,2085-08-15,"źródło: gąbka tytanowa ok. 5 890 USD/t ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+platinum,,26300.24,2085-08-15,"źródło: platyna 2025 śr. 1 280 USD/oz ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+rare_earth_metals,,38.35,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+copper,,7.29,2085-08-15,"źródło: miedź 2025 >11 400 USD/t ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+lithium,,10.86,2085-08-15,"źródło: węglan litu ok. 122 tys. CNY/t (proxy) ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+print_feedstock,,12.78,2085-08-15,"szacunek Claude'a: proszek metalowy ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+algae_paste,,1.92,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+sintered_regolith,,,2085-08-15,tylko Himiko: nie sprzedawane na Ziemi
+glass,,0.64,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+silicon,,4.15,2085-08-15,"źródło: polikrzem ok. 6,5 USD/kg ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+plastics,,0.96,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+carbon_fiber,,12.78,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+textiles,,5.11,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+ceramics,,6.39,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+aerogel,,639.1,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+superconductors,,319.55,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+semiconductors,,639.1,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+explosive_compounds,,0.64,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+air_mix,,0.05,2085-08-15,"szacunek Claude'a: jak tlen/azot ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+fresh_food,,1.39,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+alcohol,,3.49,2085-08-15,"szacunek Claude'a: za litr ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+rations,,5.23,2085-08-15,"szacunek Claude'a: żywność kosmiczna ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+animal_feed,,0.35,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+hygiene_products,,1.74,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+medical_kits,,17.43,2085-08-15,"szacunek Claude'a: za kg ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+medicine,,174.3,2085-08-15,"szacunek Claude'a: leki średnio ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+clothing,,6.97,2085-08-15,"szacunek Claude'a: za kg ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+spare_parts,A,600,2085-08-15,"decyzja Andrzeja 23.11.2026: klasa A Consumables [eksploatacyjne]; samoloty 1 700/3 000 USD/kg, satelita ≈ 30 000 USD/kg; × 1,162 × 0,30"
+spare_parts,B,1050,2085-08-15,"decyzja Andrzeja 23.11.2026: klasa B Mechanical assemblies [podzespoły mechaniczne]; samoloty 1 700/3 000 USD/kg, satelita ≈ 30 000 USD/kg; × 1,162 × 0,30"
+spare_parts,C,10500,2085-08-15,"decyzja Andrzeja 23.11.2026: klasa C Precision and electronics [precyzyjne i elektronika]; samoloty 1 700/3 000 USD/kg, satelita ≈ 30 000 USD/kg; × 1,162 × 0,30"
+hull_plates,,10.46,2085-08-15,"szacunek Claude'a: stal kosmiczna ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+radiation_shielding,,1.74,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+habitat_modules,,592.62,2085-08-15,"szacunek Claude'a: jak samolot (A380 1 700 USD/kg) ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+radiators,,1045.8,2085-08-15,"szacunek Claude'a: jak samolot ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+solar_panels,,1.05,2085-08-15,"szacunek Claude'a: panel naziemny, za kg ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+batteries,,5.93,2085-08-15,"szacunek Claude'a: ok. 115 USD/kWh ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+cables,,5.23,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+spacesuits,,1743,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+reactor_parts,,10458,2085-08-15,"szacunek Claude'a: jak klasa C ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+mining_equipment,,17.43,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+mining_drones,,1045.8,2085-08-15,"szacunek Claude'a: jak samolot ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+electronics,,1394.4,2085-08-15,"szacunek Claude'a: jak smartfon ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+sensors,,10458,2085-08-15,"szacunek Claude'a: jak satelita ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+machinery,,10.46,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+implants,,,2085-08-15,cena za sztukę z ulepszenia.csv (cena_kr)
+explosives,,0.35,2085-08-15,"szacunek Claude'a: ANFO ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+ammunition,,3.49,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+small_arms,,59.26,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+missiles,,348.6,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+luxury_goods,,69.72,2085-08-15,"szacunek Claude'a ; × 1,162 Kr/USD (przez zarobki) × korekta 2084 piętra"
+street_chips,,,2085-08-15,cena za sztukę z ulepszenia.csv (cena_kr)
