@@ -2,7 +2,7 @@ statek,klucz,wartosc,zrodlo
 SHIP-HALLEY,szprychy_liczba,4,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
 SHIP-HALLEY,szprychy_srednica_m,4,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
 SHIP-HALLEY,kolor_kadluba,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
-SHIP-HALLEY,material_kadluba,matte metal,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,material_kadluba,satin metal with panel plating (metallic sheen),"Andrzej 27.11.2026 (czat Modele 3D): ma wyglądać jak metal, nie zwykły szary (zmienia „matte metal”)"
 SHIP-HALLEY,kolor_pierscienia,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
 SHIP-HALLEY,kolor_zderzakow,#c7cbd0,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
 SHIP-HALLEY,radiatory_liczba,2,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
@@ -20,7 +20,7 @@ SHIP-HALLEY,wrota_hangaru,outline of large doors on the side,Andrzej 27.11.2026 
 SHIP-HALLEY,dysza,dark nozzle ring visible in the stern centre,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
 SHIP-HALLEY,kolor_wydechu,#9cc9ff,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
 SHIP-TERN,kolor_kadluba,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
-SHIP-TERN,material_kadluba,matte metal,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-TERN,material_kadluba,satin metal with panel plating (metallic sheen),"Andrzej 27.11.2026 (czat Modele 3D): ma wyglądać jak metal, nie zwykły szary (zmienia „matte metal”): cała flota jak Halley"
 SHIP-TERN,linie_plyt,subtle,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-TERN,swiatla_pozycyjne,"small red, green, white",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-TERN,kolor_zderzakow,#c7cbd0,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
@@ -28,7 +28,7 @@ SHIP-TERN,kolor_wydechu,#9cc9ff,Andrzej 27.11.2026 (czat Modele 3D): faworyt zat
 SHIP-TERN,kolor_radiatorow,#4a4f56,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-TERN,napis,"TERN; registration number below the name; toggle, default off; black letters on the hull",Andrzej 27.11.2026 (czat Modele 3D): nazwa + numer ewidencyjny (nr_ewid z jednostki.csv) na kadłubie; bez własnej nazwy sam numer
 SHIP-HALLEY-S1,kolor_kadluba,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
-SHIP-HALLEY-S1,material_kadluba,matte metal,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S1,material_kadluba,satin metal with panel plating (metallic sheen),"Andrzej 27.11.2026 (czat Modele 3D): ma wyglądać jak metal, nie zwykły szary (zmienia „matte metal”): cała flota jak Halley"
 SHIP-HALLEY-S1,linie_plyt,subtle,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-HALLEY-S1,swiatla_pozycyjne,"small red, green, white",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-HALLEY-S1,kolor_zderzakow,#c7cbd0,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
@@ -36,7 +36,7 @@ SHIP-HALLEY-S1,kolor_wydechu,#9cc9ff,Andrzej 27.11.2026 (czat Modele 3D): fawory
 SHIP-HALLEY-S1,kolor_radiatorow,#4a4f56,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-HALLEY-S1,napis,"number only; toggle, default off; black letters on the hull",Andrzej 27.11.2026 (czat Modele 3D): nazwa + numer ewidencyjny (nr_ewid z jednostki.csv) na kadłubie; bez własnej nazwy sam numer
 SHIP-HALLEY-S2,kolor_kadluba,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
-SHIP-HALLEY-S2,material_kadluba,matte metal,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S2,material_kadluba,satin metal with panel plating (metallic sheen),"Andrzej 27.11.2026 (czat Modele 3D): ma wyglądać jak metal, nie zwykły szary (zmienia „matte metal”): cała flota jak Halley"
 SHIP-HALLEY-S2,linie_plyt,subtle,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-HALLEY-S2,swiatla_pozycyjne,"small red, green, white",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-HALLEY-S2,kolor_zderzakow,#c7cbd0,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
@@ -44,7 +44,7 @@ SHIP-HALLEY-S2,kolor_wydechu,#9cc9ff,Andrzej 27.11.2026 (czat Modele 3D): fawory
 SHIP-HALLEY-S2,kolor_radiatorow,#4a4f56,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-HALLEY-S2,napis,"number only; toggle, default off; black letters on the hull",Andrzej 27.11.2026 (czat Modele 3D): nazwa + numer ewidencyjny (nr_ewid z jednostki.csv) na kadłubie; bez własnej nazwy sam numer
 SHIP-KITTIWAKE,kolor_kadluba,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
-SHIP-KITTIWAKE,material_kadluba,matte metal,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-KITTIWAKE,material_kadluba,satin metal with panel plating (metallic sheen),"Andrzej 27.11.2026 (czat Modele 3D): ma wyglądać jak metal, nie zwykły szary (zmienia „matte metal”): cała flota jak Halley"
 SHIP-KITTIWAKE,linie_plyt,subtle,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-KITTIWAKE,swiatla_pozycyjne,"small red, green, white",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
 SHIP-KITTIWAKE,kolor_zderzakow,#c7cbd0,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
