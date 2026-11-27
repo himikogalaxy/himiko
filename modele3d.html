@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Modele 3D Himiko</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Barlow:wght@400;500&display=swap">
+<style>
+/* VOICE: warsztat Stoczni, rzeczowo i cicho; statek jest jedyną gwiazdą.
+   IDEA: hala montażowa z jednym okrętem na środku i pulpitem operatora u dołu.
+   PICTURE: model 3D na cały ekran, bez napisów na modelu.
+   COLOUR and TYPE: grafit + pomarańcz strzałki ciągu z rzutów Stoczni; Barlow Condensed jak opisy rysunków.
+   LAYOUT: płótno na cały ekran, wybór jednostki u góry, pulpit kątów i zapisu u dołu, karta danych jako szuflada. */
+:root{color-scheme:dark;--bg:#0c0e11;--panel:rgba(22,25,30,.92);--ink:#e9ecef;--dim:#9aa3ad;--line:#2c323a;--acc:#e0642f}
+*{box-sizing:border-box;min-width:0}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:15px/1.45 Barlow,system-ui,sans-serif;overflow:hidden}
+#scena{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none}
+.gora{position:fixed;top:0;left:0;right:0;display:flex;gap:8px;align-items:center;padding:10px max(12px,env(safe-area-inset-left));background:linear-gradient(var(--bg),transparent)}
+.gora h1{font:600 20px/1 'Barlow Condensed',sans-serif;margin:0 6px 0 0;white-space:nowrap}
+select,button{font:500 16px 'Barlow Condensed',sans-serif;color:var(--ink);background:#20242a;border:1px solid var(--line);border-radius:8px;min-height:44px;padding:0 12px}
+select{flex:1;max-width:340px}
+button{cursor:pointer;white-space:nowrap}
+button:focus-visible,select:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+button.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.dol{position:fixed;left:0;right:0;bottom:0;padding:8px 10px calc(10px + env(safe-area-inset-bottom));background:linear-gradient(transparent,var(--bg) 30%);display:grid;gap:8px}
+.rzad{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+.rzad::-webkit-scrollbar{display:none}
+.rzad button{flex:none}
+.zapis{background:#2b3a2e;border-color:#3d5a43}
+#karta{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:var(--panel);backdrop-filter:blur(8px);border-left:1px solid var(--line);overflow-y:auto;padding:16px 16px 40px;transform:translateX(105%);transition:transform .25s}
+#karta.otw{transform:none}
+#karta h2{font:600 26px/1.1 'Barlow Condensed',sans-serif;margin:0 0 4px}
+#karta h3{font:600 17px 'Barlow Condensed',sans-serif;margin:18px 0 6px;color:var(--acc)}
+#karta table{width:100%;border-collapse:collapse;font-size:14px}
+#karta td{padding:4px 0;border-bottom:1px solid var(--line);vertical-align:top}
+#karta td:last-child{text-align:right;white-space:nowrap;padding-left:10px}
+#karta ul{margin:0;padding-left:18px;font-size:14px;color:var(--dim)}
+.braki li{color:#f0c27a}
+pre{white-space:pre-wrap;background:#14171b;border:1px solid var(--line);border-radius:8px;padding:10px;font:13px/1.45 ui-monospace,Menlo,monospace;margin:6px 0}
+.dim{color:var(--dim);font-size:13px}
+#nakladka{position:fixed;inset:0;background:rgba(0,0,0,.9);display:none;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:16px;text-align:center}
+#nakladka img{max-width:100%;max-height:75vh;border:1px solid var(--line)}
+#toast{position:fixed;left:50%;top:64px;transform:translateX(-50%);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 14px;display:none}
+@media (prefers-reduced-motion:reduce){#karta{transition:none}}
+</style>
+</head>
+<body>
+<canvas id="scena"></canvas>
+<div class="gora">
+  <h1>Modele 3D</h1>
+  <select id="wybor" aria-label="Statek albo klasa"></select>
+  <button id="infoBtn" aria-label="Dane i prompt">Dane · prompt</button>
+</div>
+<div class="dol">
+  <div class="rzad" id="katy"></div>
+  <div class="rzad">
+    <button id="tlo">Tło: czarne</button>
+    <button id="wydech">Wydech: wył.</button>
+    <button class="zapis" id="png">Zapisz PNG</button>
+    <button class="zapis" id="jpg">Zapisz JPG</button>
+  </div>
+</div>
+<aside id="karta" aria-label="Dane jednostki"></aside>
+<div id="nakladka"><img id="nakImg" alt="Zapisany obrazek"><div>Przytrzymaj obrazek palcem → „Zapisz obraz”.</div><button id="nakZamknij">Zamknij</button></div>
+<div id="toast"></div>
+<script id="dane" type="application/json">{"jednostki":[{"id":"SHIP-HALLEY","nazwa":"Halley","typ":"Long-Range Survey Vessel","L":288.0,"prof":[[0.0,5.6],[2.0,7.83],[4.0,10.03],[6.0,12.16],[8.0,14.22],[10.0,16.17],[12.0,17.99],[14.0,19.65],[16.0,21.14],[18.0,22.42],[20.0,23.5],[22.0,24.35],[24.0,24.96],[26.0,25.34],[28.0,25.48],[30.0,25.48],[32.0,25.48],[34.0,25.48],[36.0,25.48],[38.0,25.48],[40.0,25.48],[42.0,25.48],[44.0,25.48],[46.0,25.48],[48.0,25.48],[50.0,25.48],[52.0,25.48],[54.0,25.48],[56.0,25.48],[58.0,25.48],[60.0,25.48],[62.0,25.48],[64.0,25.48],[66.0,25.48],[68.0,25.48],[70.0,25.48],[72.0,25.48],[74.0,25.48],[76.0,25.48],[78.0,25.48],[80.0,25.48],[82.0,25.48],[84.0,25.48],[86.0,25.48],[88.0,25.48],[90.0,25.48],[92.0,25.48],[94.0,25.48],[96.0,25.48],[98.0,25.48],[100.0,25.48],[102.0,25.48],[104.0,25.48],[106.0,25.48],[108.0,25.48],[110.0,25.48],[112.0,25.48],[114.0,25.48],[116.0,25.48],[118.0,25.48],[120.0,25.48],[122.0,25.48],[124.0,25.48],[126.0,25.48],[128.0,25.48],[130.0,25.48],[132.0,25.48],[134.0,25.48],[136.0,25.48],[138.0,25.48],[140.0,25.48],[142.0,25.48],[144.0,25.48],[146.0,25.48],[148.0,25.48],[150.0,25.48],[152.0,25.48],[154.0,25.48],[156.0,25.48],[158.0,25.48],[160.0,25.48],[162.0,25.48],[164.0,25.48],[166.0,25.48],[168.0,25.48],[170.0,25.48],[172.0,25.48],[174.0,25.48],[176.0,25.48],[178.0,25.48],[180.0,25.48],[182.0,25.48],[184.0,25.48],[186.0,25.48],[188.0,25.48],[190.0,25.48],[192.0,25.48],[194.0,25.48],[196.0,25.48],[198.0,25.48],[200.0,25.48],[202.0,25.48],[204.0,27.52],[206.0,29.54],[208.0,29.54],[210.0,29.54],[212.0,29.54],[214.0,29.54],[216.0,29.54],[218.0,29.54],[220.0,29.54],[222.0,29.54],[224.0,29.54],[226.0,29.54],[228.0,29.54],[230.0,29.54],[232.0,29.54],[234.0,29.54],[236.0,27.52],[238.0,25.48],[240.0,25.48],[242.0,25.48],[244.0,25.48],[246.0,23.68],[248.0,21.9],[250.0,21.9],[252.0,21.9],[254.0,21.9],[256.0,21.9],[258.0,21.9],[260.0,21.9],[262.0,21.9],[264.0,21.9],[266.0,21.9],[268.0,21.9],[270.0,21.9],[272.0,21.9],[274.0,21.9],[276.0,21.9],[278.0,21.9],[280.0,21.9],[282.0,22.38],[284.0,23.8],[286.0,26.21],[288.0,29.54]],"ry":1.0,"ring":{"x":124.0,"R":60.0,"w":7.5,"h":6.4,"hull_r":25.48},"tarcze":{"lista":[{"x":-1,"r0":0,"r1":30.54,"kier":-1},{"x":289.0,"r0":8.0,"r1":30.54,"kier":1},{"x":119.25,"r0":52.6,"r1":61.0,"kier":-1},{"x":128.75,"r0":52.6,"r1":61.0,"kier":1}],"odstep":10.0,"zderzaki":3,"lod_m":0.1},"dysza_r":8.0,"rad":{"a":262.0,"b":280.0},"antena":true,"wyglad":{"kolor_kadluba":{"v":"#b9bec6","zrodlo":"tymczasowe: neutralna szarość „glina” do porównań","ustalone":false},"kolor_pierscienia":{"v":"#b9bec6","zrodlo":"tymczasowe: jak kadłub","ustalone":false},"kolor_wydechu":{"v":"#bcd8ff","zrodlo":"tymczasowe: biało-niebieski","ustalone":false},"szprychy_liczba":{"v":"4","zrodlo":"tymczasowe: rzut Stoczni pokazuje szprychę u góry i u dołu","ustalone":false},"szprychy_srednica_m":{"v":"3","zrodlo":"tymczasowe","ustalone":false},"radiatory_liczba":{"v":"2","zrodlo":"tymczasowe: rzut Stoczni pokazuje 2 płetwy (góra, dół)","ustalone":false},"radiatory_wysiegnik_m":{"v":"14","zrodlo":"tymczasowe: z rysunku sylwetki Stoczni (7 mm przy 1 cm = 20 m)","ustalone":false},"antena_maszt_m":{"v":"12","zrodlo":"tymczasowe: z rysunku sylwetki Stoczni","ustalone":false},"antena_talerz_r_m":{"v":"3.2","zrodlo":"tymczasowe: z rysunku sylwetki Stoczni","ustalone":false}},"opis":{"szer":59.1,"srodek":51.0,"ring":true,"tarcze":true,"rad":true,"antena":true,"hangar":"C10","hangar_od":206.0,"hangar_do":234.0,"hangar_szer":59.1},"zrodla":["profil kadłuba: plan_ksztalt.csv","pierścień R 60 m, szer. 7.5 m, 2 poziomy × 3.2 m, środek 124 m od dziobu (łożysko w C7)","tarcze Whipple: oslony.csv + stocznia_parametry.csv (lód 0.1 m, 3 zderzaki do 10 m)"],"braki":["kolor_kadluba: nie mam tej danej → tymczasowe: neutralna szarość „glina” do porównań","kolor_pierscienia: nie mam tej danej → tymczasowe: jak kadłub","kolor_wydechu: nie mam tej danej → tymczasowe: biało-niebieski","szprychy_liczba: nie mam tej danej → tymczasowe: rzut Stoczni pokazuje szprychę u góry i u dołu","szprychy_srednica_m: nie mam tej danej → tymczasowe","radiatory_liczba: nie mam tej danej → tymczasowe: rzut Stoczni pokazuje 2 płetwy (góra, dół)","radiatory_wysiegnik_m: nie mam tej danej → tymczasowe: z rysunku sylwetki Stoczni (7 mm przy 1 cm = 20 m)","antena_maszt_m: nie mam tej danej → tymczasowe: z rysunku sylwetki Stoczni","antena_talerz_r_m: nie mam tej danej → tymczasowe: z rysunku sylwetki Stoczni"]},{"id":"SHIP-TERN","nazwa":"Tern","typ":"Survey craft","L":14.0,"prof":[[0.0,0.15],[1.5,0.15],[2.0,1.2],[3.0,1.8],[4.0,2.0],[9.5,2.0],[10.0,1.7],[12.5,1.7],[13.0,1.2],[14.0,1.5]],"ry":1.0,"dysza_r":1.2,"wyglad":{"kolor_kadluba":{"v":"#b9bec6","zrodlo":"tymczasowe: neutralna szarość „glina” do porównań","ustalone":false},"kolor_wydechu":{"v":"#bcd8ff","zrodlo":"tymczasowe: biało-niebieski","ustalone":false}},"opis":{"szer":4.0,"srodek":4.0,"ring":false,"tarcze":false,"rad":false,"antena":false,"hangar":null},"zrodla":["profil kadłuba: plan_ksztalt.csv"],"braki":["osłona „Whipple bumper on the nose (1 mm Al, 10 cm gap); drinking water around the seats as storm shelter”: rozmiar nie mam tej danej (nie rysuję)","kolor_kadluba: nie mam tej danej → tymczasowe: neutralna szarość „glina” do porównań","kolor_wydechu: nie mam tej danej → tymczasowe: biało-niebieski"]},{"id":"SHIP-HALLEY-S1","nazwa":"Shuttle 1","typ":"Shuttle","L":18.0,"prof":[[0.0,0.6],[2.0,2.0],[4.0,2.5],[16.0,2.5],[17.0,2.1],[18.0,2.3]],"ry":0.8,"dysza_r":1.84,"wyglad":{"kolor_kadluba":{"v":"#b9bec6","zrodlo":"tymczasowe: neutralna szarość „glina” do porównań","ustalone":false},"kolor_wydechu":{"v":"#bcd8ff","zrodlo":"tymczasowe: biało-niebieski","ustalone":false}},"opis":{"szer":5.0,"srodek":5.0,"ring":false,"tarcze":false,"rad":false,"antena":false,"hangar":null},"zrodla":["profil kadłuba: plan_ksztalt.csv","przekrój 5.0 × 4.0 m (plan_ksztalt.csv)"],"braki":["osłona „Whipple bumper on the nose”: rozmiar nie mam tej danej (nie rysuję)","kolor_kadluba: nie mam tej danej → tymczasowe: neutralna szarość „glina” do porównań","kolor_wydechu: nie mam tej danej → tymczasowe: biało-niebieski"]},{"id":"SHIP-HALLEY-S2","nazwa":"Shuttle 2","typ":"Shuttle","L":18.0,"prof":[[0.0,0.6],[2.0,2.0],[4.0,2.5],[16.0,2.5],[17.0,2.1],[18.0,2.3]],"ry":0.8,"dysza_r":1.84,"wyglad":{"kolor_kadluba":{"v":"#b9bec6","zrodlo":"tymczasowe: neutralna szarość „glina” do porównań","ustalone":false},"kolor_wydechu":{"v":"#bcd8ff","zrodlo":"tymczasowe: biało-niebieski","ustalone":false}},"opis":{"szer":5.0,"srodek":5.0,"ring":false,"tarcze":false,"rad":false,"antena":false,"hangar":null},"zrodla":["profil kadłuba: plan_ksztalt.csv","przekrój 5.0 × 4.0 m (plan_ksztalt.csv)"],"braki":["osłona „Whipple bumper on the nose”: rozmiar nie mam tej danej (nie rysuję)","kolor_kadluba: nie mam tej danej → tymczasowe: neutralna szarość „glina” do porównań","kolor_wydechu: nie mam tej danej → tymczasowe: biało-niebieski"]},{"id":"SHIP-KITTIWAKE","nazwa":"Kittiwake","typ":"Supply Tender","L":134.4,"prof":[[0.0,2.4],[1.0,3.218],[2.01,4.018],[3.01,4.783],[4.01,5.498],[5.01,6.146],[6.02,6.713],[7.02,7.188],[8.02,7.561],[9.03,7.823],[10.03,7.969],[11.03,8.0],[12.04,8.0],[13.04,8.0],[14.04,8.0],[15.04,8.0],[16.05,8.0],[17.05,8.0],[18.05,8.0],[19.06,8.0],[20.06,8.0],[21.06,8.0],[22.07,8.0],[23.07,8.0],[24.07,8.0],[25.07,8.0],[26.08,8.0],[27.08,8.0],[28.08,8.0],[29.09,8.0],[30.09,8.0],[31.09,8.0],[32.1,8.0],[33.1,8.0],[34.1,8.0],[35.1,8.0],[36.11,8.0],[37.11,8.0],[38.11,8.0],[39.12,8.0],[40.12,8.0],[41.12,8.0],[42.13,8.0],[43.13,8.0],[44.13,8.0],[45.13,8.0],[46.14,8.0],[47.14,8.0],[48.14,8.0],[49.15,8.0],[50.15,8.0],[51.15,8.0],[52.16,8.0],[53.16,8.0],[54.16,8.0],[55.16,8.0],[56.17,8.0],[57.17,8.0],[58.17,8.0],[59.18,8.0],[60.18,8.0],[61.18,8.0],[62.19,8.0],[63.19,8.0],[64.19,8.0],[65.19,8.0],[66.2,8.0],[67.2,8.0],[68.2,8.0],[69.21,8.0],[70.21,8.0],[71.21,8.0],[72.21,8.0],[73.22,8.0],[74.22,8.0],[75.22,8.0],[76.23,8.0],[77.23,8.0],[78.23,8.0],[79.24,8.0],[80.24,8.0],[81.24,8.0],[82.24,8.0],[83.25,8.0],[84.25,8.0],[85.25,8.0],[86.26,8.0],[87.26,8.0],[88.26,8.0],[89.27,8.0],[90.27,8.0],[91.27,8.0],[92.27,8.0],[93.28,8.0],[94.28,8.0],[95.28,8.0],[96.29,8.0],[97.29,8.0],[98.29,8.0],[99.3,8.0],[100.3,8.0],[101.3,8.0],[102.3,8.0],[103.31,8.0],[104.31,8.0],[105.31,8.0],[106.32,8.0],[107.32,8.0],[108.32,8.0],[109.33,8.0],[110.33,8.0],[111.33,8.0],[112.33,8.0],[113.34,8.0],[114.34,8.0],[115.34,8.0],[116.35,8.0],[117.35,8.0],[118.35,8.0],[119.36,8.0],[120.36,8.0],[121.36,8.0],[122.36,8.0],[123.37,8.0],[124.37,8.0],[125.37,8.0],[126.38,8.0],[127.38,8.0],[128.38,8.0],[129.39,8.081],[130.39,8.304],[131.39,8.528],[132.39,8.752],[133.4,8.976],[134.4,9.2]],"ry":1.0,"tarcze":{"lista":[{"x":-1,"r0":0,"r1":10.2,"kier":-1},{"x":135.4,"r0":4.6,"r1":10.2,"kier":1}],"odstep":10.0,"zderzaki":3,"lod_m":0.1},"dysza_r":4.6,"rad":{"a":51.2,"b":60.8},"antena":true,"wyglad":{"kolor_kadluba":{"v":"#b9bec6","zrodlo":"tymczasowe: neutralna szarość „glina” do porównań","ustalone":false},"kolor_wydechu":{"v":"#bcd8ff","zrodlo":"tymczasowe: biało-niebieski","ustalone":false},"radiatory_liczba":{"v":"2","zrodlo":"tymczasowe: rzut Stoczni pokazuje 2 płetwy (góra, dół)","ustalone":false},"radiatory_wysiegnik_m":{"v":"14","zrodlo":"tymczasowe: z rysunku sylwetki Stoczni (7 mm przy 1 cm = 20 m)","ustalone":false},"antena_maszt_m":{"v":"12","zrodlo":"tymczasowe: z rysunku sylwetki Stoczni","ustalone":false},"antena_talerz_r_m":{"v":"3.2","zrodlo":"tymczasowe: z rysunku sylwetki Stoczni","ustalone":false}},"opis":{"szer":18.4,"srodek":16.0,"ring":false,"tarcze":true,"rad":true,"antena":true,"hangar":null},"zrodla":["kadłub: walec r 8.00 m (plan_ksztalt.csv), długość 134.4 m (przedzialy.csv), dziób i rufa: profil domyślny Stoczni","tarcze Whipple: oslony.csv + stocznia_parametry.csv (lód 0.1 m, 3 zderzaki do 10 m)"],"braki":["kolor_kadluba: nie mam tej danej → tymczasowe: neutralna szarość „glina” do porównań","kolor_wydechu: nie mam tej danej → tymczasowe: biało-niebieski","radiatory_liczba: nie mam tej danej → tymczasowe: rzut Stoczni pokazuje 2 płetwy (góra, dół)","radiatory_wysiegnik_m: nie mam tej danej → tymczasowe: z rysunku sylwetki Stoczni (7 mm przy 1 cm = 20 m)","antena_maszt_m: nie mam tej danej → tymczasowe: z rysunku sylwetki Stoczni","antena_talerz_r_m: nie mam tej danej → tymczasowe: z rysunku sylwetki Stoczni"]}],"klasy":[{"klasa":"Survey Vessel","wzor":"Halley","id":"SHIP-HALLEY"},{"klasa":"Tender","wzor":"Tern","id":"SHIP-TERN"},{"klasa":"Supply Tender","wzor":"Kittiwake","id":"SHIP-KITTIWAKE"},{"klasa":"Slow Freighter","wzor":"Long Patience","id":null},{"klasa":"Charter Freighter","wzor":"Pelagia","id":null},{"klasa":"Colony Freighter","wzor":"Calder/Hesper/Dovetail","id":null},{"klasa":"Liner","wzor":"Aquitania","id":null}]}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+{
+const D=JSON.parse(document.getElementById('dane').textContent);
+const PUB=/github\.io$/.test(location.hostname)||location.hash==='#en';   // wersja publiczna: po angielsku, bez promptów i bez listy decyzji
+const T=(pl,en)=>PUB?en:pl;
+if(PUB){document.documentElement.lang='en';document.title='Himiko · 3D ship models';
+  [['infoBtn','Ship data'],['png','Save PNG'],['jpg','Save JPG'],['nakZamknij','Close']].forEach(([i,t])=>document.getElementById(i).textContent=t);
+  document.querySelector('.gora h1').textContent='Himiko 3D';document.querySelector('#nakladka div').textContent='Press and hold the image → “Save image”.'}
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=x=>(Math.round(x*10)/10).toLocaleString('pl-PL');
+const toast=t=>{const e=$('toast');e.textContent=t;e.style.display='block';clearTimeout(toast.t);toast.t=setTimeout(()=>e.style.display='none',2600)};
+const ruch=!matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- scena ---------- */
+const canvas=$('scena');
+const R=new THREE.WebGLRenderer({canvas,antialias:true,preserveDrawingBuffer:true});
+R.setPixelRatio(Math.min(devicePixelRatio,2));
+R.outputEncoding=THREE.sRGBEncoding; R.toneMapping=THREE.ACESFilmicToneMapping; R.toneMappingExposure=1.05;
+const scene=new THREE.Scene();
+const TLA={czarne:0x000000,szare:0x6b6e73};
+let tlo='czarne'; scene.background=new THREE.Color(TLA[tlo]);
+const cam=new THREE.PerspectiveCamera(28,1,0.5,20000);
+scene.add(new THREE.HemisphereLight(0xffffff,0x40444a,0.55));
+const key=new THREE.DirectionalLight(0xffffff,2.1); key.position.set(-0.6,1,0.9); scene.add(key);
+const fill=new THREE.DirectionalLight(0xffffff,0.55); fill.position.set(0.8,-0.3,0.6); scene.add(fill);
+const rim=new THREE.DirectionalLight(0xffffff,0.7); rim.position.set(0.3,0.4,-1); scene.add(rim);
+
+let statek=null, wydechObj=null, rozmiar=100, U=null;
+const mat=(c,m=0.35,r=0.55,extra={})=>new THREE.MeshStandardMaterial(Object.assign({color:c,metalness:m,roughness:r},extra));
+const W=k=>U.wyglad[k]?U.wyglad[k].v:null;
+
+function zbuduj(u){
+  U=u;
+  if(statek){scene.remove(statek);statek.traverse(o=>{o.geometry&&o.geometry.dispose()})}
+  const g=new THREE.Group();            // rama tokarki: oś statku = Y (od dziobu 0 do rufy L)
+  const L=u.L, hull=mat(W('kolor_kadluba')||'#b9bec6');
+  // kadłub
+  const pts=[new THREE.Vector2(0,u.prof[0][0])];
+  u.prof.forEach(([x,r])=>pts.push(new THREE.Vector2(r,x)));
+  pts.push(new THREE.Vector2(0,L));
+  g.add(new THREE.Mesh(new THREE.LatheGeometry(pts,128),hull));
+  // dysza (środek rufy)
+  const dz=new THREE.Mesh(new THREE.CircleGeometry(u.dysza_r,64),mat(0x2a2d31,0.6,0.4,{side:THREE.DoubleSide}));
+  dz.rotation.x=Math.PI/2; dz.position.y=L+0.05; g.add(dz);
+  const pierscien=(a,r0,r1,m,y)=>{const o=new THREE.Mesh(new THREE.RingGeometry(r0,r1,128),m);o.rotation.x=-Math.PI/2;o.position.y=y;return o};
+  // pierścień: walec zewnętrzny, wewnętrzny, dwie ściany
+  if(u.ring){
+    const q=u.ring, rm=mat(W('kolor_pierscienia')||W('kolor_kadluba'),0.35,0.55,{side:THREE.DoubleSide});
+    const zew=new THREE.Mesh(new THREE.CylinderGeometry(q.R,q.R,q.w,160,1,true),rm); zew.position.y=q.x; g.add(zew);
+    const wew=new THREE.Mesh(new THREE.CylinderGeometry(q.R-q.h,q.R-q.h,q.w,160,1,true),rm); wew.position.y=q.x; g.add(wew);
+    g.add(pierscien(0,q.R-q.h,q.R,rm,q.x-q.w/2)); g.add(pierscien(0,q.R-q.h,q.R,rm,q.x+q.w/2));
+    const n=+W('szprychy_liczba')||0, d=+W('szprychy_srednica_m')||2;
+    for(let k=0;k<n;k++){
+      const f=k*2*Math.PI/n, r0=q.hull_r-0.5, r1=q.R-q.h+0.2, len=r1-r0;
+      const s=new THREE.Mesh(new THREE.CylinderGeometry(d/2,d/2,len,24),rm);
+      const dir=new THREE.Vector3(Math.cos(f),0,Math.sin(f));
+      s.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),dir);
+      s.position.set(dir.x*(r0+len/2),q.x,dir.z*(r0+len/2)); g.add(s);
+    }
+  }
+  // tarcze Whipple'a: lód + zderzaki (jak rzut boczny Stoczni)
+  if(u.tarcze){
+    const lod=mat(0xdfeaf2,0.0,0.35,{side:THREE.DoubleSide}), al=mat(0xa9adb3,0.7,0.4,{side:THREE.DoubleSide});
+    u.tarcze.lista.forEach(t=>{
+      g.add(pierscien(0,t.r0,t.r1,lod,t.x));
+      for(let j=0;j<u.tarcze.zderzaki;j++) g.add(pierscien(0,t.r0,t.r1,al,t.x+t.kier*u.tarcze.odstep*(j+1)/u.tarcze.zderzaki));
+    });
+  }
+  // radiatory
+  if(u.rad){
+    const n=+W('radiatory_liczba')||0, ext=+W('radiatory_wysiegnik_m')||0, a=u.rad.a, b=u.rad.b;
+    const half=m=>{const p=u.prof;for(let i=0;i<p.length-1;i++){const[m0,h0]=p[i],[m1,h1]=p[i+1];if(m>=m0&&m<=m1)return h0+(h1-h0)*(m-m0)/((m1-m0)||1)}return p[p.length-1][1]};
+    const sh=new THREE.Shape(); const ri=half((a+b)/2)-0.3;
+    sh.moveTo(ri,a); sh.lineTo(ri+ext,a+Math.min(5,(b-a)/3)); sh.lineTo(ri+ext,b-1); sh.lineTo(ri,b-1); sh.closePath();
+    const geo=new THREE.ExtrudeGeometry(sh,{depth:0.4,bevelEnabled:false}); geo.translate(0,0,-0.2);
+    for(let k=0;k<n;k++){const m=new THREE.Mesh(geo,mat(0x5d636b,0.5,0.6));m.rotation.y=-k*2*Math.PI/n;g.add(m)}
+  }
+  // antena na dziobie
+  if(u.antena){
+    const ml=+W('antena_maszt_m')||0, tr=+W('antena_talerz_r_m')||0, am=mat(0x8d939a,0.6,0.45,{side:THREE.DoubleSide});
+    const m=new THREE.Mesh(new THREE.CylinderGeometry(0.35,0.35,ml,12),am); m.position.y=-ml/2; g.add(m);
+    const t=new THREE.Mesh(new THREE.SphereGeometry(tr,32,12,0,Math.PI*2,0,Math.PI/3),am); t.position.y=-ml-tr*0.5; g.add(t);
+  }
+  // rama świata: dziób w lewo (−X), jak na rzutach Stoczni
+  const w=new THREE.Group(); w.add(g); g.rotation.z=-Math.PI/2; g.scale.set(u.ry,1,1); g.position.x=-L/2;
+  w.updateMatrixWorld(true);
+  const s=new THREE.Box3().setFromObject(w).getBoundingSphere(new THREE.Sphere());
+  rozmiar=s.radius; w.position.sub(s.center);
+  // wydech (włączany)
+  const len=L*1.6, ex=new THREE.Mesh(new THREE.CylinderGeometry(u.dysza_r*2.2,u.dysza_r*0.85,len,48,1,true),
+    new THREE.ShaderMaterial({transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,side:THREE.DoubleSide,
+      uniforms:{c:{value:new THREE.Color(W('kolor_wydechu')||'#bcd8ff')}},
+      vertexShader:'varying float v;void main(){v=uv.y;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
+      fragmentShader:'uniform vec3 c;varying float v;void main(){gl_FragColor=vec4(c,pow(1.-v,2.2)*0.85);}'}));
+  ex.position.y=L+1.2+len/2; g.add(ex); wydechObj=ex; ex.visible=$('wydech').classList.contains('on');
+  statek=w; scene.add(w);
+}
+
+/* ---------- kamera: obrót palcem, szczypanie, kółko ---------- */
+const KATY=[[T('Bok','Side'),0,0],[T('3/4 przód','3/4 front'),-0.85,0.32],[T('3/4 tył','3/4 rear'),0.85,0.32],[T('Dziób','Bow'),-Math.PI/2,0.0],[T('Rufa','Stern'),Math.PI/2,0.0],[T('Z góry','Top'),0,1.5]];
+let az=-0.85, el=0.32, zoom=1, cel=null;
+function dystans(){const v=cam.fov*Math.PI/360, h=Math.atan(Math.tan(v)*cam.aspect);return rozmiar/Math.sin(Math.min(v,h))*1.02*zoom}
+function ustawKamere(){
+  const d=dystans(); cam.position.set(d*Math.cos(el)*Math.sin(az),d*Math.sin(el),d*Math.cos(el)*Math.cos(az));
+  cam.near=d/100; cam.far=d*20; cam.updateProjectionMatrix(); cam.lookAt(0,0,0);
+}
+const pt=new Map(); let pinch=0;
+canvas.addEventListener('pointerdown',e=>{canvas.setPointerCapture(e.pointerId);pt.set(e.pointerId,[e.clientX,e.clientY]);cel=null;markKat(-1)});
+canvas.addEventListener('pointermove',e=>{
+  if(!pt.has(e.pointerId))return; const p=pt.get(e.pointerId);
+  if(pt.size===1){az-=(e.clientX-p[0])*0.008; el=Math.max(-1.55,Math.min(1.55,el+(e.clientY-p[1])*0.008))}
+  pt.set(e.pointerId,[e.clientX,e.clientY]);
+  if(pt.size===2){const[a,b]=[...pt.values()],d=Math.hypot(a[0]-b[0],a[1]-b[1]);if(pinch)zoom=Math.max(0.15,Math.min(4,zoom*pinch/d));pinch=d}
+});
+const koniec=e=>{pt.delete(e.pointerId);if(pt.size<2)pinch=0};
+canvas.addEventListener('pointerup',koniec);canvas.addEventListener('pointercancel',koniec);
+canvas.addEventListener('wheel',e=>{e.preventDefault();zoom=Math.max(0.15,Math.min(4,zoom*Math.exp(e.deltaY*0.001)))},{passive:false});
+
+function markKat(i){[...$('katy').children].forEach((b,j)=>b.classList.toggle('on',j===i))}
+$('katy').innerHTML=KATY.map((k,i)=>`<button data-i="${i}">${k[0]}</button>`).join('')+`<button data-i="r">${T('Reset zoomu','Reset zoom')}</button>`;
+$('katy').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  if(b.dataset.i==='r'){zoom=1;return}
+  const i=+b.dataset.i, k=KATY[i]; markKat(i); zoom=1;
+  let a=k[1]; while(a-az>Math.PI)a-=2*Math.PI; while(az-a>Math.PI)a+=2*Math.PI;
+  if(ruch)cel=[a,k[2]]; else{az=a;el=k[2]}});
+
+function rozmiarOkna(){const w=innerWidth,h=innerHeight;R.setSize(w,h,false);cam.aspect=w/h}
+addEventListener('resize',rozmiarOkna); rozmiarOkna();
+(function petla(){
+  if(cel){az+=(cel[0]-az)*0.12;el+=(cel[1]-el)*0.12;if(Math.abs(cel[0]-az)+Math.abs(cel[1]-el)<0.002){az=cel[0];el=cel[1];cel=null}}
+  ustawKamere(); R.render(scene,cam); requestAnimationFrame(petla);
+})();
+
+/* ---------- lista: statki i klasy ---------- */
+const byId=Object.fromEntries(D.jednostki.map(u=>[u.id,u]));
+$('wybor').innerHTML=`<optgroup label="${T('Statki','Ships')}">`+D.jednostki.map(u=>`<option value="${esc(u.id)}">${esc(u.nazwa)} · ${esc(u.typ)}</option>`).join('')+'</optgroup>'
+  +`<optgroup label="${T('Klasy (szablony.csv)','Ship classes')}">`+D.klasy.map((k,i)=>`<option value="K${i}"${k.id?'':' disabled'}>${esc(k.klasa)}${k.id?T(' · wzór ',' · like the ')+esc(k.wzor):T(' · brak danych kształtu',' · no shape data yet')}</option>`).join('')+'</optgroup>';
+function wybierz(v){
+  let u, klasa=null;
+  if(v[0]==='K'){klasa=D.klasy[+v.slice(1)]; u=byId[klasa.id]} else u=byId[v];
+  if(!u)return; zbuduj(u); karta(u,klasa); try{localStorage.setItem('m3d',v)}catch(e){}
+}
+$('wybor').addEventListener('change',e=>wybierz(e.target.value));
+
+/* ---------- karta danych + prompt ---------- */
+function prompt(u,klasa){
+  const o=u.opis, ratio=u.L/o.srodek, f=[], p=[];
+  f.push(`a smooth ${u.ry<0.99?'flattened (wider than tall) ':''}cylindrical hull about ${Math.round(u.L)} m long and ${Math.round(o.srodek)} m wide (length about ${ratio.toFixed(1)} times the width)`);
+  p.push(`gładki ${u.ry<0.99?'spłaszczony (szerszy niż wyższy) ':''}walcowy kadłub, ok. ${Math.round(u.L)} m długości i ${Math.round(o.srodek)} m szerokości (długość ok. ${ratio.toFixed(1).replace('.',',')} × szerokość)`);
+  if(o.ring){const q=u.ring,n=W('szprychy_liczba');
+    f.push(`one large, thin, flat habitation ring ${Math.round(2*q.R)} m across and only ${Math.round(q.w*10)/10} m wide, at about ${Math.round(q.x/u.L*100)}% of the length from the bow, held by ${n} spokes`);
+    p.push(`jeden duży, cienki, płaski pierścień mieszkalny o średnicy ${Math.round(2*q.R)} m i szerokości tylko ${fmt(q.w)} m, ok. ${Math.round(q.x/u.L*100)}% długości od dziobu, na ${n} szprychach`)}
+  if(o.hangar&&o.hangar_szer>o.srodek+1){f.push(`a slightly wider hangar section near the rear (${Math.round(o.hangar_szer)} m)`);p.push(`trochę szersza sekcja hangaru z tyłu (${Math.round(o.hangar_szer)} m)`)}
+  if(o.rad){const n=W('radiatory_liczba');f.push(`${n} flat radiator fins near the stern`);p.push(`${n} płaskie płetwy radiatorów przy rufie`)}
+  if(o.antena){f.push('a short mast with a small dish on the nose');p.push('krótki maszt z małym talerzem na dziobie')}
+  if(o.tarcze){f.push(`a flat round shield disc just in front of the bow with ${u.tarcze.zderzaki} thin metal bumper plates floating ahead of it, flat ring-shaped shields of the same kind${o.ring?' on both sides of the habitation ring and':''} behind the stern (the stern shield has a hole in the middle for the exhaust)`);p.push(`płaski okrągły dysk tarczy tuż przed dziobem i ${u.tarcze.zderzaki} cienkie blachy zderzaków przed nim, takie same płaskie tarcze pierścieniowe${o.ring?' po obu stronach pierścienia mieszkalnego i':''} za rufą (tarcza rufowa ma dziurę na środku na wydech)`)}
+  const kto=klasa?`a ${klasa.klasa} class spaceship (same design as the ${u.nazwa})`:`the spaceship ${u.nazwa.toUpperCase()}`;
+  const ktoPl=klasa?`statek klasy ${klasa.klasa} (ten sam projekt co ${u.nazwa})`:`statek ${u.nazwa.toUpperCase()}`;
+  const EN=`Use the attached image as the exact design reference of ${kto}. Keep its shape, proportions, colours and every part exactly as in the reference: ${f.join('; ')}. Do not add, remove, resize or reshape any part of the ship, and do not change the ship's colours.
+Change only the scene: [DESCRIBE THE SCENE HERE].
+Photorealistic hard science fiction, realistic lighting, 16:9. No text, no letters, no logos. Output JPG (not AVIF).`;
+  const PL=`Użyj załączonego obrazka jako dokładnego wzoru wyglądu: ${ktoPl}. Zachowaj kształt, proporcje, kolory i każdą część dokładnie jak na wzorze: ${p.join('; ')}. Nie dodawaj, nie usuwaj, nie zmieniaj rozmiaru ani kształtu żadnej części statku i nie zmieniaj jego kolorów.
+Zmień tylko scenę: [TU OPISZ SCENĘ].
+Fotorealistyczne hard science fiction, realistyczne światło, 16:9. Bez tekstu, liter i logo. Wynik w JPG (nie AVIF).`;
+  return [EN,PL];
+}
+let promptEN='';
+function karta(u,klasa){
+  if(PUB)return kartaPub(u,klasa);
+  const o=u.opis, [EN,PL]=prompt(u,klasa); promptEN=EN;
+  const wiersze=[['Długość',fmt(u.L)+' m'],['Średnica (środek kadłuba)',fmt(o.srodek)+' m'],['Największa szerokość kadłuba',fmt(o.szer)+' m']];
+  if(u.ry<0.99)wiersze.push(['Wysokość / szerokość',String(u.ry).replace('.',',')]);
+  if(u.ring)wiersze.push(['Pierścień R',fmt(u.ring.R)+' m'],['Pierścień szer. × wys.',fmt(u.ring.w)+' × '+fmt(u.ring.h)+' m']);
+  if(o.hangar)wiersze.push(['Hangar '+o.hangar,fmt(o.hangar_od)+'–'+fmt(o.hangar_do)+' m']);
+  $('karta').innerHTML=`<button id="zamknij" style="float:right">Zamknij</button><h2>${esc(klasa?klasa.klasa:u.nazwa)}</h2>
+  <div class="dim">${esc(u.id)} · ${esc(u.typ)}${klasa?' · klasa z szablony.csv, kształt = wzór '+esc(u.nazwa):''}</div>
+  <h3>📐 Wymiary z silnika</h3><table>${wiersze.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>
+  <h3>📂 Skąd kształt</h3><ul>${u.zrodla.map(z=>`<li>${esc(z)}</li>`).join('')}</ul>
+  <h3>⚠️ Czeka na decyzję Andrzeja</h3><ul class="braki">${u.braki.length?u.braki.map(z=>`<li>${esc(z)}</li>`).join(''):'<li style="color:var(--dim)">nic: wszystkie detale ustalone</li>'}</ul>
+  <h3>🤖 Prompt-wzorzec (Gemini, Grok)</h3><div class="dim">Dołącz zrzut z modelu, wklej tekst, w nawiasie opisz scenę.</div>
+  <pre id="pEN">${esc(EN)}</pre><button id="kopiuj">Kopiuj prompt EN</button>
+  <h3>🇵🇱 Tłumaczenie</h3><pre>${esc(PL)}</pre>`;
+  $('zamknij').onclick=()=>$('karta').classList.remove('otw');
+  $('kopiuj').onclick=async()=>{try{await navigator.clipboard.writeText(promptEN);toast('Skopiowano ✔')}catch(e){toast('Nie mogę kopiować: zaznacz tekst palcem')}};
+}
+function kartaPub(u,klasa){
+  const o=u.opis, f=x=>(Math.round(x*10)/10).toLocaleString('en-GB');
+  const w=[['Length',f(u.L)+' m'],['Hull diameter',f(o.srodek)+' m'],['Widest point of the hull',f(o.szer)+' m']];
+  if(u.ring)w.push(['Habitation ring diameter',f(2*u.ring.R)+' m'],['Ring width',f(u.ring.w)+' m']);
+  if(o.hangar)w.push(['Hangar section',f(o.hangar_od)+'–'+f(o.hangar_do)+' m from the bow']);
+  $('karta').innerHTML=`<button id="zamknij" style="float:right">Close</button><h2>${esc(klasa?klasa.klasa:u.nazwa)}</h2>
+  <div class="dim">${esc(u.typ)}${klasa?' class · same design as the '+esc(u.nazwa):''}</div>
+  <h3>📐 Dimensions</h3><table>${w.map(r=>`<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>
+  <p class="dim">Shape from the Himiko engine data (shipyard plans). Drag to rotate, pinch or scroll to zoom.</p>`;
+  $('zamknij').onclick=()=>$('karta').classList.remove('otw');
+}
+$('infoBtn').onclick=()=>$('karta').classList.toggle('otw');
+
+/* ---------- tło, wydech ---------- */
+$('tlo').onclick=()=>{tlo=tlo==='czarne'?'szare':'czarne';scene.background.set(TLA[tlo]);$('tlo').textContent=T('Tło: '+tlo,'Background: '+(tlo==='czarne'?'black':'grey'))};
+$('wydech').onclick=()=>{const b=$('wydech');b.classList.toggle('on');const on=b.classList.contains('on');b.textContent=T('Wydech: '+(on?'wł.':'wył.'),'Exhaust: '+(on?'on':'off'));if(wydechObj)wydechObj.visible=on};
+
+/* ---------- zapis obrazka (PNG / JPG) ---------- */
+let pobieranie=null; (async()=>{try{pobieranie=window.claude?await window.claude.use('downloads'):null}catch(e){pobieranie=null}})();
+function zrzut(typ){
+  const w0=innerWidth,h0=innerHeight, W2=2560, H2=Math.round(W2*h0/w0);
+  R.setPixelRatio(1); R.setSize(W2,H2,false); ustawKamere(); R.render(scene,cam);
+  return new Promise(res=>canvas.toBlob(b=>{R.setPixelRatio(Math.min(devicePixelRatio,2));rozmiarOkna();res(b)},typ,0.95));
+}
+function nakladka(blob){const r=new FileReader();r.onload=()=>{$('nakImg').src=r.result;$('nakladka').style.display='flex'};r.readAsDataURL(blob)}
+$('nakZamknij').onclick=()=>$('nakladka').style.display='none';
+async function zapisz(ext){
+  const typ=ext==='png'?'image/png':'image/jpeg', blob=await zrzut(typ);
+  const kat=([...$('katy').children].find(b=>b.classList.contains('on'))||{textContent:'wlasny'}).textContent;
+  const nazwa=`${(U.nazwa||U.id).replace(/\W+/g,'_')}_${kat.replace('/','-').replace(/\s+/g,'_').normalize('NFD').replace(/[^\w-]/g,'')}_${T('tlo-'+tlo,'bg-'+(tlo==='czarne'?'black':'grey'))}.${ext}`;
+  if(!pobieranie&&window.claude){try{pobieranie=await window.claude.use('downloads')}catch(e){}}
+  if(!pobieranie&&!window.claude){const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=nazwa;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000);return}
+  if(!pobieranie){nakladka(blob);return}
+  try{await pobieranie.save({filename:nazwa,data:blob});toast(T('Zapisano ✔ ','Saved ✔ ')+nazwa)}
+  catch(e){if(e&&e.code==='declined')toast(T('Anulowano','Cancelled'));else nakladka(blob)}
+}
+$('png').onclick=()=>zapisz('png'); $('jpg').onclick=()=>zapisz('jpg');
+
+if(PUB){$('tlo').textContent='Background: black';$('wydech').textContent='Exhaust: off'}
+let start=D.jednostki[0]&&D.jednostki[0].id; try{const s=localStorage.getItem('m3d');if(s&&$('wybor').querySelector(`option[value="${CSS.escape(s)}"]:not([disabled])`))start=s}catch(e){}
+$('wybor').value=start; wybierz(start); markKat(1);
+}
+</script>
+</body>
+</html>
