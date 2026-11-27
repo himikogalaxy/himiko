@@ -1,0 +1,91 @@
+statek,klucz,wartosc,zrodlo
+SHIP-HALLEY,szprychy_liczba,4,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,szprychy_srednica_m,4,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,kolor_kadluba,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,material_kadluba,matte metal,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,kolor_pierscienia,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,kolor_zderzakow,#c7cbd0,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,radiatory_liczba,2,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,radiatory_wysiegnik_m,14,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,kolor_radiatorow,#4a4f56,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,antena_maszt_m,12,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,antena_talerz_r_m,3.2,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,napis,"HALLEY; registration number below the name; toggle, default off; black letters on the hull ahead of the ring",Andrzej 27.11.2026 (czat Modele 3D): nazwa + numer ewidencyjny (nr_ewid z jednostki.csv) na kadłubie; bez własnej nazwy sam numer
+SHIP-HALLEY,linie_plyt,subtle,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,okna,ring only (quarters); bridge without windows (cameras),Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,swiatla_pozycyjne,"small red, green, white",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,szalupy_wyglad,"4 capsules outside the ring, 2 per half (R1: 1–2, R2: 3–4)",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,szalupa_dlugosc_m,12,"Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony (długość szalupy: PROPOZYCJA, Stocznia jeszcze nie podała)"
+SHIP-HALLEY,wrota_hangaru,outline of large doors on the side,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,dysza,dark nozzle ring visible in the stern centre,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY,kolor_wydechu,#9cc9ff,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-TERN,kolor_kadluba,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-TERN,material_kadluba,matte metal,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-TERN,linie_plyt,subtle,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-TERN,swiatla_pozycyjne,"small red, green, white",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-TERN,kolor_zderzakow,#c7cbd0,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-TERN,kolor_wydechu,#9cc9ff,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-TERN,kolor_radiatorow,#4a4f56,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-TERN,napis,"TERN; registration number below the name; toggle, default off; black letters on the hull",Andrzej 27.11.2026 (czat Modele 3D): nazwa + numer ewidencyjny (nr_ewid z jednostki.csv) na kadłubie; bez własnej nazwy sam numer
+SHIP-HALLEY-S1,kolor_kadluba,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S1,material_kadluba,matte metal,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S1,linie_plyt,subtle,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S1,swiatla_pozycyjne,"small red, green, white",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S1,kolor_zderzakow,#c7cbd0,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S1,kolor_wydechu,#9cc9ff,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S1,kolor_radiatorow,#4a4f56,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S1,napis,"number only; toggle, default off; black letters on the hull",Andrzej 27.11.2026 (czat Modele 3D): nazwa + numer ewidencyjny (nr_ewid z jednostki.csv) na kadłubie; bez własnej nazwy sam numer
+SHIP-HALLEY-S2,kolor_kadluba,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S2,material_kadluba,matte metal,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S2,linie_plyt,subtle,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S2,swiatla_pozycyjne,"small red, green, white",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S2,kolor_zderzakow,#c7cbd0,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S2,kolor_wydechu,#9cc9ff,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S2,kolor_radiatorow,#4a4f56,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-HALLEY-S2,napis,"number only; toggle, default off; black letters on the hull",Andrzej 27.11.2026 (czat Modele 3D): nazwa + numer ewidencyjny (nr_ewid z jednostki.csv) na kadłubie; bez własnej nazwy sam numer
+SHIP-KITTIWAKE,kolor_kadluba,#aeb3ba,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-KITTIWAKE,material_kadluba,matte metal,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-KITTIWAKE,linie_plyt,subtle,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-KITTIWAKE,swiatla_pozycyjne,"small red, green, white",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-KITTIWAKE,kolor_zderzakow,#c7cbd0,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-KITTIWAKE,kolor_wydechu,#9cc9ff,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-KITTIWAKE,kolor_radiatorow,#4a4f56,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony: cała flota jak Halley
+SHIP-KITTIWAKE,napis,"KITTIWAKE; registration number below the name; toggle, default off; black letters on the hull",Andrzej 27.11.2026 (czat Modele 3D): nazwa + numer ewidencyjny (nr_ewid z jednostki.csv) na kadłubie; bez własnej nazwy sam numer
+SHIP-TERN,maszt_sensorow,thin mast with a lidar dome and a small telescope,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-TERN,okna,small pilot windows at the front of the cabin,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-TERN,zderzak_nos,round plate Ø 4 m ahead of the cabin,"Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony (wymiar: PROPOZYCJA, Stocznia jeszcze nie podała)"
+SHIP-HALLEY-S1,nogi,"4 landing legs, folded against the hull",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY-S1,ramie_dzwigu,folded on the back,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY-S1,wrota_ladowni,outline on the back,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY-S1,okna,small pilot windows at the front of the cabin (as Tern),Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY-S2,nogi,"4 landing legs, folded against the hull",Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY-S2,ramie_dzwigu,folded on the back,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY-S2,wrota_ladowni,outline on the back,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-HALLEY-S2,okna,small pilot windows at the front of the cabin (as Tern),Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-KITTIWAKE,radiatory_liczba,2,Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-KITTIWAKE,radiatory_wysiegnik_m,8,"Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony (wymiar: PROPOZYCJA, Stocznia jeszcze nie podała)"
+SHIP-KITTIWAKE,antena_maszt_m,6,"Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony (wymiar: PROPOZYCJA, Stocznia jeszcze nie podała)"
+SHIP-KITTIWAKE,antena_talerz_r_m,1.6,"Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony (wymiar: PROPOZYCJA, Stocznia jeszcze nie podała)"
+SHIP-KITTIWAKE,kapsuly_wyglad,2 escape pods visible next to the quarters (C2),Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-KITTIWAKE,kapsula_dlugosc_m,5,"Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony (wymiar: PROPOZYCJA, Stocznia jeszcze nie podała)"
+SHIP-KITTIWAKE,kolnierz_dokujacy,visible docking ring on the side (C5),Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-KITTIWAKE,wrota_ladowni,outline of cargo doors (C6–C7),Andrzej 27.11.2026 (czat Modele 3D): faworyt zatwierdzony
+SHIP-TERN,maszt_od_m,0,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: maszt sensorów 0–2 m)"
+SHIP-TERN,maszt_do_m,2,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: maszt sensorów 0–2 m)"
+SHIP-TERN,okna_x_m,4.3,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: kabina 4–9,5 m)"
+SHIP-TERN,zderzak_x_m,1.9,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: między masztem 0–2 m a kabiną)"
+SHIP-TERN,zderzak_r_m,2.0,"Andrzej 27.11.2026 (czat Modele 3D): Ø 4 m, PROPOZYCJA"
+SHIP-HALLEY-S1,okna_x_m,1.8,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: kabina 0–4 m)"
+SHIP-HALLEY-S1,nogi_od_m,12,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m, dysza 16–18 m)"
+SHIP-HALLEY-S1,nogi_do_m,16,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m)"
+SHIP-HALLEY-S1,ramie_od_m,5,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m)"
+SHIP-HALLEY-S1,ramie_do_m,14,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m)"
+SHIP-HALLEY-S1,wrota_od_m,5,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m)"
+SHIP-HALLEY-S1,wrota_do_m,15,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m)"
+SHIP-HALLEY-S2,okna_x_m,1.8,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: kabina 0–4 m)"
+SHIP-HALLEY-S2,nogi_od_m,12,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m, dysza 16–18 m)"
+SHIP-HALLEY-S2,nogi_do_m,16,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m)"
+SHIP-HALLEY-S2,ramie_od_m,5,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m)"
+SHIP-HALLEY-S2,ramie_do_m,14,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m)"
+SHIP-HALLEY-S2,wrota_od_m,5,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m)"
+SHIP-HALLEY-S2,wrota_do_m,15,"Andrzej 27.11.2026 (czat Modele 3D): położenie z opisu profilu Stoczni (plan_ksztalt.csv, profil: ładownia 4–16 m)"
